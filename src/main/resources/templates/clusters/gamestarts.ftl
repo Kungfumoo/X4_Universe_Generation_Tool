@@ -3,6 +3,22 @@
   <remove sel="/gamestarts"/>
   <add sel="/">
     <gamestarts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="gamestarts.xsd">
+      <groups>
+
+      </groups>
+
+      <defaults>
+        <player>
+          <featureunlocks>
+            <entry feature="x4ep1_map" unlock="true" />
+            <entry feature="x4ep1_missionmanagement" unlock="true" />
+            <entry feature="x4ep1_guidance" unlock="true" />
+            <entry feature="x4ep1_encyclopedia" unlock="true" />
+            <entry feature="x4ep1_gravidar" unlock="true" />
+          </featureunlocks>
+        </player>
+      </defaults>
+
       <#list galaxy.factionStarts as factionStart>
       <gamestart id="${galaxy.galaxyPrefix}_galaxy_main_${factionStart?index}" name="${factionStart.name!"Generic"}" description="${factionStart.description!""}" image="gamestart_1">
         <location galaxy="${galaxy.galaxyPrefix}_galaxy_macro" zone="${galaxy.galaxyPrefix}_zone001_cluster${factionStart.clusterId?lower_case}_sector001_macro">
@@ -10,30 +26,31 @@
           <rotation yaw="0" pitch="0" roll="0"/>
         </location>
         <player macro="character_player_${factionStart.faction.getPlayerStartMacro()}_macro" money="${factionStart.credits?c}" name="${factionStart.playerName}">
-          <ship macro="ship_${factionStart.faction.getRaceAbbreviation()}_s_fighter_01_a_macro">
+          <ship macro="ship_ter_s_xperimental_01_a_macro">
             <loadout>
               <macros>
-                <engine macro="engine_${factionStart.faction.getRaceAbbreviation()}_s_allround_01_mk1_macro" path="../con_engine_01" />
-                <#if factionStart.faction == "ARGON">
-                <weapon macro="weapon_gen_s_laser_01_mk1_macro" path="../con_primaryweapon_01" optional="1" />
-                <#else>
-                <weapon macro="weapon_gen_s_laser_01_mk1_macro" path="../con_weapon_01" optional="1" />
-                </#if>
-                <shield macro="shield_${factionStart.faction.getRaceAbbreviation()}_s_standard_01_mk1_macro" path="../con_shield_01" optional="1" />
+                <engine macro="engine_ter_s_virtual_01_mk1_macro" path="../con_engine_02"/>
+                <engine macro="engine_ter_s_virtual_01_mk1_macro" path="../con_engine_01"/>
               </macros>
               <ammunition>
-                <ammunition macro="eq_arg_satellite_01_macro" exact="5" optional="true"/>
-                <ammunition macro="env_deco_nav_beacon_t1_macro" exact="5" optional="true"/>
-                <ammunition macro="eq_arg_resourceprobe_01_macro" exact="5" optional="true"/>
+                <ammunition macro="eq_arg_satellite_01_macro" exact="10"/>
+                <ammunition macro="env_deco_nav_beacon_t1_macro" exact="5"/>
+                <ammunition macro="eq_arg_resourceprobe_01_macro" exact="5"/>
               </ammunition>
               <software>
-                <software ware="software_targetmk1" />
-                <software ware="software_scannerlongrangemk1" />
+                <software ware="software_flightassistmk1"/>
+                <software ware="software_scannerlongrangemk1"/>
+                <software ware="software_scannerobjectmk1"/>
               </software>
               <virtualmacros>
-                <thruster macro="thruster_gen_s_allround_01_mk1_macro" />
+                <thruster macro="thruster_gen_s_combat_01_mk3_macro"/>
               </virtualmacros>
+              <crew>
+                <crew role="service" exact="0"/>
+                <crew role="marine" exact="0"/>
+              </crew>
             </loadout>
+            <people people="player_terran_regular_military_crew" fillpercent="100"/>
           </ship>
           <inventory>
             <ware ware="weapon_gen_spacesuit_repairlaser_01_mk1" amount="1" />

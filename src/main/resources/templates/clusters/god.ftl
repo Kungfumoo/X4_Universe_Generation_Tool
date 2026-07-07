@@ -31,7 +31,7 @@
 			<quota galaxy="1" zone="1" />
 		  </quotas>
 		  <location class="zone" macro="${galaxy.galaxyPrefix}_zone001_cluster${cl.id}_sector001_macro">
-			<corerange min="1.2" max="1.6" />
+			  <position x="-13617.273" y="0" z="19778.223" pitch="0" roll="0" yaw="315" />
 		  </location>
 		  <station>
 			<select faction="${station.faction.getName()}" tags="[${station.type.getName()}]" />
