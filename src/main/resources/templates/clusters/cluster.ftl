@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <macros>
   <#list galaxy.clusters as cl>
+  <!-- ${cl.name} -->
   <macro name="${galaxy.galaxyPrefix}_cluster${cl.id}_macro" class="cluster">
     <component ref="standardcluster" />
     <connections>
-      <connection name="${galaxy.galaxyPrefix}_cluster${cl.id}_sector001_connection" ref="sectors">  
+      <connection name="${galaxy.galaxyPrefix}_cluster${cl.id}_sector001_connection" ref="sectors">
         <macro ref="${galaxy.galaxyPrefix}_cluster${cl.id}_sector001_macro" connection="cluster" />
       </connection>
       <#list cl.belts as belt>
