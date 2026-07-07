@@ -50,10 +50,6 @@
       <asteroid groupref="asteroid_ore_xs" densityfactor="8" rotation="360" rotationvariation="32" noisescale="1000" seed="32" minnoisevalue="0.01" maxnoisevalue="0.5"/>
       <asteroid groupref="asteroid_silicon_xs" densityfactor="4" rotation="360" rotationvariation="32" noisescale="1000" seed="32" minnoisevalue="0.01" maxnoisevalue="0.5"/>
     </fields>
-    <resources>
-      <resource ware="ore" yield="medium" />
-      <resource ware="silicon" yield="medium" />
-    </resources>
   </region>
   <region name="x3g_ice_belt" density="1.5" rotation="0" noisescale="1000" seed="32" minnoisevalue="0.05" maxnoisevalue="1">
 	<boundary class="splinetube">
@@ -86,9 +82,6 @@
       <asteroid groupref="asteroid_ice_s" densityfactor="24" rotation="0" rotationvariation="32" noisescale="5000" seed="26041984" minnoisevalue="0.75" maxnoisevalue="1"/>
       <asteroid groupref="asteroid_ice_xs" densityfactor="30" rotation="0" rotationvariation="64" noisescale="5000" seed="26041984" minnoisevalue="0.75" maxnoisevalue="1"/>
     </fields>
-    <resources>
-      <resource ware="ice" yield="medium" />
-    </resources>
   </region>
   <region name="x3g_hydrogen_belt" density="1.5" rotation="0" noisescale="1000" seed="32" minnoisevalue="0.05" maxnoisevalue="1">
 	<boundary class="splinetube">

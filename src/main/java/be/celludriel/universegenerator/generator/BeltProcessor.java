@@ -11,6 +11,7 @@ import java.util.List;
 public class BeltProcessor {
 
     public static final long ZONERANGE = 150000L;
+    public static final int MAX_RESOURCE_SPHERES = 4;
 
     private final Randomizer randomizer;
 
@@ -43,10 +44,12 @@ public class BeltProcessor {
             belt.setY(randomizer.generateRandomCoordinate(-ZONERANGE, ZONERANGE));
             belt.setRotation(randomizer.getRandomRotation());
 
+            int areaAmount = randomizer.randomInt(1, MAX_RESOURCE_SPHERES);
+
             //TODO: set paramters based on belt configuration?
             ResourceArea rArea = new ResourceArea();
             rArea.setWare(type.name().toLowerCase());
-            rArea.setAmount(4);
+            rArea.setAmount(areaAmount);
             rArea.setSize("medium");
             rArea.setVolume("medium");
             rArea.setDegredationRate("average");
