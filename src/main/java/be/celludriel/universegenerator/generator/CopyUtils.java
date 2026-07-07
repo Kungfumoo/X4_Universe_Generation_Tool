@@ -44,6 +44,7 @@ public class CopyUtils {
     }
 
     public void copyToOutputDir(String source, String target) throws IOException {
+        target = target.toLowerCase();
         FileUtils.touch(new File(target));
         InputStream src = getClass().getResourceAsStream(source);
         Files.copy(src, Paths.get(target), StandardCopyOption.REPLACE_EXISTING);

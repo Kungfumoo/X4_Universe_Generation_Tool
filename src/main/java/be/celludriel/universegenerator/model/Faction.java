@@ -2,7 +2,7 @@ package be.celludriel.universegenerator.model;
 
 public enum Faction {
     PLAYER("faction.player", "", ""),
-    ARGON("argon", "arg", "Argon", "discover"),
+    ARGON("argon", "arg", "Argon", "tutorial"),
     ANTIGONE("antigone", "arg", "Antigone"),
     HATIKVAH("hatikvah", "arg", "HatikvahFreeLeague"),
     PARANID("paranid", "par","GodrealmOfTheParanid", "fight"),

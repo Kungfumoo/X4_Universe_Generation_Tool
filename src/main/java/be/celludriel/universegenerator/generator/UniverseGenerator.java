@@ -100,7 +100,7 @@ public class UniverseGenerator {
 
         source = "/core/factiongoal_expand_space.xml";
         target = path + "/md/factiongoal_expand_space.xml";
-        copyUtils.copyToOutputDir(source, target);
+        //copyUtils.copyToOutputDir(source, target);
 
         source = "/core/defaults.xml";
         target = path + "/libraries/defaults.xml";
@@ -242,6 +242,7 @@ public class UniverseGenerator {
     }
 
     private void writeToFile(Map<String, Object> root, Template temp, String path) throws IOException, TemplateException {
+        path = path.toLowerCase();
         FileUtils.touch(new File(path));
         temp.process(root, new FileWriter(path));
     }
