@@ -9,6 +9,7 @@ public class Belt extends AbstractJson {
     private Long x;
     private Long y;
     private Integer rotation;
+    private ResourceArea resourceArea;
 
     public BeltType getType() {
         return type;
@@ -26,6 +27,10 @@ public class Belt extends AbstractJson {
         return rotation;
     }
 
+    public ResourceArea getResourceArea() {
+        return resourceArea;
+    }
+
     public void setType(BeltType type) {
         this.type = type;
     }
@@ -40,6 +45,10 @@ public class Belt extends AbstractJson {
 
     public void setRotation(Integer rotation) {
         this.rotation = rotation;
+    }
+
+    public void setResourceArea(ResourceArea resourceArea) {
+        this.resourceArea = resourceArea;
     }
 
     @Override

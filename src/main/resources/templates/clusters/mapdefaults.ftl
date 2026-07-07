@@ -14,6 +14,11 @@
   <dataset macro="${galaxy.galaxyPrefix}_cluster${cl.id}_sector001_macro">
     <properties>
       <identification name="${cl.name}" description="${cl.description}" />
+      <resourceareas>
+        <#list cl.belts as belt>
+          <resourcearea amount="${belt.resourceArea.amount}" ref="sphere_${belt.resourceArea.size}_${belt.resourceArea.ware}_${belt.resourceArea.volume}_${belt.resourceArea.degredationRate}" />
+        </#list>
+      </resourceareas>
     </properties>
   </dataset>
 </#list>
