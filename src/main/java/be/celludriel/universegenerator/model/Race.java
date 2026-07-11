@@ -2,7 +2,8 @@ package be.celludriel.universegenerator.model;
 
 public enum Race {
     ARGON("argon"), TELADI("teladi"), PARANID("paranid"),
-    XENON("xenon"), SPLIT("split"), TERRAN("terran");
+    XENON("xenon"), SPLIT("split"), TERRAN("terran"),
+    BORON("boron");
 
     private String name;
 

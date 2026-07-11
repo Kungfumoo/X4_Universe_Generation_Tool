@@ -13,6 +13,7 @@
     "addDoubleTravelSpeed": false
   },
   "clusters": [
+    /* ARGON */
     {
       "id": "01",
       "name": "Argon Prime",
@@ -365,6 +366,137 @@
       "backdrop": "empty_space",
       "stations": [
         {"type": "DEFENCE", "race":  "ARGON", "owner": "ARGON", "faction": "ARGON"}
+      ]
+    },
+    /* BORON: */
+    {
+      "id": "16",
+      "name": "Kingdom End",
+      "description": "Kingdom End",
+      "music": "music_sector_00022",
+      "sunlight": "1",
+      "economy": "0.75",
+      "security": "0.75",
+      "x": -1,
+      "y": 2,
+      "backdrop": "empty_space",
+      "factionHq": "BORON",
+      "connections": [
+        {
+          "targetClusterId": "09",
+          "connectionType": "S"
+        },
+        {
+          "targetClusterId": "17",
+          "connectionType": "SE"
+        }
+      ],
+      "stations": [
+        {"type": "SHIPYARD", "race":  "BORON", "owner": "BORON", "faction": "BORON"},
+        {"type": "EQUIP", "race":  "BORON", "owner": "BORON", "faction": "BORON"},
+        {"type": "DEFENCE", "race":  "BORON", "owner": "BORON", "faction": "BORON"}
+      ]
+    },
+    {
+      "id": "17",
+      "name": "Rolk's Drift",
+      "description": "Rolk's Drift",
+      "music": "music_sector_00022",
+      "sunlight": "1",
+      "economy": "0.5",
+      "security": "0.5",
+      "x": 0,
+      "y": 3,
+      "backdrop": "empty_space",
+      "connections": [
+        {
+          "targetClusterId": "18",
+          "connectionType": "NE"
+        }
+      ],
+      "stations": [
+        {"type": "WHARF", "race":  "BORON", "owner": "BORON", "faction": "BORON"},
+        {"type": "DEFENCE", "race":  "BORON", "owner": "BORON", "faction": "BORON"}
+      ]
+    },
+    {
+      "id": "18",
+      "name": "Queen's Space",
+      "description": "Queen's Space",
+      "music": "music_sector_00022",
+      "sunlight": "1",
+      "economy": "0.25",
+      "security": "0.25",
+      "x": 1,
+      "y": 2,
+      "backdrop": "empty_space",
+      "connections": [
+        {
+          "targetClusterId": "19",
+          "connectionType": "SE"
+        }
+      ],
+      "stations": [
+        {"type": "DEFENCE", "race":  "BORON", "owner": "BORON", "faction": "BORON"},
+        {"type": "TRADE", "race":  "BORON", "owner": "BORON", "faction": "BORON"}
+      ]
+    },
+    {
+      "id": "19",
+      "name": "Menalaus' Frontier",
+      "description": "Menalaus' Frontier",
+      "music": "music_sector_00022",
+      "sunlight": "1",
+      "economy": "0.75",
+      "security": "0.75",
+      "x": 2,
+      "y": 3,
+      "backdrop": "empty_space",
+      "connections": [
+        {
+          "targetClusterId": "20",
+          "connectionType": "S"
+        }/*,
+        {
+          "targetClusterId": "40",
+          "connectionType": "SE"
+        }*/
+      ]
+    },
+    {
+      "id": "20",
+      "name": "Rolk's Fate",
+      "description": "Rolk's Fate",
+      "music": "music_sector_00022",
+      "sunlight": "1",
+      "economy": "0.25",
+      "security": "0.25",
+      "x": 2,
+      "y": 2,
+      "backdrop": "empty_space",
+      "connections": [
+        {
+          "targetClusterId": "21",
+          "connectionType": "S"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "name": "Atreus' Clouds",
+      "description": "Atreus' Clouds",
+      "music": "music_sector_00022",
+      "sunlight": "1",
+      "economy": "0.25",
+      "security": "0.25",
+      "x": 2,
+      "y": 1,
+      "backdrop": "empty_space",
+      "connections": [
+        /*{
+          "targetClusterId": "22",
+          "connectionType": "S"
+        }*/
       ]
     }
   ],

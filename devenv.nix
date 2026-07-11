@@ -8,6 +8,7 @@
   # https://devenv.sh/languages/
   languages.java = {
     enable = true;
+    maven.enable = true;
     jdk.package = pkgs.openjdk8;
   };
 
