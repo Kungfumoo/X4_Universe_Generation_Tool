@@ -825,7 +825,299 @@
         "spawnLocations": ["ARGON"],
         "economyMax": "0.25"
       }
+    },
+    {
+      "id": "bor_advancedcomposites",
+      "ware": "advancedcomposites",
+      "race": "BORON",
+      "owner": "BORON",
+      "galaxyQuota": 2,
+      "locationInfo": {
+        "spawnLocations": ["BORON"],
+        "economyMax": "0.75"
+      }
+    },
+    {
+      "id": "bor_advancedelectronics",
+      "ware": "advancedelectronics",
+      "race": "BORON",
+      "owner": "BORON",
+      "galaxyQuota": 2,
+      "locationInfo": {
+        "spawnLocations": ["BORON"],
+        "economyMax": "0.75"
+      }
+    },
+    {
+      "id": "bor_antimatterconverters",
+      "ware": "antimatterconverters",
+      "race": "BORON",
+      "owner": "BORON",
+      "galaxyQuota": 2,
+      "locationInfo": {
+        "spawnLocations": ["BORON"],
+        "economyMax": "0.75"
+      }
+    },
+    {
+      "id": "bor_claytronics",
+      "ware": "claytronics",
+      "race": "BORON",
+      "owner": "BORON",
+      "galaxyQuota": 4,
+      "locationInfo": {
+        "spawnLocations": ["BORON"],
+        "economyMax": "0.75"
+      }
+    },
+    {
+      "id": "bor_energycells",
+      "ware": "energycells",
+      "race": "BORON",
+      "owner": "BORON",
+      "galaxyQuota": 8,
+      "locationInfo": {
+        "spawnLocations": ["BORON"],
+        "economyMax": "0.6",
+        "sunlightMin": "1",
+        "sunlightMax": "3"
+      }
+    },
+    {
+      "id": "bor_engineparts",
+      "ware": "engineparts",
+      "race": "BORON",
+      "owner": "BORON",
+      "galaxyQuota": 2,
+      "locationInfo": {
+        "spawnLocations": ["BORON"],
+        "economyMax": "0.75"
+      }
+    },
+    /*{ TODO: replace with boron food
+      "id": "bor_foodrations",
+      "ware": "foodrations",
+      "race": "BORON",
+      "owner": "BORON",
+      "galaxyQuota": 8,
+      "locationInfo": {
+        "spawnLocations": ["BORON"],
+        "economyMax": "0.75"
+      }
+    },*/
+    {
+      "id": "bor_graphene",
+      "ware": "graphene",
+      "race": "BORON",
+      "owner": "BORON",
+      "galaxyQuota": 4,
+      "locationInfo": {
+        "spawnLocations": ["BORON"],
+        "wares": ["methane"]
+      }
+    },
+    {
+      "id": "bor_hullparts",
+      "ware": "hullparts",
+      "race": "BORON",
+      "owner": "BORON",
+      "galaxyQuota": 12,
+      "locationInfo": {
+        "spawnLocations": ["BORON"],
+        "economyMax": "0.75"
+      }
+    },
+    {
+      "id": "bor_meat",
+      "ware": "meat",
+      "race": "BORON",
+      "owner": "BORON",
+      "galaxyQuota": 2,
+      "locationInfo": {
+        "spawnLocations": ["BORON"],
+        "economyMax": "0.25"
+      }
+    },
+    {
+      "id": "bor_medicalsupplies",
+      "ware": "medicalsupplies",
+      "race": "BORON",
+      "owner": "BORON",
+      "galaxyQuota": 16,
+      "locationInfo": {
+        "spawnLocations": ["BORON"],
+        "economyMax": "0.75"
+      }
+    },
+    {
+      "id": "bor_microchips",
+      "ware": "microchips",
+      "race": "BORON",
+      "owner": "BORON",
+      "galaxyQuota": 6,
+      "locationInfo": {
+        "spawnLocations": ["BORON"],
+        "economyMax": "0.75"
+      }
+    },
+    {
+      "id": "bor_missilecomponents",
+      "ware": "missilecomponents",
+      "race": "BORON",
+      "owner": "BORON",
+      "galaxyQuota": 2,
+      "locationInfo": {
+        "spawnLocations": ["BORON"],
+        "economyMax": "0.75"
+      }
+    },
+    {
+      "id": "bor_plasmaconductors",
+      "ware": "plasmaconductors",
+      "race": "BORON",
+      "owner": "BORON",
+      "galaxyQuota": 4,
+      "locationInfo": {
+        "spawnLocations": ["BORON"],
+        "economyMax": "0.5"
+      }
+    },
+    {
+      "id": "bor_quantumtubes",
+      "ware": "quantumtubes",
+      "race": "BORON",
+      "owner": "BORON",
+      "galaxyQuota": 4,
+      "locationInfo": {
+        "spawnLocations": ["BORON"],
+        "economyMax": "0.5"
+      }
+    },
+    {
+      "id": "bor_refinedmetals",
+      "ware": "refinedmetals",
+      "race": "BORON",
+      "owner": "BORON",
+      "galaxyQuota": 6,
+      "sectorQuota": 4,
+      "locationInfo": {
+        "spawnLocations": ["BORON"],
+        "economyMax": "0.5",
+        "wares": ["ore"]
+      }
+    },
+    {
+      "id": "bor_scanningarrays",
+      "ware": "scanningarrays",
+      "race": "BORON",
+      "owner": "BORON",
+      "galaxyQuota": 2,
+      "locationInfo": {
+        "spawnLocations": ["BORON"],
+        "economyMax": "0.5"
+      }
+    },
+    {
+      "id": "bor_siliconwafers",
+      "ware": "siliconwafers",
+      "race": "BORON",
+      "owner": "BORON",
+      "galaxyQuota": 4,
+      "sectorQuota": 2,
+      "locationInfo": {
+        "spawnLocations": ["BORON"],
+        "economyMax": "0.5",
+        "wares": ["silicon"]
+      }
+    },
+    {
+      "id": "bor_smartchips",
+      "ware": "smartchips",
+      "race": "BORON",
+      "owner": "BORON",
+      "galaxyQuota": 2,
+      "locationInfo": {
+        "spawnLocations": ["BORON"],
+        "economyMax": "0.75"
+      }
+    },
+    {
+      "id": "bor_spacefuel",
+      "ware": "spacefuel",
+      "race": "BORON",
+      "owner": "BORON",
+      "galaxyQuota": 6,
+      "locationInfo": {
+        "spawnLocations": ["BORON","HATIKVAH"],
+        "economyMax": "0.5"
+      }
+    },
+    {
+      "id": "bor_spices",
+      "ware": "spices",
+      "race": "BORON",
+      "owner": "BORON",
+      "galaxyQuota": 6,
+      "locationInfo": {
+        "spawnLocations": ["BORON"],
+        "economyMax": "0.25"
+      }
+    },
+    {
+      "id": "bor_superfluidcoolant",
+      "ware": "superfluidcoolant",
+      "race": "BORON",
+      "owner": "BORON",
+      "galaxyQuota": 2,
+      "locationInfo": {
+        "spawnLocations": ["BORON"],
+        "wares": ["helium"]
+      }
+    },
+    {
+      "id": "bor_turretcomponents",
+      "ware": "turretcomponents",
+      "race": "BORON",
+      "owner": "BORON",
+      "galaxyQuota": 2,
+      "locationInfo": {
+        "spawnLocations": ["BORON"],
+        "economyMax": "0.75"
+      }
+    },
+    {
+      "id": "bor_water",
+      "ware": "water",
+      "race": "BORON",
+      "owner": "BORON",
+      "galaxyQuota": 4,
+      "locationInfo": {
+        "spawnLocations": ["BORON"],
+        "wares": ["ice"]
+      }
+    },
+    {
+      "id": "bor_weaponcomponents",
+      "ware": "weaponcomponents",
+      "race": "BORON",
+      "owner": "BORON",
+      "galaxyQuota": 2,
+      "locationInfo": {
+        "spawnLocations": ["BORON"],
+        "economyMax": "0.75"
+      }
     }
+    /*{ TODO: replace with boron food
+      "id": "bor_wheat",
+      "ware": "wheat",
+      "race": "BORON",
+      "owner": "BORON",
+      "galaxyQuota": 2,
+      "locationInfo": {
+        "spawnLocations": ["BORON"],
+        "economyMax": "0.25"
+      }
+    }*/
   ],
   "jobs": [
         {
