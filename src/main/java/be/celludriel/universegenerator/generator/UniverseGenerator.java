@@ -90,20 +90,8 @@ public class UniverseGenerator {
         String target = path + "/libraries/region_definitions.xml";
         copyUtils.copyToOutputDir(source, target);
 
-        source = "/core/X4Ep1_Mentor_Subscription.xml";
-        target = path + "/md/X4Ep1_Mentor_Subscription.xml";
-        copyUtils.copyToOutputDir(source, target);
-
         source = "/core/Notifications.xml";
         target = path + "/md/Notifications.xml";
-        copyUtils.copyToOutputDir(source, target);
-
-        source = "/core/factiongoal_expand_space.xml";
-        target = path + "/md/factiongoal_expand_space.xml";
-        //copyUtils.copyToOutputDir(source, target);
-
-        source = "/core/defaults.xml";
-        target = path + "/libraries/defaults.xml";
         copyUtils.copyToOutputDir(source, target);
 
         source = "core/environments/cluster";
@@ -117,16 +105,6 @@ public class UniverseGenerator {
         source = "core/environments/cluster/empty_space_data";
         target = path + "/assets/environments/cluster/empty_space_data/";
         copyUtils.copyDirectoryToOutputDir(source, target);
-
-        if (galaxy.getGalaxyOptions().isAddDoubleTravelSpeed()) {
-            addDoubleTravelSpeedToOutput(path);
-        }
-    }
-
-    private void addDoubleTravelSpeedToOutput(String path) throws URISyntaxException, IOException {
-        String originFolder = "core/engines";
-        String targetFolder = path + "/assets/props/Engines/macros/";
-        copyUtils.copyDirectoryToOutputDir(originFolder, targetFolder);
     }
 
     private void generateAssets(Configuration cfg, Map<String, Object> root, String type) throws IOException, TemplateException {
