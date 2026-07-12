@@ -878,8 +878,8 @@
       "galaxyQuota": 8,
       "locationInfo": {
         "spawnLocations": ["BORON"],
-        "economyMax": "0.6",
-        "sunlightMin": "1",
+        "economyMax": "0.50",
+        "sunlightMin": "0.50",
         "sunlightMax": "3"
       }
     },
@@ -894,9 +894,9 @@
         "economyMax": "0.75"
       }
     },
-    /*{ TODO: replace with boron food
-      "id": "bor_foodrations",
-      "ware": "foodrations",
+    {
+      "id": "bor_bofu",
+      "ware": "bofu",
       "race": "BORON",
       "owner": "BORON",
       "galaxyQuota": 8,
@@ -904,7 +904,29 @@
         "spawnLocations": ["BORON"],
         "economyMax": "0.75"
       }
-    },*/
+    },
+    {
+      "id": "bor_bogas",
+      "ware": "bogas",
+      "race": "BORON",
+      "owner": "BORON",
+      "galaxyQuota": 4,
+      "locationInfo": {
+        "spawnLocations": ["BORON"],
+        "economyMax": "0.75"
+      }
+    },
+    {
+      "id": "bor_plankton",
+      "ware": "plankton",
+      "race": "BORON",
+      "owner": "BORON",
+      "galaxyQuota": 8,
+      "locationInfo": {
+        "spawnLocations": ["BORON"],
+        "economyMax": "0.75"
+      }
+    },
     {
       "id": "bor_graphene",
       "ware": "graphene",
@@ -925,17 +947,6 @@
       "locationInfo": {
         "spawnLocations": ["BORON"],
         "economyMax": "0.75"
-      }
-    },
-    {
-      "id": "bor_meat",
-      "ware": "meat",
-      "race": "BORON",
-      "owner": "BORON",
-      "galaxyQuota": 2,
-      "locationInfo": {
-        "spawnLocations": ["BORON"],
-        "economyMax": "0.25"
       }
     },
     {
@@ -1042,28 +1053,6 @@
       }
     },
     {
-      "id": "bor_spacefuel",
-      "ware": "spacefuel",
-      "race": "BORON",
-      "owner": "BORON",
-      "galaxyQuota": 6,
-      "locationInfo": {
-        "spawnLocations": ["BORON","HATIKVAH"],
-        "economyMax": "0.5"
-      }
-    },
-    {
-      "id": "bor_spices",
-      "ware": "spices",
-      "race": "BORON",
-      "owner": "BORON",
-      "galaxyQuota": 6,
-      "locationInfo": {
-        "spawnLocations": ["BORON"],
-        "economyMax": "0.25"
-      }
-    },
-    {
       "id": "bor_superfluidcoolant",
       "ware": "superfluidcoolant",
       "race": "BORON",
@@ -1107,17 +1096,6 @@
         "economyMax": "0.75"
       }
     }
-    /*{ TODO: replace with boron food
-      "id": "bor_wheat",
-      "ware": "wheat",
-      "race": "BORON",
-      "owner": "BORON",
-      "galaxyQuota": 2,
-      "locationInfo": {
-        "spawnLocations": ["BORON"],
-        "economyMax": "0.25"
-      }
-    }*/
   ],
   "jobs": [
         {
