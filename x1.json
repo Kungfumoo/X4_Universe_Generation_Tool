@@ -1098,1778 +1098,1848 @@
     }
   ],
   "jobs": [
-        {
-      "id": "dummy_job",
-      "startActive": false,
-      "order": {
-        "defaultOrder": true,
-        "order": "Recon"
+    {
+      "id" : "dummy_job",
+      "startActive" : false,
+      "order" : {
+        "defaultOrder" : true,
+        "order" : "Recon"
       },
-      "quota": {
-        "galaxy": 1
+      "quota" : {
+        "galaxy" : 1
       },
-      "location": {
-        "macro": "xu_ep2_universe_macro",
-        "clazz": "galaxy"
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy"
       },
-      "modifiers": {
-        "commandeerable": false,
-        "rebuild": false
+      "modifiers" : {
+        "commandeerable" : false,
+        "rebuild" : false
       },
-      "expirationTime": {
-        "min": 60,
-        "max": 3600
+      "expirationTime" : {
+        "min" : 60,
+        "max" : 3600
       },
-      "ship": {
-        "select": {
-          "faction": "argon",
-          "size": "ship_s",
-          "tags": "[fighter]"
+      "ship" : {
+        "select" : {
+          "faction" : "argon",
+          "size" : "ship_s",
+          "tags" : "[fighter]"
         },
-        "loadout": {
-          "level": {
-            "max": 0.4,
-            "min": 0.0
-          }
-        },
-        "owner": {
-          "exact": "argon",
-          "overridenpc": true
+        "loadout" : { },
+        "owner" : {
+          "exact" : "argon",
+          "overridenpc" : true
         }
       }
-    },
-    {
-      "id": "argon_bio_trader_l",
-      "name": "{20204,1301}",
-      "basket": "bio",
-      "category": {
-        "faction": "argon",
-        "tags": "[factionlogic, freighter, trader]",
-        "size": "ship_l"
+    }, {
+      "id" : "argon_bio_trader_l",
+      "name" : "{20204,1301}",
+      "basket" : "bio",
+      "category" : {
+        "faction" : "argon",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_l"
       },
-      "order": {
-        "params": {
-          "minsell": "0",
-          "maxsell": "5",
-          "maxbuy": "5",
-          "minbuy": "0"
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
         },
-        "defaultOrder": true,
-        "order": "TradeRoutine"
+        "defaultOrder" : true,
+        "order" : "TradeRoutine"
       },
-      "quota": {
-        "galaxy": 8,
-        "cluster": 4
+      "quota" : {
+        "galaxy" : 8,
+        "cluster" : 4
       },
-      "location": {
-        "macro": "xu_ep2_universe_macro",
-        "clazz": "galaxy",
-        "relation": "member",
-        "comparison": "ge",
-        "faction": "argon"
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "ally",
+        "comparison" : "ge",
+        "faction" : "argon"
       },
-      "environment": {
-        "buildatshipyard": true
+      "environment" : {
+        "buildatshipyard" : true
       },
-      "modifiers": {
-        "commandeerable": true,
-        "rebuild": false
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : false
       },
-      "ship": {
-        "select": {
-          "faction": "argon",
-          "size": "ship_l",
-          "tags": "[trader, container]"
+      "ship" : {
+        "select" : {
+          "faction" : "argon",
+          "size" : "ship_l",
+          "tags" : "[trader, container]"
         },
-        "loadout": {
-          "level": {
-            "max": 0.4,
-            "min": 0.0
-          }
-        },
-        "owner": {
-          "exact": "argon",
-          "overridenpc": true
+        "loadout" : { },
+        "owner" : {
+          "exact" : "argon",
+          "overridenpc" : true
         }
       }
-    },
-    {
-      "id": "argon_bio_trader_m",
-      "name": "{20204,1401}",
-      "basket": "bio",
-      "category": {
-        "faction": "argon",
-        "tags": "[factionlogic, freighter, trader]",
-        "size": "ship_m"
+    }, {
+      "id" : "argon_bio_trader_m",
+      "name" : "{20204,1401}",
+      "basket" : "bio",
+      "category" : {
+        "faction" : "argon",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_m"
       },
-      "order": {
-        "params": {
-          "range": "5"
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
         },
-        "defaultOrder": true,
-        "order": "Middleman"
+        "defaultOrder" : true,
+        "order" : "TradeRoutine"
       },
-      "quota": {
-        "galaxy": 30,
-        "cluster": 8,
-        "sector": 6
+      "quota" : {
+        "galaxy" : 30,
+        "cluster" : 8,
+        "sector" : 6
       },
-      "location": {
-        "macro": "xu_ep2_universe_macro",
-        "clazz": "galaxy",
-        "relation": "member",
-        "comparison": "ge",
-        "faction": "argon"
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "ally",
+        "comparison" : "ge",
+        "faction" : "argon"
       },
-      "environment": {
-        "buildatshipyard": true
+      "environment" : {
+        "buildatshipyard" : true
       },
-      "modifiers": {
-        "commandeerable": true,
-        "rebuild": false
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : false
       },
-      "ship": {
-        "select": {
-          "faction": "argon",
-          "size": "ship_m",
-          "tags": "[trader, container]"
+      "ship" : {
+        "select" : {
+          "faction" : "argon",
+          "size" : "ship_m",
+          "tags" : "[trader, container]"
         },
-        "loadout": {
-          "level": {
-            "max": 0.4,
-            "min": 0.0
-          }
-        },
-        "owner": {
-          "exact": "argon",
-          "overridenpc": true
+        "loadout" : { },
+        "owner" : {
+          "exact" : "argon",
+          "overridenpc" : true
         }
       }
-    },
-    {
-      "id": "argon_food_trader_s",
-      "name": "{20204,1801}",
-      "basket": "food",
-      "category": {
-        "faction": "argon",
-        "tags": "[factionlogic, freighter, trader]",
-        "size": "ship_s"
+    }, {
+      "id" : "argon_food_trader_s",
+      "name" : "{20204,1801}",
+      "basket" : "food",
+      "category" : {
+        "faction" : "argon",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_s"
       },
-      "order": {
-        "params": {
-          "range": "3"
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "3",
+          "maxbuy" : "3",
+          "minbuy" : "0"
         },
-        "defaultOrder": true,
-        "order": "Middleman"
+        "defaultOrder" : true,
+        "order" : "TradeRoutine"
       },
-      "quota": {
-        "galaxy": 35,
-        "cluster": 10,
-        "sector": 5
+      "quota" : {
+        "galaxy" : 35,
+        "cluster" : 10,
+        "sector" : 5
       },
-      "location": {
-        "macro": "xu_ep2_universe_macro",
-        "clazz": "galaxy",
-        "relation": "member",
-        "comparison": "ge",
-        "faction": "argon"
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "ally",
+        "comparison" : "ge",
+        "faction" : "argon"
       },
-      "environment": {
-        "buildatshipyard": true
+      "environment" : {
+        "buildatshipyard" : true
       },
-      "modifiers": {
-        "commandeerable": true,
-        "rebuild": false
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : false
       },
-      "ship": {
-        "select": {
-          "faction": "argon",
-          "size": "ship_s",
-          "tags": "[trader, container]"
+      "ship" : {
+        "select" : {
+          "faction" : "argon",
+          "size" : "ship_s",
+          "tags" : "[trader, container]"
         },
-        "loadout": {
-          "level": {
-            "max": 0.4,
-            "min": 0.0
-          }
-        },
-        "owner": {
-          "exact": "argon",
-          "overridenpc": true
+        "loadout" : { },
+        "owner" : {
+          "exact" : "argon",
+          "overridenpc" : true
         }
       }
-    },
-    {
-      "id": "argon_medical_trader_s",
-      "name": "{20204,10011}",
-      "basket": "medicalsupplies",
-      "category": {
-        "faction": "argon",
-        "tags": "[factionlogic, freighter, trader]",
-        "size": "ship_s"
+    }, {
+      "id" : "argon_medical_trader_s",
+      "name" : "{20204,10011}",
+      "basket" : "medicalsupplies",
+      "category" : {
+        "faction" : "argon",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_s"
       },
-      "order": {
-        "params": {
-          "range": "3"
+      "order" : {
+        "params" : {
+          "range" : "3"
         },
-        "defaultOrder": true,
-        "order": "Middleman"
+        "defaultOrder" : true,
+        "order" : "Middleman"
       },
-      "quota": {
-        "galaxy": 5,
-        "sector": 1
+      "quota" : {
+        "galaxy" : 5,
+        "sector" : 1
       },
-      "location": {
-        "macro": "xu_ep2_universe_macro",
-        "clazz": "galaxy",
-        "relation": "member",
-        "comparison": "ge",
-        "faction": "argon"
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "ally",
+        "comparison" : "ge",
+        "faction" : "argon"
       },
-      "environment": {
-        "buildatshipyard": true
+      "environment" : {
+        "buildatshipyard" : true
       },
-      "modifiers": {
-        "commandeerable": true,
-        "rebuild": false
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : false
       },
-      "ship": {
-        "select": {
-          "faction": "argon",
-          "size": "ship_s",
-          "tags": "[trader, container]"
+      "ship" : {
+        "select" : {
+          "faction" : "argon",
+          "size" : "ship_s",
+          "tags" : "[trader, container]"
         },
-        "loadout": {
-          "level": {
-            "max": 0.7,
-            "min": 0.3
-          }
-        },
-        "owner": {
-          "exact": "argon",
-          "overridenpc": true
+        "loadout" : { },
+        "owner" : {
+          "exact" : "argon",
+          "overridenpc" : true
         }
       }
-    },
-    {
-      "id": "argon_energycell_trader_l",
-      "name": "{20204,101}",
-      "basket": "energycells",
-      "category": {
-        "faction": "argon",
-        "tags": "[factionlogic, freighter, trader]",
-        "size": "ship_l"
+    }, {
+      "id" : "argon_energycell_trader_l",
+      "name" : "{20204,101}",
+      "basket" : "energycells",
+      "category" : {
+        "faction" : "argon",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_l"
       },
-      "order": {
-        "params": {
-          "minsell": "0",
-          "maxsell": "5",
-          "maxbuy": "5",
-          "minbuy": "0"
+      "order" : {
+        "params" : {
+          "range" : "5"
         },
-        "defaultOrder": true,
-        "order": "TradeRoutine"
+        "defaultOrder" : true,
+        "order" : "Middleman"
       },
-      "quota": {
-        "galaxy": 5,
-        "cluster": 2
+      "quota" : {
+        "galaxy" : 5,
+        "cluster" : 2
       },
-      "location": {
-        "macro": "xu_ep2_universe_macro",
-        "clazz": "galaxy",
-        "relation": "member",
-        "comparison": "ge",
-        "faction": "argon"
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "ally",
+        "comparison" : "ge",
+        "faction" : "argon"
       },
-      "environment": {
-        "buildatshipyard": true
+      "environment" : {
+        "buildatshipyard" : true
       },
-      "modifiers": {
-        "commandeerable": true,
-        "rebuild": false
+      "modifiers" : {
+        "commandeerable" : false,
+        "rebuild" : false
       },
-      "ship": {
-        "select": {
-          "faction": "argon",
-          "size": "ship_l",
-          "tags": "[trader, container]"
+      "ship" : {
+        "select" : {
+          "faction" : "argon",
+          "size" : "ship_l",
+          "tags" : "[trader, container]"
         },
-        "loadout": {
-          "level": {
-            "max": 0.4,
-            "min": 0.0
-          }
-        },
-        "owner": {
-          "exact": "argon",
-          "overridenpc": true
+        "loadout" : { },
+        "owner" : {
+          "exact" : "argon",
+          "overridenpc" : true
         }
       }
-    },
-    {
-      "id": "argon_energycell_trader_m",
-      "name": "{20204,201}",
-      "basket": "energycells",
-      "category": {
-        "faction": "argon",
-        "tags": "[factionlogic, freighter, trader]",
-        "size": "ship_m"
+    }, {
+      "id" : "argon_energycell_trader_m",
+      "name" : "{20204,201}",
+      "basket" : "energycells",
+      "category" : {
+        "faction" : "argon",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_m"
       },
-      "order": {
-        "params": {
-          "minsell": "0",
-          "maxsell": "5",
-          "maxbuy": "5",
-          "minbuy": "0"
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
         },
-        "defaultOrder": true,
-        "order": "TradeRoutine"
+        "defaultOrder" : true,
+        "order" : "TradeRoutine"
       },
-      "quota": {
-        "galaxy": 25,
-        "cluster": 7,
-        "sector": 5
+      "quota" : {
+        "galaxy" : 25,
+        "cluster" : 7,
+        "sector" : 5
       },
-      "location": {
-        "macro": "xu_ep2_universe_macro",
-        "clazz": "galaxy",
-        "relation": "member",
-        "comparison": "ge",
-        "faction": "argon"
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "ally",
+        "comparison" : "ge",
+        "faction" : "argon"
       },
-      "environment": {
-        "buildatshipyard": true
+      "environment" : {
+        "buildatshipyard" : true
       },
-      "modifiers": {
-        "commandeerable": true,
-        "rebuild": false
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : false
       },
-      "ship": {
-        "select": {
-          "faction": "argon",
-          "size": "ship_m",
-          "tags": "[trader, container]"
+      "ship" : {
+        "select" : {
+          "faction" : "argon",
+          "size" : "ship_m",
+          "tags" : "[trader, container]"
         },
-        "loadout": {
-          "level": {
-            "max": 0.4,
-            "min": 0.0
-          }
-        },
-        "owner": {
-          "exact": "argon",
-          "overridenpc": true
+        "loadout" : { },
+        "owner" : {
+          "exact" : "argon",
+          "overridenpc" : true
         }
       }
-    },
-    {
-      "id": "argon_energycell_trader_s",
-      "name": "{20204,201}",
-      "basket": "energycells",
-      "category": {
-        "faction": "argon",
-        "tags": "[factionlogic, freighter, trader]",
-        "size": "ship_s"
+    }, {
+      "id" : "argon_energycell_trader_s",
+      "name" : "{20204,201}",
+      "basket" : "energy",
+      "category" : {
+        "faction" : "argon",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_s"
       },
-      "order": {
-        "params": {
-          "range": "5"
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
         },
-        "defaultOrder": true,
-        "order": "Middleman"
+        "defaultOrder" : true,
+        "order" : "TradeRoutine"
       },
-      "quota": {
-        "galaxy": 5,
-        "cluster": 1
+      "quota" : {
+        "galaxy" : 5,
+        "cluster" : 1
       },
-      "location": {
-        "macro": "xu_ep2_universe_macro",
-        "clazz": "galaxy",
-        "relation": "member",
-        "comparison": "ge",
-        "faction": "argon"
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "ally",
+        "comparison" : "ge",
+        "faction" : "argon"
       },
-      "environment": {
-        "buildatshipyard": true
+      "environment" : {
+        "buildatshipyard" : true
       },
-      "modifiers": {
-        "commandeerable": true,
-        "rebuild": false
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : false
       },
-      "ship": {
-        "select": {
-          "faction": "argon",
-          "size": "ship_s",
-          "tags": "[trader, container]"
+      "ship" : {
+        "select" : {
+          "faction" : "argon",
+          "size" : "ship_s",
+          "tags" : "[trader, container]"
         },
-        "loadout": {
-          "level": {
-            "max": 0.4,
-            "min": 0.0
-          }
-        },
-        "owner": {
-          "exact": "argon",
-          "overridenpc": true
+        "loadout" : { },
+        "owner" : {
+          "exact" : "argon",
+          "overridenpc" : true
         }
       }
-    },
-    {
-      "id": "argon_equipment_trader_l",
-      "name": "{20204,301}",
-      "basket": "equipment",
-      "category": {
-        "faction": "argon",
-        "tags": "[factionlogic, freighter, trader]",
-        "size": "ship_l"
+    }, {
+      "id" : "argon_equipment_trader_l",
+      "name" : "{20204,301}",
+      "basket" : "equipment",
+      "category" : {
+        "faction" : "argon",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_l"
       },
-      "order": {
-        "params": {
-          "minsell": "0",
-          "maxsell": "5",
-          "maxbuy": "5",
-          "minbuy": "0"
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
         },
-        "defaultOrder": true,
-        "order": "TradeRoutine"
+        "defaultOrder" : true,
+        "order" : "TradeRoutine"
       },
-      "quota": {
-        "galaxy": 2,
-        "cluster": 1
+      "quota" : {
+        "galaxy" : 2,
+        "cluster" : 1
       },
-      "location": {
-        "macro": "xu_ep2_universe_macro",
-        "clazz": "galaxy",
-        "relation": "member",
-        "comparison": "ge",
-        "faction": "argon"
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "ally",
+        "comparison" : "ge",
+        "faction" : "argon"
       },
-      "environment": {
-        "buildatshipyard": true
+      "environment" : {
+        "buildatshipyard" : true
       },
-      "modifiers": {
-        "commandeerable": true,
-        "rebuild": false
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : false
       },
-      "ship": {
-        "select": {
-          "faction": "argon",
-          "size": "ship_l",
-          "tags": "[trader, container]"
+      "ship" : {
+        "select" : {
+          "faction" : "argon",
+          "size" : "ship_l",
+          "tags" : "[trader, container]"
         },
-        "loadout": {
-          "level": {
-            "max": 0.7,
-            "min": 0.4
-          }
-        },
-        "owner": {
-          "exact": "argon",
-          "overridenpc": true
+        "loadout" : { },
+        "owner" : {
+          "exact" : "argon",
+          "overridenpc" : true
         }
       }
-    },
-    {
-      "id": "argon_equipment_trader_m",
-      "name": "{20204,401}",
-      "basket": "equipment",
-      "category": {
-        "faction": "argon",
-        "tags": "[factionlogic, freighter, trader]",
-        "size": "ship_m"
+    }, {
+      "id" : "argon_equipment_trader_m",
+      "name" : "{20204,401}",
+      "basket" : "equipment",
+      "category" : {
+        "faction" : "argon",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_m"
       },
-      "order": {
-        "params": {
-          "range": "5"
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
         },
-        "defaultOrder": true,
-        "order": "Middleman"
+        "defaultOrder" : true,
+        "order" : "TradeRoutine"
       },
-      "quota": {
-        "galaxy": 10,
-        "cluster": 3,
-        "sector": 3
+      "quota" : {
+        "galaxy" : 10,
+        "cluster" : 3,
+        "sector" : 3
       },
-      "location": {
-        "macro": "xu_ep2_universe_macro",
-        "clazz": "galaxy",
-        "relation": "member",
-        "comparison": "ge",
-        "faction": "argon"
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "ally",
+        "comparison" : "ge",
+        "faction" : "argon"
       },
-      "environment": {
-        "buildatshipyard": true
+      "environment" : {
+        "buildatshipyard" : true
       },
-      "modifiers": {
-        "commandeerable": true,
-        "rebuild": false
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : false
       },
-      "ship": {
-        "select": {
-          "faction": "argon",
-          "size": "ship_m",
-          "tags": "[trader, container]"
+      "ship" : {
+        "select" : {
+          "faction" : "argon",
+          "size" : "ship_m",
+          "tags" : "[trader, container]"
         },
-        "loadout": {
-          "level": {
-            "max": 0.7,
-            "min": 0.4
-          }
-        },
-        "owner": {
-          "exact": "argon",
-          "overridenpc": true
+        "loadout" : { },
+        "owner" : {
+          "exact" : "argon",
+          "overridenpc" : true
         }
       }
-    },
-    {
-      "id": "argon_construction_trader_l",
-      "name": "{20204,301}",
-      "basket": "construction_stations",
-      "category": {
-        "faction": "argon",
-        "tags": "[factionlogic, freighter, trader]",
-        "size": "ship_l"
+    }, {
+      "id" : "argon_construction_trader_l",
+      "name" : "{20204,301}",
+      "basket" : "construction_stations",
+      "category" : {
+        "faction" : "argon",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_l"
       },
-      "order": {
-        "params": {
-          "minsell": "0",
-          "maxsell": "5",
-          "maxbuy": "5",
-          "minbuy": "0"
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
         },
-        "defaultOrder": true,
-        "order": "TradeRoutine"
+        "defaultOrder" : true,
+        "order" : "TradeRoutine"
       },
-      "quota": {
-        "galaxy": 5,
-        "cluster": 2
+      "quota" : {
+        "galaxy" : 5,
+        "cluster" : 2
       },
-      "location": {
-        "macro": "xu_ep2_universe_macro",
-        "clazz": "galaxy",
-        "relation": "member",
-        "comparison": "ge",
-        "faction": "argon"
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "ally",
+        "comparison" : "ge",
+        "faction" : "argon"
       },
-      "environment": {
-        "buildatshipyard": true
+      "environment" : {
+        "buildatshipyard" : true
       },
-      "modifiers": {
-        "commandeerable": true,
-        "rebuild": false
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : false
       },
-      "ship": {
-        "select": {
-          "faction": "argon",
-          "size": "ship_l",
-          "tags": "[trader, container]"
+      "ship" : {
+        "select" : {
+          "faction" : "argon",
+          "size" : "ship_l",
+          "tags" : "[trader, container]"
         },
-        "loadout": {
-          "level": {
-            "max": 0.4,
-            "min": 0.0
-          }
-        },
-        "owner": {
-          "exact": "argon",
-          "overridenpc": true
+        "loadout" : { },
+        "owner" : {
+          "exact" : "argon",
+          "overridenpc" : true
         }
       }
-    },
-    {
-      "id": "argon_construction_trader_m",
-      "name": "{20204,401}",
-      "basket": "construction_stations",
-      "category": {
-        "faction": "argon",
-        "tags": "[factionlogic, freighter, trader]",
-        "size": "ship_m"
+    }, {
+      "id" : "argon_construction_trader_m",
+      "name" : "{20204,401}",
+      "basket" : "construction_stations",
+      "category" : {
+        "faction" : "argon",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_m"
       },
-      "order": {
-        "params": {
-          "range": "5"
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
         },
-        "defaultOrder": true,
-        "order": "Middleman"
+        "defaultOrder" : true,
+        "order" : "TradeRoutine"
       },
-      "quota": {
-        "galaxy": 18,
-        "cluster": 3
+      "quota" : {
+        "galaxy" : 18,
+        "cluster" : 3
       },
-      "location": {
-        "macro": "xu_ep2_universe_macro",
-        "clazz": "galaxy",
-        "relation": "member",
-        "comparison": "ge",
-        "faction": "argon"
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "ally",
+        "comparison" : "ge",
+        "faction" : "argon"
       },
-      "environment": {
-        "buildatshipyard": true
+      "environment" : {
+        "buildatshipyard" : true
       },
-      "modifiers": {
-        "commandeerable": true,
-        "rebuild": false
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : false
       },
-      "ship": {
-        "select": {
-          "faction": "argon",
-          "size": "ship_m",
-          "tags": "[trader, container]"
+      "ship" : {
+        "select" : {
+          "faction" : "argon",
+          "size" : "ship_m",
+          "tags" : "[trader, container]"
         },
-        "loadout": {
-          "level": {
-            "max": 0.4,
-            "min": 0.0
-          }
-        },
-        "owner": {
-          "exact": "argon",
-          "overridenpc": true
+        "loadout" : { },
+        "owner" : {
+          "exact" : "argon",
+          "overridenpc" : true
         }
       }
-    },
-    {
-      "id": "argon_ship_construction_trader_l",
-      "name": "{20204,301}",
-      "basket": "construction_ships",
-      "category": {
-        "faction": "argon",
-        "tags": "[factionlogic, freighter, trader]",
-        "size": "ship_l"
+    }, {
+      "id" : "argon_ship_construction_trader_l",
+      "name" : "{20204,301}",
+      "basket" : "construction_ships",
+      "category" : {
+        "faction" : "argon",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_l"
       },
-      "order": {
-        "params": {
-          "minsell": "0",
-          "maxsell": "5",
-          "maxbuy": "5",
-          "minbuy": "0"
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
         },
-        "defaultOrder": true,
-        "order": "TradeRoutine"
+        "defaultOrder" : true,
+        "order" : "TradeRoutine"
       },
-      "quota": {
-        "galaxy": 1
+      "quota" : {
+        "galaxy" : 1
       },
-      "location": {
-        "macro": "xu_ep2_universe_macro",
-        "clazz": "galaxy",
-        "relation": "member",
-        "comparison": "ge",
-        "faction": "argon"
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "ally",
+        "comparison" : "ge",
+        "faction" : "argon"
       },
-      "environment": {
-        "buildatshipyard": true
+      "environment" : {
+        "buildatshipyard" : true
       },
-      "modifiers": {
-        "commandeerable": true,
-        "rebuild": true
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : true
       },
-      "ship": {
-        "select": {
-          "faction": "argon",
-          "size": "ship_l",
-          "tags": "[trader, container]"
+      "ship" : {
+        "select" : {
+          "faction" : "argon",
+          "size" : "ship_l",
+          "tags" : "[trader, container]"
         },
-        "loadout": {
-          "level": {
-            "max": 0.4,
-            "min": 0.0
-          }
-        },
-        "owner": {
-          "exact": "argon",
-          "overridenpc": true
+        "loadout" : { },
+        "owner" : {
+          "exact" : "argon",
+          "overridenpc" : true
         }
       }
-    },
-    {
-      "id": "argon_ship_construction_trader_m",
-      "name": "{20204,401}",
-      "basket": "construction_ships",
-      "category": {
-        "faction": "argon",
-        "tags": "[factionlogic, freighter, trader]",
-        "size": "ship_m"
+    }, {
+      "id" : "argon_hullparts_trader_l",
+      "name" : "{20204,701}",
+      "basket" : "hullparts",
+      "category" : {
+        "faction" : "argon",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_l"
       },
-      "order": {
-        "params": {
-          "minsell": "0",
-          "maxsell": "5",
-          "maxbuy": "5",
-          "minbuy": "0"
+      "order" : {
+        "params" : {
+          "range" : "5"
         },
-        "defaultOrder": true,
-        "order": "TradeRoutine"
+        "defaultOrder" : true,
+        "order" : "Middleman"
       },
-      "quota": {
-        "galaxy": 2,
-        "cluster": 1
+      "quota" : {
+        "galaxy" : 1
       },
-      "location": {
-        "macro": "xu_ep2_universe_macro",
-        "clazz": "galaxy",
-        "relation": "member",
-        "comparison": "ge",
-        "faction": "argon"
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "ally",
+        "comparison" : "ge",
+        "faction" : "argon"
       },
-      "environment": {
-        "buildatshipyard": true
+      "environment" : {
+        "buildatshipyard" : true
       },
-      "modifiers": {
-        "commandeerable": true,
-        "rebuild": true
+      "modifiers" : {
+        "commandeerable" : false,
+        "rebuild" : true
       },
-      "ship": {
-        "select": {
-          "faction": "argon",
-          "size": "ship_m",
-          "tags": "[trader, container]"
+      "ship" : {
+        "select" : {
+          "faction" : "argon",
+          "size" : "ship_l",
+          "tags" : "[trader, container]"
         },
-        "loadout": {
-          "level": {
-            "max": 0.4,
-            "min": 0.0
-          }
-        },
-        "owner": {
-          "exact": "argon",
-          "overridenpc": true
+        "loadout" : { },
+        "owner" : {
+          "exact" : "argon",
+          "overridenpc" : true
         }
       }
-    },
-    {
-      "id": "argon_refinedgas_trader_l",
-      "name": "{20204,501}",
-      "basket": "refined_gas",
-      "category": {
-        "faction": "argon",
-        "tags": "[factionlogic, freighter, trader]",
-        "size": "ship_l"
+    }, {
+      "id" : "argon_ship_construction_trader_m",
+      "name" : "{20204,401}",
+      "basket" : "construction_ships",
+      "category" : {
+        "faction" : "argon",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_m"
       },
-      "order": {
-        "params": {
-          "minsell": "0",
-          "maxsell": "5",
-          "maxbuy": "5",
-          "minbuy": "0"
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
         },
-        "defaultOrder": true,
-        "order": "TradeRoutine"
+        "defaultOrder" : true,
+        "order" : "TradeRoutine"
       },
-      "quota": {
-        "galaxy": 2,
-        "cluster": 1
+      "quota" : {
+        "galaxy" : 2,
+        "cluster" : 1
       },
-      "location": {
-        "macro": "xu_ep2_universe_macro",
-        "clazz": "galaxy",
-        "relation": "member",
-        "comparison": "ge",
-        "faction": "argon"
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "ally",
+        "comparison" : "ge",
+        "faction" : "argon"
       },
-      "environment": {
-        "buildatshipyard": true
+      "environment" : {
+        "buildatshipyard" : true
       },
-      "modifiers": {
-        "commandeerable": true,
-        "rebuild": false
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : true
       },
-      "ship": {
-        "select": {
-          "faction": "argon",
-          "size": "ship_l",
-          "tags": "[trader, container]"
+      "ship" : {
+        "select" : {
+          "faction" : "argon",
+          "size" : "ship_m",
+          "tags" : "[trader, container]"
         },
-        "loadout": {
-          "level": {
-            "max": 0.4,
-            "min": 0.0
-          }
-        },
-        "owner": {
-          "exact": "argon",
-          "overridenpc": true
+        "loadout" : { },
+        "owner" : {
+          "exact" : "argon",
+          "overridenpc" : true
         }
       }
-    },
-    {
-      "id": "argon_refinedgas_trader_m",
-      "name": "{20204,601}",
-      "basket": "refined_gas",
-      "category": {
-        "faction": "argon",
-        "tags": "[factionlogic, freighter, trader]",
-        "size": "ship_m"
+    }, {
+      "id" : "argon_ship_construction_trader_m_expanded",
+      "name" : "{20204,401}",
+      "basket" : "construction_ships_expanded",
+      "category" : {
+        "faction" : "argon",
+        "tags" : "[freighter, trader]",
+        "size" : "ship_m"
       },
-      "order": {
-        "params": {
-          "minsell": "0",
-          "maxsell": "5",
-          "maxbuy": "5",
-          "minbuy": "0"
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
         },
-        "defaultOrder": true,
-        "order": "TradeRoutine"
+        "defaultOrder" : true,
+        "order" : "TradeRoutine"
       },
-      "quota": {
-        "galaxy": 18,
-        "cluster": 3,
-        "sector": 2
+      "quota" : {
+        "galaxy" : 15,
+        "cluster" : 5
       },
-      "location": {
-        "macro": "xu_ep2_universe_macro",
-        "clazz": "galaxy",
-        "relation": "member",
-        "comparison": "ge",
-        "faction": "argon"
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "matchExtension" : false
       },
-      "environment": {
-        "buildatshipyard": true
+      "environment" : {
+        "buildatshipyard" : true
       },
-      "modifiers": {
-        "commandeerable": true,
-        "rebuild": false
+      "modifiers" : {
+        "commandeerable" : false,
+        "rebuild" : true
       },
-      "ship": {
-        "select": {
-          "faction": "argon",
-          "size": "ship_m",
-          "tags": "[trader, container]"
+      "ship" : {
+        "select" : {
+          "faction" : "argon",
+          "size" : "ship_m",
+          "tags" : "[trader, container]"
         },
-        "loadout": {
-          "level": {
-            "max": 0.4,
-            "min": 0.0
-          }
-        },
-        "owner": {
-          "exact": "argon",
-          "overridenpc": true
+        "loadout" : { },
+        "owner" : {
+          "exact" : "argon",
+          "overridenpc" : true
         }
       }
-    },
-    {
-      "id": "argon_refinedmineral_trader_l",
-      "name": "{20204,501}",
-      "basket": "refined_mineral",
-      "category": {
-        "faction": "argon",
-        "tags": "[factionlogic, freighter, trader]",
-        "size": "ship_l"
+    }, {
+      "id" : "argon_refinedgas_trader_l",
+      "name" : "{20204,501}",
+      "basket" : "refined_gas",
+      "category" : {
+        "faction" : "argon",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_l"
       },
-      "order": {
-        "params": {
-          "minsell": "0",
-          "maxsell": "5",
-          "maxbuy": "5",
-          "minbuy": "0"
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
         },
-        "defaultOrder": true,
-        "order": "TradeRoutine"
+        "defaultOrder" : true,
+        "order" : "TradeRoutine"
       },
-      "quota": {
-        "galaxy": 5,
-        "cluster": 2
+      "quota" : {
+        "galaxy" : 2,
+        "cluster" : 1
       },
-      "location": {
-        "macro": "xu_ep2_universe_macro",
-        "clazz": "galaxy",
-        "relation": "member",
-        "comparison": "ge",
-        "faction": "argon"
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "ally",
+        "comparison" : "ge",
+        "faction" : "argon"
       },
-      "environment": {
-        "buildatshipyard": true
+      "environment" : {
+        "buildatshipyard" : true
       },
-      "modifiers": {
-        "commandeerable": true,
-        "rebuild": false
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : false
       },
-      "ship": {
-        "select": {
-          "faction": "argon",
-          "size": "ship_l",
-          "tags": "[trader, container]"
+      "ship" : {
+        "select" : {
+          "faction" : "argon",
+          "size" : "ship_l",
+          "tags" : "[trader, container]"
         },
-        "loadout": {
-          "level": {
-            "max": 0.4,
-            "min": 0.0
-          }
-        },
-        "owner": {
-          "exact": "argon",
-          "overridenpc": true
+        "loadout" : { },
+        "owner" : {
+          "exact" : "argon",
+          "overridenpc" : true
         }
       }
-    },
-    {
-      "id": "argon_refinedmineral_trader_m",
-      "name": "{20204,601}",
-      "basket": "refined_mineral",
-      "category": {
-        "faction": "argon",
-        "tags": "[factionlogic, freighter, trader]",
-        "size": "ship_m"
+    }, {
+      "id" : "argon_refinedgas_trader_m",
+      "name" : "{20204,601}",
+      "basket" : "refined_gas",
+      "category" : {
+        "faction" : "argon",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_m"
       },
-      "order": {
-        "params": {
-          "minsell": "0",
-          "maxsell": "5",
-          "maxbuy": "5",
-          "minbuy": "0"
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
         },
-        "defaultOrder": true,
-        "order": "TradeRoutine"
+        "defaultOrder" : true,
+        "order" : "TradeRoutine"
       },
-      "quota": {
-        "galaxy": 15,
-        "cluster": 3,
-        "sector": 3
+      "quota" : {
+        "galaxy" : 18,
+        "cluster" : 3,
+        "sector" : 2
       },
-      "location": {
-        "macro": "xu_ep2_universe_macro",
-        "clazz": "galaxy",
-        "relation": "member",
-        "comparison": "ge",
-        "faction": "argon"
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "ally",
+        "comparison" : "ge",
+        "faction" : "argon"
       },
-      "environment": {
-        "buildatshipyard": true
+      "environment" : {
+        "buildatshipyard" : true
       },
-      "modifiers": {
-        "commandeerable": true,
-        "rebuild": false
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : false
       },
-      "ship": {
-        "select": {
-          "faction": "argon",
-          "size": "ship_m",
-          "tags": "[trader, container]"
+      "ship" : {
+        "select" : {
+          "faction" : "argon",
+          "size" : "ship_m",
+          "tags" : "[trader, container]"
         },
-        "loadout": {
-          "level": {
-            "max": 0.4,
-            "min": 0.0
-          }
-        },
-        "owner": {
-          "exact": "argon",
-          "overridenpc": true
+        "loadout" : { },
+        "owner" : {
+          "exact" : "argon",
+          "overridenpc" : true
         }
       }
-    },
-    {
-      "id": "argon_tech_trader_l",
-      "name": "{20204,301}",
-      "basket": "tech",
-      "category": {
-        "faction": "argon",
-        "tags": "[factionlogic, freighter, trader]",
-        "size": "ship_l"
+    }, {
+      "id" : "argon_refinedmineral_trader_l",
+      "name" : "{20204,501}",
+      "basket" : "refined_mineral",
+      "category" : {
+        "faction" : "argon",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_l"
       },
-      "order": {
-        "params": {
-          "minsell": "0",
-          "maxsell": "5",
-          "maxbuy": "5",
-          "minbuy": "0"
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
         },
-        "defaultOrder": true,
-        "order": "TradeRoutine"
+        "defaultOrder" : true,
+        "order" : "TradeRoutine"
       },
-      "quota": {
-        "galaxy": 5,
-        "cluster": 2,
-        "sector": 2
+      "quota" : {
+        "galaxy" : 5,
+        "cluster" : 2
       },
-      "location": {
-        "macro": "xu_ep2_universe_macro",
-        "clazz": "galaxy",
-        "relation": "member",
-        "comparison": "ge",
-        "faction": "argon"
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "ally",
+        "comparison" : "ge",
+        "faction" : "argon"
       },
-      "environment": {
-        "buildatshipyard": true
+      "environment" : {
+        "buildatshipyard" : true
       },
-      "modifiers": {
-        "commandeerable": true,
-        "rebuild": false
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : false
       },
-      "ship": {
-        "select": {
-          "faction": "argon",
-          "size": "ship_l",
-          "tags": "[trader, container]"
+      "ship" : {
+        "select" : {
+          "faction" : "argon",
+          "size" : "ship_l",
+          "tags" : "[trader, container]"
         },
-        "loadout": {
-          "level": {
-            "max": 0.7,
-            "min": 0.4
-          }
-        },
-        "owner": {
-          "exact": "argon",
-          "overridenpc": true
+        "loadout" : { },
+        "owner" : {
+          "exact" : "argon",
+          "overridenpc" : true
         }
       }
-    },
-    {
-      "id": "argon_tech_trader_m",
-      "name": "{20204,401}",
-      "basket": "tech",
-      "category": {
-        "faction": "argon",
-        "tags": "[factionlogic, freighter, trader]",
-        "size": "ship_m"
+    }, {
+      "id" : "argon_refinedmineral_trader_m",
+      "name" : "{20204,601}",
+      "basket" : "refined_mineral",
+      "category" : {
+        "faction" : "argon",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_m"
       },
-      "order": {
-        "params": {
-          "range": "5"
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
         },
-        "defaultOrder": true,
-        "order": "Middleman"
+        "defaultOrder" : true,
+        "order" : "TradeRoutine"
       },
-      "quota": {
-        "galaxy": 5,
-        "cluster": 3,
-        "sector": 2
+      "quota" : {
+        "galaxy" : 15,
+        "cluster" : 3,
+        "sector" : 3
       },
-      "location": {
-        "macro": "xu_ep2_universe_macro",
-        "clazz": "galaxy",
-        "relation": "member",
-        "comparison": "ge",
-        "faction": "argon"
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "ally",
+        "comparison" : "ge",
+        "faction" : "argon"
       },
-      "environment": {
-        "buildatshipyard": true
+      "environment" : {
+        "buildatshipyard" : true
       },
-      "modifiers": {
-        "commandeerable": true,
-        "rebuild": false
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : false
       },
-      "ship": {
-        "select": {
-          "faction": "argon",
-          "size": "ship_m",
-          "tags": "[trader, container]"
+      "ship" : {
+        "select" : {
+          "faction" : "argon",
+          "size" : "ship_m",
+          "tags" : "[trader, container]"
         },
-        "loadout": {
-          "level": {
-            "max": 0.7,
-            "min": 0.4
-          }
-        },
-        "owner": {
-          "exact": "argon",
-          "overridenpc": true
+        "loadout" : { },
+        "owner" : {
+          "exact" : "argon",
+          "overridenpc" : true
         }
       }
-    },
-    {
-      "id": "argon_tech_trader_s",
-      "name": "{20204,401}",
-      "basket": "tech",
-      "category": {
-        "faction": "argon",
-        "tags": "[factionlogic, freighter, trader]",
-        "size": "ship_s"
+    }, {
+      "id" : "argon_tech_trader_l",
+      "name" : "{20204,301}",
+      "basket" : "tech",
+      "category" : {
+        "faction" : "argon",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_l"
       },
-      "order": {
-        "params": {
-          "range": "5"
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
         },
-        "defaultOrder": true,
-        "order": "Middleman"
+        "defaultOrder" : true,
+        "order" : "TradeRoutine"
       },
-      "quota": {
-        "galaxy": 10,
-        "cluster": 3,
-        "sector": 2
+      "quota" : {
+        "galaxy" : 5,
+        "cluster" : 2,
+        "sector" : 2
       },
-      "location": {
-        "macro": "xu_ep2_universe_macro",
-        "clazz": "galaxy",
-        "relation": "member",
-        "comparison": "ge",
-        "faction": "argon"
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "ally",
+        "comparison" : "ge",
+        "faction" : "argon"
       },
-      "environment": {
-        "buildatshipyard": true
+      "environment" : {
+        "buildatshipyard" : true
       },
-      "modifiers": {
-        "commandeerable": true,
-        "rebuild": false
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : false
       },
-      "ship": {
-        "select": {
-          "faction": "argon",
-          "size": "ship_s",
-          "tags": "[trader, container]"
+      "ship" : {
+        "select" : {
+          "faction" : "argon",
+          "size" : "ship_l",
+          "tags" : "[trader, container]"
         },
-        "loadout": {
-          "level": {
-            "max": 0.7,
-            "min": 0.4
-          }
-        },
-        "owner": {
-          "exact": "argon",
-          "overridenpc": true
+        "loadout" : { },
+        "owner" : {
+          "exact" : "argon",
+          "overridenpc" : true
         }
       }
-    },
-    {
-      "id": "argon_water_trader_l",
-      "name": "{20204,1501}",
-      "basket": "water",
-      "category": {
-        "faction": "argon",
-        "tags": "[factionlogic, freighter, trader]",
-        "size": "ship_l"
+    }, {
+      "id" : "argon_tech_trader_m",
+      "name" : "{20204,401}",
+      "basket" : "tech",
+      "category" : {
+        "faction" : "argon",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_m"
       },
-      "order": {
-        "params": {
-          "minsell": "0",
-          "maxsell": "5",
-          "maxbuy": "5",
-          "minbuy": "0"
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
         },
-        "defaultOrder": true,
-        "order": "TradeRoutine"
+        "defaultOrder" : true,
+        "order" : "TradeRoutine"
       },
-      "quota": {
-        "galaxy": 3,
-        "cluster": 1
+      "quota" : {
+        "galaxy" : 5,
+        "cluster" : 3,
+        "sector" : 2
       },
-      "location": {
-        "macro": "xu_ep2_universe_macro",
-        "clazz": "galaxy",
-        "relation": "member",
-        "comparison": "ge",
-        "faction": "argon"
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "ally",
+        "comparison" : "ge",
+        "faction" : "argon"
       },
-      "environment": {
-        "buildatshipyard": true
+      "environment" : {
+        "buildatshipyard" : true
       },
-      "modifiers": {
-        "commandeerable": true,
-        "rebuild": false
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : false
       },
-      "ship": {
-        "select": {
-          "faction": "argon",
-          "size": "ship_l",
-          "tags": "[trader, container]"
+      "ship" : {
+        "select" : {
+          "faction" : "argon",
+          "size" : "ship_m",
+          "tags" : "[trader, container]"
         },
-        "loadout": {
-          "level": {
-            "max": 0.4,
-            "min": 0.0
-          }
-        },
-        "owner": {
-          "exact": "argon",
-          "overridenpc": true
+        "loadout" : { },
+        "owner" : {
+          "exact" : "argon",
+          "overridenpc" : true
         }
       }
-    },
-    {
-      "id": "argon_water_trader_m",
-      "name": "{20204,1601}",
-      "basket": "water",
-      "category": {
-        "faction": "argon",
-        "tags": "[factionlogic, freighter, trader]",
-        "size": "ship_m"
+    }, {
+      "id" : "argon_tech_trader_s",
+      "name" : "{20204,401}",
+      "basket" : "tech",
+      "category" : {
+        "faction" : "argon",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_s"
       },
-      "order": {
-        "params": {
-          "range": "5"
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
         },
-        "defaultOrder": true,
-        "order": "Middleman"
+        "defaultOrder" : true,
+        "order" : "TradeRoutine"
       },
-      "quota": {
-        "galaxy": 10,
-        "cluster": 4,
-        "sector": 2
+      "quota" : {
+        "galaxy" : 10,
+        "cluster" : 3,
+        "sector" : 2
       },
-      "location": {
-        "macro": "xu_ep2_universe_macro",
-        "clazz": "galaxy",
-        "relation": "member",
-        "comparison": "ge",
-        "faction": "argon"
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "ally",
+        "comparison" : "ge",
+        "faction" : "argon"
       },
-      "environment": {
-        "buildatshipyard": true
+      "environment" : {
+        "buildatshipyard" : true
       },
-      "modifiers": {
-        "commandeerable": true,
-        "rebuild": false
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : false
       },
-      "ship": {
-        "select": {
-          "faction": "argon",
-          "size": "ship_m",
-          "tags": "[trader, container]"
+      "ship" : {
+        "select" : {
+          "faction" : "argon",
+          "size" : "ship_s",
+          "tags" : "[trader, container]"
         },
-        "loadout": {
-          "level": {
-            "max": 0.4,
-            "min": 0.0
-          }
-        },
-        "owner": {
-          "exact": "argon",
-          "overridenpc": true
+        "loadout" : { },
+        "owner" : {
+          "exact" : "argon",
+          "overridenpc" : true
         }
       }
-    },
-    {
-      "id": "argon_stationtrader_m",
-      "name": "{20204,801}",
-      "basket": "all_container",
-      "category": {
-        "faction": "argon",
-        "tags": "[stationtrader]",
-        "size": "ship_m"
+    }, {
+      "id" : "argon_water_trader_l",
+      "name" : "{20204,1501}",
+      "basket" : "water",
+      "category" : {
+        "faction" : "argon",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_l"
       },
-      "order": {
-        "params": {
-          "maxbuy": "5"
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
         },
-        "defaultOrder": true,
-        "order": "TradeRoutine"
+        "defaultOrder" : true,
+        "order" : "TradeRoutine"
       },
-      "quota": {
-        "galaxy": 0,
-        "maxgalaxy": 10
+      "quota" : {
+        "galaxy" : 3,
+        "cluster" : 1
       },
-      "location": {
-        "macro": "xu_ep2_universe_macro",
-        "clazz": "galaxy",
-        "relation": "member",
-        "comparison": "ge",
-        "faction": "argon"
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "ally",
+        "comparison" : "ge",
+        "faction" : "argon"
       },
-      "environment": {
-        "buildatshipyard": true
+      "environment" : {
+        "buildatshipyard" : true
       },
-      "modifiers": {
-        "commandeerable": false,
-        "rebuild": false
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : false
       },
-      "ship": {
-        "select": {
-          "faction": "argon",
-          "size": "ship_m",
-          "tags": "[trader, container]"
+      "ship" : {
+        "select" : {
+          "faction" : "argon",
+          "size" : "ship_l",
+          "tags" : "[trader, container]"
         },
-        "loadout": {
-          "level": {
-            "max": 0.6,
-            "min": 0.0
-          }
-        },
-        "owner": {
-          "exact": "argon",
-          "overridenpc": true
+        "loadout" : { },
+        "owner" : {
+          "exact" : "argon",
+          "overridenpc" : true
         }
       }
-    },
-    {
-      "id": "argon_stationtrader_l",
-      "name": "{20204,701}",
-      "basket": "all_container",
-      "category": {
-        "faction": "argon",
-        "tags": "[stationtrader]",
-        "size": "ship_l"
+    }, {
+      "id" : "argon_water_trader_m",
+      "name" : "{20204,1601}",
+      "basket" : "water",
+      "category" : {
+        "faction" : "argon",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_m"
       },
-      "order": {
-        "params": {
-          "maxbuy": "5"
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
         },
-        "defaultOrder": true,
-        "order": "TradeRoutine"
+        "defaultOrder" : true,
+        "order" : "TradeRoutine"
       },
-      "quota": {
-        "galaxy": 0,
-        "maxgalaxy": 3
+      "quota" : {
+        "galaxy" : 10,
+        "cluster" : 4,
+        "sector" : 2
       },
-      "location": {
-        "macro": "xu_ep2_universe_macro",
-        "clazz": "galaxy",
-        "relation": "member",
-        "comparison": "ge",
-        "faction": "argon"
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "ally",
+        "comparison" : "ge",
+        "faction" : "argon"
       },
-      "environment": {
-        "buildatshipyard": true
+      "environment" : {
+        "buildatshipyard" : true
       },
-      "modifiers": {
-        "commandeerable": false,
-        "rebuild": false
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : false
       },
-      "ship": {
-        "select": {
-          "faction": "argon",
-          "size": "ship_l",
-          "tags": "[trader, container]"
+      "ship" : {
+        "select" : {
+          "faction" : "argon",
+          "size" : "ship_m",
+          "tags" : "[trader, container]"
         },
-        "loadout": {
-          "level": {
-            "max": 0.6,
-            "min": 0.0
-          }
-        },
-        "owner": {
-          "exact": "argon",
-          "overridenpc": true
+        "loadout" : { },
+        "owner" : {
+          "exact" : "argon",
+          "overridenpc" : true
         }
       }
-    },
-    {
-      "id": "argon_free_miner_l_liquid",
-      "name": "{20204,5701}",
-      "basket": "gases",
-      "category": {
-        "faction": "argon",
-        "tags": "[factionlogic, freighter, miner]",
-        "size": "ship_l"
+    }, {
+      "id" : "argon_stationtrader_m",
+      "name" : "{20204,801}",
+      "basket" : "all_container",
+      "category" : {
+        "faction" : "argon",
+        "tags" : "[stationtrader]",
+        "size" : "ship_m"
       },
-      "order": {
-        "params": {
-          "minsell": "0",
-          "maxsell": "5",
-          "maxbuy": "5",
-          "minbuy": "0"
+      "order" : {
+        "params" : {
+          "maxbuy" : "5"
         },
-        "defaultOrder": true,
-        "order": "MiningRoutine"
+        "defaultOrder" : true,
+        "order" : "TradeRoutine"
       },
-      "quota": {
-        "galaxy": 2
+      "quota" : {
+        "galaxy" : 0,
+        "maxgalaxy" : 10
       },
-      "location": {
-        "macro": "xu_ep2_universe_macro",
-        "clazz": "galaxy",
-        "regionBasket": "gases",
-        "relation": "member",
-        "comparison": "ge",
-        "faction": "argon"
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "ally",
+        "comparison" : "ge",
+        "faction" : "argon"
       },
-      "environment": {
-        "buildatshipyard": true
+      "environment" : {
+        "buildatshipyard" : true
       },
-      "modifiers": {
-        "commandeerable": true,
-        "rebuild": false
+      "modifiers" : {
+        "commandeerable" : false,
+        "rebuild" : false
       },
-      "ship": {
-        "select": {
-          "faction": "argon",
-          "size": "ship_l",
-          "tags": "[miner, liquid]"
+      "ship" : {
+        "select" : {
+          "faction" : "argon",
+          "size" : "ship_m",
+          "tags" : "[trader, container]"
         },
-        "loadout": {
-          "level": {
-            "max": 0.7,
-            "min": 0.0
-          }
+        "loadout" : { },
+        "owner" : {
+          "exact" : "argon",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "argon_stationtrader_l",
+      "name" : "{20204,701}",
+      "basket" : "all_container",
+      "category" : {
+        "faction" : "argon",
+        "tags" : "[stationtrader]",
+        "size" : "ship_l"
+      },
+      "order" : {
+        "params" : {
+          "maxbuy" : "5"
         },
-        "owner": {
-          "exact": "argon",
-          "overridenpc": true
+        "defaultOrder" : true,
+        "order" : "TradeRoutine"
+      },
+      "quota" : {
+        "galaxy" : 0,
+        "maxgalaxy" : 3
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "ally",
+        "comparison" : "ge",
+        "faction" : "argon"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : false,
+        "rebuild" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "argon",
+          "size" : "ship_l",
+          "tags" : "[trader, container]"
         },
-        "cargo": {
-          "fillPercent": {
-            "min": "100",
-            "max": "0",
-            "profile": "inversebell"
+        "loadout" : { },
+        "owner" : {
+          "exact" : "argon",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "argon_stationminer_m_liquid",
+      "name" : "{20204,5701}",
+      "basket" : "gases",
+      "category" : {
+        "faction" : "argon",
+        "tags" : "[stationminerliquid]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "params" : {
+          "maxbuy" : "5"
+        },
+        "defaultOrder" : true,
+        "order" : "MiningRoutine"
+      },
+      "quota" : {
+        "galaxy" : 5,
+        "maxgalaxy" : 30
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "ally",
+        "comparison" : "ge",
+        "faction" : "argon"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "argon",
+          "size" : "ship_m",
+          "tags" : "[miner, liquid]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "argon",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "argon_stationminer_m_solid",
+      "name" : "{20204,5601}",
+      "basket" : "minerals",
+      "category" : {
+        "faction" : "argon",
+        "tags" : "[stationminersolid]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "params" : {
+          "maxbuy" : "5"
+        },
+        "defaultOrder" : true,
+        "order" : "MiningRoutine"
+      },
+      "quota" : {
+        "galaxy" : 5,
+        "maxgalaxy" : 30
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "ally",
+        "comparison" : "ge",
+        "faction" : "argon"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "argon",
+          "size" : "ship_m",
+          "tags" : "[miner, solid]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "argon",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "argon_free_miner_l_liquid",
+      "name" : "{20204,5701}",
+      "basket" : "gases",
+      "category" : {
+        "faction" : "argon",
+        "tags" : "[factionlogic, freighter, miner]",
+        "size" : "ship_l"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "MiningRoutine"
+      },
+      "quota" : {
+        "galaxy" : 2
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "regionBasket" : "gases",
+        "relation" : "ally",
+        "comparison" : "ge",
+        "faction" : "argon"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "argon",
+          "size" : "ship_l",
+          "tags" : "[miner, liquid]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "argon",
+          "overridenpc" : true
+        },
+        "cargo" : {
+          "fillPercent" : {
+            "min" : "100",
+            "max" : "0",
+            "profile" : "inversebell"
           },
-          "multiple": true
+          "multiple" : true
         }
       }
-    },
-    {
-      "id": "argon_free_miner_m_liquid",
-      "name": "{20204,5701}",
-      "basket": "gases",
-      "category": {
-        "faction": "argon",
-        "tags": "[factionlogic, freighter, miner]",
-        "size": "ship_m"
+    }, {
+      "id" : "argon_free_miner_m_liquid",
+      "name" : "{20204,5701}",
+      "basket" : "gases",
+      "category" : {
+        "faction" : "argon",
+        "tags" : "[factionlogic, freighter, miner]",
+        "size" : "ship_m"
       },
-      "order": {
-        "params": {
-          "minsell": "0",
-          "maxsell": "5",
-          "maxbuy": "5",
-          "minbuy": "0"
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
         },
-        "defaultOrder": true,
-        "order": "MiningRoutine"
+        "defaultOrder" : true,
+        "order" : "MiningRoutine"
       },
-      "quota": {
-        "galaxy": 8
+      "quota" : {
+        "galaxy" : 4
       },
-      "location": {
-        "macro": "xu_ep2_universe_macro",
-        "clazz": "galaxy",
-        "regionBasket": "gases",
-        "relation": "member",
-        "comparison": "ge",
-        "faction": "argon"
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "regionBasket" : "gases",
+        "relation" : "ally",
+        "comparison" : "ge",
+        "faction" : "argon"
       },
-      "environment": {
-        "buildatshipyard": true
+      "environment" : {
+        "buildatshipyard" : true
       },
-      "modifiers": {
-        "commandeerable": true,
-        "rebuild": false
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : true
       },
-      "ship": {
-        "select": {
-          "faction": "argon",
-          "size": "ship_m",
-          "tags": "[miner, liquid]"
+      "ship" : {
+        "select" : {
+          "faction" : "argon",
+          "size" : "ship_m",
+          "tags" : "[miner, liquid]"
         },
-        "loadout": {
-          "level": {
-            "max": 0.7,
-            "min": 0.0
-          }
+        "loadout" : { },
+        "owner" : {
+          "exact" : "argon",
+          "overridenpc" : true
         },
-        "owner": {
-          "exact": "argon",
-          "overridenpc": true
-        },
-        "cargo": {
-          "fillPercent": {
-            "min": "100",
-            "max": "0",
-            "profile": "inversebell"
+        "cargo" : {
+          "fillPercent" : {
+            "min" : "100",
+            "max" : "0",
+            "profile" : "inversebell"
           }
         }
       }
-    },
-    {
-      "id": "argon_free_miner_l_mineral",
-      "name": "{20204,5601}",
-      "basket": "minerals",
-      "category": {
-        "faction": "argon",
-        "tags": "[factionlogic, freighter, miner]",
-        "size": "ship_l"
+    }, {
+      "id" : "argon_free_miner_l_mineral",
+      "name" : "{20204,5601}",
+      "basket" : "minerals",
+      "category" : {
+        "faction" : "argon",
+        "tags" : "[factionlogic, freighter, miner]",
+        "size" : "ship_l"
       },
-      "order": {
-        "params": {
-          "minsell": "0",
-          "maxsell": "5",
-          "maxbuy": "5",
-          "minbuy": "0"
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
         },
-        "defaultOrder": true,
-        "order": "MiningRoutine"
+        "defaultOrder" : true,
+        "order" : "MiningRoutine"
       },
-      "quota": {
-        "galaxy": 8
+      "quota" : {
+        "galaxy" : 8
       },
-      "location": {
-        "macro": "xu_ep2_universe_macro",
-        "clazz": "galaxy",
-        "regionBasket": "minerals",
-        "relation": "member",
-        "comparison": "ge",
-        "faction": "argon"
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "regionBasket" : "minerals",
+        "relation" : "ally",
+        "comparison" : "ge",
+        "faction" : "argon"
       },
-      "environment": {
-        "buildatshipyard": true
+      "environment" : {
+        "buildatshipyard" : true
       },
-      "modifiers": {
-        "commandeerable": true,
-        "rebuild": false
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : true
       },
-      "ship": {
-        "select": {
-          "faction": "argon",
-          "size": "ship_l",
-          "tags": "[miner, solid]"
+      "ship" : {
+        "select" : {
+          "faction" : "argon",
+          "size" : "ship_l",
+          "tags" : "[miner, solid]"
         },
-        "loadout": {
-          "level": {
-            "max": 0.7,
-            "min": 0.0
-          }
+        "loadout" : { },
+        "owner" : {
+          "exact" : "argon",
+          "overridenpc" : true
         },
-        "owner": {
-          "exact": "argon",
-          "overridenpc": true
-        },
-        "cargo": {
-          "fillPercent": {
-            "min": "100",
-            "max": "0",
-            "profile": "inversebell"
+        "cargo" : {
+          "fillPercent" : {
+            "min" : "100",
+            "max" : "0",
+            "profile" : "inversebell"
           }
         }
       }
-    },
-    {
-      "id": "argon_free_miner_m_mineral",
-      "name": "{20204,5601}",
-      "basket": "minerals",
-      "category": {
-        "faction": "argon",
-        "tags": "[factionlogic, freighter, miner]",
-        "size": "ship_m"
+    }, {
+      "id" : "argon_free_miner_m_mineral",
+      "name" : "{20204,5601}",
+      "basket" : "minerals",
+      "category" : {
+        "faction" : "argon",
+        "tags" : "[factionlogic, freighter, miner]",
+        "size" : "ship_m"
       },
-      "order": {
-        "params": {
-          "minsell": "0",
-          "maxsell": "5",
-          "maxbuy": "5",
-          "minbuy": "0"
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
         },
-        "defaultOrder": true,
-        "order": "MiningRoutine"
+        "defaultOrder" : true,
+        "order" : "MiningRoutine"
       },
-      "quota": {
-        "galaxy": 17
+      "quota" : {
+        "galaxy" : 8
       },
-      "location": {
-        "macro": "xu_ep2_universe_macro",
-        "clazz": "galaxy",
-        "regionBasket": "minerals",
-        "relation": "member",
-        "comparison": "ge",
-        "faction": "argon"
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "regionBasket" : "minerals",
+        "relation" : "ally",
+        "comparison" : "ge",
+        "faction" : "argon"
       },
-      "environment": {
-        "buildatshipyard": true
+      "environment" : {
+        "buildatshipyard" : true
       },
-      "modifiers": {
-        "commandeerable": true,
-        "rebuild": false
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : true
       },
-      "ship": {
-        "select": {
-          "faction": "argon",
-          "size": "ship_m",
-          "tags": "[miner, solid]"
+      "ship" : {
+        "select" : {
+          "faction" : "argon",
+          "size" : "ship_m",
+          "tags" : "[miner, solid]"
         },
-        "loadout": {
-          "level": {
-            "max": 0.7,
-            "min": 0.0
-          }
+        "loadout" : { },
+        "owner" : {
+          "exact" : "argon",
+          "overridenpc" : true
         },
-        "owner": {
-          "exact": "argon",
-          "overridenpc": true
-        },
-        "cargo": {
-          "fillPercent": {
-            "min": "100",
-            "max": "0",
-            "profile": "inversebell"
+        "cargo" : {
+          "fillPercent" : {
+            "min" : "100",
+            "max" : "0",
+            "profile" : "inversebell"
           }
         }
       }
-    },
-    {
-      "id": "argon_free_miner_s_mineral",
-      "name": "{20204,5601}",
-      "basket": "minerals",
-      "category": {
-        "faction": "argon",
-        "tags": "[factionlogic, freighter, miner]",
-        "size": "ship_s"
+    }, {
+      "id" : "argon_free_miner_s_mineral",
+      "name" : "{20204,5601}",
+      "basket" : "minerals",
+      "category" : {
+        "faction" : "argon",
+        "tags" : "[factionlogic, freighter, miner]",
+        "size" : "ship_s"
       },
-      "order": {
-        "params": {
-          "minsell": "1",
-          "maxsell": "5",
-          "maxbuy": "5",
-          "minbuy": "0"
+      "order" : {
+        "params" : {
+          "minsell" : "1",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
         },
-        "defaultOrder": true,
-        "order": "MiningRoutine"
+        "defaultOrder" : true,
+        "order" : "MiningRoutine"
       },
-      "quota": {
-        "galaxy": 7
+      "quota" : {
+        "galaxy" : 4
       },
-      "location": {
-        "macro": "xu_ep2_universe_macro",
-        "clazz": "galaxy",
-        "regionBasket": "minerals",
-        "relation": "member",
-        "comparison": "ge",
-        "faction": "argon"
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "regionBasket" : "minerals",
+        "relation" : "ally",
+        "comparison" : "ge",
+        "faction" : "argon"
       },
-      "environment": {
-        "buildatshipyard": true
+      "environment" : {
+        "buildatshipyard" : true
       },
-      "modifiers": {
-        "commandeerable": true,
-        "rebuild": false
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : true
       },
-      "ship": {
-        "select": {
-          "faction": "argon",
-          "size": "ship_s",
-          "tags": "[miner, solid]"
+      "ship" : {
+        "select" : {
+          "faction" : "argon",
+          "size" : "ship_s",
+          "tags" : "[miner, solid]"
         },
-        "loadout": {
-          "level": {
-            "max": 0.7,
-            "min": 0.0
-          }
+        "loadout" : { },
+        "owner" : {
+          "exact" : "argon",
+          "overridenpc" : true
         },
-        "owner": {
-          "exact": "argon",
-          "overridenpc": true
-        },
-        "cargo": {
-          "fillPercent": {
-            "min": "100",
-            "max": "0",
-            "profile": "inversebell"
+        "cargo" : {
+          "fillPercent" : {
+            "min" : "100",
+            "max" : "0",
+            "profile" : "inversebell"
           }
         }
       }
-    },
-    {
-      "id": "argon_free_miner_l_ice",
-      "name": "{20204,2001}",
-      "basket": "ice",
-      "category": {
-        "faction": "argon",
-        "tags": "[factionlogic, freighter, miner]",
-        "size": "ship_l"
+    }, {
+      "id" : "argon_free_miner_s_nividium",
+      "name" : "{20204,5601}",
+      "basket" : "nividium",
+      "category" : {
+        "faction" : "argon",
+        "tags" : "[factionlogic, freighter, miner]",
+        "size" : "ship_s"
       },
-      "order": {
-        "params": {
-          "minsell": "0",
-          "maxsell": "5",
-          "maxbuy": "5",
-          "minbuy": "0"
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "7",
+          "maxbuy" : "7",
+          "minbuy" : "0"
         },
-        "defaultOrder": true,
-        "order": "MiningRoutine"
+        "defaultOrder" : true,
+        "order" : "MiningRoutine"
       },
-      "quota": {
-        "galaxy": 3
+      "quota" : {
+        "galaxy" : 1,
+        "maxgalaxy" : 1
       },
-      "location": {
-        "macro": "xu_ep2_universe_macro",
-        "clazz": "galaxy",
-        "regionBasket": "ice",
-        "relation": "member",
-        "comparison": "ge",
-        "faction": "argon"
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "regionBasket" : "minerals",
+        "relation" : "ally",
+        "comparison" : "ge",
+        "faction" : "argon"
       },
-      "environment": {
-        "buildatshipyard": true
+      "environment" : {
+        "buildatshipyard" : true
       },
-      "modifiers": {
-        "commandeerable": true,
-        "rebuild": false
+      "modifiers" : {
+        "commandeerable" : false,
+        "rebuild" : true
       },
-      "ship": {
-        "select": {
-          "faction": "argon",
-          "size": "ship_l",
-          "tags": "[miner, solid]"
+      "ship" : {
+        "select" : {
+          "faction" : "argon",
+          "size" : "ship_s",
+          "tags" : "[miner, solid]"
         },
-        "loadout": {
-          "level": {
-            "max": 0.7,
-            "min": 0.0
-          }
+        "loadout" : { },
+        "owner" : {
+          "exact" : "argon",
+          "overridenpc" : true
         },
-        "owner": {
-          "exact": "argon",
-          "overridenpc": true
-        },
-        "cargo": {
-          "fillPercent": {
-            "min": "100",
-            "max": "0",
-            "profile": "inversebell"
+        "cargo" : {
+          "fillPercent" : {
+            "min" : "100",
+            "max" : "0",
+            "profile" : "inversebell"
           }
         }
       }
-    },
-    {
-      "id": "argon_free_miner_m_ice",
-      "name": "{20204,2001}",
-      "basket": "ice",
-      "category": {
-        "faction": "argon",
-        "tags": "[factionlogic, freighter, miner]",
-        "size": "ship_m"
+    }, {
+      "id" : "argon_free_miner_l_ice",
+      "name" : "{20204,2001}",
+      "basket" : "ice",
+      "category" : {
+        "faction" : "argon",
+        "tags" : "[factionlogic, freighter, miner]",
+        "size" : "ship_l"
       },
-      "order": {
-        "params": {
-          "minsell": "0",
-          "maxsell": "5",
-          "maxbuy": "5",
-          "minbuy": "0"
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
         },
-        "defaultOrder": true,
-        "order": "MiningRoutine"
+        "defaultOrder" : true,
+        "order" : "MiningRoutine"
       },
-      "quota": {
-        "galaxy": 7
+      "quota" : {
+        "galaxy" : 3
       },
-      "location": {
-        "macro": "xu_ep2_universe_macro",
-        "clazz": "galaxy",
-        "regionBasket": "ice",
-        "relation": "member",
-        "comparison": "ge",
-        "faction": "argon"
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "regionBasket" : "ice",
+        "relation" : "ally",
+        "comparison" : "ge",
+        "faction" : "argon"
       },
-      "environment": {
-        "buildatshipyard": true
+      "environment" : {
+        "buildatshipyard" : true
       },
-      "modifiers": {
-        "commandeerable": true,
-        "rebuild": false
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : true
       },
-      "ship": {
-        "select": {
-          "faction": "argon",
-          "size": "ship_m",
-          "tags": "[miner, solid]"
+      "ship" : {
+        "select" : {
+          "faction" : "argon",
+          "size" : "ship_l",
+          "tags" : "[miner, solid]"
         },
-        "loadout": {
-          "level": {
-            "max": 0.7,
-            "min": 0.0
-          }
+        "loadout" : { },
+        "owner" : {
+          "exact" : "argon",
+          "overridenpc" : true
         },
-        "owner": {
-          "exact": "argon",
-          "overridenpc": true
-        },
-        "cargo": {
-          "fillPercent": {
-            "min": "100",
-            "max": "0",
-            "profile": "inversebell"
+        "cargo" : {
+          "fillPercent" : {
+            "min" : "100",
+            "max" : "0",
+            "profile" : "inversebell"
           }
         }
       }
-    },
-    {
+    }, {
+      "id" : "argon_free_miner_m_ice",
+      "name" : "{20204,2001}",
+      "basket" : "ice",
+      "category" : {
+        "faction" : "argon",
+        "tags" : "[factionlogic, freighter, miner]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "MiningRoutine"
+      },
+      "quota" : {
+        "galaxy" : 4
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "regionBasket" : "ice",
+        "relation" : "ally",
+        "comparison" : "ge",
+        "faction" : "argon"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "argon",
+          "size" : "ship_m",
+          "tags" : "[miner, solid]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "argon",
+          "overridenpc" : true
+        },
+        "cargo" : {
+          "fillPercent" : {
+            "min" : "100",
+            "max" : "0",
+            "profile" : "inversebell"
+          }
+        }
+      }
+    }, {
       "id": "argon_carrier_patrol_xl_center_galaxy",
       "name": "Argon One",
       "comment": "center - consider front line if center proves too deep",
@@ -2923,1635 +2993,1828 @@
         "argon_fighter_escort_s_carrier",
         "argon_resupplier_escort_xl"
       ]
-    },
-    {
-      "id": "argon_destroyer_patrol_l_sector",
-      "name": "{20204,3301}",
-      "comment": "each sector",
-      "category": {
-        "faction": "argon",
-        "tags": "[factionlogic, military, destroyer]",
-        "size": "ship_l"
+    }, {
+      "id" : "argon_carrier_patrol_xl_sector_phase2",
+      "name" : "{20204,3201}",
+      "startActive" : false,
+      "comment" : "fairly mobile. single capital ship with embarked fighters. strong focused strike, low tactical staying power if isolated. decent strategic staying power.",
+      "category" : {
+        "faction" : "argon",
+        "tags" : "[military, carrier, factionlogic, fleetphase_2]",
+        "size" : "ship_xl"
       },
-      "order": {
-        "params": {
-          "range": "class.cluster"
+      "order" : {
+        "params" : {
+          "range" : "class.sector"
         },
-        "defaultOrder": true,
-        "order": "Patrol"
+        "defaultOrder" : true,
+        "order" : "Patrol"
       },
-      "quota": {
-        "galaxy": 6,
-        "sector": 1
+      "quota" : {
+        "galaxy" : 2,
+        "sector" : 1
       },
-      "location": {
-        "macro": "xu_ep2_universe_macro",
-        "clazz": "galaxy",
-        "relation": "self",
-        "comparison": "exact",
-        "faction": "argon"
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "argon"
       },
-      "environment": {
-        "buildatshipyard": true
+      "environment" : {
+        "buildatshipyard" : true
       },
-      "modifiers": {
-        "commandeerable": true
+      "modifiers" : {
+        "commandeerable" : true
       },
-      "ship": {
-        "select": {
-          "faction": "argon",
-          "size": "ship_l",
-          "tags": "[military, destroyer]"
+      "ship" : {
+        "select" : {
+          "faction" : "argon",
+          "size" : "ship_xl",
+          "tags" : "[military, carrier]"
         },
-        "loadout": {
-          "level": {
-            "exact": 0.7
-          }
-        },
-        "owner": {
-          "exact": "argon",
-          "overridenpc": true
+        "loadout" : { },
+        "owner" : {
+          "exact" : "argon",
+          "overridenpc" : true
         }
       },
-      "subordinates": [
-        "argon_frigate_escort_m"
-      ]
-    },
-    {
-      "id": "argon_destroyer_patrol_l_comp",
-      "name": "{20204,3301}",
-      "comment": "compression",
-      "category": {
-        "faction": "argon",
-        "tags": "[factionlogic, military, destroyer]",
-        "size": "ship_l"
+      "subordinates" : [ "argon_fighter_escort_s_carrier" ]
+    }, {
+      "id" : "argon_destroyer_patrol_l_sector_phase2",
+      "name" : "{20204,3301}",
+      "startActive" : false,
+      "comment" : "each sector",
+      "category" : {
+        "faction" : "argon",
+        "tags" : "[factionlogic, military, destroyer, fleetphase_2]",
+        "size" : "ship_l"
       },
-      "order": {
-        "params": {
-          "range": "class.zone"
+      "order" : {
+        "params" : {
+          "range" : "class.sector"
         },
-        "defaultOrder": true,
-        "order": "Patrol"
+        "defaultOrder" : true,
+        "order" : "Patrol"
       },
-      "quota": {
-        "galaxy": 2,
-        "maxgalaxy": 11,
-        "cluster": 2
+      "quota" : {
+        "galaxy" : 4,
+        "sector" : 1
       },
-      "location": {
-        "macro": "xu_ep2_universe_macro",
-        "clazz": "galaxy",
-        "relation": "self",
-        "comparison": "exact",
-        "faction": "argon"
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "argon"
       },
-      "environment": {
-        "buildatshipyard": true
+      "environment" : {
+        "buildatshipyard" : true
       },
-      "modifiers": {
-        "commandeerable": true
+      "modifiers" : {
+        "commandeerable" : true
       },
-      "ship": {
-        "select": {
-          "faction": "argon",
-          "size": "ship_l",
-          "tags": "[military, destroyer]"
+      "ship" : {
+        "select" : {
+          "faction" : "argon",
+          "size" : "ship_l",
+          "tags" : "[military, destroyer]"
         },
-        "loadout": {
-          "level": {
-            "max": 1.0,
-            "min": 0.4
-          }
-        },
-        "owner": {
-          "exact": "argon",
-          "overridenpc": true
-        }
-      }
-    },
-    {
-      "id": "argon_destroyer_patrol_l_comp_mission",
-      "name": "{20204,3301}",
-      "comment": "compression",
-      "category": {
-        "faction": "argon",
-        "tags": "[military, destroyer]",
-        "size": "ship_l"
-      },
-      "order": {
-        "params": {
-          "range": "class.zone"
-        },
-        "defaultOrder": true,
-        "order": "Patrol"
-      },
-      "quota": {
-        "galaxy": 1,
-        "maxgalaxy": 1,
-        "cluster": 1
-      },
-      "location": {
-        "macro": "xu_ep2_universe_macro",
-        "clazz": "galaxy",
-        "relation": "self",
-        "comparison": "exact",
-        "faction": "argon"
-      },
-      "environment": {
-        "buildatshipyard": true
-      },
-      "modifiers": {
-        "commandeerable": true
-      },
-      "ship": {
-        "select": {
-          "faction": "argon",
-          "size": "ship_l",
-          "tags": "[military, destroyer]"
-        },
-        "loadout": {
-          "level": {
-            "max": 1.0,
-            "min": 0.4
-          }
-        },
-        "owner": {
-          "exact": "argon",
-          "overridenpc": true
-        }
-      }
-    },
-    {
-      "id": "argon_frigate_patrol_m_sector_exp",
-      "name": "{20204,2901}",
-      "comment": "each sector, expansion",
-      "category": {
-        "faction": "argon",
-        "tags": "[military, frigate]",
-        "size": "ship_m"
-      },
-      "order": {
-        "params": {
-          "range": "class.sector"
-        },
-        "defaultOrder": true,
-        "order": "Patrol"
-      },
-      "quota": {
-        "galaxy": 35,
-        "maxgalaxy": 90,
-        "sector": 1
-      },
-      "location": {
-        "macro": "xu_ep2_universe_macro",
-        "clazz": "galaxy",
-        "relation": "self",
-        "comparison": "exact",
-        "faction": "argon"
-      },
-      "environment": {
-        "buildatshipyard": true
-      },
-      "modifiers": {
-        "commandeerable": false
-      },
-      "ship": {
-        "select": {
-          "faction": "argon",
-          "size": "ship_m",
-          "tags": "[military, frigate]"
-        },
-        "loadout": {
-          "level": {
-            "max": 1.0,
-            "min": 0.4
-          }
-        },
-        "owner": {
-          "exact": "argon",
-          "overridenpc": true
+        "loadout" : { },
+        "owner" : {
+          "exact" : "argon",
+          "overridenpc" : true
         }
       },
-      "subordinates": [
-        "argon_fighter_escort_s_frigate"
-      ]
-    },
-    {
-      "id": "argon_frigate_patrol_m_sector_exp_mission",
-      "name": "{20204,2901}",
-      "comment": "each sector, expansion",
-      "category": {
-        "faction": "argon",
-        "tags": "[military, frigate]",
-        "size": "ship_m"
+      "subordinates" : [ "argon_destroyer_escort_l_phase2", "argon_resupplier_escort_xl" ]
+    }, {
+      "id" : "argon_destroyer_patrol_l_defence_exp_phase2",
+      "name" : "{20204,3301}",
+      "startActive" : false,
+      "comment" : "each sector, expansion. responds to local distress calls. attacks in pairs.",
+      "category" : {
+        "faction" : "argon",
+        "tags" : "[military, destroyer, fleetphase_2]",
+        "size" : "ship_l"
       },
-      "order": {
-        "params": {
-          "range": "class.sector"
+      "order" : {
+        "params" : {
+          "range" : "class.zone"
         },
-        "defaultOrder": true,
-        "order": "Patrol"
+        "defaultOrder" : true,
+        "order" : "Patrol"
       },
-      "quota": {
-        "galaxy": 20,
-        "maxgalaxy": 20,
-        "sector": 1
+      "quota" : {
+        "galaxy" : 35,
+        "maxgalaxy" : 90,
+        "sector" : 1
       },
-      "location": {
-        "macro": "xu_ep2_universe_macro",
-        "clazz": "galaxy",
-        "relation": "self",
-        "comparison": "exact",
-        "faction": "argon"
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "argon"
       },
-      "environment": {
-        "buildatshipyard": true
+      "environment" : {
+        "buildatshipyard" : true
       },
-      "modifiers": {
-        "commandeerable": true
+      "modifiers" : {
+        "commandeerable" : false
       },
-      "ship": {
-        "select": {
-          "faction": "argon",
-          "size": "ship_m",
-          "tags": "[military, frigate]"
+      "ship" : {
+        "select" : {
+          "faction" : "argon",
+          "size" : "ship_l",
+          "tags" : "[military, destroyer]"
         },
-        "loadout": {
-          "level": {
-            "max": 1.0,
-            "min": 0.4
-          }
-        },
-        "owner": {
-          "exact": "argon",
-          "overridenpc": true
+        "loadout" : { },
+        "owner" : {
+          "exact" : "argon",
+          "overridenpc" : true
         }
       },
-      "subordinates": [
-        "argon_fighter_escort_s_frigate"
-      ]
-    },
-    {
-      "id": "argon_dronecarrier_patrol_m_sector",
-      "name": "{20204,5001}",
-      "comment": "each sector, concentrates",
-      "category": {
-        "faction": "argon",
-        "tags": "[factionlogic, military, frigate]",
-        "size": "ship_m"
+      "subordinates" : [ "argon_destroyer_escort_l_phase2_noescort" ]
+    }, {
+      "id" : "argon_carrier_patrol_xl_center_galaxy",
+      "name" : "{20204,3201}",
+      "comment" : "center - consider front line if center proves too deep",
+      "category" : {
+        "faction" : "argon",
+        "tags" : "[military, carrier, fleetphase_1]",
+        "size" : "ship_xl"
       },
-      "order": {
-        "params": {
-          "range": "class.sector"
+      "order" : {
+        "params" : {
+          "range" : "class.zone"
         },
-        "defaultOrder": true,
-        "order": "Patrol"
+        "defaultOrder" : true,
+        "order" : "Patrol"
       },
-      "quota": {
-        "galaxy": 8,
-        "maxgalaxy": 20,
-        "sector": 2
+      "quota" : {
+        "galaxy" : 1
       },
-      "location": {
-        "macro": "xu_ep2_universe_macro",
-        "clazz": "galaxy",
-        "relation": "self",
-        "comparison": "exact",
-        "faction": "argon"
+      "location" : {
+        "macro" : "Zone002_Cluster_14_Sector001_macro",
+        "clazz" : "zone",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "argon"
       },
-      "environment": {
-        "buildatshipyard": true
+      "environment" : {
+        "buildatshipyard" : true
       },
-      "modifiers": {
-        "commandeerable": true
+      "modifiers" : {
+        "commandeerable" : false
       },
-      "ship": {
-        "select": {
-          "faction": "argon",
-          "size": "ship_m",
-          "tags": "[military, frigate]"
+      "ship" : {
+        "select" : {
+          "faction" : "argon",
+          "size" : "ship_xl",
+          "tags" : "[military, carrier]"
         },
-        "loadout": {
-          "level": {
-            "max": 1.0,
-            "min": 0.4
-          }
+        "loadout" : { },
+        "owner" : {
+          "exact" : "argon",
+          "overridenpc" : true
+        }
+      },
+      "subordinates" : [ "argon_destroyer_escort_l", "argon_fighter_escort_s_carrier", "argon_resupplier_escort_xl" ]
+    }, {
+      "id" : "argon_destroyer_patrol_l_sector",
+      "name" : "{20204,3301}",
+      "comment" : "each sector",
+      "category" : {
+        "faction" : "argon",
+        "tags" : "[factionlogic, military, destroyer, fleetphase_1]",
+        "size" : "ship_l"
+      },
+      "order" : {
+        "params" : {
+          "range" : "class.cluster"
         },
-        "unit": {
-          "category": "unitcategory.defence",
-          "max": 12,
-          "min": 8
+        "defaultOrder" : true,
+        "order" : "Patrol"
+      },
+      "quota" : {
+        "galaxy" : 6,
+        "sector" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "argon"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "argon",
+          "size" : "ship_l",
+          "tags" : "[military, destroyer]"
         },
-        "owner": {
-          "exact": "argon",
-          "overridenpc": true
+        "loadout" : { },
+        "owner" : {
+          "exact" : "argon",
+          "overridenpc" : true
+        }
+      },
+      "subordinates" : [ "argon_frigate_escort_m" ]
+    }, {
+      "id" : "argon_destroyer_patrol_l_comp",
+      "name" : "{20204,3301}",
+      "comment" : "compression",
+      "category" : {
+        "faction" : "argon",
+        "tags" : "[factionlogic, military, destroyer]",
+        "size" : "ship_l"
+      },
+      "order" : {
+        "params" : {
+          "range" : "class.zone"
+        },
+        "defaultOrder" : true,
+        "order" : "Patrol"
+      },
+      "quota" : {
+        "galaxy" : 2,
+        "maxgalaxy" : 11,
+        "cluster" : 6
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "argon"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "argon",
+          "size" : "ship_l",
+          "tags" : "[military, destroyer]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "argon",
+          "overridenpc" : true
         }
       }
-    },
-    {
-      "id": "argon_dronecarrier_patrol_m_sector_mission",
-      "name": "{20204,5001}",
-      "comment": "each sector, concentrates",
-      "category": {
-        "faction": "argon",
-        "tags": "[military, frigate]",
-        "size": "ship_m"
+    }, {
+      "id" : "argon_destroyer_patrol_l_comp_mission",
+      "name" : "{20204,3301}",
+      "comment" : "compression",
+      "category" : {
+        "faction" : "argon",
+        "tags" : "[military, destroyer]",
+        "size" : "ship_l"
       },
-      "order": {
-        "params": {
-          "range": "class.sector"
+      "order" : {
+        "params" : {
+          "range" : "class.zone"
         },
-        "defaultOrder": true,
-        "order": "Patrol"
+        "defaultOrder" : true,
+        "order" : "Patrol"
       },
-      "quota": {
-        "galaxy": 4,
-        "maxgalaxy": 4,
-        "sector": 1
+      "quota" : {
+        "galaxy" : 1,
+        "maxgalaxy" : 1
       },
-      "location": {
-        "macro": "xu_ep2_universe_macro",
-        "clazz": "galaxy",
-        "relation": "self",
-        "comparison": "exact",
-        "faction": "argon"
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "argon"
       },
-      "environment": {
-        "buildatshipyard": true
+      "environment" : {
+        "buildatshipyard" : true
       },
-      "modifiers": {
-        "commandeerable": true
+      "modifiers" : {
+        "commandeerable" : true
       },
-      "ship": {
-        "select": {
-          "faction": "argon",
-          "size": "ship_m",
-          "tags": "[military, frigate]"
+      "ship" : {
+        "select" : {
+          "faction" : "argon",
+          "size" : "ship_l",
+          "tags" : "[military, destroyer]"
         },
-        "loadout": {
-          "level": {
-            "max": 1.0,
-            "min": 0.4
-          }
-        },
-        "unit": {
-          "category": "unitcategory.defence",
-          "max": 12,
-          "min": 8
-        },
-        "owner": {
-          "exact": "argon",
-          "overridenpc": true
+        "loadout" : { },
+        "owner" : {
+          "exact" : "argon",
+          "overridenpc" : true
         }
       }
-    },
-    {
-      "id": "argon_fighter_patrol_s_zone",
-      "name": "{20204,2901}",
-      "comment": "half of total zones",
-      "category": {
-        "faction": "argon",
-        "tags": "[factionlogic, military, fighter]",
-        "size": "ship_s"
+    }, {
+      "id" : "argon_frigate_patrol_m_sector_exp",
+      "name" : "{20204,2901}",
+      "comment" : "each sector, expansion",
+      "category" : {
+        "faction" : "argon",
+        "tags" : "[military, frigate, fleetphase_1]",
+        "size" : "ship_m"
       },
-      "order": {
-        "params": {
-          "range": "class.zone"
+      "order" : {
+        "params" : {
+          "range" : "class.sector"
         },
-        "defaultOrder": true,
-        "order": "Patrol"
+        "defaultOrder" : true,
+        "order" : "Patrol"
       },
-      "quota": {
-        "galaxy": 30,
-        "maxgalaxy": 50,
-        "zone": 1
+      "quota" : {
+        "galaxy" : 35,
+        "maxgalaxy" : 90,
+        "sector" : 1
       },
-      "location": {
-        "macro": "xu_ep2_universe_macro",
-        "clazz": "galaxy",
-        "relation": "self",
-        "comparison": "exact",
-        "faction": "argon"
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "argon"
       },
-      "environment": {
-        "buildatshipyard": true
+      "environment" : {
+        "buildatshipyard" : true
       },
-      "modifiers": {
-        "commandeerable": true
+      "modifiers" : {
+        "commandeerable" : false
       },
-      "ship": {
-        "select": {
-          "faction": "argon",
-          "size": "ship_s",
-          "tags": "[fighter, heavy]"
+      "ship" : {
+        "select" : {
+          "faction" : "argon",
+          "size" : "ship_m",
+          "tags" : "[military, frigate]"
         },
-        "loadout": {
-          "level": {
-            "max": 1.0,
-            "min": 0.4
-          }
-        },
-        "owner": {
-          "exact": "argon",
-          "overridenpc": true
+        "loadout" : { },
+        "owner" : {
+          "exact" : "argon",
+          "overridenpc" : true
         }
       },
-      "subordinates": [
-        "argon_fighter_escort_s_patrol"
-      ]
-    },
-    {
-      "id": "argon_scout_patrol_s",
-      "name": "{20204,2801}",
-      "comment": "each border sector * 2",
-      "category": {
-        "faction": "argon",
-        "tags": "[factionlogic, scout]",
-        "size": "ship_s"
+      "subordinates" : [ "argon_fighter_escort_s_frigate" ]
+    }, {
+      "id" : "argon_frigate_patrol_m_sector_exp_mission",
+      "name" : "{20204,2901}",
+      "comment" : "each sector, expansion",
+      "category" : {
+        "faction" : "argon",
+        "tags" : "[military, frigate]",
+        "size" : "ship_m"
       },
-      "order": {
-        "defaultOrder": true,
-        "order": "Recon"
-      },
-      "quota": {
-        "galaxy": 12,
-        "maxgalaxy": 24,
-        "cluster": 2
-      },
-      "location": {
-        "macro": "xu_ep2_universe_macro",
-        "clazz": "galaxy",
-        "relation": "self",
-        "comparison": "lt",
-        "matchExtension": false,
-        "faction": "argon"
-      },
-      "environment": {
-        "buildatshipyard": true
-      },
-      "modifiers": {
-        "commandeerable": true
-      },
-      "ship": {
-        "select": {
-          "faction": "argon",
-          "size": "ship_s",
-          "tags": "[scout]"
+      "order" : {
+        "params" : {
+          "range" : "class.sector"
         },
-        "loadout": {
-          "level": {
-            "max": 1.0,
-            "min": 0.7
-          }
+        "defaultOrder" : true,
+        "order" : "Patrol"
+      },
+      "quota" : {
+        "galaxy" : 20,
+        "maxgalaxy" : 20,
+        "sector" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "argon"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "argon",
+          "size" : "ship_m",
+          "tags" : "[military, frigate]"
         },
-        "owner": {
-          "exact": "argon",
-          "overridenpc": true
+        "loadout" : { },
+        "owner" : {
+          "exact" : "argon",
+          "overridenpc" : true
         }
-      }
-    },
-    {
-      "id": "argon_police_patrol_s",
-      "name": "{20204,6101}",
-      "comment": "each sector, expansion",
-      "category": {
-        "faction": "argon",
-        "tags": "[police]",
-        "size": "ship_s"
       },
-      "order": {
-        "defaultOrder": true,
-        "order": "Police"
+      "subordinates" : [ "argon_fighter_escort_s_frigate" ]
+    }, {
+      "id" : "argon_dronecarrier_patrol_m_sector",
+      "name" : "{20204,5001}",
+      "comment" : "each sector, concentrates",
+      "category" : {
+        "faction" : "argon",
+        "tags" : "[factionlogic, military, frigate, fleetphase_1]",
+        "size" : "ship_m"
       },
-      "quota": {
-        "galaxy": 60,
-        "sector": 3
-      },
-      "location": {
-        "macro": "xu_ep2_universe_macro",
-        "clazz": "galaxy",
-        "relation": "member",
-        "comparison": "ge",
-        "matchExtension": false,
-        "policeFaction": "argon"
-      },
-      "environment": {
-        "buildatshipyard": true
-      },
-      "modifiers": {
-        "commandeerable": false
-      },
-      "ship": {
-        "select": {
-          "faction": "argon",
-          "size": "ship_s",
-          "tags": "[fighter, light]"
+      "order" : {
+        "params" : {
+          "range" : "class.sector"
         },
-        "loadout": {
-          "level": {
-            "max": 0.7,
-            "min": 0.0
-          }
+        "defaultOrder" : true,
+        "order" : "Patrol"
+      },
+      "quota" : {
+        "galaxy" : 8,
+        "maxgalaxy" : 20,
+        "sector" : 2
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "argon"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "argon",
+          "size" : "ship_m",
+          "tags" : "[military, frigate]"
         },
-        "owner": {
-          "exact": "argon",
-          "overridenpc": true
+        "loadout" : { },
+        "unit" : {
+          "category" : "unitcategory.defence",
+          "max" : 12,
+          "min" : 8
+        },
+        "owner" : {
+          "exact" : "argon",
+          "overridenpc" : true
         }
       }
-    },
-    {
-      "id": "argon_destroyer_escort_l",
-      "name": "{20204,3301}",
-      "startActive": false,
-      "category": {
-        "faction": "argon",
-        "tags": "[military, destroyer]",
-        "size": "ship_l"
+    }, {
+      "id" : "argon_dronecarrier_patrol_m_sector_mission",
+      "name" : "{20204,5001}",
+      "comment" : "each sector, concentrates",
+      "category" : {
+        "faction" : "argon",
+        "tags" : "[military, frigate]",
+        "size" : "ship_m"
       },
-      "order": {
-        "params": {
-          "overrideformationskill": "true",
-          "formation": "formationshape.invvshape"
+      "order" : {
+        "params" : {
+          "range" : "class.sector"
         },
-        "defaultOrder": true,
-        "order": "Escort"
+        "defaultOrder" : true,
+        "order" : "Patrol"
       },
-      "quota": {
-        "wing": 2
+      "quota" : {
+        "galaxy" : 4,
+        "maxgalaxy" : 4,
+        "sector" : 1
       },
-      "location": {
-        "macro": "xu_ep2_universe_macro",
-        "clazz": "galaxy"
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "argon"
       },
-      "environment": {
-        "buildatshipyard": true
+      "environment" : {
+        "buildatshipyard" : true
       },
-      "modifiers": {
-        "subordinate": true
+      "modifiers" : {
+        "commandeerable" : true
       },
-      "ship": {
-        "select": {
-          "faction": "argon",
-          "size": "ship_l",
-          "tags": "[military, destroyer]"
+      "ship" : {
+        "select" : {
+          "faction" : "argon",
+          "size" : "ship_m",
+          "tags" : "[military, frigate]"
         },
-        "loadout": {
-          "level": {
-            "exact": 0.7
-          }
+        "loadout" : { },
+        "unit" : {
+          "category" : "unitcategory.defence",
+          "max" : 12,
+          "min" : 8
         },
-        "owner": {
-          "exact": "argon",
-          "overridenpc": true
-        }
-      },
-      "subordinates": [
-        "argon_frigate_escort_m"
-      ]
-    },
-    {
-      "id": "argon_frigate_escort_m",
-      "name": "{20204,2901}",
-      "startActive": false,
-      "category": {
-        "faction": "argon",
-        "tags": "[military]",
-        "size": "ship_m"
-      },
-      "order": {
-        "params": {
-          "formationparam": "2500m",
-          "overrideformationskill": "true",
-          "formation": "formationshape.dartvertical"
-        },
-        "defaultOrder": true,
-        "order": "Escort"
-      },
-      "quota": {
-        "wing": 3
-      },
-      "location": {
-        "macro": "xu_ep2_universe_macro",
-        "clazz": "galaxy"
-      },
-      "environment": {
-        "buildatshipyard": true
-      },
-      "modifiers": {
-        "subordinate": true
-      },
-      "ship": {
-        "select": {
-          "faction": "argon",
-          "size": "ship_m",
-          "tags": "[military, medium]"
-        },
-        "loadout": {
-          "level": {
-            "max": 0.7,
-            "min": 0.0
-          }
-        },
-        "owner": {
-          "exact": "argon",
-          "overridenpc": true
-        }
-      },
-      "subordinates": [
-        "argon_fighter_escort_s_frigate"
-      ]
-    },
-    {
-      "id": "argon_fighter_escort_s_carrier",
-      "name": "{20204,2901}",
-      "startActive": false,
-      "category": {
-        "faction": "argon",
-        "tags": "[military, fighter]",
-        "size": "ship_s"
-      },
-      "order": {
-        "params": {
-          "overrideformationskill": "true",
-          "formation": "formationshape.pointguard"
-        },
-        "defaultOrder": true,
-        "order": "Escort"
-      },
-      "quota": {
-        "wing": 10
-      },
-      "location": {
-        "macro": "xu_ep2_universe_macro",
-        "clazz": "galaxy"
-      },
-      "environment": {
-        "buildatshipyard": true
-      },
-      "modifiers": {
-        "subordinate": true
-      },
-      "ship": {
-        "select": {
-          "faction": "argon",
-          "size": "ship_s",
-          "tags": "[military, fighter, selection]"
-        },
-        "loadout": {
-          "level": {
-            "max": 0.7,
-            "min": 0.0
-          }
-        },
-        "owner": {
-          "exact": "argon",
-          "overridenpc": true
+        "owner" : {
+          "exact" : "argon",
+          "overridenpc" : true
         }
       }
-    },
-    {
-      "id": "argon_fighter_escort_s_frigate",
-      "name": "{20204,2901}",
-      "startActive": false,
-      "category": {
-        "faction": "argon",
-        "tags": "[military, fighter]",
-        "size": "ship_s"
+    }, {
+      "id" : "argon_fighter_patrol_s_zone",
+      "name" : "{20204,2901}",
+      "comment" : "half of total zones",
+      "category" : {
+        "faction" : "argon",
+        "tags" : "[factionlogic, military, fighter, fleetphase_1]",
+        "size" : "ship_s"
       },
-      "order": {
-        "params": {
-          "overrideformationskill": "true",
-          "formation": "formationshape.pointguard"
+      "order" : {
+        "params" : {
+          "range" : "class.zone"
         },
-        "defaultOrder": true,
-        "order": "Escort"
+        "defaultOrder" : true,
+        "order" : "Patrol"
       },
-      "quota": {
-        "wing": 4
+      "quota" : {
+        "galaxy" : 30,
+        "maxgalaxy" : 50,
+        "zone" : 1
       },
-      "location": {
-        "macro": "xu_ep2_universe_macro",
-        "clazz": "galaxy"
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "argon"
       },
-      "environment": {
-        "buildatshipyard": true
+      "environment" : {
+        "buildatshipyard" : true
       },
-      "modifiers": {
-        "subordinate": true
+      "modifiers" : {
+        "commandeerable" : true
       },
-      "ship": {
-        "select": {
-          "faction": "argon",
-          "size": "ship_s",
-          "tags": "[military, fighter, selection]"
+      "ship" : {
+        "select" : {
+          "faction" : "argon",
+          "size" : "ship_s",
+          "tags" : "[fighter, heavy]"
         },
-        "loadout": {
-          "level": {
-            "max": 0.7,
-            "min": 0.0
-          }
+        "loadout" : { },
+        "owner" : {
+          "exact" : "argon",
+          "overridenpc" : true
+        }
+      },
+      "subordinates" : [ "argon_fighter_escort_s_patrol" ]
+    }, {
+      "id" : "argon_scout_patrol_s",
+      "name" : "{20204,2801}",
+      "comment" : "each border sector * 2",
+      "category" : {
+        "faction" : "argon",
+        "tags" : "[factionlogic, scout]",
+        "size" : "ship_s"
+      },
+      "order" : {
+        "params" : {
+          "deploysatellites" : "true"
         },
-        "owner": {
-          "exact": "argon",
-          "overridenpc": true
+        "defaultOrder" : true,
+        "order" : "Recon"
+      },
+      "quota" : {
+        "galaxy" : 12,
+        "maxgalaxy" : 24,
+        "cluster" : 2
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "lt",
+        "matchExtension" : false,
+        "faction" : "argon"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "argon",
+          "size" : "ship_s",
+          "tags" : "[scout]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "argon",
+          "overridenpc" : true
         }
       }
-    },
-    {
-      "id": "argon_fighter_escort_s_patrol",
-      "name": "{20204,2901}",
-      "startActive": false,
-      "category": {
-        "faction": "argon",
-        "tags": "[military, fighter]",
-        "size": "ship_s"
+    }, {
+      "id" : "argon_police_patrol_s",
+      "name" : "{20204,6101}",
+      "comment" : "each sector, expansion",
+      "category" : {
+        "faction" : "argon",
+        "tags" : "[police]",
+        "size" : "ship_s"
       },
-      "order": {
-        "params": {
-          "overrideformationskill": "true",
-          "formation": "formationshape.pointguard"
+      "order" : {
+        "defaultOrder" : true,
+        "order" : "Police"
+      },
+      "quota" : {
+        "galaxy" : 60,
+        "sector" : 3
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "ally",
+        "comparison" : "ge",
+        "matchExtension" : false,
+        "policeFaction" : "argon"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "argon",
+          "size" : "ship_s",
+          "tags" : "[fighter, light]"
         },
-        "defaultOrder": true,
-        "order": "Escort"
-      },
-      "quota": {
-        "wing": 3
-      },
-      "location": {
-        "macro": "xu_ep2_universe_macro",
-        "clazz": "galaxy"
-      },
-      "environment": {
-        "buildatshipyard": true
-      },
-      "modifiers": {
-        "subordinate": true
-      },
-      "ship": {
-        "select": {
-          "faction": "argon",
-          "size": "ship_s",
-          "tags": "[military, fighter, light]"
-        },
-        "loadout": {
-          "level": {
-            "max": 0.7,
-            "min": 0.0
-          }
-        },
-        "owner": {
-          "exact": "argon",
-          "overridenpc": true
+        "loadout" : { },
+        "owner" : {
+          "exact" : "argon",
+          "overridenpc" : true
         }
       }
-    },
-    {
-      "id": "argon_resupplier_escort_xl",
-      "name": "{20204,5501}",
-      "startActive": false,
-      "category": {
-        "faction": "argon",
-        "tags": "[resupplier]",
-        "size": "ship_xl"
+    }, {
+      "id" : "argon_destroyer_escort_l_phase2",
+      "name" : "{20204,3301}",
+      "startActive" : false,
+      "category" : {
+        "faction" : "argon",
+        "tags" : "[military, destroyer]",
+        "size" : "ship_l"
       },
-      "order": {
-        "params": {
-          "overrideformationskill": "true",
-          "formation": "formationshape.pointguard"
+      "order" : {
+        "params" : {
+          "overrideformationskill" : "true",
+          "formation" : "formationshape.invvshape"
         },
-        "defaultOrder": true,
-        "order": "SupplyFleet"
+        "defaultOrder" : true,
+        "order" : "Escort"
       },
-      "quota": {
-        "wing": 1
+      "quota" : {
+        "wing" : 2
       },
-      "location": {
-        "macro": "xu_ep2_universe_macro",
-        "clazz": "galaxy"
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy"
       },
-      "environment": {
-        "buildatshipyard": true
+      "environment" : {
+        "buildatshipyard" : true
       },
-      "modifiers": {
-        "subordinate": true
+      "modifiers" : {
+        "subordinate" : true
       },
-      "ship": {
-        "select": {
-          "faction": "argon",
-          "size": "ship_xl",
-          "tags": "[resupplier]"
+      "ship" : {
+        "select" : {
+          "faction" : "argon",
+          "size" : "ship_l",
+          "tags" : "[military, destroyer]"
         },
-        "loadout": {
-          "level": {
-            "exact": 0.7
-          }
+        "loadout" : { },
+        "owner" : {
+          "exact" : "argon",
+          "overridenpc" : true
+        }
+      },
+      "subordinates" : [ "argon_destroyer_escort_l_phase2_noescort" ]
+    }, {
+      "id" : "argon_destroyer_escort_l_phase2_noescort",
+      "name" : "{20204,3301}",
+      "startActive" : false,
+      "category" : {
+        "faction" : "argon",
+        "tags" : "[military, destroyer]",
+        "size" : "ship_l"
+      },
+      "order" : {
+        "params" : {
+          "overrideformationskill" : "true",
+          "formation" : "formationshape.invvshape"
         },
-        "owner": {
-          "exact": "argon",
-          "overridenpc": true
+        "defaultOrder" : true,
+        "order" : "Escort"
+      },
+      "quota" : {
+        "wing" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "subordinate" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "argon",
+          "size" : "ship_l",
+          "tags" : "[military, destroyer]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "argon",
+          "overridenpc" : true
         }
       }
-    },
-    {
-      "id": "argon_miningfleet_m_solid_small",
-      "name": "{20204,5601}",
-      "startActive": false,
-      "basket": "minerals",
-      "category": {
-        "faction": "argon",
-        "tags": "[freighter, miner, deepspace]",
-        "size": "ship_m"
+    }, {
+      "id" : "argon_destroyer_escort_l",
+      "name" : "{20204,3301}",
+      "startActive" : false,
+      "category" : {
+        "faction" : "argon",
+        "tags" : "[military, destroyer]",
+        "size" : "ship_l"
       },
-      "order": {
-        "params": {
-          "minsell": "0",
-          "maxsell": "5",
-          "maxbuy": "5",
-          "minbuy": "0"
+      "order" : {
+        "params" : {
+          "overrideformationskill" : "true",
+          "formation" : "formationshape.invvshape"
         },
-        "defaultOrder": true,
-        "order": "MiningRoutine"
+        "defaultOrder" : true,
+        "order" : "Escort"
       },
-      "quota": {
-        "wing": 2,
-        "variation": 1
+      "quota" : {
+        "wing" : 2
       },
-      "location": {
-        "macro": "xu_ep2_universe_macro",
-        "clazz": "galaxy"
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy"
       },
-      "environment": {
-        "buildatshipyard": true
+      "environment" : {
+        "buildatshipyard" : true
       },
-      "modifiers": {
-        "subordinate": true
+      "modifiers" : {
+        "subordinate" : true
       },
-      "ship": {
-        "select": {
-          "faction": "argon",
-          "size": "ship_m",
-          "tags": "[miner, solid]"
+      "ship" : {
+        "select" : {
+          "faction" : "argon",
+          "size" : "ship_l",
+          "tags" : "[military, destroyer]"
         },
-        "loadout": {
-          "level": {
-            "max": 0.7,
-            "min": 0.0
-          }
-        },
-        "owner": {
-          "exact": "argon",
-          "overridenpc": true
+        "loadout" : { },
+        "owner" : {
+          "exact" : "argon",
+          "overridenpc" : true
         }
       },
-      "subordinates": [
-        "argon_fighter_escort_s_miningfleet"
-      ]
-    },
-    {
-      "id": "argon_miningfleet_m_liquid_small",
-      "name": "{20204,5701}",
-      "startActive": false,
-      "basket": "gases",
-      "category": {
-        "faction": "argon",
-        "tags": "[freighter, miner, deepspace]",
-        "size": "ship_m"
+      "subordinates" : [ "argon_frigate_escort_m" ]
+    }, {
+      "id" : "argon_frigate_escort_m",
+      "name" : "{20204,2901}",
+      "startActive" : false,
+      "category" : {
+        "faction" : "argon",
+        "tags" : "[military]",
+        "size" : "ship_m"
       },
-      "order": {
-        "params": {
-          "minsell": "0",
-          "maxsell": "5",
-          "maxbuy": "5",
-          "minbuy": "0"
+      "order" : {
+        "params" : {
+          "formationparam" : "2500m",
+          "overrideformationskill" : "true",
+          "formation" : "formationshape.dartvertical"
         },
-        "defaultOrder": true,
-        "order": "MiningRoutine"
+        "defaultOrder" : true,
+        "order" : "Escort"
       },
-      "quota": {
-        "wing": 2,
-        "variation": 1
+      "quota" : {
+        "wing" : 3
       },
-      "location": {
-        "macro": "xu_ep2_universe_macro",
-        "clazz": "galaxy"
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy"
       },
-      "environment": {
-        "buildatshipyard": true
+      "environment" : {
+        "buildatshipyard" : true
       },
-      "modifiers": {
-        "subordinate": true
+      "modifiers" : {
+        "subordinate" : true
       },
-      "ship": {
-        "select": {
-          "faction": "argon",
-          "size": "ship_m",
-          "tags": "[miner, liquid]"
+      "ship" : {
+        "select" : {
+          "faction" : "argon",
+          "size" : "ship_m",
+          "tags" : "[military, medium]"
         },
-        "loadout": {
-          "level": {
-            "max": 0.7,
-            "min": 0.0
-          }
-        },
-        "owner": {
-          "exact": "argon",
-          "overridenpc": true
+        "loadout" : { },
+        "owner" : {
+          "exact" : "argon",
+          "overridenpc" : true
         }
       },
-      "subordinates": [
-        "argon_fighter_escort_s_miningfleet"
-      ]
-    },
-    {
-      "id": "argon_miningfleet_ml_solid_large",
-      "name": "{20204,5601}",
-      "startActive": false,
-      "basket": "minerals",
-      "category": {
-        "faction": "argon",
-        "tags": "[freighter, miner, deepspace]"
+      "subordinates" : [ "argon_fighter_escort_s_frigate" ]
+    }, {
+      "id" : "argon_fighter_escort_s_carrier",
+      "name" : "{20204,2901}",
+      "startActive" : false,
+      "category" : {
+        "faction" : "argon",
+        "tags" : "[military, fighter]",
+        "size" : "ship_s"
       },
-      "order": {
-        "params": {
-          "minsell": "0",
-          "maxsell": "5",
-          "maxbuy": "5",
-          "minbuy": "0"
+      "order" : {
+        "params" : {
+          "overrideformationskill" : "true",
+          "formation" : "formationshape.pointguard"
         },
-        "defaultOrder": true,
-        "order": "MiningRoutine"
+        "defaultOrder" : true,
+        "order" : "Escort"
       },
-      "quota": {
-        "wing": 3,
-        "variation": 1
+      "quota" : {
+        "wing" : 22
       },
-      "location": {
-        "macro": "xu_ep2_universe_macro",
-        "clazz": "galaxy"
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy"
       },
-      "environment": {
-        "buildatshipyard": true
+      "environment" : {
+        "buildatshipyard" : true
       },
-      "modifiers": {
-        "subordinate": true
+      "modifiers" : {
+        "subordinate" : true
       },
-      "ship": {
-        "select": {
-          "faction": "argon",
-          "tags": "[miner, solid, mixed]"
+      "ship" : {
+        "select" : {
+          "faction" : "argon",
+          "size" : "ship_s",
+          "tags" : "[military, fighter, selection]"
         },
-        "loadout": {
-          "level": {
-            "max": 0.7,
-            "min": 0.0
-          }
-        },
-        "owner": {
-          "exact": "argon",
-          "overridenpc": true
-        }
-      },
-      "subordinates": [
-        "argon_fighter_escort_s_miningfleet"
-      ]
-    },
-    {
-      "id": "argon_miningfleet_ml_liquid_large",
-      "name": "{20204,5701}",
-      "startActive": false,
-      "basket": "gases",
-      "category": {
-        "faction": "argon",
-        "tags": "[freighter, miner, deepspace]"
-      },
-      "order": {
-        "params": {
-          "minsell": "0",
-          "maxsell": "5",
-          "maxbuy": "5",
-          "minbuy": "0"
-        },
-        "defaultOrder": true,
-        "order": "MiningRoutine"
-      },
-      "quota": {
-        "wing": 3,
-        "variation": 1
-      },
-      "location": {
-        "macro": "xu_ep2_universe_macro",
-        "clazz": "galaxy"
-      },
-      "environment": {
-        "buildatshipyard": true
-      },
-      "modifiers": {
-        "subordinate": true
-      },
-      "ship": {
-        "select": {
-          "faction": "argon",
-          "tags": "[miner, liquid, mixed]"
-        },
-        "loadout": {
-          "level": {
-            "max": 0.7,
-            "min": 0.0
-          }
-        },
-        "owner": {
-          "exact": "argon",
-          "overridenpc": true
-        }
-      },
-      "subordinates": [
-        "argon_fighter_escort_s_miningfleet"
-      ]
-    },
-    {
-      "id": "argon_fighter_escort_s_miningfleet",
-      "name": "{20204,2901}",
-      "startActive": false,
-      "category": {
-        "faction": "argon",
-        "tags": "[military, fighter, deepspace]",
-        "size": "ship_s"
-      },
-      "order": {
-        "params": {
-          "overrideformationskill": "true",
-          "formation": "formationshape.pointguard"
-        },
-        "defaultOrder": true,
-        "order": "Escort"
-      },
-      "quota": {
-        "wing": 1,
-        "variation": 1
-      },
-      "location": {
-        "macro": "xu_ep2_universe_macro",
-        "clazz": "galaxy"
-      },
-      "environment": {
-        "buildatshipyard": true
-      },
-      "modifiers": {
-        "subordinate": true
-      },
-      "ship": {
-        "select": {
-          "faction": "argon",
-          "size": "ship_s",
-          "tags": "[military, fighter, selection]"
-        },
-        "loadout": {
-          "level": {
-            "max": 0.7,
-            "min": 0.0
-          }
-        },
-        "owner": {
-          "exact": "argon",
-          "overridenpc": true
+        "loadout" : { },
+        "owner" : {
+          "exact" : "argon",
+          "overridenpc" : true
         }
       }
-    },
-    {
-      "id": "argon_construction_vessel_xl",
-      "name": "{20204,5101}",
-      "category": {
-        "faction": "argon",
-        "tags": "[factionlogic, builder]",
-        "size": "ship_xl"
+    }, {
+      "id" : "argon_fighter_escort_s_frigate",
+      "name" : "{20204,2901}",
+      "startActive" : false,
+      "category" : {
+        "faction" : "argon",
+        "tags" : "[military, fighter]",
+        "size" : "ship_s"
       },
-      "order": {
-        "params": {
-          "maxjumps": "6"
+      "order" : {
+        "params" : {
+          "overrideformationskill" : "true",
+          "formation" : "formationshape.pointguard"
         },
-        "defaultOrder": true,
-        "order": "FindBuildTasks"
+        "defaultOrder" : true,
+        "order" : "Escort"
       },
-      "quota": {
-        "galaxy": 15,
-        "sector": 1
+      "quota" : {
+        "wing" : 4
       },
-      "location": {
-        "macro": "xu_ep2_universe_macro",
-        "clazz": "galaxy",
-        "relation": "member",
-        "comparison": "ge",
-        "matchExtension": false,
-        "faction": "argon"
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy"
       },
-      "environment": {
-        "buildatshipyard": true
+      "environment" : {
+        "buildatshipyard" : true
       },
-      "modifiers": {
-        "commandeerable": true
+      "modifiers" : {
+        "subordinate" : true
       },
-      "ship": {
-        "select": {
-          "faction": "argon",
-          "size": "ship_xl",
-          "tags": "[builder]"
+      "ship" : {
+        "select" : {
+          "faction" : "argon",
+          "size" : "ship_s",
+          "tags" : "[military, fighter, selection]"
         },
-        "loadout": {
-          "level": {
-            "max": 0.7,
-            "min": 0.4
-          }
-        },
-        "owner": {
-          "exact": "argon",
-          "overridenpc": true
+        "loadout" : { },
+        "owner" : {
+          "exact" : "argon",
+          "overridenpc" : true
         }
       }
-    },
-    {
-      "id": "argon_construction_vessel_xl_playeronly",
-      "name": "{20204,5101}",
-      "category": {
-        "faction": "argon",
-        "tags": "[factionlogic, builder]",
-        "size": "ship_xl"
+    }, {
+      "id" : "argon_fighter_escort_s_patrol",
+      "name" : "{20204,2901}",
+      "startActive" : false,
+      "category" : {
+        "faction" : "argon",
+        "tags" : "[military, fighter]",
+        "size" : "ship_s"
       },
-      "order": {
-        "params": {
-          "playeronly": "true",
-          "maxjumps": "6"
+      "order" : {
+        "params" : {
+          "overrideformationskill" : "true",
+          "formation" : "formationshape.pointguard"
         },
-        "defaultOrder": true,
-        "order": "FindBuildTasks"
+        "defaultOrder" : true,
+        "order" : "Escort"
       },
-      "quota": {
-        "galaxy": 10,
-        "sector": 1
+      "quota" : {
+        "wing" : 3
       },
-      "location": {
-        "macro": "xu_ep2_universe_macro",
-        "clazz": "galaxy",
-        "relation": "member",
-        "comparison": "ge",
-        "faction": "argon"
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy"
       },
-      "environment": {
-        "buildatshipyard": true
+      "environment" : {
+        "buildatshipyard" : true
       },
-      "modifiers": {
-        "commandeerable": true
+      "modifiers" : {
+        "subordinate" : true
       },
-      "ship": {
-        "select": {
-          "faction": "argon",
-          "size": "ship_xl",
-          "tags": "[builder]"
+      "ship" : {
+        "select" : {
+          "faction" : "argon",
+          "size" : "ship_s",
+          "tags" : "[military, fighter, light]"
         },
-        "loadout": {
-          "level": {
-            "max": 0.7,
-            "min": 0.4
-          }
-        },
-        "owner": {
-          "exact": "argon",
-          "overridenpc": true
+        "loadout" : { },
+        "owner" : {
+          "exact" : "argon",
+          "overridenpc" : true
         }
       }
-    },
-    {
-      "id": "argon_resupplier_xl",
-      "name": "{20204,5501}",
-      "disabled": true,
-      "order": {
-        "defaultOrder": true,
-        "order": "SupplyFleet"
+    }, {
+      "id" : "argon_resupplier_escort_xl",
+      "name" : "{20204,5501}",
+      "startActive" : false,
+      "category" : {
+        "faction" : "argon",
+        "tags" : "[resupplier]",
+        "size" : "ship_xl"
       },
-      "quota": {
-        "galaxy": 1
-      },
-      "location": {
-        "macro": "xu_ep2_universe_macro",
-        "clazz": "galaxy",
-        "relation": "neutral",
-        "comparison": "ge",
-        "faction": "argon"
-      },
-      "environment": {
-        "buildatshipyard": true
-      },
-      "ship": {
-        "select": {
-          "faction": "argon",
-          "tags": "[resupplier]"
+      "order" : {
+        "params" : {
+          "overrideformationskill" : "true",
+          "formation" : "formationshape.pointguard"
         },
-        "loadout": {
-          "level": {
-            "max": 0.7,
-            "min": 0.4
-          }
+        "defaultOrder" : true,
+        "order" : "SupplyFleet"
+      },
+      "quota" : {
+        "wing" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "subordinate" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "argon",
+          "size" : "ship_xl",
+          "tags" : "[resupplier]"
         },
-        "owner": {
-          "exact": "argon",
-          "overridenpc": true
+        "loadout" : { },
+        "owner" : {
+          "exact" : "argon",
+          "overridenpc" : true
         }
       }
-    },
-    {
-      "id": "argon_resourcescout_s_deepspace_single",
-      "name": "{20204,10049}",
-      "comment": "very few",
-      "basket": "minerals",
-      "category": {
-        "faction": "argon",
-        "tags": "[scout, deepspace]",
-        "size": "ship_s"
+    }, {
+      "id" : "argon_miningfleet_m_solid_small",
+      "name" : "{20204,5601}",
+      "startActive" : false,
+      "basket" : "minerals",
+      "category" : {
+        "faction" : "argon",
+        "tags" : "[freighter, miner, deepspace]",
+        "size" : "ship_m"
       },
-      "order": {
-        "params": {
-          "deepspace": "true",
-          "resourcescout": "true"
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
         },
-        "defaultOrder": true,
-        "order": "MiningRoutine"
+        "defaultOrder" : true,
+        "order" : "MiningRoutine"
       },
-      "quota": {
-        "galaxy": 3,
-        "cluster": 1
+      "quota" : {
+        "wing" : 2,
+        "variation" : 1
       },
-      "location": {
-        "macro": "xu_ep2_universe_macro",
-        "clazz": "galaxy",
-        "regionBasket": "minerals",
-        "relation": "friend",
-        "comparison": "ge",
-        "faction": "argon"
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy"
       },
-      "encounters": "resource_scout",
-      "environment": {
-        "buildatshipyard": true
+      "environment" : {
+        "buildatshipyard" : true
       },
-      "ship": {
-        "select": {
-          "faction": "argon",
-          "size": "ship_s",
-          "tags": "[scout]"
+      "modifiers" : {
+        "subordinate" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "argon",
+          "size" : "ship_m",
+          "tags" : "[miner, solid]"
         },
-        "loadout": {
-          "level": {
-            "max": 0.4,
-            "min": 0.0
-          }
+        "loadout" : { },
+        "owner" : {
+          "exact" : "argon",
+          "overridenpc" : true
+        }
+      },
+      "subordinates" : [ "argon_fighter_escort_s_miningfleet" ]
+    }, {
+      "id" : "argon_miningfleet_m_liquid_small",
+      "name" : "{20204,5701}",
+      "startActive" : false,
+      "basket" : "gases",
+      "category" : {
+        "faction" : "argon",
+        "tags" : "[freighter, miner, deepspace]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
         },
-        "owner": {
-          "exact": "argon",
-          "overridenpc": true
+        "defaultOrder" : true,
+        "order" : "MiningRoutine"
+      },
+      "quota" : {
+        "wing" : 2,
+        "variation" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "subordinate" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "argon",
+          "size" : "ship_m",
+          "tags" : "[miner, liquid]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "argon",
+          "overridenpc" : true
+        }
+      },
+      "subordinates" : [ "argon_fighter_escort_s_miningfleet" ]
+    }, {
+      "id" : "argon_miningfleet_ml_solid_large",
+      "name" : "{20204,5601}",
+      "startActive" : false,
+      "basket" : "minerals",
+      "category" : {
+        "faction" : "argon",
+        "tags" : "[freighter, miner, deepspace]"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "MiningRoutine"
+      },
+      "quota" : {
+        "wing" : 3,
+        "variation" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "subordinate" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "argon",
+          "tags" : "[miner, solid, mixed]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "argon",
+          "overridenpc" : true
+        }
+      },
+      "subordinates" : [ "argon_fighter_escort_s_miningfleet" ]
+    }, {
+      "id" : "argon_miningfleet_ml_liquid_large",
+      "name" : "{20204,5701}",
+      "startActive" : false,
+      "basket" : "gases",
+      "category" : {
+        "faction" : "argon",
+        "tags" : "[freighter, miner, deepspace]"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "MiningRoutine"
+      },
+      "quota" : {
+        "wing" : 3,
+        "variation" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "subordinate" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "argon",
+          "tags" : "[miner, liquid, mixed]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "argon",
+          "overridenpc" : true
+        }
+      },
+      "subordinates" : [ "argon_fighter_escort_s_miningfleet" ]
+    }, {
+      "id" : "argon_fighter_escort_s_miningfleet",
+      "name" : "{20204,2901}",
+      "startActive" : false,
+      "category" : {
+        "faction" : "argon",
+        "tags" : "[military, fighter, deepspace]",
+        "size" : "ship_s"
+      },
+      "order" : {
+        "params" : {
+          "overrideformationskill" : "true",
+          "formation" : "formationshape.pointguard"
+        },
+        "defaultOrder" : true,
+        "order" : "Escort"
+      },
+      "quota" : {
+        "wing" : 1,
+        "variation" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "subordinate" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "argon",
+          "size" : "ship_s",
+          "tags" : "[military, fighter, selection]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "argon",
+          "overridenpc" : true
         }
       }
-    },
-    {
-      "id": "argon_free_miner_ml_solid_deepspace_single",
-      "name": "{20204,5601}",
-      "comment": "very few",
-      "basket": "minerals",
-      "category": {
-        "faction": "argon",
-        "tags": "[freighter, miner, deepspace]"
+    }, {
+      "id" : "argon_construction_vessel_xl",
+      "name" : "{20204,5101}",
+      "category" : {
+        "faction" : "argon",
+        "tags" : "[factionlogic, builder]",
+        "size" : "ship_xl"
       },
-      "order": {
-        "params": {
-          "minsell": "0",
-          "maxsell": "5",
-          "maxbuy": "5",
-          "minbuy": "0"
+      "order" : {
+        "params" : {
+          "maxjumps" : "6"
         },
-        "defaultOrder": true,
-        "order": "MiningRoutine"
+        "defaultOrder" : true,
+        "order" : "FindBuildTasks"
       },
-      "quota": {
-        "galaxy": 1
+      "quota" : {
+        "galaxy" : 15,
+        "sector" : 1
       },
-      "location": {
-        "macro": "xu_ep2_universe_macro",
-        "clazz": "galaxy",
-        "regionBasket": "minerals",
-        "relation": "friend",
-        "comparison": "ge",
-        "faction": "argon"
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "ally",
+        "comparison" : "ge",
+        "matchExtension" : false,
+        "faction" : "argon"
       },
-      "encounters": "lone_miner",
-      "environment": {
-        "buildatshipyard": true
+      "environment" : {
+        "buildatshipyard" : true
       },
-      "time": {
-        "interval": 1
+      "modifiers" : {
+        "commandeerable" : true
       },
-      "ship": {
-        "select": {
-          "faction": "argon",
-          "tags": "[miner, solid, mixed]"
+      "ship" : {
+        "select" : {
+          "faction" : "argon",
+          "size" : "ship_xl",
+          "tags" : "[builder]"
         },
-        "loadout": {
-          "level": {
-            "max": 0.7,
-            "min": 0.0
-          }
-        },
-        "owner": {
-          "exact": "argon",
-          "overridenpc": true
+        "loadout" : { },
+        "owner" : {
+          "exact" : "argon",
+          "overridenpc" : true
         }
       }
-    },
-    {
-      "id": "argon_free_miner_ml_liquid_deepspace_single",
-      "name": "{20204,5701}",
-      "comment": "very few",
-      "basket": "gases",
-      "category": {
-        "faction": "argon",
-        "tags": "[freighter, miner, deepspace]"
+    }, {
+      "id" : "argon_construction_vessel_xl_focused",
+      "name" : "{20204,5101}",
+      "category" : {
+        "faction" : "argon",
+        "tags" : "[factionlogic, builder]",
+        "size" : "ship_xl"
       },
-      "order": {
-        "params": {
-          "minsell": "0",
-          "maxsell": "5",
-          "maxbuy": "5",
-          "minbuy": "0"
+      "order" : {
+        "params" : {
+          "ownfactiononly" : "true",
+          "maxjumps" : "3"
         },
-        "defaultOrder": true,
-        "order": "MiningRoutine"
+        "defaultOrder" : true,
+        "order" : "FindBuildTasks"
       },
-      "quota": {
-        "galaxy": 1
+      "quota" : {
+        "galaxy" : 5,
+        "sector" : 1
       },
-      "location": {
-        "macro": "xu_ep2_universe_macro",
-        "clazz": "galaxy",
-        "regionBasket": "gases",
-        "relation": "friend",
-        "comparison": "ge",
-        "faction": "argon"
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "ally",
+        "comparison" : "ge",
+        "faction" : "argon"
       },
-      "encounters": "lone_miner",
-      "environment": {
-        "buildatshipyard": true
+      "environment" : {
+        "buildatshipyard" : true
       },
-      "time": {
-        "interval": 1
+      "modifiers" : {
+        "commandeerable" : true
       },
-      "ship": {
-        "select": {
-          "faction": "argon",
-          "tags": "[miner, liquid, mixed]"
+      "ship" : {
+        "select" : {
+          "faction" : "argon",
+          "size" : "ship_xl",
+          "tags" : "[builder]"
         },
-        "loadout": {
-          "level": {
-            "max": 0.7,
-            "min": 0.0
-          }
-        },
-        "owner": {
-          "exact": "argon",
-          "overridenpc": true
+        "loadout" : { },
+        "owner" : {
+          "exact" : "argon",
+          "overridenpc" : true
         }
       }
-    },
-    {
-      "id": "argon_free_miner_ml_solid_deepspace_smallgroup",
-      "name": "{20204,5601}",
-      "comment": "very few",
-      "basket": "minerals",
-      "category": {
-        "faction": "argon",
-        "tags": "[freighter, miner, deepspace]"
+    }, {
+      "id" : "argon_construction_vessel_xl_playeronly",
+      "name" : "{20204,5101}",
+      "category" : {
+        "faction" : "argon",
+        "tags" : "[factionlogic, builder]",
+        "size" : "ship_xl"
       },
-      "order": {
-        "params": {
-          "minsell": "0",
-          "maxsell": "5",
-          "maxbuy": "5",
-          "minbuy": "0"
+      "order" : {
+        "params" : {
+          "playeronly" : "true",
+          "maxjumps" : "6"
         },
-        "defaultOrder": true,
-        "order": "MiningRoutine"
+        "defaultOrder" : true,
+        "order" : "FindBuildTasks"
       },
-      "quota": {
-        "galaxy": 1
+      "quota" : {
+        "galaxy" : 2,
+        "maxgalaxy" : 2,
+        "sector" : 1
       },
-      "location": {
-        "macro": "xu_ep2_universe_macro",
-        "clazz": "galaxy",
-        "regionBasket": "minerals",
-        "relation": "friend",
-        "comparison": "ge",
-        "faction": "argon"
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "ally",
+        "comparison" : "ge",
+        "faction" : "argon"
       },
-      "encounters": "mining_group_small",
-      "environment": {
-        "buildatshipyard": true
+      "environment" : {
+        "buildatshipyard" : true
       },
-      "time": {
-        "interval": 600
+      "modifiers" : {
+        "commandeerable" : true
       },
-      "ship": {
-        "select": {
-          "faction": "argon",
-          "tags": "[miner, solid, mixed]"
+      "ship" : {
+        "select" : {
+          "faction" : "argon",
+          "size" : "ship_xl",
+          "tags" : "[builder]"
         },
-        "loadout": {
-          "level": {
-            "max": 0.7,
-            "min": 0.0
-          }
+        "loadout" : { },
+        "owner" : {
+          "exact" : "argon",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "argon_resupplier_xl",
+      "name" : "{20204,5501}",
+      "disabled" : true,
+      "order" : {
+        "defaultOrder" : true,
+        "order" : "SupplyFleet"
+      },
+      "quota" : {
+        "galaxy" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "neutral",
+        "comparison" : "ge",
+        "faction" : "argon"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "argon",
+          "tags" : "[resupplier]"
         },
-        "owner": {
-          "exact": "argon",
-          "overridenpc": true
+        "loadout" : { },
+        "owner" : {
+          "exact" : "argon",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "argon_resourcescout_s_deepspace_single",
+      "name" : "{20204,10049}",
+      "comment" : "very few",
+      "basket" : "minerals",
+      "category" : {
+        "faction" : "argon",
+        "tags" : "[scout, deepspace]",
+        "size" : "ship_s"
+      },
+      "order" : {
+        "params" : {
+          "deepspace" : "true",
+          "resourcescout" : "true",
+          "maxbuy" : "5"
+        },
+        "defaultOrder" : true,
+        "order" : "MiningRoutine"
+      },
+      "quota" : {
+        "galaxy" : 3,
+        "cluster" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "regionBasket" : "minerals",
+        "relation" : "friend",
+        "comparison" : "ge",
+        "faction" : "argon"
+      },
+      "encounters" : "resource_scout",
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "argon",
+          "size" : "ship_s",
+          "tags" : "[scout]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "argon",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "argon_free_miner_ml_solid_deepspace_single",
+      "name" : "{20204,5601}",
+      "comment" : "very few",
+      "basket" : "minerals",
+      "category" : {
+        "faction" : "argon",
+        "tags" : "[freighter, miner, deepspace]"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "MiningRoutine"
+      },
+      "quota" : {
+        "galaxy" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "regionBasket" : "minerals",
+        "relation" : "friend",
+        "comparison" : "ge",
+        "faction" : "argon"
+      },
+      "encounters" : "lone_miner",
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "time" : {
+        "interval" : 1
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "argon",
+          "tags" : "[miner, solid, mixed]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "argon",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "argon_free_miner_ml_liquid_deepspace_single",
+      "name" : "{20204,5701}",
+      "comment" : "very few",
+      "basket" : "gases",
+      "category" : {
+        "faction" : "argon",
+        "tags" : "[freighter, miner, deepspace]"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "MiningRoutine"
+      },
+      "quota" : {
+        "galaxy" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "regionBasket" : "gases",
+        "relation" : "friend",
+        "comparison" : "ge",
+        "faction" : "argon"
+      },
+      "encounters" : "lone_miner",
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "time" : {
+        "interval" : 1
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "argon",
+          "tags" : "[miner, liquid, mixed]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "argon",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "argon_free_miner_ml_solid_deepspace_smallgroup",
+      "name" : "{20204,5601}",
+      "comment" : "very few",
+      "basket" : "minerals",
+      "category" : {
+        "faction" : "argon",
+        "tags" : "[freighter, miner, deepspace]"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "MiningRoutine"
+      },
+      "quota" : {
+        "galaxy" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "regionBasket" : "minerals",
+        "relation" : "friend",
+        "comparison" : "ge",
+        "faction" : "argon"
+      },
+      "encounters" : "mining_group_small",
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "time" : {
+        "interval" : 600
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "argon",
+          "tags" : "[miner, solid, mixed]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "argon",
+          "overridenpc" : true
         }
       },
-      "subordinates": [
-        "argon_miningfleet_m_solid_small",
-        "argon_fighter_escort_s_miningfleet"
-      ]
-    },
-    {
-      "id": "argon_free_miner_ml_liquid_deepspace_smallgroup",
-      "name": "{20204,5701}",
-      "comment": "very few",
-      "basket": "gases",
-      "category": {
-        "faction": "argon",
-        "tags": "[freighter, miner, deepspace]"
+      "subordinates" : [ "argon_miningfleet_m_solid_small", "argon_fighter_escort_s_miningfleet" ]
+    }, {
+      "id" : "argon_free_miner_ml_liquid_deepspace_smallgroup",
+      "name" : "{20204,5701}",
+      "comment" : "very few",
+      "basket" : "gases",
+      "category" : {
+        "faction" : "argon",
+        "tags" : "[freighter, miner, deepspace]"
       },
-      "order": {
-        "params": {
-          "minsell": "0",
-          "maxsell": "5",
-          "maxbuy": "5",
-          "minbuy": "0"
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
         },
-        "defaultOrder": true,
-        "order": "MiningRoutine"
+        "defaultOrder" : true,
+        "order" : "MiningRoutine"
       },
-      "quota": {
-        "galaxy": 1
+      "quota" : {
+        "galaxy" : 1
       },
-      "location": {
-        "macro": "xu_ep2_universe_macro",
-        "clazz": "galaxy",
-        "regionBasket": "gases",
-        "relation": "friend",
-        "comparison": "ge",
-        "faction": "argon"
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "regionBasket" : "gases",
+        "relation" : "friend",
+        "comparison" : "ge",
+        "faction" : "argon"
       },
-      "encounters": "mining_group_small",
-      "environment": {
-        "buildatshipyard": true
+      "encounters" : "mining_group_small",
+      "environment" : {
+        "buildatshipyard" : true
       },
-      "time": {
-        "interval": 600
+      "time" : {
+        "interval" : 600
       },
-      "ship": {
-        "select": {
-          "faction": "argon",
-          "tags": "[miner, liquid, mixed]"
+      "ship" : {
+        "select" : {
+          "faction" : "argon",
+          "tags" : "[miner, liquid, mixed]"
         },
-        "loadout": {
-          "level": {
-            "max": 0.7,
-            "min": 0.0
-          }
-        },
-        "owner": {
-          "exact": "argon",
-          "overridenpc": true
+        "loadout" : { },
+        "owner" : {
+          "exact" : "argon",
+          "overridenpc" : true
         }
       },
-      "subordinates": [
-        "argon_miningfleet_m_liquid_small",
-        "argon_fighter_escort_s_miningfleet"
-      ]
-    },
-    {
-      "id": "argon_free_miner_l_solid_deepspace_largegroup",
-      "name": "{20204,5601}",
-      "comment": "very few",
-      "basket": "minerals",
-      "category": {
-        "faction": "argon",
-        "tags": "[freighter, miner, deepspace]",
-        "size": "ship_l"
+      "subordinates" : [ "argon_miningfleet_m_liquid_small", "argon_fighter_escort_s_miningfleet" ]
+    }, {
+      "id" : "argon_free_miner_l_solid_deepspace_largegroup",
+      "name" : "{20204,5601}",
+      "comment" : "very few",
+      "basket" : "minerals",
+      "category" : {
+        "faction" : "argon",
+        "tags" : "[freighter, miner, deepspace]",
+        "size" : "ship_l"
       },
-      "order": {
-        "params": {
-          "minsell": "0",
-          "maxsell": "5",
-          "maxbuy": "5",
-          "minbuy": "0"
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
         },
-        "defaultOrder": true,
-        "order": "MiningRoutine"
+        "defaultOrder" : true,
+        "order" : "MiningRoutine"
       },
-      "quota": {
-        "galaxy": 1
+      "quota" : {
+        "galaxy" : 1
       },
-      "location": {
-        "macro": "xu_ep2_universe_macro",
-        "clazz": "galaxy",
-        "regionBasket": "minerals",
-        "relation": "friend",
-        "comparison": "ge",
-        "faction": "argon"
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "regionBasket" : "minerals",
+        "relation" : "friend",
+        "comparison" : "ge",
+        "faction" : "argon"
       },
-      "encounters": "mining_group_large",
-      "environment": {
-        "buildatshipyard": true
+      "encounters" : "mining_group_large",
+      "environment" : {
+        "buildatshipyard" : true
       },
-      "time": {
-        "interval": 3600
+      "time" : {
+        "interval" : 3600
       },
-      "ship": {
-        "select": {
-          "faction": "argon",
-          "size": "ship_l",
-          "tags": "[miner, solid]"
+      "ship" : {
+        "select" : {
+          "faction" : "argon",
+          "size" : "ship_l",
+          "tags" : "[miner, solid]"
         },
-        "loadout": {
-          "level": {
-            "max": 0.7,
-            "min": 0.0
-          }
-        },
-        "owner": {
-          "exact": "argon",
-          "overridenpc": true
+        "loadout" : { },
+        "owner" : {
+          "exact" : "argon",
+          "overridenpc" : true
         }
       },
-      "subordinates": [
-        "argon_miningfleet_ml_solid_large",
-        "argon_fighter_escort_s_miningfleet"
-      ]
-    },
-    {
-      "id": "argon_free_miner_l_liquid_deepspace_largegroup",
-      "name": "{20204,5701}",
-      "comment": "very few",
-      "basket": "gases",
-      "category": {
-        "faction": "argon",
-        "tags": "[freighter, miner, deepspace]",
-        "size": "ship_l"
+      "subordinates" : [ "argon_miningfleet_ml_solid_large", "argon_fighter_escort_s_miningfleet" ]
+    }, {
+      "id" : "argon_free_miner_l_liquid_deepspace_largegroup",
+      "name" : "{20204,5701}",
+      "comment" : "very few",
+      "basket" : "gases",
+      "category" : {
+        "faction" : "argon",
+        "tags" : "[freighter, miner, deepspace]",
+        "size" : "ship_l"
       },
-      "order": {
-        "params": {
-          "minsell": "0",
-          "maxsell": "5",
-          "maxbuy": "5",
-          "minbuy": "0"
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
         },
-        "defaultOrder": true,
-        "order": "MiningRoutine"
+        "defaultOrder" : true,
+        "order" : "MiningRoutine"
       },
-      "quota": {
-        "galaxy": 1
+      "quota" : {
+        "galaxy" : 1
       },
-      "location": {
-        "macro": "xu_ep2_universe_macro",
-        "clazz": "galaxy",
-        "regionBasket": "gases",
-        "relation": "friend",
-        "comparison": "ge",
-        "faction": "argon"
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "regionBasket" : "gases",
+        "relation" : "friend",
+        "comparison" : "ge",
+        "faction" : "argon"
       },
-      "encounters": "mining_group_large",
-      "environment": {
-        "buildatshipyard": true
+      "encounters" : "mining_group_large",
+      "environment" : {
+        "buildatshipyard" : true
       },
-      "time": {
-        "interval": 3600
+      "time" : {
+        "interval" : 3600
       },
-      "ship": {
-        "select": {
-          "faction": "argon",
-          "size": "ship_l",
-          "tags": "[miner, liquid]"
+      "ship" : {
+        "select" : {
+          "faction" : "argon",
+          "size" : "ship_l",
+          "tags" : "[miner, liquid]"
         },
-        "loadout": {
-          "level": {
-            "max": 0.7,
-            "min": 0.0
-          }
-        },
-        "owner": {
-          "exact": "argon",
-          "overridenpc": true
+        "loadout" : { },
+        "owner" : {
+          "exact" : "argon",
+          "overridenpc" : true
         }
       },
-      "subordinates": [
-        "argon_miningfleet_ml_liquid_large",
-        "argon_fighter_escort_s_miningfleet"
-      ]
+      "subordinates" : [ "argon_miningfleet_ml_liquid_large", "argon_fighter_escort_s_miningfleet" ]
+    }, {
+      "id" : "argon_staticdefense_engineer_m",
+      "name" : "{20204, 8401}",
+      "comment" : "Combat Engineer",
+      "category" : {
+        "faction" : "argon",
+        "tags" : "[staticdefense]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "defaultOrder" : true,
+        "order" : "DeployStaticDefenseStrategy"
+      },
+      "quota" : {
+        "galaxy" : 0,
+        "maxgalaxy" : 3
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "ally",
+        "comparison" : "ge",
+        "faction" : "argon"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "argon",
+          "size" : "ship_m",
+          "tags" : "[military]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "argon",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "argon_staticdefense_minelayer_s",
+      "name" : "{20204, 8501}",
+      "comment" : "Saboteur",
+      "category" : {
+        "faction" : "argon",
+        "tags" : "[staticdefense]",
+        "size" : "ship_s"
+      },
+      "order" : {
+        "params" : {
+          "isminesonly" : "true"
+        },
+        "defaultOrder" : true,
+        "order" : "DeployStaticDefenseStrategy"
+      },
+      "quota" : {
+        "galaxy" : 0,
+        "maxgalaxy" : 2
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "ally",
+        "comparison" : "ge",
+        "faction" : "argon"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "argon",
+          "size" : "ship_s",
+          "tags" : "[military]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "argon",
+          "overridenpc" : true
+        }
+      }
     }
   ]
 }
