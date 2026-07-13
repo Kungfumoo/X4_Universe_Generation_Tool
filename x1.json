@@ -341,7 +341,7 @@
       "security": "0.25",
       "x": 1,
       "y": -2,
-      "backdrop": "empty_space",
+      "backdrop": "cluster_704_v1",
       "connections": [
         {
           "targetClusterId": "15",
@@ -4730,6 +4730,5096 @@
         "loadout" : { },
         "owner" : {
           "exact" : "argon",
+          "overridenpc" : true
+        }
+      }
+    },
+    {
+      "id" : "boron_universal_trader_l",
+      "name" : "{20204,17301}",
+      "startActive" : false,
+      "basket" : "energy",
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_l"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "6",
+          "maxsell" : "15",
+          "maxbuy" : "5",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "TradeRoutine"
+      },
+      "quota" : {
+        "galaxy" : 3
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "boron"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_l",
+          "tags" : "[trader, container]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        }
+      },
+      "subordinates" : [ "boron_corvette_escort_m" ]
+    }, {
+      "id" : "boron_universal_trader_l_hightech",
+      "name" : "{20204,17301}",
+      "startActive" : false,
+      "basket" : "equipment",
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_l"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "6",
+          "maxsell" : "15",
+          "maxbuy" : "5",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "TradeRoutine"
+      },
+      "quota" : {
+        "galaxy" : 3
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "boron"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_l",
+          "tags" : "[trader, container]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        }
+      },
+      "subordinates" : [ "boron_corvette_escort_m" ]
+    }, {
+      "id" : "argon_import_trader_m",
+      "name" : "{20204,1801}",
+      "startActive" : false,
+      "basket" : "foodrations",
+      "category" : {
+        "faction" : "argon",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "15",
+          "minbuy" : "5"
+        },
+        "defaultOrder" : true,
+        "order" : "TradeRoutine"
+      },
+      "quota" : {
+        "galaxy" : 2,
+        "cluster" : 1,
+        "sector" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "boron"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "argon",
+          "size" : "ship_m",
+          "tags" : "[trader, container]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "argon",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "paranid_import_trader_m",
+      "name" : "{20204,1801}",
+      "startActive" : false,
+      "basket" : "sojahusk",
+      "category" : {
+        "faction" : "paranid",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "15",
+          "minbuy" : "5"
+        },
+        "defaultOrder" : true,
+        "order" : "TradeRoutine"
+      },
+      "quota" : {
+        "galaxy" : 2,
+        "cluster" : 1,
+        "sector" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "boron"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "paranid",
+          "size" : "ship_m",
+          "tags" : "[trader, container]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "paranid",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "teladi_import_trader_m",
+      "name" : "{20204,1801}",
+      "startActive" : false,
+      "basket" : "nostropoil",
+      "category" : {
+        "faction" : "teladi",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "15",
+          "minbuy" : "5"
+        },
+        "defaultOrder" : true,
+        "order" : "TradeRoutine"
+      },
+      "quota" : {
+        "galaxy" : 2,
+        "cluster" : 1,
+        "sector" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "boron"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "teladi",
+          "size" : "ship_m",
+          "tags" : "[trader, container]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "teladi",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "boron_scout_patrol_s_queenseeker",
+      "name" : "{20204,17201}",
+      "startActive" : false,
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[factionlogic, scout]",
+        "size" : "ship_s"
+      },
+      "order" : {
+        "params" : {
+          "deploysatellites" : "true"
+        },
+        "defaultOrder" : true,
+        "order" : "Recon"
+      },
+      "quota" : {
+        "galaxy" : 6,
+        "maxgalaxy" : 6,
+        "cluster" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "neutral",
+        "comparison" : "le",
+        "matchExtension" : false,
+        "faction" : "boron"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true
+      },
+      "time" : {
+        "interval" : 60,
+        "start" : 60
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_s",
+          "tags" : "[scout]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "boron_scout_patrol_s",
+      "name" : "{20204,2801}",
+      "startActive" : false,
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[factionlogic, scout]",
+        "size" : "ship_s"
+      },
+      "order" : {
+        "params" : {
+          "deploysatellites" : "true"
+        },
+        "defaultOrder" : true,
+        "order" : "Recon"
+      },
+      "quota" : {
+        "galaxy" : 10,
+        "maxgalaxy" : 20,
+        "cluster" : 2
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "lt",
+        "matchExtension" : false,
+        "faction" : "boron"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_s",
+          "tags" : "[scout]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "argon_construction_m_boron",
+      "name" : "{20204,1601}",
+      "startActive" : false,
+      "basket" : "construction_stations",
+      "category" : {
+        "faction" : "argon",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_m"
+      },
+      "quota" : {
+        "galaxy" : 5,
+        "cluster" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "boron"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "argon",
+          "size" : "ship_m",
+          "tags" : "[trader, container]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "argon",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "hatikvah_fighter_patrol_s_boron_random",
+      "name" : "{20204,2901}",
+      "startActive" : false,
+      "category" : {
+        "faction" : "hatikvah",
+        "tags" : "[military, fighter]",
+        "size" : "ship_s"
+      },
+      "order" : {
+        "params" : {
+          "range" : "class.zone"
+        },
+        "defaultOrder" : true,
+        "order" : "Patrol"
+      },
+      "quota" : {
+        "galaxy" : 3,
+        "zone" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "matchExtension" : false
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "hatikvah",
+          "size" : "ship_s",
+          "tags" : "[hatikvahboron]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "hatikvah",
+          "overridenpc" : true
+        }
+      },
+      "subordinates" : [ "hatikvah_fighter_escort_s_boron" ]
+    }, {
+      "id" : "hatikvah_fighter_patrol_s_boron_tradestation",
+      "name" : "{20204,2901}",
+      "startActive" : false,
+      "category" : {
+        "faction" : "hatikvah",
+        "tags" : "[military, fighter]",
+        "size" : "ship_s"
+      },
+      "order" : {
+        "params" : {
+          "range" : "class.zone"
+        },
+        "defaultOrder" : true,
+        "order" : "Patrol"
+      },
+      "quota" : {
+        "galaxy" : 1,
+        "zone" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "matchExtension" : false
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "hatikvah",
+          "size" : "ship_s",
+          "tags" : "[hatikvahboron]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "hatikvah",
+          "overridenpc" : true
+        }
+      },
+      "subordinates" : [ "hatikvah_fighter_escort_s_boron" ]
+    }, {
+      "id" : "hatikvah_fighter_escort_s_boron",
+      "name" : "{20204,2601}",
+      "startActive" : false,
+      "category" : {
+        "faction" : "hatikvah",
+        "tags" : "[military, fighter]",
+        "size" : "ship_s"
+      },
+      "order" : {
+        "params" : {
+          "overrideformationskill" : "true",
+          "formation" : "formationshape.pointguard"
+        },
+        "defaultOrder" : true,
+        "order" : "Escort"
+      },
+      "quota" : {
+        "wing" : 1,
+        "variation" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "matchExtension" : false
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "subordinate" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "hatikvah",
+          "size" : "ship_s",
+          "tags" : "[hatikvahboron]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "hatikvah",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "scaleplate_scavenger_m_cluster_bor_core",
+      "name" : "{20204,4301}",
+      "startActive" : false,
+      "basket" : "pirate_container",
+      "category" : {
+        "faction" : "scaleplate",
+        "tags" : "[plunderer]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "params" : {
+          "plundermode" : "0",
+          "range_internal" : "'cluster'"
+        },
+        "defaultOrder" : true,
+        "order" : "Plunder"
+      },
+      "quota" : {
+        "galaxy" : 2,
+        "sector" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "boron"
+      },
+      "environment" : {
+        "buildatshipyard" : false,
+        "gate" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true
+      },
+      "time" : {
+        "interval" : 7200,
+        "start" : 60
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "scaleplate",
+          "size" : "ship_m",
+          "tags" : "[scaleplateboron]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "scaleplate",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "scaleplate_scavenger_s_cluster_bor_core",
+      "name" : "{20204,4301}",
+      "startActive" : false,
+      "basket" : "pirate_container",
+      "category" : {
+        "faction" : "scaleplate",
+        "tags" : "[plunderer]",
+        "size" : "ship_s"
+      },
+      "order" : {
+        "params" : {
+          "plundermode" : "0",
+          "range_internal" : "'cluster'"
+        },
+        "defaultOrder" : true,
+        "order" : "Plunder"
+      },
+      "quota" : {
+        "galaxy" : 3,
+        "sector" : 2
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "boron"
+      },
+      "environment" : {
+        "buildatshipyard" : false,
+        "gate" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true
+      },
+      "time" : {
+        "interval" : 3600,
+        "start" : 60
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "scaleplate",
+          "size" : "ship_s",
+          "tags" : "[scaleplateboron]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "scaleplate",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "scaleplate_plunderer_l_cluster_bor_outer",
+      "name" : "{20204,4101}",
+      "startActive" : false,
+      "basket" : "pirate_container",
+      "category" : {
+        "faction" : "scaleplate",
+        "tags" : "[plunderer]",
+        "size" : "ship_l"
+      },
+      "order" : {
+        "params" : {
+          "plundermode" : "1",
+          "range_internal" : "'cluster'"
+        },
+        "defaultOrder" : true,
+        "order" : "Plunder"
+      },
+      "quota" : {
+        "galaxy" : 1,
+        "sector" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "boron"
+      },
+      "environment" : {
+        "buildatshipyard" : false,
+        "gate" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true
+      },
+      "time" : {
+        "interval" : 7200,
+        "start" : 60
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "scaleplate",
+          "size" : "ship_l",
+          "tags" : "[plunderer]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "scaleplate",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "scaleplate_scavenger_m_cluster_bor_outer",
+      "name" : "{20204,4301}",
+      "startActive" : false,
+      "basket" : "pirate_container",
+      "category" : {
+        "faction" : "scaleplate",
+        "tags" : "[plunderer]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "params" : {
+          "plundermode" : "0",
+          "range_internal" : "'cluster'"
+        },
+        "defaultOrder" : true,
+        "order" : "Plunder"
+      },
+      "quota" : {
+        "galaxy" : 1,
+        "sector" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "boron"
+      },
+      "environment" : {
+        "buildatshipyard" : false,
+        "gate" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true
+      },
+      "time" : {
+        "interval" : 1800,
+        "start" : 60
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "scaleplate",
+          "size" : "ship_m",
+          "tags" : "[plunderer]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "scaleplate",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "argon_destroyer_patrol_l_boron",
+      "name" : "{20204,17101}",
+      "startActive" : false,
+      "category" : {
+        "faction" : "argon",
+        "tags" : "[military, destroyer]",
+        "size" : "ship_l"
+      },
+      "order" : {
+        "params" : {
+          "range" : "class.cluster"
+        },
+        "defaultOrder" : true,
+        "order" : "Patrol"
+      },
+      "quota" : {
+        "galaxy" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "boron"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "argon",
+          "size" : "ship_l",
+          "tags" : "[military, destroyer]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "argon",
+          "overridenpc" : true
+        }
+      },
+      "subordinates" : [ "argon_frigate_escort_m", "argon_frigate_escort_m" ]
+    }, {
+      "id" : "boron_bogas_trader_l",
+      "name" : "{20204,1401}",
+      "basket" : "bogas",
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_l"
+      },
+      "order" : {
+        "params" : {
+          "range" : "6"
+        },
+        "defaultOrder" : true,
+        "order" : "Middleman"
+      },
+      "quota" : {
+        "galaxy" : 2,
+        "cluster" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "boron"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : false,
+        "rebuild" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_l",
+          "tags" : "[trader, container]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "boron_bogas_trader_m",
+      "name" : "{20204,1401}",
+      "basket" : "bogas",
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "TradeRoutine"
+      },
+      "quota" : {
+        "galaxy" : 9,
+        "cluster" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "boron"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_m",
+          "tags" : "[trader, container]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "boron_bogas_trader_m_initial",
+      "name" : "{20204,1401}",
+      "startActive" : false,
+      "basket" : "bogas",
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "params" : {
+          "range" : "5"
+        },
+        "defaultOrder" : true,
+        "order" : "Middleman"
+      },
+      "quota" : {
+        "galaxy" : 2,
+        "cluster" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "boron"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : false,
+        "rebuild" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_m",
+          "tags" : "[trader, container]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "boron_bogas_trader_m_fake",
+      "name" : "{20204,1401}",
+      "basket" : "bogas",
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "2",
+          "maxbuy" : "2",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "TradeRoutine"
+      },
+      "quota" : {
+        "galaxy" : 2,
+        "cluster" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "boron"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_m",
+          "tags" : "[trader, container]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "boron_bio_trader_l",
+      "name" : "{20204,1301}",
+      "basket" : "bio",
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_l"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "TradeRoutine"
+      },
+      "quota" : {
+        "galaxy" : 3,
+        "cluster" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "boron"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_l",
+          "tags" : "[trader, container]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "boron_bio_trader_m",
+      "name" : "{20204,1401}",
+      "basket" : "bio",
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "TradeRoutine"
+      },
+      "quota" : {
+        "galaxy" : 14,
+        "cluster" : 2
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "boron"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_m",
+          "tags" : "[trader, container]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "boron_bio_trader_m_initial",
+      "name" : "{20204,1401}",
+      "startActive" : false,
+      "basket" : "bio",
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "params" : {
+          "range" : "8"
+        },
+        "defaultOrder" : true,
+        "order" : "Middleman"
+      },
+      "quota" : {
+        "galaxy" : 3,
+        "cluster" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "boron"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_m",
+          "tags" : "[trader, container]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "boron_bio_trader_m_fake",
+      "name" : "{20204,1401}",
+      "basket" : "bio",
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "2",
+          "maxbuy" : "2",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "TradeRoutine"
+      },
+      "quota" : {
+        "galaxy" : 3,
+        "cluster" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "boron"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_m",
+          "tags" : "[trader, container]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "boron_food_trader_s",
+      "name" : "{20204,1801}",
+      "basket" : "food",
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_s"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "TradeRoutine"
+      },
+      "quota" : {
+        "galaxy" : 9,
+        "cluster" : 4,
+        "sector" : 2
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "boron"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_s",
+          "tags" : "[trader, container]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "boron_food_trader_s_initial",
+      "name" : "{20204,1801}",
+      "startActive" : false,
+      "basket" : "food",
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_s"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "TradeRoutine"
+      },
+      "quota" : {
+        "galaxy" : 3,
+        "cluster" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "boron"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_s",
+          "tags" : "[trader, container]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "boron_medical_trader_s",
+      "name" : "{20204,10011}",
+      "basket" : "medicalsupplies",
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_s"
+      },
+      "order" : {
+        "params" : {
+          "range" : "3"
+        },
+        "defaultOrder" : true,
+        "order" : "Middleman"
+      },
+      "quota" : {
+        "galaxy" : 7,
+        "cluster" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "boron"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : false,
+        "rebuild" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_s",
+          "tags" : "[trader, container]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "boron_medical_trader_s_initial",
+      "name" : "{20204,10011}",
+      "startActive" : false,
+      "basket" : "medicalsupplies",
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_s"
+      },
+      "order" : {
+        "params" : {
+          "range" : "5"
+        },
+        "defaultOrder" : true,
+        "order" : "Middleman"
+      },
+      "quota" : {
+        "galaxy" : 3,
+        "cluster" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "boron"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : false,
+        "rebuild" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_s",
+          "tags" : "[trader, container]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "boron_medical_trader_s_fake",
+      "name" : "{20204,10011}",
+      "basket" : "medicalsupplies",
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_s"
+      },
+      "order" : {
+        "params" : {
+          "range" : "2"
+        },
+        "defaultOrder" : true,
+        "order" : "Middleman"
+      },
+      "quota" : {
+        "galaxy" : 3,
+        "cluster" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "boron"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_s",
+          "tags" : "[trader, container]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "boron_energycell_trader_l",
+      "name" : "{20204,101}",
+      "basket" : "energycells",
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_l"
+      },
+      "order" : {
+        "params" : {
+          "range" : "2"
+        },
+        "defaultOrder" : true,
+        "order" : "Middleman"
+      },
+      "quota" : {
+        "galaxy" : 3,
+        "cluster" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "boron"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : false,
+        "rebuild" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_l",
+          "tags" : "[trader, container]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "boron_energycell_trader_m",
+      "name" : "{20204,201}",
+      "basket" : "energycells",
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "TradeRoutine"
+      },
+      "quota" : {
+        "galaxy" : 8,
+        "cluster" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "boron"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_m",
+          "tags" : "[trader, container]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "boron_energycell_trader_m_initial",
+      "name" : "{20204,201}",
+      "startActive" : false,
+      "basket" : "energycells",
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "4",
+          "maxbuy" : "8",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "TradeRoutine"
+      },
+      "quota" : {
+        "galaxy" : 3,
+        "cluster" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "boron"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_m",
+          "tags" : "[trader, container]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "boron_energycell_trader_m_fake",
+      "name" : "{20204,201}",
+      "basket" : "energycells",
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "2",
+          "maxbuy" : "2",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "TradeRoutine"
+      },
+      "quota" : {
+        "galaxy" : 3,
+        "cluster" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "boron"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_m",
+          "tags" : "[trader, container]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "boron_energycell_trader_s",
+      "name" : "{20204,201}",
+      "basket" : "energy",
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_s"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "TradeRoutine"
+      },
+      "quota" : {
+        "galaxy" : 7,
+        "cluster" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "boron"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_s",
+          "tags" : "[trader, container]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "boron_equipment_trader_l",
+      "name" : "{20204,301}",
+      "basket" : "equipment",
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_l"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "TradeRoutine"
+      },
+      "quota" : {
+        "galaxy" : 2,
+        "cluster" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "boron"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_l",
+          "tags" : "[trader, container]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "boron_equipment_trader_m",
+      "name" : "{20204,401}",
+      "basket" : "equipment",
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "TradeRoutine"
+      },
+      "quota" : {
+        "galaxy" : 3,
+        "cluster" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "boron"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_m",
+          "tags" : "[trader, container]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "boron_equipment_trader_m_border_only",
+      "name" : "{20204,401}",
+      "basket" : "equipment",
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "2",
+          "maxbuy" : "2",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "TradeRoutine"
+      },
+      "quota" : {
+        "galaxy" : 2,
+        "cluster" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "boron"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_m",
+          "tags" : "[trader, container]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "boron_construction_trader_l",
+      "name" : "{20204,301}",
+      "basket" : "construction_stations",
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_l"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "TradeRoutine"
+      },
+      "quota" : {
+        "galaxy" : 2,
+        "cluster" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "boron"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_l",
+          "tags" : "[trader, container]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "boron_construction_trader_m",
+      "name" : "{20204,401}",
+      "basket" : "construction_stations",
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "TradeRoutine"
+      },
+      "quota" : {
+        "galaxy" : 7,
+        "cluster" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "boron"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_m",
+          "tags" : "[trader, container]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "boron_construction_trader_m_initial",
+      "name" : "{20204,401}",
+      "startActive" : false,
+      "basket" : "construction_stations",
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "3",
+          "maxbuy" : "8",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "TradeRoutine"
+      },
+      "quota" : {
+        "galaxy" : 3,
+        "cluster" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "boron"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_m",
+          "tags" : "[trader, container]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "boron_ship_construction_trader_l",
+      "name" : "{20204,301}",
+      "basket" : "construction_ships",
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_l"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "TradeRoutine"
+      },
+      "quota" : {
+        "galaxy" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "boron"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_l",
+          "tags" : "[trader, container]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "boron_hullparts_trader_l",
+      "name" : "{20204,701}",
+      "basket" : "hullparts",
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_l"
+      },
+      "order" : {
+        "params" : {
+          "range" : "5"
+        },
+        "defaultOrder" : true,
+        "order" : "Middleman"
+      },
+      "quota" : {
+        "galaxy" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "boron"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : false,
+        "rebuild" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_l",
+          "tags" : "[trader, container]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "boron_ship_construction_trader_m",
+      "name" : "{20204,401}",
+      "basket" : "construction_ships",
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "TradeRoutine"
+      },
+      "quota" : {
+        "galaxy" : 4,
+        "cluster" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "boron"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_m",
+          "tags" : "[trader, container]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "boron_ship_construction_trader_m_border_only",
+      "name" : "{20204,401}",
+      "startActive" : false,
+      "basket" : "construction_ships",
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "2",
+          "maxbuy" : "6",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "TradeRoutine"
+      },
+      "quota" : {
+        "galaxy" : 2,
+        "cluster" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "boron"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_m",
+          "tags" : "[trader, container]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "boron_refinedgas_trader_l",
+      "name" : "{20204,501}",
+      "basket" : "refined_gas",
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_l"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "TradeRoutine"
+      },
+      "quota" : {
+        "galaxy" : 2,
+        "cluster" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "boron"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_l",
+          "tags" : "[trader, container]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "boron_refinedgas_trader_m",
+      "name" : "{20204,601}",
+      "basket" : "refined_gas",
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "TradeRoutine"
+      },
+      "quota" : {
+        "galaxy" : 9,
+        "cluster" : 2,
+        "sector" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "boron"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_m",
+          "tags" : "[trader, container]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "boron_refinedgas_trader_m_initial",
+      "name" : "{20204,601}",
+      "startActive" : false,
+      "basket" : "refined_gas",
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "6",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "TradeRoutine"
+      },
+      "quota" : {
+        "galaxy" : 2,
+        "cluster" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "boron"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_m",
+          "tags" : "[trader, container]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "boron_refinedgas_trader_m_fake",
+      "name" : "{20204,601}",
+      "basket" : "refined_gas",
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "2",
+          "maxbuy" : "2",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "TradeRoutine"
+      },
+      "quota" : {
+        "galaxy" : 2,
+        "cluster" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "boron"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_m",
+          "tags" : "[trader, container]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "boron_refinedmineral_trader_l",
+      "name" : "{20204,501}",
+      "basket" : "refined_mineral",
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_l"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "TradeRoutine"
+      },
+      "quota" : {
+        "galaxy" : 2,
+        "cluster" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "boron"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_l",
+          "tags" : "[trader, container]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "boron_refinedmineral_trader_m",
+      "name" : "{20204,601}",
+      "basket" : "refined_mineral",
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "TradeRoutine"
+      },
+      "quota" : {
+        "galaxy" : 6,
+        "cluster" : 2,
+        "sector" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "boron"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_m",
+          "tags" : "[trader, container]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "boron_refinedmineral_trader_m_initial",
+      "name" : "{20204,601}",
+      "startActive" : false,
+      "basket" : "refined_mineral",
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "TradeRoutine"
+      },
+      "quota" : {
+        "galaxy" : 2,
+        "cluster" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "boron"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_m",
+          "tags" : "[trader, container]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "boron_tech_trader_l",
+      "name" : "{20204,301}",
+      "basket" : "tech",
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_l"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "TradeRoutine"
+      },
+      "quota" : {
+        "galaxy" : 3,
+        "cluster" : 1,
+        "sector" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "boron"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_l",
+          "tags" : "[trader, container]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "boron_tech_trader_m",
+      "name" : "{20204,401}",
+      "basket" : "tech",
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "TradeRoutine"
+      },
+      "quota" : {
+        "galaxy" : 7,
+        "cluster" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "boron"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_m",
+          "tags" : "[trader, container]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "boron_tech_trader_s",
+      "name" : "{20204,401}",
+      "basket" : "tech",
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_s"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "TradeRoutine"
+      },
+      "quota" : {
+        "galaxy" : 5,
+        "cluster" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "boron"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_s",
+          "tags" : "[trader, container]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "boron_water_trader_l_border",
+      "name" : "{20204,1501}",
+      "startActive" : false,
+      "basket" : "water",
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_l"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "10",
+          "maxbuy" : "10",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "TradeRoutine"
+      },
+      "quota" : {
+        "galaxy" : 1,
+        "cluster" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "boron"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_l",
+          "tags" : "[trader, container]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "boron_water_trader_l",
+      "name" : "{20204,1501}",
+      "basket" : "water",
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_l"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "10",
+          "maxbuy" : "10",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "TradeRoutine"
+      },
+      "quota" : {
+        "galaxy" : 3,
+        "cluster" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "boron"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_l",
+          "tags" : "[trader, container]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "boron_water_trader_m",
+      "name" : "{20204,1601}",
+      "basket" : "water",
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "TradeRoutine"
+      },
+      "quota" : {
+        "galaxy" : 10,
+        "cluster" : 2,
+        "sector" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "boron"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_m",
+          "tags" : "[trader, container]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "boron_water_trader_m_intial",
+      "name" : "{20204,1601}",
+      "basket" : "water",
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "2",
+          "maxbuy" : "2",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "TradeRoutine"
+      },
+      "quota" : {
+        "galaxy" : 3,
+        "cluster" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "boron"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_m",
+          "tags" : "[trader, container]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "boron_gas_trader_m_liquid",
+      "name" : "{20204,3601}",
+      "basket" : "gases",
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "TradeRoutine"
+      },
+      "quota" : {
+        "galaxy" : 10,
+        "sector" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_m",
+          "tags" : "[miner, liquid]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "boron_stationtrader_m",
+      "name" : "{20204,801}",
+      "basket" : "all_container",
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[stationtrader]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "params" : {
+          "maxbuy" : "5"
+        },
+        "defaultOrder" : true,
+        "order" : "TradeRoutine"
+      },
+      "quota" : {
+        "galaxy" : 0,
+        "maxgalaxy" : 10
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "boron"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : false,
+        "rebuild" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_m",
+          "tags" : "[trader, container]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "boron_stationtrader_l",
+      "name" : "{20204,701}",
+      "basket" : "all_container",
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[stationtrader]",
+        "size" : "ship_l"
+      },
+      "order" : {
+        "params" : {
+          "maxbuy" : "5"
+        },
+        "defaultOrder" : true,
+        "order" : "TradeRoutine"
+      },
+      "quota" : {
+        "galaxy" : 0,
+        "maxgalaxy" : 3
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "boron"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : false,
+        "rebuild" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_l",
+          "tags" : "[trader, container]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "boron_stationminer_m_liquid",
+      "name" : "{20204,5701}",
+      "basket" : "gases",
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[stationminerliquid]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "params" : {
+          "maxbuy" : "5"
+        },
+        "defaultOrder" : true,
+        "order" : "MiningRoutine"
+      },
+      "quota" : {
+        "galaxy" : 6,
+        "maxgalaxy" : 30
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "ally",
+        "comparison" : "ge",
+        "faction" : "boron"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_m",
+          "tags" : "[miner, liquid]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "boron_stationminer_m_solid",
+      "name" : "{20204,5601}",
+      "basket" : "minerals",
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[stationminersolid]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "params" : {
+          "maxbuy" : "5"
+        },
+        "defaultOrder" : true,
+        "order" : "MiningRoutine"
+      },
+      "quota" : {
+        "galaxy" : 6,
+        "maxgalaxy" : 30
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "ally",
+        "comparison" : "ge",
+        "faction" : "boron"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_m",
+          "tags" : "[miner, solid]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "boron_free_miner_l_liquid",
+      "name" : "{20204,5701}",
+      "basket" : "gases",
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[factionlogic, freighter, miner]",
+        "size" : "ship_l"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "MiningRoutine"
+      },
+      "quota" : {
+        "galaxy" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "regionBasket" : "gases",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "boron"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_l",
+          "tags" : "[miner, liquid]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        },
+        "cargo" : {
+          "fillPercent" : {
+            "min" : "100",
+            "max" : "0",
+            "profile" : "inversebell"
+          },
+          "multiple" : true
+        }
+      }
+    }, {
+      "id" : "boron_free_miner_m_liquid",
+      "name" : "{20204,5701}",
+      "basket" : "gases",
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[factionlogic, freighter, miner]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "MiningRoutine"
+      },
+      "quota" : {
+        "galaxy" : 4,
+        "cluster" : 2
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "regionBasket" : "gases",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "boron"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_m",
+          "tags" : "[miner, liquid]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        },
+        "cargo" : {
+          "fillPercent" : {
+            "min" : "100",
+            "max" : "0",
+            "profile" : "inversebell"
+          }
+        }
+      }
+    }, {
+      "id" : "boron_free_miner_m_liquid_initial",
+      "name" : "{20204,5701}",
+      "startActive" : false,
+      "basket" : "gases",
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[factionlogic, freighter, miner]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "3",
+          "maxbuy" : "3",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "MiningRoutine"
+      },
+      "quota" : {
+        "galaxy" : 2,
+        "cluster" : 2
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "regionBasket" : "gases",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "boron"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_m",
+          "tags" : "[miner, liquid]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        },
+        "cargo" : {
+          "fillPercent" : {
+            "min" : "100",
+            "max" : "0",
+            "profile" : "inversebell"
+          }
+        }
+      }
+    }, {
+      "id" : "boron_free_miner_l_mineral",
+      "name" : "{20204,5601}",
+      "basket" : "minerals",
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[factionlogic, freighter, miner]",
+        "size" : "ship_l"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "MiningRoutine"
+      },
+      "quota" : {
+        "galaxy" : 3
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "regionBasket" : "minerals",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "boron"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_l",
+          "tags" : "[miner, solid]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        },
+        "cargo" : {
+          "fillPercent" : {
+            "min" : "100",
+            "max" : "0",
+            "profile" : "inversebell"
+          }
+        }
+      }
+    }, {
+      "id" : "boron_free_miner_m_mineral",
+      "name" : "{20204,5601}",
+      "basket" : "minerals",
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[factionlogic, freighter, miner]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "MiningRoutine"
+      },
+      "quota" : {
+        "galaxy" : 4,
+        "cluster" : 2
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "regionBasket" : "minerals",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "boron"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_m",
+          "tags" : "[miner, solid]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        },
+        "cargo" : {
+          "fillPercent" : {
+            "min" : "100",
+            "max" : "0",
+            "profile" : "inversebell"
+          }
+        }
+      }
+    }, {
+      "id" : "boron_free_miner_m_mineral_initial",
+      "name" : "{20204,5601}",
+      "startActive" : false,
+      "basket" : "minerals",
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[factionlogic, freighter, miner]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "3",
+          "maxbuy" : "3",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "MiningRoutine"
+      },
+      "quota" : {
+        "galaxy" : 2,
+        "cluster" : 2
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "regionBasket" : "minerals",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "boron"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_m",
+          "tags" : "[miner, solid]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        },
+        "cargo" : {
+          "fillPercent" : {
+            "min" : "100",
+            "max" : "0",
+            "profile" : "inversebell"
+          }
+        }
+      }
+    }, {
+      "id" : "boron_free_miner_s_mineral",
+      "name" : "{20204,5601}",
+      "basket" : "minerals",
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[factionlogic, freighter, miner]",
+        "size" : "ship_s"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "1",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "MiningRoutine"
+      },
+      "quota" : {
+        "galaxy" : 4
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "regionBasket" : "minerals",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "boron"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_s",
+          "tags" : "[miner, solid]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        },
+        "cargo" : {
+          "fillPercent" : {
+            "min" : "100",
+            "max" : "0",
+            "profile" : "inversebell"
+          }
+        }
+      }
+    }, {
+      "id" : "boron_free_miner_s_nividium",
+      "name" : "{20204,6001}",
+      "basket" : "nividium",
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[factionlogic, freighter, miner]",
+        "size" : "ship_s"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "1",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "MiningRoutine"
+      },
+      "quota" : {
+        "galaxy" : 1,
+        "maxgalaxy" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "regionBasket" : "minerals",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "boron"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : false,
+        "rebuild" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_s",
+          "tags" : "[miner, solid]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        },
+        "cargo" : {
+          "fillPercent" : {
+            "min" : "100",
+            "max" : "0",
+            "profile" : "inversebell"
+          }
+        }
+      }
+    }, {
+      "id" : "boron_free_miner_l_ice",
+      "name" : "{20204,2001}",
+      "basket" : "ice",
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[factionlogic, freighter, miner]",
+        "size" : "ship_l"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "MiningRoutine"
+      },
+      "quota" : {
+        "galaxy" : 2
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "regionBasket" : "ice",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "boron"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_l",
+          "tags" : "[miner, solid]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        },
+        "cargo" : {
+          "fillPercent" : {
+            "min" : "100",
+            "max" : "0",
+            "profile" : "inversebell"
+          }
+        }
+      }
+    }, {
+      "id" : "boron_free_miner_m_ice",
+      "name" : "{20204,2001}",
+      "basket" : "ice",
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[factionlogic, freighter, miner]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "MiningRoutine"
+      },
+      "quota" : {
+        "galaxy" : 3
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "regionBasket" : "ice",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "boron"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_m",
+          "tags" : "[miner, solid]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        },
+        "cargo" : {
+          "fillPercent" : {
+            "min" : "100",
+            "max" : "0",
+            "profile" : "inversebell"
+          }
+        }
+      }
+    }, {
+      "id" : "boron_free_miner_m_ice_initial",
+      "name" : "{20204,2001}",
+      "startActive" : false,
+      "basket" : "ice",
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[factionlogic, freighter, miner]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "3",
+          "maxbuy" : "3",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "MiningRoutine"
+      },
+      "quota" : {
+        "galaxy" : 2
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "regionBasket" : "ice",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "boron"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_m",
+          "tags" : "[miner, solid]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        },
+        "cargo" : {
+          "fillPercent" : {
+            "min" : "100",
+            "max" : "0",
+            "profile" : "inversebell"
+          }
+        }
+      }
+    }, {
+      "id" : "boron_scavenger_free_tug_m",
+      "name" : "{20204,5401}",
+      "startActive" : false,
+      "basket" : "all_scrap",
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[factionlogic, tug]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "params" : {
+          "range" : "4"
+        },
+        "defaultOrder" : true,
+        "order" : "SalvageRoutine"
+      },
+      "quota" : {
+        "galaxy" : 2
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "ge",
+        "faction" : "boron"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_m",
+          "tags" : "[tug]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "boron_staticdefense_engineer_m",
+      "name" : "{20204, 8401}",
+      "startActive" : false,
+      "comment" : "Combat Engineer",
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[staticdefense]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "defaultOrder" : true,
+        "order" : "DeployStaticDefenseStrategy"
+      },
+      "quota" : {
+        "galaxy" : 0,
+        "maxgalaxy" : 3
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_m",
+          "tags" : "[military]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "boron_staticdefense_minelayer_s",
+      "name" : "{20204, 8501}",
+      "startActive" : false,
+      "comment" : "Saboteur",
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[staticdefense]",
+        "size" : "ship_s"
+      },
+      "order" : {
+        "params" : {
+          "isminesonly" : "true"
+        },
+        "defaultOrder" : true,
+        "order" : "DeployStaticDefenseStrategy"
+      },
+      "quota" : {
+        "galaxy" : 0,
+        "maxgalaxy" : 2
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_s",
+          "tags" : "[military]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "boron_carrier_patrol_xl_flagship",
+      "name" : "{20204,6201}",
+      "comment" : "Kingdom End",
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[military, carrier, fleetphase_1]",
+        "size" : "ship_xl"
+      },
+      "order" : {
+        "params" : {
+          "defences_includedassignments" : "[assignment.attack]",
+          "range" : "class.zone",
+          "defences_maxgatedistance" : "6",
+          "organizesubordinates" : "true"
+        },
+        "defaultOrder" : true,
+        "order" : "Patrol"
+      },
+      "quota" : {
+        "galaxy" : 1,
+        "cluster" : 1
+      },
+      "location" : {
+        "macro" : "x1g_zone001_cluster16_sector001_macro",
+        "clazz" : "zone",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "boron"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_xl",
+          "tags" : "[military, carrier]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        }
+      },
+      "subordinates" : [ "boron_carrier_escort_l_flagship", "boron_carrier_escort_l_flagship", "boron_carrier_escort_l_flagship", "boron_carrier_escort_l_flagship", "boron_destroyer_escort_l", "boron_fighter_escort_s_carrier_flagship", "boron_resupplier_escort_xl" ]
+    }, {
+      "id" : "boron_carrier_patrol_xl_argon_initial",
+      "name" : "{20204,17101}",
+      "startActive" : false,
+      "comment" : "Argon support fleet",
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[military, carrier]",
+        "size" : "ship_xl"
+      },
+      "order" : {
+        "params" : {
+          "defences_includedassignments" : "[assignment.attack]",
+          "range" : "class.zone",
+          "defences_maxgatedistance" : "1",
+          "organizesubordinates" : "true"
+        },
+        "defaultOrder" : true,
+        "order" : "Patrol"
+      },
+      "quota" : {
+        "galaxy" : 1,
+        "cluster" : 1
+      },
+      "location" : {
+        "macro" : "x1g_zone001_cluster16_sector001_macro",
+        "clazz" : "zone",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "boron"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_xl",
+          "tags" : "[military, carrier]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        }
+      },
+      "subordinates" : [ "boron_carrier_escort_l_argon", "boron_carrier_escort_l_argon", "boron_carrier_escort_l_argon", "boron_destroyer_escort_l", "boron_fighter_escort_s_carrier_flagship" ]
+    }, {
+      "id" : "boron_carrier_patrol_xl_argon",
+      "name" : "{20204,17101}",
+      "startActive" : false,
+      "comment" : "Argon support fleet",
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[military, carrier, fleetphase_1]",
+        "size" : "ship_xl"
+      },
+      "order" : {
+        "params" : {
+          "defences_includedassignments" : "[assignment.attack]",
+          "range" : "class.zone",
+          "defences_maxgatedistance" : "3",
+          "organizesubordinates" : "true"
+        },
+        "defaultOrder" : true,
+        "order" : "Patrol"
+      },
+      "quota" : {
+        "galaxy" : 1,
+        "cluster" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "argon"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_xl",
+          "tags" : "[military, carrier]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        }
+      },
+      "subordinates" : [ "boron_carrier_escort_l_argon", "boron_carrier_escort_l_argon", "boron_carrier_escort_l_argon", "boron_destroyer_escort_l", "boron_fighter_escort_s_carrier_flagship" ]
+    }, {
+      "id" : "boron_carrier_patrol_l_sector",
+      "name" : "{20204,3201}",
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[factionlogic, military, carrier, fleetphase_1]",
+        "size" : "ship_l"
+      },
+      "order" : {
+        "params" : {
+          "range" : "class.sector"
+        },
+        "defaultOrder" : true,
+        "order" : "Patrol"
+      },
+      "quota" : {
+        "galaxy" : 7,
+        "cluster" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "boron"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_l",
+          "tags" : "[military, carrier]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        }
+      },
+      "subordinates" : [ "boron_corvette_escort_m", "boron_fighter_escort_s_carrier" ]
+    }, {
+      "id" : "boron_destroyer_patrol_l_border_only",
+      "name" : "{20204,3301}",
+      "startActive" : false,
+      "comment" : "border sectors only",
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[factionlogic,military, destroyer, fleetphase_1]",
+        "size" : "ship_l"
+      },
+      "order" : {
+        "params" : {
+          "range" : "class.cluster"
+        },
+        "defaultOrder" : true,
+        "order" : "Patrol"
+      },
+      "quota" : {
+        "galaxy" : 1,
+        "sector" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "boron"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_l",
+          "tags" : "[military, destroyer]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        }
+      },
+      "subordinates" : [ "boron_gunboat_escort_m", "boron_corvette_escort_m" ]
+    }, {
+      "id" : "boron_destroyer_patrol_l_leader",
+      "name" : "{20204,3301}",
+      "comment" : "leader of destroyer gorup",
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[factionlogic, military, destroyer, fleetphase_1]",
+        "size" : "ship_l"
+      },
+      "order" : {
+        "params" : {
+          "range" : "class.zone"
+        },
+        "defaultOrder" : true,
+        "order" : "Patrol"
+      },
+      "quota" : {
+        "galaxy" : 5,
+        "maxgalaxy" : 10,
+        "cluster" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "boron"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_l",
+          "tags" : "[military, destroyer]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        }
+      },
+      "subordinates" : [ "boron_corvette_escort_m", "boron_destroyer_escort_l_single" ]
+    }, {
+      "id" : "boron_corvette_patrol_m_sector_exp",
+      "name" : "{20204,2901}",
+      "comment" : "each sector, expansion",
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[factionlogic, military, corvette, fleetphase_1]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "params" : {
+          "range" : "class.sector"
+        },
+        "defaultOrder" : true,
+        "order" : "Patrol"
+      },
+      "quota" : {
+        "galaxy" : 14,
+        "maxgalaxy" : 40,
+        "sector" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "boron"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_m",
+          "tags" : "[military, corvette]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        }
+      },
+      "subordinates" : [ "boron_gunboat_escort_m" ]
+    }, {
+      "id" : "boron_medium_patrol_m_sector_exp_mission",
+      "name" : "{20204,2901}",
+      "comment" : "each sector, expansion",
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[military, medium]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "params" : {
+          "range" : "class.sector"
+        },
+        "defaultOrder" : true,
+        "order" : "Patrol"
+      },
+      "quota" : {
+        "galaxy" : 14,
+        "maxgalaxy" : 14,
+        "sector" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "boron"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_m",
+          "tags" : "[military, medium]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        }
+      },
+      "subordinates" : [ "boron_gunboat_escort_m" ]
+    }, {
+      "id" : "boron_medium_patrol_m_sector_border_mission",
+      "name" : "{20204,2901}",
+      "startActive" : false,
+      "comment" : "border only patrol",
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[military, medium]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "params" : {
+          "range" : "class.sector"
+        },
+        "defaultOrder" : true,
+        "order" : "Patrol"
+      },
+      "quota" : {
+        "galaxy" : 3,
+        "maxgalaxy" : 3,
+        "sector" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "boron"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_m",
+          "tags" : "[military, corvette]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        }
+      },
+      "subordinates" : [ "boron_fighter_escort_s_corvette" ]
+    }, {
+      "id" : "boron_police_patrol_s",
+      "name" : "{20204,6101}",
+      "comment" : "each sector, expansion",
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[police]",
+        "size" : "ship_s"
+      },
+      "order" : {
+        "defaultOrder" : true,
+        "order" : "Police"
+      },
+      "quota" : {
+        "galaxy" : 30,
+        "sector" : 2
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "matchExtension" : false,
+        "policeFaction" : "boron"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_s",
+          "tags" : "[fighter, light]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        }
+      },
+      "subordinates" : [ "boron_fighter_escort_s_police" ]
+    }, {
+      "id" : "boron_destroyer_escort_l_phase2",
+      "name" : "{20204,3301}",
+      "startActive" : false,
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[military, destroyer]",
+        "size" : "ship_l"
+      },
+      "order" : {
+        "params" : {
+          "overrideformationskill" : "true",
+          "formation" : "formationshape.invvshape"
+        },
+        "defaultOrder" : true,
+        "order" : "Escort"
+      },
+      "quota" : {
+        "wing" : 2
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "subordinate" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_l",
+          "tags" : "[military, destroyer]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "boron_destroyer_escort_l_single_phase2",
+      "name" : "{20204,3301}",
+      "startActive" : false,
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[military, destroyer]",
+        "size" : "ship_l"
+      },
+      "order" : {
+        "params" : {
+          "overrideformationskill" : "true",
+          "formation" : "formationshape.invvshape"
+        },
+        "defaultOrder" : true,
+        "order" : "Escort"
+      },
+      "quota" : {
+        "wing" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "subordinate" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_l",
+          "tags" : "[military, destroyer]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "boron_carrier_escort_l_flagship_phase2",
+      "name" : "{20204,3201}",
+      "startActive" : false,
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[military, carrier]",
+        "size" : "ship_l"
+      },
+      "order" : {
+        "params" : {
+          "overrideformationskill" : "true",
+          "formation" : "formationshape.invvshape"
+        },
+        "defaultOrder" : true,
+        "order" : "Escort"
+      },
+      "quota" : {
+        "wing" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "subordinate" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_l",
+          "tags" : "[military, carrier]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        }
+      },
+      "subordinates" : [ "boron_fighter_escort_s_carrier" ]
+    }, {
+      "id" : "boron_carrier_escort_l_argon_phase2",
+      "name" : "{20204,3201}",
+      "startActive" : false,
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[military, carrier]",
+        "size" : "ship_l"
+      },
+      "order" : {
+        "params" : {
+          "overrideformationskill" : "true",
+          "formation" : "formationshape.invvshape"
+        },
+        "defaultOrder" : true,
+        "order" : "Escort"
+      },
+      "quota" : {
+        "wing" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "subordinate" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_l",
+          "tags" : "[military, carrier]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        }
+      },
+      "subordinates" : [ "boron_fighter_escort_s_carrier" ]
+    }, {
+      "id" : "boron_carrier_escort_l_flagship",
+      "name" : "{20204,3201}",
+      "startActive" : false,
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[military, carrier]",
+        "size" : "ship_l"
+      },
+      "order" : {
+        "params" : {
+          "overrideformationskill" : "true",
+          "formation" : "formationshape.invvshape"
+        },
+        "defaultOrder" : true,
+        "order" : "Escort"
+      },
+      "quota" : {
+        "wing" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "subordinate" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_l",
+          "tags" : "[military, carrier]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        }
+      },
+      "subordinates" : [ "boron_corvette_escort_m", "boron_fighter_escort_s_carrier" ]
+    }, {
+      "id" : "boron_carrier_escort_l_argon",
+      "name" : "{20204,3201}",
+      "startActive" : false,
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[military, carrier]",
+        "size" : "ship_l"
+      },
+      "order" : {
+        "params" : {
+          "overrideformationskill" : "true",
+          "formation" : "formationshape.invvshape"
+        },
+        "defaultOrder" : true,
+        "order" : "Escort"
+      },
+      "quota" : {
+        "wing" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "subordinate" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_l",
+          "tags" : "[military, carrier]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        }
+      },
+      "subordinates" : [ "boron_corvette_escort_m", "boron_fighter_escort_s_carrier" ]
+    }, {
+      "id" : "boron_destroyer_escort_l",
+      "name" : "{20204,3301}",
+      "startActive" : false,
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[military, destroyer]",
+        "size" : "ship_l"
+      },
+      "order" : {
+        "params" : {
+          "overrideformationskill" : "true",
+          "formation" : "formationshape.invvshape"
+        },
+        "defaultOrder" : true,
+        "order" : "Escort"
+      },
+      "quota" : {
+        "wing" : 2
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "subordinate" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_l",
+          "tags" : "[military, destroyer]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        }
+      },
+      "subordinates" : [ "boron_gunboat_escort_m" ]
+    }, {
+      "id" : "boron_destroyer_escort_l_single",
+      "name" : "{20204,3301}",
+      "startActive" : false,
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[military, destroyer]",
+        "size" : "ship_l"
+      },
+      "order" : {
+        "params" : {
+          "overrideformationskill" : "true",
+          "formation" : "formationshape.invvshape"
+        },
+        "defaultOrder" : true,
+        "order" : "Escort"
+      },
+      "quota" : {
+        "wing" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "subordinate" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_l",
+          "tags" : "[military, destroyer]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        }
+      },
+      "subordinates" : [ "boron_gunboat_escort_m" ]
+    }, {
+      "id" : "boron_corvette_escort_m",
+      "name" : "{20204,2901}",
+      "startActive" : false,
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[military]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "params" : {
+          "formationparam" : "2500m",
+          "overrideformationskill" : "true",
+          "formation" : "formationshape.dartvertical"
+        },
+        "defaultOrder" : true,
+        "order" : "Escort"
+      },
+      "quota" : {
+        "wing" : 2
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "subordinate" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_m",
+          "tags" : "[military, medium, corvette]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        }
+      },
+      "subordinates" : [ "boron_gunboat_escort_m" ]
+    }, {
+      "id" : "boron_gunboat_escort_m",
+      "name" : "{20204,2901}",
+      "startActive" : false,
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[military]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "params" : {
+          "formationparam" : "2500m",
+          "overrideformationskill" : "true",
+          "formation" : "formationshape.dartvertical"
+        },
+        "defaultOrder" : true,
+        "order" : "Escort"
+      },
+      "quota" : {
+        "wing" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "subordinate" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_m",
+          "tags" : "[military, medium, gunboat]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "boron_fighter_escort_s_carrier_flagship",
+      "name" : "{20204,2901}",
+      "startActive" : false,
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[military, fighter]",
+        "size" : "ship_s"
+      },
+      "order" : {
+        "params" : {
+          "overrideformationskill" : "true",
+          "formation" : "formationshape.pointguard"
+        },
+        "defaultOrder" : true,
+        "order" : "Escort"
+      },
+      "quota" : {
+        "wing" : 38,
+        "variation" : 4
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "subordinate" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_s",
+          "tags" : "[military, fighter, selection]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "boron_fighter_escort_s_carrier",
+      "name" : "{20204,2901}",
+      "startActive" : false,
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[military, fighter]",
+        "size" : "ship_s"
+      },
+      "order" : {
+        "params" : {
+          "overrideformationskill" : "true",
+          "formation" : "formationshape.pointguard"
+        },
+        "defaultOrder" : true,
+        "order" : "Escort"
+      },
+      "quota" : {
+        "wing" : 14,
+        "variation" : 2
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "subordinate" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_s",
+          "tags" : "[military, fighter, selection]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "boron_fighter_escort_s_corvette",
+      "name" : "{20204,2901}",
+      "startActive" : false,
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[military, fighter]",
+        "size" : "ship_s"
+      },
+      "order" : {
+        "params" : {
+          "overrideformationskill" : "true",
+          "formation" : "formationshape.pointguard"
+        },
+        "defaultOrder" : true,
+        "order" : "Escort"
+      },
+      "quota" : {
+        "wing" : 2
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "subordinate" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_s",
+          "tags" : "[military, fighter, selection]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "boron_fighter_escort_s_police",
+      "name" : "{20204,2901}",
+      "startActive" : false,
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[military, fighter]",
+        "size" : "ship_s"
+      },
+      "order" : {
+        "params" : {
+          "overrideformationskill" : "true",
+          "formation" : "formationshape.pointguard"
+        },
+        "defaultOrder" : true,
+        "order" : "Escort"
+      },
+      "quota" : {
+        "wing" : 2
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "subordinate" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_s",
+          "tags" : "[military, fighter, light]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "boron_resupplier_escort_xl",
+      "name" : "{20204,5501}",
+      "startActive" : false,
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[resupplier]",
+        "size" : "ship_xl"
+      },
+      "order" : {
+        "params" : {
+          "overrideformationskill" : "true",
+          "formation" : "formationshape.pointguard"
+        },
+        "defaultOrder" : true,
+        "order" : "SupplyFleet"
+      },
+      "quota" : {
+        "wing" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "subordinate" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_xl",
+          "tags" : "[resupplier]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "boron_construction_vessel_xl",
+      "name" : "{20204,5101}",
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[factionlogic, builder]",
+        "size" : "ship_xl"
+      },
+      "order" : {
+        "params" : {
+          "maxjumps" : "6"
+        },
+        "defaultOrder" : true,
+        "order" : "FindBuildTasks"
+      },
+      "quota" : {
+        "galaxy" : 4,
+        "sector" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "matchExtension" : false,
+        "faction" : "boron"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_xl",
+          "tags" : "[builder]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "boron_construction_vessel_xl_border_only",
+      "name" : "{20204,5101}",
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[factionlogic, builder]",
+        "size" : "ship_xl"
+      },
+      "order" : {
+        "params" : {
+          "maxjumps" : "6"
+        },
+        "defaultOrder" : true,
+        "order" : "FindBuildTasks"
+      },
+      "quota" : {
+        "galaxy" : 1,
+        "sector" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "matchExtension" : false,
+        "faction" : "boron"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_xl",
+          "tags" : "[builder]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "boron_construction_vessel_xl_playeronly",
+      "name" : "{20204,5101}",
+      "category" : {
+        "faction" : "boron",
+        "tags" : "[factionlogic, builder]",
+        "size" : "ship_xl"
+      },
+      "order" : {
+        "params" : {
+          "playeronly" : "true",
+          "maxjumps" : "6"
+        },
+        "defaultOrder" : true,
+        "order" : "FindBuildTasks"
+      },
+      "quota" : {
+        "galaxy" : 2,
+        "maxgalaxy" : 2,
+        "sector" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "boron"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "size" : "ship_xl",
+          "tags" : "[builder]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "boron_resupplier_xl",
+      "name" : "{20204,5501}",
+      "disabled" : true,
+      "order" : {
+        "defaultOrder" : true,
+        "order" : "SupplyFleet"
+      },
+      "quota" : {
+        "galaxy" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "neutral",
+        "comparison" : "ge",
+        "faction" : "boron"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "boron",
+          "tags" : "[resupplier]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "boron",
           "overridenpc" : true
         }
       }
