@@ -36,6 +36,10 @@
         {
           "targetClusterId": "03",
           "connectionType": "SE"
+        },
+        {
+          "targetClusterId": "05",
+          "connectionType": "S"
         }
       ],
       "stations": [
@@ -59,6 +63,10 @@
         {
           "targetClusterId": "03",
           "connectionType": "S"
+        },
+        {
+          "targetClusterId": "21",
+          "connectionType": "SE"
         }
       ],
       "stations": [
@@ -456,11 +464,11 @@
         {
           "targetClusterId": "20",
           "connectionType": "S"
-        }/*,
+        },
         {
           "targetClusterId": "40",
           "connectionType": "SE"
-        }*/
+        }
       ],
       "stations": [
         {"type": "DEFENCE", "race":  "BORON", "owner": "BORON", "faction": "BORON"}
@@ -506,6 +514,214 @@
       ],
       "stations": [
         {"type": "DEFENCE", "race":  "BORON", "owner": "BORON", "faction": "BORON"}
+      ]
+    },
+    /* TELADI */
+    {
+      "id": "40",
+      "name": "Ceo's Buckzoid",
+      "description": "Ceo's Buckzoid",
+      "music": "music_sector_00023",
+      "sunlight": "1",
+      "economy": "0.25",
+      "security": "0.5",
+      "x": 3,
+      "y": 2,
+      "backdrop": "empty_space",
+      "connections": [
+        {
+          "targetClusterId": "41",
+          "connectionType": "S"
+        },
+        {
+          "targetClusterId": "49",
+          "connectionType": "NE"
+        }
+      ],
+      "stations": [
+        {"type": "DEFENCE", "race":  "TELADI", "owner": "TELADI", "faction": "TELADI"},
+        {"type": "TRADE", "race":  "TELADI", "owner": "TELADI", "faction": "TELADI"}
+      ]
+    },
+    {
+      "id": "41",
+      "name": "Profit Share",
+      "description": "Profit Share",
+      "music": "music_sector_00023",
+      "sunlight": "1",
+      "economy": "0.5",
+      "security": "0.5",
+      "x": 3,
+      "y": 1,
+      "backdrop": "empty_space",
+      "connections": [
+        {
+          "targetClusterId": "42",
+          "connectionType": "S"
+        },
+        {
+          "targetClusterId": "50",
+          "connectionType": "NE"
+        }
+      ],
+      "stations": [
+        {"type": "DEFENCE", "race":  "TELADI", "owner": "TELADI", "faction": "TELADI"},
+        {"type": "EQUIP", "race":  "TELADI", "owner": "TELADI", "faction": "TELADI"}
+      ]
+    },
+    {
+      "id": "42",
+      "name": "Spaceweed Drift",
+      "description": "Spaceweed Drift",
+      "music": "music_sector_00023",
+      "sunlight": "1",
+      "economy": "0.5",
+      "security": "0.5",
+      "x": 3,
+      "y": 0,
+      "backdrop": "empty_space",
+      "connections": [
+        {
+          "targetClusterId": "51",
+          "connectionType": "NE"
+        }
+      ],
+      "stations": [
+        {"type": "DEFENCE", "race":  "TELADI", "owner": "TELADI", "faction": "TELADI"}
+      ]
+    },
+    {
+      "id": "49",
+      "name": "Teladi Gain",
+      "description": "Teladi Gain",
+      "music": "music_sector_00023",
+      "sunlight": "1",
+      "economy": "0.25",
+      "security": "0.25",
+      "x": 4,
+      "y": 3,
+      "backdrop": "empty_space",
+      "connections": [
+        {
+          "targetClusterId": "50",
+          "connectionType": "S"
+        }/*,
+        {
+          "targetClusterId": "57",
+          "connectionType": "SE"
+        }*/
+      ],
+      "stations": [
+        {"type": "DEFENCE", "race":  "TELADI", "owner": "TELADI", "faction": "TELADI"}
+      ]
+    },
+    {
+      "id": "50",
+      "name": "Seizewell",
+      "description": "Seizewell",
+      "music": "music_sector_00023",
+      "sunlight": "1",
+      "economy": "0.5",
+      "security": "0.5",
+      "x": 4,
+      "y": 2,
+      "backdrop": "empty_space",
+      "factionHq": "TELADI",
+      "connections": [
+        {
+          "targetClusterId": "51",
+          "connectionType": "S"
+        }
+      ],
+      "stations": [
+        {"type": "SHIPYARD", "race":  "TELADI", "owner": "TELADI", "faction": "TELADI"},
+        {"type": "WHARF", "race":  "TELADI", "owner": "TELADI", "faction": "TELADI"},
+        {"type": "DEFENCE", "race":  "TELADI", "owner": "TELADI", "faction": "TELADI"}
+      ]
+    },
+    {
+      "id": "51",
+      "name": "Greater Profit",
+      "description": "Greater Profit",
+      "music": "music_sector_00023",
+      "sunlight": "1",
+      "economy": "0.75",
+      "security": "0.75",
+      "x": 4,
+      "y": 1,
+      "backdrop": "empty_space",
+      "connections": [
+        {
+          "targetClusterId": "52",
+          "connectionType": "S"
+        }
+      ],
+      "stations": [
+        {"type": "DEFENCE", "race":  "TELADI", "owner": "TELADI", "faction": "TELADI"}
+      ]
+    },
+    {
+      "id": "52",
+      "name": "Blue Profit",
+      "description": "Blue Profit",
+      "music": "music_sector_00023",
+      "sunlight": "1",
+      "economy": "0.5",
+      "security": "0.5",
+      "x": 4,
+      "y": 0,
+      "backdrop": "empty_space",
+      "connections": [
+        {
+          "targetClusterId": "53",
+          "connectionType": "S"
+        }
+      ],
+      "stations": [
+        {"type": "DEFENCE", "race":  "TELADI", "owner": "TELADI", "faction": "TELADI"}
+      ]
+    },
+    {
+      "id": "53",
+      "name": "Ceo's Sprite",
+      "description": "Ceo's Sprite",
+      "music": "music_sector_00023",
+      "sunlight": "1",
+      "economy": "0.25",
+      "security": "0.25",
+      "x": 4,
+      "y": -1,
+      "backdrop": "empty_space",
+      "connections": [
+        {
+          "targetClusterId": "54",
+          "connectionType": "S"
+        }
+      ],
+      "stations": [
+        {"type": "DEFENCE", "race":  "TELADI", "owner": "TELADI", "faction": "TELADI"}
+      ]
+    },
+    {
+      "id": "54",
+      "name": "Company Pride",
+      "description": "Company Pride",
+      "music": "music_sector_00023",
+      "sunlight": "1",
+      "economy": "0.25",
+      "security": "0.25",
+      "x": 4,
+      "y": -2,
+      "backdrop": "empty_space",
+      "connections": [
+        /*{
+          "targetClusterId": "62",
+          "connectionType": "SE"
+        }*/
+      ],
+      "stations": [
+        {"type": "DEFENCE", "race":  "TELADI", "owner": "TELADI", "faction": "TELADI"},
+        {"type": "TRADE", "race":  "TELADI", "owner": "TELADI", "faction": "TELADI"}
       ]
     }
   ],
