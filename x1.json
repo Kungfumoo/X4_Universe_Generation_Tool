@@ -461,6 +461,9 @@
           "targetClusterId": "40",
           "connectionType": "SE"
         }*/
+      ],
+      "stations": [
+        {"type": "DEFENCE", "race":  "BORON", "owner": "BORON", "faction": "BORON"}
       ]
     },
     {
@@ -479,6 +482,9 @@
           "targetClusterId": "21",
           "connectionType": "S"
         }
+      ],
+      "stations": [
+        {"type": "DEFENCE", "race":  "BORON", "owner": "BORON", "faction": "BORON"}
       ]
     },
     {
@@ -497,6 +503,9 @@
           "targetClusterId": "22",
           "connectionType": "S"
         }*/
+      ],
+      "stations": [
+        {"type": "DEFENCE", "race":  "BORON", "owner": "BORON", "faction": "BORON"}
       ]
     }
   ],
@@ -506,10 +515,9 @@
       "ware": "advancedcomposites",
       "race": "ARGON",
       "owner": "ARGON",
-      "galaxyQuota": 2,
+      "galaxyQuota": 1,
       "locationInfo": {
-        "spawnLocations": ["ARGON"],
-        "economyMax": "0.75"
+        "spawnLocations": ["ARGON"]
       }
     },
     {
@@ -517,10 +525,9 @@
       "ware": "advancedelectronics",
       "race": "ARGON",
       "owner": "ARGON",
-      "galaxyQuota": 2,
+      "galaxyQuota": 1,
       "locationInfo": {
-        "spawnLocations": ["ARGON"],
-        "economyMax": "0.75"
+        "spawnLocations": ["ARGON"]
       }
     },
     {
@@ -528,7 +535,7 @@
       "ware": "antimattercells",
       "race": "ARGON",
       "owner": "ARGON",
-      "galaxyQuota": 2,
+      "galaxyQuota": 1,
       "locationInfo": {
         "spawnLocations": ["ARGON"],
         "wares": ["hydrogen"]
@@ -539,10 +546,9 @@
       "ware": "antimatterconverters",
       "race": "ARGON",
       "owner": "ARGON",
-      "galaxyQuota": 2,
+      "galaxyQuota": 1,
       "locationInfo": {
-        "spawnLocations": ["ARGON"],
-        "economyMax": "0.75"
+        "spawnLocations": ["ARGON"]
       }
     },
     {
@@ -550,10 +556,9 @@
       "ware": "claytronics",
       "race": "ARGON",
       "owner": "ARGON",
-      "galaxyQuota": 6,
+      "galaxyQuota": 3,
       "locationInfo": {
-        "spawnLocations": ["ARGON"],
-        "economyMax": "0.75"
+        "spawnLocations": ["ARGON"]
       }
     },
     {
@@ -561,10 +566,9 @@
       "ware": "dronecomponents",
       "race": "ARGON",
       "owner": "ARGON",
-      "galaxyQuota": 2,
+      "galaxyQuota": 1,
       "locationInfo": {
-        "spawnLocations": ["ARGON"],
-        "economyMax": "0.75"
+        "spawnLocations": ["ARGON"]
       }
     },
     {
@@ -572,10 +576,9 @@
       "ware": "energycells",
       "race": "ARGON",
       "owner": "ARGON",
-      "galaxyQuota": 6,
+      "galaxyQuota": 3,
       "locationInfo": {
         "spawnLocations": ["ARGON"],
-        "economyMax": "0.75",
         "sunlightMin": "0.50",
         "sunlightMax": "3"
       }
@@ -585,10 +588,9 @@
       "ware": "engineparts",
       "race": "ARGON",
       "owner": "ARGON",
-      "galaxyQuota": 2,
+      "galaxyQuota": 1,
       "locationInfo": {
-        "spawnLocations": ["ARGON"],
-        "economyMax": "0.75"
+        "spawnLocations": ["ARGON"]
       }
     },
     {
@@ -596,10 +598,9 @@
       "ware": "fieldcoils",
       "race": "ARGON",
       "owner": "ARGON",
-      "galaxyQuota": 2,
+      "galaxyQuota": 1,
       "locationInfo": {
-        "spawnLocations": ["ARGON"],
-        "economyMax": "0.75"
+        "spawnLocations": ["ARGON"]
       }
     },
     {
@@ -607,10 +608,9 @@
       "ware": "foodrations",
       "race": "ARGON",
       "owner": "ARGON",
-      "galaxyQuota": 8,
+      "galaxyQuota": 4,
       "locationInfo": {
-        "spawnLocations": ["ARGON"],
-        "economyMax": "0.75"
+        "spawnLocations": ["ARGON"]
       }
     },
     {
@@ -618,7 +618,7 @@
       "ware": "graphene",
       "race": "ARGON",
       "owner": "ARGON",
-      "galaxyQuota": 6,
+      "galaxyQuota": 3,
       "locationInfo": {
         "spawnLocations": ["ARGON"],
         "wares": ["methane"]
@@ -629,10 +629,9 @@
       "ware": "hullparts",
       "race": "ARGON",
       "owner": "ARGON",
-      "galaxyQuota": 16,
+      "galaxyQuota": 8,
       "locationInfo": {
-        "spawnLocations": ["ARGON"],
-        "economyMax": "0.75"
+        "spawnLocations": ["ARGON"]
       }
     },
     {
@@ -640,10 +639,9 @@
       "ware": "meat",
       "race": "ARGON",
       "owner": "ARGON",
-      "galaxyQuota": 2,
+      "galaxyQuota": 1,
       "locationInfo": {
-        "spawnLocations": ["ARGON"],
-        "economyMax": "0.25"
+        "spawnLocations": ["ARGON"]
       }
     },
     {
@@ -651,10 +649,9 @@
       "ware": "medicalsupplies",
       "race": "ARGON",
       "owner": "ARGON",
-      "galaxyQuota": 18,
+      "galaxyQuota": 9,
       "locationInfo": {
-        "spawnLocations": ["ARGON"],
-        "economyMax": "0.75"
+        "spawnLocations": ["ARGON"]
       }
     },
     {
@@ -662,10 +659,9 @@
       "ware": "microchips",
       "race": "ARGON",
       "owner": "ARGON",
-      "galaxyQuota": 8,
+      "galaxyQuota": 4,
       "locationInfo": {
-        "spawnLocations": ["ARGON"],
-        "economyMax": "0.75"
+        "spawnLocations": ["ARGON"]
       }
     },
     {
@@ -673,10 +669,9 @@
       "ware": "missilecomponents",
       "race": "ARGON",
       "owner": "ARGON",
-      "galaxyQuota": 2,
+      "galaxyQuota": 1,
       "locationInfo": {
-        "spawnLocations": ["ARGON"],
-        "economyMax": "0.75"
+        "spawnLocations": ["ARGON"]
       }
     },
     {
@@ -684,10 +679,9 @@
       "ware": "plasmaconductors",
       "race": "ARGON",
       "owner": "ARGON",
-      "galaxyQuota": 4,
+      "galaxyQuota": 2,
       "locationInfo": {
-        "spawnLocations": ["ARGON"],
-        "economyMax": "0.5"
+        "spawnLocations": ["ARGON"]
       }
     },
     {
@@ -695,10 +689,9 @@
       "ware": "quantumtubes",
       "race": "ARGON",
       "owner": "ARGON",
-      "galaxyQuota": 4,
+      "galaxyQuota": 2,
       "locationInfo": {
-        "spawnLocations": ["ARGON"],
-        "economyMax": "0.5"
+        "spawnLocations": ["ARGON"]
       }
     },
     {
@@ -706,11 +699,10 @@
       "ware": "refinedmetals",
       "race": "ARGON",
       "owner": "ARGON",
-      "galaxyQuota": 6,
-      "sectorQuota": 4,
+      "galaxyQuota": 3,
+      "sectorQuota": 1,
       "locationInfo": {
         "spawnLocations": ["ARGON"],
-        "economyMax": "0.5",
         "wares": ["ore"]
       }
     },
@@ -719,10 +711,9 @@
       "ware": "scanningarrays",
       "race": "ARGON",
       "owner": "ARGON",
-      "galaxyQuota": 2,
+      "galaxyQuota": 1,
       "locationInfo": {
-        "spawnLocations": ["ARGON"],
-        "economyMax": "0.5"
+        "spawnLocations": ["ARGON"]
       }
     },
     {
@@ -730,10 +721,9 @@
       "ware": "shieldcomponents",
       "race": "ARGON",
       "owner": "ARGON",
-      "galaxyQuota":2,
+      "galaxyQuota":1,
       "locationInfo": {
-        "spawnLocations": ["ARGON"],
-        "economyMax": "0.75"
+        "spawnLocations": ["ARGON"]
       }
     },
     {
@@ -741,11 +731,10 @@
       "ware": "siliconwafers",
       "race": "ARGON",
       "owner": "ARGON",
-      "galaxyQuota": 6,
-      "sectorQuota": 4,
+      "galaxyQuota": 3,
+      "sectorQuota": 1,
       "locationInfo": {
         "spawnLocations": ["ARGON"],
-        "economyMax": "0.5",
         "wares": ["silicon"]
       }
     },
@@ -754,10 +743,9 @@
       "ware": "spacefuel",
       "race": "ARGON",
       "owner": "ARGON",
-      "galaxyQuota": 2,
+      "galaxyQuota": 1,
       "locationInfo": {
-        "spawnLocations": ["ARGON"],
-        "economyMax": "0.5"
+        "spawnLocations": ["ARGON"]
       }
     },
     {
@@ -765,10 +753,9 @@
       "ware": "spices",
       "race": "ARGON",
       "owner": "ARGON",
-      "galaxyQuota": 6,
+      "galaxyQuota": 3,
       "locationInfo": {
-        "spawnLocations": ["ARGON"],
-        "economyMax": "0.25"
+        "spawnLocations": ["ARGON"]
       }
     },
     {
@@ -776,7 +763,7 @@
       "ware": "superfluidcoolant",
       "race": "ARGON",
       "owner": "ARGON",
-      "galaxyQuota": 2,
+      "galaxyQuota": 1,
       "locationInfo": {
         "spawnLocations": ["ARGON"],
         "wares": ["helium"]
@@ -787,10 +774,9 @@
       "ware": "turretcomponents",
       "race": "ARGON",
       "owner": "ARGON",
-      "galaxyQuota": 2,
+      "galaxyQuota": 1,
       "locationInfo": {
-        "spawnLocations": ["ARGON"],
-        "economyMax": "0.75"
+        "spawnLocations": ["ARGON"]
       }
     },
     {
@@ -798,7 +784,7 @@
       "ware": "water",
       "race": "ARGON",
       "owner": "ARGON",
-      "galaxyQuota": 4,
+      "galaxyQuota": 2,
       "locationInfo": {
         "spawnLocations": ["ARGON"],
         "wares": ["ice"]
@@ -809,10 +795,9 @@
       "ware": "weaponcomponents",
       "race": "ARGON",
       "owner": "ARGON",
-      "galaxyQuota": 2,
+      "galaxyQuota": 1,
       "locationInfo": {
-        "spawnLocations": ["ARGON"],
-        "economyMax": "0.75"
+        "spawnLocations": ["ARGON"]
       }
     },
     {
@@ -820,10 +805,9 @@
       "ware": "wheat",
       "race": "ARGON",
       "owner": "ARGON",
-      "galaxyQuota": 2,
+      "galaxyQuota": 1,
       "locationInfo": {
-        "spawnLocations": ["ARGON"],
-        "economyMax": "0.25"
+        "spawnLocations": ["ARGON"]
       }
     },
     {
@@ -831,10 +815,9 @@
       "ware": "advancedcomposites",
       "race": "BORON",
       "owner": "BORON",
-      "galaxyQuota": 2,
+      "galaxyQuota": 1,
       "locationInfo": {
-        "spawnLocations": ["BORON"],
-        "economyMax": "0.75"
+        "spawnLocations": ["BORON"]
       }
     },
     {
@@ -842,10 +825,9 @@
       "ware": "advancedelectronics",
       "race": "BORON",
       "owner": "BORON",
-      "galaxyQuota": 2,
+      "galaxyQuota": 1,
       "locationInfo": {
-        "spawnLocations": ["BORON"],
-        "economyMax": "0.75"
+        "spawnLocations": ["BORON"]
       }
     },
     {
@@ -853,10 +835,9 @@
       "ware": "antimatterconverters",
       "race": "BORON",
       "owner": "BORON",
-      "galaxyQuota": 2,
+      "galaxyQuota": 1,
       "locationInfo": {
-        "spawnLocations": ["BORON"],
-        "economyMax": "0.75"
+        "spawnLocations": ["BORON"]
       }
     },
     {
@@ -864,10 +845,9 @@
       "ware": "claytronics",
       "race": "BORON",
       "owner": "BORON",
-      "galaxyQuota": 4,
+      "galaxyQuota": 2,
       "locationInfo": {
-        "spawnLocations": ["BORON"],
-        "economyMax": "0.75"
+        "spawnLocations": ["BORON"]
       }
     },
     {
@@ -875,10 +855,9 @@
       "ware": "energycells",
       "race": "BORON",
       "owner": "BORON",
-      "galaxyQuota": 8,
+      "galaxyQuota": 4,
       "locationInfo": {
         "spawnLocations": ["BORON"],
-        "economyMax": "0.50",
         "sunlightMin": "0.50",
         "sunlightMax": "3"
       }
@@ -888,10 +867,9 @@
       "ware": "engineparts",
       "race": "BORON",
       "owner": "BORON",
-      "galaxyQuota": 2,
+      "galaxyQuota": 1,
       "locationInfo": {
-        "spawnLocations": ["BORON"],
-        "economyMax": "0.75"
+        "spawnLocations": ["BORON"]
       }
     },
     {
@@ -899,10 +877,9 @@
       "ware": "bofu",
       "race": "BORON",
       "owner": "BORON",
-      "galaxyQuota": 8,
+      "galaxyQuota": 4,
       "locationInfo": {
-        "spawnLocations": ["BORON"],
-        "economyMax": "0.75"
+        "spawnLocations": ["BORON"]
       }
     },
     {
@@ -910,10 +887,9 @@
       "ware": "bogas",
       "race": "BORON",
       "owner": "BORON",
-      "galaxyQuota": 4,
+      "galaxyQuota": 2,
       "locationInfo": {
-        "spawnLocations": ["BORON"],
-        "economyMax": "0.75"
+        "spawnLocations": ["BORON"]
       }
     },
     {
@@ -921,10 +897,9 @@
       "ware": "plankton",
       "race": "BORON",
       "owner": "BORON",
-      "galaxyQuota": 8,
+      "galaxyQuota": 4,
       "locationInfo": {
-        "spawnLocations": ["BORON"],
-        "economyMax": "0.75"
+        "spawnLocations": ["BORON"]
       }
     },
     {
@@ -932,7 +907,7 @@
       "ware": "graphene",
       "race": "BORON",
       "owner": "BORON",
-      "galaxyQuota": 4,
+      "galaxyQuota": 2,
       "locationInfo": {
         "spawnLocations": ["BORON"],
         "wares": ["methane"]
@@ -943,10 +918,9 @@
       "ware": "hullparts",
       "race": "BORON",
       "owner": "BORON",
-      "galaxyQuota": 12,
+      "galaxyQuota": 6,
       "locationInfo": {
-        "spawnLocations": ["BORON"],
-        "economyMax": "0.75"
+        "spawnLocations": ["BORON"]
       }
     },
     {
@@ -954,10 +928,9 @@
       "ware": "medicalsupplies",
       "race": "BORON",
       "owner": "BORON",
-      "galaxyQuota": 16,
+      "galaxyQuota": 8,
       "locationInfo": {
-        "spawnLocations": ["BORON"],
-        "economyMax": "0.75"
+        "spawnLocations": ["BORON"]
       }
     },
     {
@@ -965,10 +938,9 @@
       "ware": "microchips",
       "race": "BORON",
       "owner": "BORON",
-      "galaxyQuota": 6,
+      "galaxyQuota": 3,
       "locationInfo": {
-        "spawnLocations": ["BORON"],
-        "economyMax": "0.75"
+        "spawnLocations": ["BORON"]
       }
     },
     {
@@ -976,10 +948,9 @@
       "ware": "missilecomponents",
       "race": "BORON",
       "owner": "BORON",
-      "galaxyQuota": 2,
+      "galaxyQuota": 1,
       "locationInfo": {
-        "spawnLocations": ["BORON"],
-        "economyMax": "0.75"
+        "spawnLocations": ["BORON"]
       }
     },
     {
@@ -987,10 +958,9 @@
       "ware": "plasmaconductors",
       "race": "BORON",
       "owner": "BORON",
-      "galaxyQuota": 4,
+      "galaxyQuota": 2,
       "locationInfo": {
-        "spawnLocations": ["BORON"],
-        "economyMax": "0.5"
+        "spawnLocations": ["BORON"]
       }
     },
     {
@@ -998,10 +968,9 @@
       "ware": "quantumtubes",
       "race": "BORON",
       "owner": "BORON",
-      "galaxyQuota": 4,
+      "galaxyQuota": 2,
       "locationInfo": {
-        "spawnLocations": ["BORON"],
-        "economyMax": "0.5"
+        "spawnLocations": ["BORON"]
       }
     },
     {
@@ -1009,11 +978,10 @@
       "ware": "refinedmetals",
       "race": "BORON",
       "owner": "BORON",
-      "galaxyQuota": 6,
-      "sectorQuota": 4,
+      "galaxyQuota": 3,
+      "sectorQuota": 1,
       "locationInfo": {
         "spawnLocations": ["BORON"],
-        "economyMax": "0.5",
         "wares": ["ore"]
       }
     },
@@ -1022,10 +990,9 @@
       "ware": "scanningarrays",
       "race": "BORON",
       "owner": "BORON",
-      "galaxyQuota": 2,
+      "galaxyQuota": 1,
       "locationInfo": {
-        "spawnLocations": ["BORON"],
-        "economyMax": "0.5"
+        "spawnLocations": ["BORON"]
       }
     },
     {
@@ -1033,11 +1000,10 @@
       "ware": "siliconwafers",
       "race": "BORON",
       "owner": "BORON",
-      "galaxyQuota": 4,
-      "sectorQuota": 2,
+      "galaxyQuota": 2,
+      "sectorQuota": 1,
       "locationInfo": {
         "spawnLocations": ["BORON"],
-        "economyMax": "0.5",
         "wares": ["silicon"]
       }
     },
@@ -1046,10 +1012,9 @@
       "ware": "smartchips",
       "race": "BORON",
       "owner": "BORON",
-      "galaxyQuota": 2,
+      "galaxyQuota": 1,
       "locationInfo": {
-        "spawnLocations": ["BORON"],
-        "economyMax": "0.75"
+        "spawnLocations": ["BORON"]
       }
     },
     {
@@ -1057,7 +1022,7 @@
       "ware": "superfluidcoolant",
       "race": "BORON",
       "owner": "BORON",
-      "galaxyQuota": 2,
+      "galaxyQuota": 1,
       "locationInfo": {
         "spawnLocations": ["BORON"],
         "wares": ["helium"]
@@ -1068,10 +1033,9 @@
       "ware": "turretcomponents",
       "race": "BORON",
       "owner": "BORON",
-      "galaxyQuota": 2,
+      "galaxyQuota": 1,
       "locationInfo": {
-        "spawnLocations": ["BORON"],
-        "economyMax": "0.75"
+        "spawnLocations": ["BORON"]
       }
     },
     {
@@ -1079,7 +1043,7 @@
       "ware": "water",
       "race": "BORON",
       "owner": "BORON",
-      "galaxyQuota": 4,
+      "galaxyQuota": 2,
       "locationInfo": {
         "spawnLocations": ["BORON"],
         "wares": ["ice"]
@@ -1090,10 +1054,9 @@
       "ware": "weaponcomponents",
       "race": "BORON",
       "owner": "BORON",
-      "galaxyQuota": 2,
+      "galaxyQuota": 1,
       "locationInfo": {
-        "spawnLocations": ["BORON"],
-        "economyMax": "0.75"
+        "spawnLocations": ["BORON"]
       }
     }
   ],
@@ -3135,51 +3098,6 @@
         }
       },
       "subordinates" : [ "argon_destroyer_escort_l_phase2_noescort" ]
-    }, {
-      "id" : "argon_carrier_patrol_xl_center_galaxy",
-      "name" : "{20204,3201}",
-      "comment" : "center - consider front line if center proves too deep",
-      "category" : {
-        "faction" : "argon",
-        "tags" : "[military, carrier, fleetphase_1]",
-        "size" : "ship_xl"
-      },
-      "order" : {
-        "params" : {
-          "range" : "class.zone"
-        },
-        "defaultOrder" : true,
-        "order" : "Patrol"
-      },
-      "quota" : {
-        "galaxy" : 1
-      },
-      "location" : {
-        "macro" : "Zone002_Cluster_14_Sector001_macro",
-        "clazz" : "zone",
-        "relation" : "self",
-        "comparison" : "exact",
-        "faction" : "argon"
-      },
-      "environment" : {
-        "buildatshipyard" : true
-      },
-      "modifiers" : {
-        "commandeerable" : false
-      },
-      "ship" : {
-        "select" : {
-          "faction" : "argon",
-          "size" : "ship_xl",
-          "tags" : "[military, carrier]"
-        },
-        "loadout" : { },
-        "owner" : {
-          "exact" : "argon",
-          "overridenpc" : true
-        }
-      },
-      "subordinates" : [ "argon_destroyer_escort_l", "argon_fighter_escort_s_carrier", "argon_resupplier_escort_xl" ]
     }, {
       "id" : "argon_destroyer_patrol_l_sector",
       "name" : "{20204,3301}",
