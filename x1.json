@@ -606,11 +606,11 @@
         {
           "targetClusterId": "50",
           "connectionType": "S"
-        }/*,
+        },
         {
           "targetClusterId": "57",
           "connectionType": "SE"
-        }*/
+        }
       ],
       "stations": [
         {"type": "DEFENCE", "race":  "TELADI", "owner": "TELADI", "faction": "TELADI"}
@@ -715,14 +715,192 @@
       "y": -2,
       "backdrop": "Cluster_20",
       "connections": [
-        /*{
+        {
           "targetClusterId": "62",
           "connectionType": "SE"
-        }*/
+        }
       ],
       "stations": [
         {"type": "DEFENCE", "race":  "TELADI", "owner": "TELADI", "faction": "TELADI"},
         {"type": "TRADE", "race":  "TELADI", "owner": "TELADI", "faction": "TELADI"}
+      ]
+    },
+    /* SPLIT */
+    {
+      "id": "57",
+      "name": "Family Whi",
+      "description": "Family Whi",
+      "music": "music_sector_00026",
+      "sunlight": "1",
+      "economy": "0.75",
+      "security": "0.75",
+      "x": 5,
+      "y": 2,
+      "backdrop": "Cluster_411",
+      "factionHq": "SPLIT",
+      "connections": [
+        {
+          "targetClusterId": "58",
+          "connectionType": "S"
+        }
+      ],
+      "stations": [
+        {"type": "DEFENCE", "race":  "SPLIT", "owner": "SPLIT", "faction": "SPLIT"},
+        {"type": "SHIPYARD", "race":  "SPLIT", "owner": "SPLIT", "faction": "SPLIT"},
+        {"type": "WHARF", "race":  "SPLIT", "owner": "SPLIT", "faction": "SPLIT"},
+        {"type": "EQUIP", "race":  "SPLIT", "owner": "SPLIT", "faction": "SPLIT"}
+      ]
+    },
+    {
+      "id": "58",
+      "name": "Family Zein",
+      "description": "Family Zein",
+      "music": "music_sector_00027",
+      "sunlight": "1",
+      "economy": "0.5",
+      "security": "0.5",
+      "x": 5,
+      "y": 1,
+      "backdrop": "Cluster_401",
+      "connections": [
+        {
+          "targetClusterId": "59",
+          "connectionType": "S"
+        }
+      ],
+      "stations": [
+        {"type": "DEFENCE", "race":  "SPLIT", "owner": "SPLIT", "faction": "SPLIT"}
+      ]
+    },
+    {
+      "id": "59",
+      "name": "Thuruk's Pride",
+      "description": "Thuruk's Pride",
+      "music": "music_sector_00020",
+      "sunlight": "1",
+      "economy": "0.5",
+      "security": "0.5",
+      "x": 5,
+      "y": 0,
+      "backdrop": "empty_space",
+      "connections": [
+        {
+          "targetClusterId": "60",
+          "connectionType": "S"
+        },
+        {
+          "targetClusterId": "64",
+          "connectionType": "NE"
+        }
+      ],
+      "stations": [
+        {"type": "DEFENCE", "race":  "SPLIT", "owner": "SPLIT", "faction": "SPLIT"}
+      ]
+    },
+    {
+      "id": "60",
+      "name": "Chin's Fire",
+      "description": "Chin's Fire",
+      "music": "music_sector_00021",
+      "sunlight": "1",
+      "economy": "0.25",
+      "security": "0.5",
+      "x": 5,
+      "y": -1,
+      "backdrop": "Cluster_421",
+      "connections": [
+        {
+          "targetClusterId": "61",
+          "connectionType": "S"
+        },
+        {
+          "targetClusterId": "65",
+          "connectionType": "NE"
+        }
+      ],
+      "stations": [
+        {"type": "DEFENCE", "race":  "SPLIT", "owner": "SPLIT", "faction": "SPLIT"}
+      ]
+    },
+    {
+      "id": "61",
+      "name": "Family Chin",
+      "description": "Family Chin",
+      "music": "music_sector_00022",
+      "sunlight": "1",
+      "economy": "0.25",
+      "security": "0.25",
+      "x": 5,
+      "y": -2,
+      "backdrop": "empty_space",
+      "connections": [
+        {
+          "targetClusterId": "62",
+          "connectionType": "S"
+        }
+      ],
+      "stations": [
+        {"type": "DEFENCE", "race":  "SPLIT", "owner": "SPLIT", "faction": "SPLIT"}
+      ]
+    },
+    {
+      "id": "62",
+      "name": "Thuruk's Beard",
+      "description": "Thuruk's Beard",
+      "music": "music_sector_00023",
+      "sunlight": "1",
+      "economy": "0.5",
+      "security": "0.5",
+      "x": 5,
+      "y": -3,
+      "backdrop": "Cluster_408",
+      "connections": [
+        /*{
+          "targetClusterId": "63",
+          "connectionType": "S"
+        }*/
+      ],
+      "stations": [
+        {"type": "DEFENCE", "race":  "SPLIT", "owner": "SPLIT", "faction": "SPLIT"},
+        {"type": "TRADE", "race":  "SPLIT", "owner": "SPLIT", "faction": "SPLIT"}
+      ]
+    },
+    {
+      "id": "64",
+      "name": "Family Pride",
+      "description": "Family Pride",
+      "music": "music_sector_00021",
+      "sunlight": "1",
+      "economy": "0.25",
+      "security": "0.25",
+      "x": 6,
+      "y": 1,
+      "backdrop": "Cluster_404",
+      "connections": [
+        {
+          "targetClusterId": "65",
+          "connectionType": "S"
+        }
+      ],
+      "stations": [
+        {"type": "DEFENCE", "race":  "SPLIT", "owner": "SPLIT", "faction": "SPLIT"},
+        {"type": "TRADE", "race":  "SPLIT", "owner": "SPLIT", "faction": "SPLIT"}
+      ]
+    },
+    {
+      "id": "65",
+      "name": "Chin's Clouds",
+      "description": "Chin's Clouds",
+      "music": "music_sector_00022",
+      "sunlight": "1",
+      "economy": "0.5",
+      "security": "0.5",
+      "x": 6,
+      "y": 0,
+      "backdrop": "empty_space",
+      "connections": [],
+      "stations": [
+        {"type": "DEFENCE", "race":  "SPLIT", "owner": "SPLIT", "faction": "SPLIT"}
       ]
     }
   ],
