@@ -1762,6 +1762,285 @@
       "locationInfo": {
         "spawnLocations": ["TELADI"]
       }
+    },
+    {
+      "id": "spl_advancedcomposites",
+      "ware": "advancedcomposites",
+      "race": "SPLIT",
+      "owner": "SPLIT",
+      "galaxyQuota": 2,
+      "locationInfo": {
+        "spawnLocations": ["SPLIT"]
+      }
+    },
+    {
+      "id": "spl_advancedelectronics",
+      "ware": "advancedelectronics",
+      "race": "SPLIT",
+      "owner": "SPLIT",
+      "galaxyQuota": 2,
+      "locationInfo": {
+        "spawnLocations": ["SPLIT"]
+      }
+    },
+    {
+      "id": "spl_antimattercells",
+      "ware": "antimattercells",
+      "race": "SPLIT",
+      "owner": "SPLIT",
+      "galaxyQuota": 1,
+      "locationInfo": {
+        "spawnLocations": ["SPLIT"],
+        "wares": ["hydrogen"]
+      }
+    },
+    {
+      "id": "spl_antimatterconverters",
+      "ware": "antimatterconverters",
+      "race": "SPLIT",
+      "owner": "SPLIT",
+      "galaxyQuota": 2,
+      "locationInfo": {
+        "spawnLocations": ["SPLIT"]
+      }
+    },
+    {
+      "id": "spl_claytronics",
+      "ware": "claytronics",
+      "race": "SPLIT",
+      "owner": "SPLIT",
+      "galaxyQuota": 4,
+      "locationInfo": {
+        "spawnLocations": ["SPLIT"]
+      }
+    },
+    {
+      "id": "spl_dronecomponents",
+      "ware": "dronecomponents",
+      "race": "SPLIT",
+      "owner": "SPLIT",
+      "galaxyQuota": 2,
+      "locationInfo": {
+        "spawnLocations": ["SPLIT"]
+      }
+    },
+    {
+      "id": "spl_energycells",
+      "ware": "energycells",
+      "race": "SPLIT",
+      "owner": "SPLIT",
+      "galaxyQuota": 9,
+      "locationInfo": {
+        "spawnLocations": ["SPLIT"],
+        "sunlightMin": "0.50",
+        "sunlightMax": "3"
+      }
+    },
+    {
+      "id": "spl_engineparts",
+      "ware": "engineparts",
+      "race": "SPLIT",
+      "owner": "SPLIT",
+      "galaxyQuota": 2,
+      "locationInfo": {
+        "spawnLocations": ["SPLIT"]
+      }
+    },
+    {
+      "id": "spl_fieldcoils",
+      "ware": "fieldcoils",
+      "race": "SPLIT",
+      "owner": "SPLIT",
+      "galaxyQuota": 1,
+      "locationInfo": {
+        "spawnLocations": ["SPLIT"]
+      }
+    },
+    {
+      "id": "spl_graphene",
+      "ware": "graphene",
+      "race": "SPLIT",
+      "owner": "SPLIT",
+      "galaxyQuota": 5,
+      "locationInfo": {
+        "spawnLocations": ["SPLIT"],
+        "wares": ["methane"]
+      }
+    },
+    {
+      "id": "spl_hullparts",
+      "ware": "hullparts",
+      "race": "SPLIT",
+      "owner": "SPLIT",
+      "galaxyQuota": 14,
+      "locationInfo": {
+        "spawnLocations": ["SPLIT"]
+      }
+    },
+    {
+      "id": "spl_medicalsupplies",
+      "ware": "medicalsupplies",
+      "race": "SPLIT",
+      "owner": "SPLIT",
+      "galaxyQuota": 16,
+      "locationInfo": {
+        "spawnLocations": ["SPLIT"]
+      }
+    },
+    {
+      "id": "spl_microchips",
+      "ware": "microchips",
+      "race": "SPLIT",
+      "owner": "SPLIT",
+      "galaxyQuota": 7,
+      "locationInfo": {
+        "spawnLocations": ["SPLIT"]
+      }
+    },
+    {
+      "id": "spl_missilecomponents",
+      "ware": "missilecomponents",
+      "race": "SPLIT",
+      "owner": "SPLIT",
+      "galaxyQuota": 2,
+      "locationInfo": {
+        "spawnLocations": ["SPLIT"]
+      }
+    },
+    {
+      "id": "spl_cheltmeat",
+      "ware": "cheltmeat",
+      "race": "SPLIT",
+      "owner": "SPLIT",
+      "galaxyQuota": 5,
+      "locationInfo": {
+        "spawnLocations": ["SPLIT"]
+      }
+    },
+    {
+      "id": "spl_plasmaconductors",
+      "ware": "plasmaconductors",
+      "race": "SPLIT",
+      "owner": "SPLIT",
+      "galaxyQuota": 4,
+      "locationInfo": {
+        "spawnLocations": ["SPLIT"]
+      }
+    },
+    {
+      "id": "spl_quantumtubes",
+      "ware": "quantumtubes",
+      "race": "SPLIT",
+      "owner": "SPLIT",
+      "galaxyQuota": 4,
+      "locationInfo": {
+        "spawnLocations": ["SPLIT"]
+      }
+    },
+    {
+      "id": "spl_scanningarrays",
+      "ware": "scanningarrays",
+      "race": "SPLIT",
+      "owner": "SPLIT",
+      "galaxyQuota": 2,
+      "locationInfo": {
+        "spawnLocations": ["SPLIT"]
+      }
+    },
+    {
+      "id": "spl_shieldcomponents",
+      "ware": "shieldcomponents",
+      "race": "SPLIT",
+      "owner": "SPLIT",
+      "galaxyQuota": 1,
+      "locationInfo": {
+        "spawnLocations": ["SPLIT"]
+      }
+    },
+    {
+      "id": "spl_siliconwafers",
+      "ware": "siliconwafers",
+      "race": "SPLIT",
+      "owner": "SPLIT",
+      "galaxyQuota": 5,
+      "sectorQuota": 4,
+      "locationInfo": {
+        "spawnLocations": ["SPLIT"],
+        "wares": ["silicon"]
+      }
+    },
+    {
+      "id": "spl_smartchips",
+      "ware": "smartchips",
+      "race": "SPLIT",
+      "owner": "SPLIT",
+      "galaxyQuota": 3,
+      "locationInfo": {
+        "spawnLocations": ["SPLIT"]
+      }
+    },
+    {
+      "id": "spl_spices",
+      "ware": "spices",
+      "race": "SPLIT",
+      "owner": "SPLIT",
+      "galaxyQuota": 3,
+      "locationInfo": {
+        "spawnLocations": ["SPLIT"]
+      }
+    },
+    {
+      "id": "spl_superfluidcoolant",
+      "ware": "superfluidcoolant",
+      "race": "SPLIT",
+      "owner": "SPLIT",
+      "galaxyQuota": 2,
+      "locationInfo": {
+        "spawnLocations": ["SPLIT"],
+        "wares": ["helium"]
+      }
+    },
+    {
+      "id": "spl_scruffinfruits",
+      "ware": "scruffinfruits",
+      "race": "SPLIT",
+      "owner": "SPLIT",
+      "galaxyQuota": 5,
+      "locationInfo": {
+        "spawnLocations": ["SPLIT"],
+        "wares": ["ore"]
+      }
+    },
+    {
+      "id": "spl_turretcomponents",
+      "ware": "turretcomponents",
+      "race": "SPLIT",
+      "owner": "SPLIT",
+      "galaxyQuota": 2,
+      "locationInfo": {
+        "spawnLocations": ["SPLIT"]
+      }
+    },
+    {
+      "id": "spl_water",
+      "ware": "water",
+      "race": "SPLIT",
+      "owner": "SPLIT",
+      "galaxyQuota": 5,
+      "locationInfo": {
+        "spawnLocations": ["SPLIT"],
+        "wares": ["ice"]
+      }
+    },
+    {
+      "id": "spl_weaponcomponents",
+      "ware": "weaponcomponents",
+      "race": "SPLIT",
+      "owner": "SPLIT",
+      "galaxyQuota": 2,
+      "locationInfo": {
+        "spawnLocations": ["SPLIT"]
+      }
     }
   ],
   "jobs": [
