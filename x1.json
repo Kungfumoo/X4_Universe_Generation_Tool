@@ -14152,6 +14152,4339 @@
           "overridenpc" : true
         }
       }
+    },
+    {
+      "id" : "zyarth_food_trader_l",
+      "name" : "{20204,1301}",
+      "basket" : "food",
+      "category" : {
+        "faction" : "split",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_l"
+      },
+      "order" : {
+        "params" : {
+          "range" : "5"
+        },
+        "defaultOrder" : true,
+        "order" : "Middleman"
+      },
+      "quota" : {
+        "galaxy" : 8,
+        "cluster" : 4
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "ally",
+        "comparison" : "ge",
+        "faction" : "split"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "size" : "ship_l",
+          "tags" : "[trader, container]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "zyarth_food_trader_m",
+      "name" : "{20204,1401}",
+      "basket" : "food",
+      "category" : {
+        "faction" : "split",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "TradeRoutine"
+      },
+      "quota" : {
+        "galaxy" : 30,
+        "cluster" : 8,
+        "sector" : 6
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "ally",
+        "comparison" : "ge",
+        "faction" : "split"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "size" : "ship_m",
+          "tags" : "[trader, container]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "zyarth_food_trader_s",
+      "name" : "{20204,1801}",
+      "basket" : "food",
+      "category" : {
+        "faction" : "split",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_s"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "TradeRoutine"
+      },
+      "quota" : {
+        "galaxy" : 35,
+        "cluster" : 10,
+        "sector" : 5
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "ally",
+        "comparison" : "ge",
+        "faction" : "split"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "size" : "ship_s",
+          "tags" : "[trader, container]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "zyarth_medical_trader_s",
+      "name" : "{20204,10011}",
+      "basket" : "medicalsupplies",
+      "category" : {
+        "faction" : "split",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_s"
+      },
+      "order" : {
+        "params" : {
+          "range" : "3"
+        },
+        "defaultOrder" : true,
+        "order" : "Middleman"
+      },
+      "quota" : {
+        "galaxy" : 5,
+        "sector" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "ally",
+        "comparison" : "ge",
+        "faction" : "split"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : false,
+        "rebuild" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "size" : "ship_s",
+          "tags" : "[trader, container]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "zyarth_energycell_trader_l",
+      "name" : "{20204,101}",
+      "basket" : "energycells",
+      "category" : {
+        "faction" : "split",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_l"
+      },
+      "order" : {
+        "params" : {
+          "range" : "3"
+        },
+        "defaultOrder" : true,
+        "order" : "Middleman"
+      },
+      "quota" : {
+        "galaxy" : 5,
+        "cluster" : 2
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "ally",
+        "comparison" : "ge",
+        "faction" : "split"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : false,
+        "rebuild" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "size" : "ship_l",
+          "tags" : "[trader, container]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "zyarth_energycell_trader_m",
+      "name" : "{20204,201}",
+      "basket" : "energycells",
+      "category" : {
+        "faction" : "split",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "TradeRoutine"
+      },
+      "quota" : {
+        "galaxy" : 25,
+        "cluster" : 7,
+        "sector" : 5
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "ally",
+        "comparison" : "ge",
+        "faction" : "split"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "size" : "ship_m",
+          "tags" : "[trader, container]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "zyarth_energycell_trader_s",
+      "name" : "{20204,201}",
+      "basket" : "energy",
+      "category" : {
+        "faction" : "split",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_s"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "TradeRoutine"
+      },
+      "quota" : {
+        "galaxy" : 5,
+        "cluster" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "ally",
+        "comparison" : "ge",
+        "faction" : "split"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "size" : "ship_s",
+          "tags" : "[trader, container]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "zyarth_equipment_trader_l",
+      "name" : "{20204,301}",
+      "basket" : "equipment",
+      "category" : {
+        "faction" : "split",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_l"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "TradeRoutine"
+      },
+      "quota" : {
+        "galaxy" : 2,
+        "cluster" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "ally",
+        "comparison" : "ge",
+        "faction" : "split"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "size" : "ship_l",
+          "tags" : "[trader, container]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "zyarth_equipment_trader_m",
+      "name" : "{20204,401}",
+      "basket" : "equipment",
+      "category" : {
+        "faction" : "split",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "TradeRoutine"
+      },
+      "quota" : {
+        "galaxy" : 10,
+        "cluster" : 3,
+        "sector" : 3
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "ally",
+        "comparison" : "ge",
+        "faction" : "split"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "size" : "ship_m",
+          "tags" : "[trader, container]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "zyarth_construction_trader_l",
+      "name" : "{20204,301}",
+      "basket" : "construction_stations",
+      "category" : {
+        "faction" : "split",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_l"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "TradeRoutine"
+      },
+      "quota" : {
+        "galaxy" : 5,
+        "cluster" : 2
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "ally",
+        "comparison" : "ge",
+        "faction" : "split"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "size" : "ship_l",
+          "tags" : "[trader, container]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "zyarth_construction_trader_m",
+      "name" : "{20204,401}",
+      "basket" : "construction_stations",
+      "category" : {
+        "faction" : "split",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "TradeRoutine"
+      },
+      "quota" : {
+        "galaxy" : 18,
+        "cluster" : 3
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "ally",
+        "comparison" : "ge",
+        "faction" : "split"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "size" : "ship_m",
+          "tags" : "[trader, container]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "zyarth_ship_construction_trader_l",
+      "name" : "{20204,301}",
+      "basket" : "construction_ships",
+      "category" : {
+        "faction" : "split",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_l"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "TradeRoutine"
+      },
+      "quota" : {
+        "galaxy" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "ally",
+        "comparison" : "ge",
+        "faction" : "split"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "size" : "ship_l",
+          "tags" : "[trader, container]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "zyarth_hullparts_trader_l",
+      "name" : "{20204,701}",
+      "basket" : "hullparts",
+      "category" : {
+        "faction" : "split",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_l"
+      },
+      "order" : {
+        "params" : {
+          "range" : "5"
+        },
+        "defaultOrder" : true,
+        "order" : "Middleman"
+      },
+      "quota" : {
+        "galaxy" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "ally",
+        "comparison" : "ge",
+        "faction" : "split"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : false,
+        "rebuild" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "size" : "ship_l",
+          "tags" : "[trader, container]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "zyarth_ship_construction_trader_m",
+      "name" : "{20204,401}",
+      "basket" : "construction_ships",
+      "category" : {
+        "faction" : "split",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "TradeRoutine"
+      },
+      "quota" : {
+        "galaxy" : 5,
+        "cluster" : 2
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "ally",
+        "comparison" : "ge",
+        "faction" : "split"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "size" : "ship_m",
+          "tags" : "[trader, container]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "zyarth_ship_construction_trader_m_expanded",
+      "name" : "{20204,401}",
+      "basket" : "construction_ships_expanded",
+      "category" : {
+        "faction" : "split",
+        "tags" : "[freighter, trader]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "TradeRoutine"
+      },
+      "quota" : {
+        "galaxy" : 10,
+        "cluster" : 5
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : false,
+        "rebuild" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "size" : "ship_m",
+          "tags" : "[trader, container]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "zyarth_refinedgas_trader_l",
+      "name" : "{20204,501}",
+      "basket" : "refined_gas",
+      "category" : {
+        "faction" : "split",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_l"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "TradeRoutine"
+      },
+      "quota" : {
+        "galaxy" : 2,
+        "cluster" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "ally",
+        "comparison" : "ge",
+        "faction" : "split"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "size" : "ship_l",
+          "tags" : "[trader, container]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "zyarth_refinedgas_trader_m",
+      "name" : "{20204,601}",
+      "basket" : "refined_gas",
+      "category" : {
+        "faction" : "split",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "TradeRoutine"
+      },
+      "quota" : {
+        "galaxy" : 18,
+        "cluster" : 3,
+        "sector" : 2
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "ally",
+        "comparison" : "ge",
+        "faction" : "split"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "size" : "ship_m",
+          "tags" : "[trader, container]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "zyarth_refinedmineral_trader_l",
+      "name" : "{20204,501}",
+      "basket" : "refined_mineral",
+      "category" : {
+        "faction" : "split",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_l"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "TradeRoutine"
+      },
+      "quota" : {
+        "galaxy" : 5,
+        "cluster" : 2
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "ally",
+        "comparison" : "ge",
+        "faction" : "split"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "size" : "ship_l",
+          "tags" : "[trader, container]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "zyarth_refinedmineral_trader_m",
+      "name" : "{20204,601}",
+      "basket" : "refined_mineral",
+      "category" : {
+        "faction" : "split",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "TradeRoutine"
+      },
+      "quota" : {
+        "galaxy" : 15,
+        "cluster" : 3,
+        "sector" : 3
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "ally",
+        "comparison" : "ge",
+        "faction" : "split"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "size" : "ship_m",
+          "tags" : "[trader, container]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "zyarth_tech_trader_l",
+      "name" : "{20204,301}",
+      "basket" : "tech",
+      "category" : {
+        "faction" : "split",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_l"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "TradeRoutine"
+      },
+      "quota" : {
+        "galaxy" : 5,
+        "cluster" : 2,
+        "sector" : 2
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "ally",
+        "comparison" : "ge",
+        "faction" : "split"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "size" : "ship_l",
+          "tags" : "[trader, container]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "zyarth_tech_trader_m",
+      "name" : "{20204,401}",
+      "basket" : "tech",
+      "category" : {
+        "faction" : "split",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "TradeRoutine"
+      },
+      "quota" : {
+        "galaxy" : 5,
+        "cluster" : 3,
+        "sector" : 2
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "ally",
+        "comparison" : "ge",
+        "faction" : "split"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "size" : "ship_m",
+          "tags" : "[trader, container]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "zyarth_tech_trader_s",
+      "name" : "{20204,401}",
+      "basket" : "tech",
+      "category" : {
+        "faction" : "split",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_s"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "TradeRoutine"
+      },
+      "quota" : {
+        "galaxy" : 10,
+        "cluster" : 3,
+        "sector" : 2
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "ally",
+        "comparison" : "ge",
+        "faction" : "split"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "size" : "ship_s",
+          "tags" : "[trader, container]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "zyarth_water_trader_l",
+      "name" : "{20204,1501}",
+      "basket" : "water",
+      "category" : {
+        "faction" : "split",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_l"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "TradeRoutine"
+      },
+      "quota" : {
+        "galaxy" : 3,
+        "cluster" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "ally",
+        "comparison" : "ge",
+        "faction" : "split"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "size" : "ship_l",
+          "tags" : "[trader, container]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "zyarth_water_trader_m",
+      "name" : "{20204,1601}",
+      "basket" : "water",
+      "category" : {
+        "faction" : "split",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "TradeRoutine"
+      },
+      "quota" : {
+        "galaxy" : 10,
+        "cluster" : 4,
+        "sector" : 2
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "ally",
+        "comparison" : "ge",
+        "faction" : "split"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "size" : "ship_m",
+          "tags" : "[trader, container]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "zyarth_stationtrader_m",
+      "name" : "{20204,801}",
+      "basket" : "all_container",
+      "category" : {
+        "faction" : "split",
+        "tags" : "[stationtrader]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "params" : {
+          "maxbuy" : "5"
+        },
+        "defaultOrder" : true,
+        "order" : "TradeRoutine"
+      },
+      "quota" : {
+        "galaxy" : 0,
+        "maxgalaxy" : 10
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "ally",
+        "comparison" : "ge",
+        "faction" : "split"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : false,
+        "rebuild" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "size" : "ship_m",
+          "tags" : "[trader, container]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "zyarth_stationtrader_l",
+      "name" : "{20204,701}",
+      "basket" : "all_container",
+      "category" : {
+        "faction" : "split",
+        "tags" : "[stationtrader]",
+        "size" : "ship_l"
+      },
+      "order" : {
+        "params" : {
+          "maxbuy" : "5"
+        },
+        "defaultOrder" : true,
+        "order" : "TradeRoutine"
+      },
+      "quota" : {
+        "galaxy" : 0,
+        "maxgalaxy" : 3
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "ally",
+        "comparison" : "ge",
+        "faction" : "split"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : false,
+        "rebuild" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "size" : "ship_l",
+          "tags" : "[trader, container]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "split_stationminer_m_liquid",
+      "name" : "{20204,5701}",
+      "basket" : "gases",
+      "category" : {
+        "faction" : "split",
+        "tags" : "[stationminerliquid]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "params" : {
+          "maxbuy" : "5"
+        },
+        "defaultOrder" : true,
+        "order" : "MiningRoutine"
+      },
+      "quota" : {
+        "galaxy" : 6,
+        "maxgalaxy" : 30
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "ally",
+        "comparison" : "ge",
+        "faction" : "split"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "size" : "ship_m",
+          "tags" : "[miner, liquid]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "split_stationminer_m_solid",
+      "name" : "{20204,5601}",
+      "basket" : "minerals",
+      "category" : {
+        "faction" : "split",
+        "tags" : "[stationminersolid]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "params" : {
+          "maxbuy" : "5"
+        },
+        "defaultOrder" : true,
+        "order" : "MiningRoutine"
+      },
+      "quota" : {
+        "galaxy" : 6,
+        "maxgalaxy" : 30
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "ally",
+        "comparison" : "ge",
+        "faction" : "split"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "size" : "ship_m",
+          "tags" : "[miner, solid]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "zyarth_free_miner_l_liquid",
+      "name" : "{20204,5701}",
+      "basket" : "gases",
+      "category" : {
+        "faction" : "split",
+        "tags" : "[factionlogic, freighter, miner]",
+        "size" : "ship_l"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "MiningRoutine"
+      },
+      "quota" : {
+        "galaxy" : 2
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "regionBasket" : "gases",
+        "relation" : "ally",
+        "comparison" : "ge",
+        "faction" : "split"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "size" : "ship_l",
+          "tags" : "[miner, liquid]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        },
+        "cargo" : {
+          "fillPercent" : {
+            "min" : "100",
+            "max" : "0",
+            "profile" : "inversebell"
+          },
+          "multiple" : true
+        }
+      }
+    }, {
+      "id" : "zyarth_free_miner_l_liquid_short",
+      "name" : "{20204,5701}",
+      "basket" : "gases",
+      "category" : {
+        "faction" : "split",
+        "tags" : "[factionlogic, freighter, miner]",
+        "size" : "ship_l"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "1",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "MiningRoutine"
+      },
+      "quota" : {
+        "galaxy" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "regionBasket" : "gases",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "split"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "size" : "ship_l",
+          "tags" : "[miner, liquid]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        },
+        "cargo" : {
+          "fillPercent" : {
+            "min" : "100",
+            "max" : "0",
+            "profile" : "inversebell"
+          },
+          "multiple" : true
+        }
+      }
+    }, {
+      "id" : "zyarth_free_miner_m_liquid",
+      "name" : "{20204,5701}",
+      "basket" : "gases",
+      "category" : {
+        "faction" : "split",
+        "tags" : "[factionlogic, freighter, miner]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "MiningRoutine"
+      },
+      "quota" : {
+        "galaxy" : 3
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "regionBasket" : "gases",
+        "relation" : "ally",
+        "comparison" : "ge",
+        "faction" : "split"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "size" : "ship_m",
+          "tags" : "[miner, liquid]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        },
+        "cargo" : {
+          "fillPercent" : {
+            "min" : "100",
+            "max" : "0",
+            "profile" : "inversebell"
+          }
+        }
+      }
+    }, {
+      "id" : "zyarth_free_miner_m_liquid_short",
+      "name" : "{20204,5701}",
+      "basket" : "gases",
+      "category" : {
+        "faction" : "split",
+        "tags" : "[factionlogic, freighter, miner]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "1",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "MiningRoutine"
+      },
+      "quota" : {
+        "galaxy" : 4,
+        "sector" : 2
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "regionBasket" : "gases",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "split"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "size" : "ship_m",
+          "tags" : "[miner, liquid]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        },
+        "cargo" : {
+          "fillPercent" : {
+            "min" : "100",
+            "max" : "0",
+            "profile" : "inversebell"
+          }
+        }
+      }
+    }, {
+      "id" : "zyarth_free_miner_l_mineral",
+      "name" : "{20204,5601}",
+      "basket" : "minerals",
+      "category" : {
+        "faction" : "split",
+        "tags" : "[factionlogic, freighter, miner]",
+        "size" : "ship_l"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "MiningRoutine"
+      },
+      "quota" : {
+        "galaxy" : 4
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "regionBasket" : "minerals",
+        "relation" : "ally",
+        "comparison" : "ge",
+        "faction" : "split"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "size" : "ship_l",
+          "tags" : "[miner, solid]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        },
+        "cargo" : {
+          "fillPercent" : {
+            "min" : "100",
+            "max" : "0",
+            "profile" : "inversebell"
+          }
+        }
+      }
+    }, {
+      "id" : "zyarth_free_miner_l_mineral_short",
+      "name" : "{20204,5601}",
+      "basket" : "minerals",
+      "category" : {
+        "faction" : "split",
+        "tags" : "[factionlogic, freighter, miner]",
+        "size" : "ship_l"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "1",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "MiningRoutine"
+      },
+      "quota" : {
+        "galaxy" : 5,
+        "sector" : 2
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "regionBasket" : "minerals",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "split"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "size" : "ship_l",
+          "tags" : "[miner, solid]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        },
+        "cargo" : {
+          "fillPercent" : {
+            "min" : "100",
+            "max" : "0",
+            "profile" : "inversebell"
+          }
+        }
+      }
+    }, {
+      "id" : "zyarth_free_miner_m_mineral",
+      "name" : "{20204,5601}",
+      "basket" : "minerals",
+      "category" : {
+        "faction" : "split",
+        "tags" : "[factionlogic, freighter, miner]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "MiningRoutine"
+      },
+      "quota" : {
+        "galaxy" : 8
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "regionBasket" : "minerals",
+        "relation" : "ally",
+        "comparison" : "ge",
+        "faction" : "split"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "size" : "ship_m",
+          "tags" : "[miner, solid]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        },
+        "cargo" : {
+          "fillPercent" : {
+            "min" : "100",
+            "max" : "0",
+            "profile" : "inversebell"
+          }
+        }
+      }
+    }, {
+      "id" : "zyarth_free_miner_m_mineral_short",
+      "name" : "{20204,5601}",
+      "basket" : "minerals",
+      "category" : {
+        "faction" : "split",
+        "tags" : "[factionlogic, freighter, miner]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "1",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "MiningRoutine"
+      },
+      "quota" : {
+        "galaxy" : 8,
+        "sector" : 5
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "regionBasket" : "minerals",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "split"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "size" : "ship_m",
+          "tags" : "[miner, solid]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        },
+        "cargo" : {
+          "fillPercent" : {
+            "min" : "100",
+            "max" : "0",
+            "profile" : "inversebell"
+          }
+        }
+      }
+    }, {
+      "id" : "zyarth_free_miner_s_mineral",
+      "name" : "{20204,5601}",
+      "basket" : "minerals",
+      "category" : {
+        "faction" : "split",
+        "tags" : "[factionlogic, freighter, miner]",
+        "size" : "ship_s"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "1",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "MiningRoutine"
+      },
+      "quota" : {
+        "galaxy" : 5
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "regionBasket" : "minerals",
+        "relation" : "ally",
+        "comparison" : "ge",
+        "faction" : "split"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "size" : "ship_s",
+          "tags" : "[miner, solid]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        },
+        "cargo" : {
+          "fillPercent" : {
+            "min" : "100",
+            "max" : "0",
+            "profile" : "inversebell"
+          }
+        }
+      }
+    }, {
+      "id" : "zyarth_free_miner_l_ice",
+      "name" : "{20204,2001}",
+      "basket" : "ice",
+      "category" : {
+        "faction" : "split",
+        "tags" : "[factionlogic, freighter, miner]",
+        "size" : "ship_l"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "MiningRoutine"
+      },
+      "quota" : {
+        "galaxy" : 3
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "regionBasket" : "ice",
+        "relation" : "ally",
+        "comparison" : "ge",
+        "faction" : "split"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "size" : "ship_l",
+          "tags" : "[miner, solid]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        },
+        "cargo" : {
+          "fillPercent" : {
+            "min" : "100",
+            "max" : "0",
+            "profile" : "inversebell"
+          }
+        }
+      }
+    }, {
+      "id" : "zyarth_free_miner_m_ice",
+      "name" : "{20204,2001}",
+      "basket" : "ice",
+      "category" : {
+        "faction" : "split",
+        "tags" : "[factionlogic, freighter, miner]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "MiningRoutine"
+      },
+      "quota" : {
+        "galaxy" : 3
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "regionBasket" : "ice",
+        "relation" : "ally",
+        "comparison" : "ge",
+        "faction" : "split"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "size" : "ship_m",
+          "tags" : "[miner, solid]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        },
+        "cargo" : {
+          "fillPercent" : {
+            "min" : "100",
+            "max" : "0",
+            "profile" : "inversebell"
+          }
+        }
+      }
+    }, {
+      "id" : "zyarth_free_miner_m_ice_short",
+      "name" : "{20204,2001}",
+      "basket" : "ice",
+      "category" : {
+        "faction" : "split",
+        "tags" : "[factionlogic, freighter, miner]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "MiningRoutine"
+      },
+      "quota" : {
+        "galaxy" : 2
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "regionBasket" : "ice",
+        "relation" : "ally",
+        "comparison" : "ge",
+        "faction" : "split"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true,
+        "rebuild" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "size" : "ship_m",
+          "tags" : "[miner, solid]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        },
+        "cargo" : {
+          "fillPercent" : {
+            "min" : "100",
+            "max" : "0",
+            "profile" : "inversebell"
+          }
+        }
+      }
+    }, {
+      "id" : "zyarth_miningfleet_m_solid_small",
+      "name" : "{20204,5601}",
+      "startActive" : false,
+      "basket" : "minerals",
+      "category" : {
+        "faction" : "split",
+        "tags" : "[freighter, miner, deepspace]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "MiningRoutine"
+      },
+      "quota" : {
+        "wing" : 2,
+        "variation" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "subordinate" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "size" : "ship_m",
+          "tags" : "[miner, solid]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        }
+      },
+      "subordinates" : [ "zyarth_fighter_escort_s_miningfleet" ]
+    }, {
+      "id" : "zyarth_miningfleet_m_liquid_small",
+      "name" : "{20204,5701}",
+      "startActive" : false,
+      "basket" : "gases",
+      "category" : {
+        "faction" : "split",
+        "tags" : "[freighter, miner, deepspace]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "MiningRoutine"
+      },
+      "quota" : {
+        "wing" : 2,
+        "variation" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "subordinate" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "size" : "ship_m",
+          "tags" : "[miner, liquid]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        }
+      },
+      "subordinates" : [ "zyarth_fighter_escort_s_miningfleet" ]
+    }, {
+      "id" : "zyarth_miningfleet_ml_solid_large",
+      "name" : "{20204,5601}",
+      "startActive" : false,
+      "basket" : "minerals",
+      "category" : {
+        "faction" : "split",
+        "tags" : "[freighter, miner, deepspace]"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "MiningRoutine"
+      },
+      "quota" : {
+        "wing" : 3,
+        "variation" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "subordinate" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "tags" : "[miner, solid, mixed]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        }
+      },
+      "subordinates" : [ "zyarth_fighter_escort_s_miningfleet" ]
+    }, {
+      "id" : "zyarth_miningfleet_ml_liquid_large",
+      "name" : "{20204,5701}",
+      "startActive" : false,
+      "basket" : "gases",
+      "category" : {
+        "faction" : "split",
+        "tags" : "[freighter, miner, deepspace]"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "MiningRoutine"
+      },
+      "quota" : {
+        "wing" : 3,
+        "variation" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "subordinate" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "tags" : "[miner, liquid, mixed]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        }
+      },
+      "subordinates" : [ "zyarth_fighter_escort_s_miningfleet" ]
+    }, {
+      "id" : "zyarth_fighter_escort_s_miningfleet",
+      "name" : "{20204,2901}",
+      "startActive" : false,
+      "category" : {
+        "faction" : "split",
+        "tags" : "[military, fighter, deepspace]",
+        "size" : "ship_s"
+      },
+      "order" : {
+        "params" : {
+          "overrideformationskill" : "true",
+          "formation" : "formationshape.pointguard"
+        },
+        "defaultOrder" : true,
+        "order" : "Escort"
+      },
+      "quota" : {
+        "wing" : 1,
+        "variation" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "subordinate" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "size" : "ship_s",
+          "tags" : "[military, fighter, selection]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "zyarth_construction_vessel_xl",
+      "name" : "{20204,5101}",
+      "category" : {
+        "faction" : "split",
+        "tags" : "[factionlogic, builder]",
+        "size" : "ship_xl"
+      },
+      "order" : {
+        "params" : {
+          "maxjumps" : "6"
+        },
+        "defaultOrder" : true,
+        "order" : "FindBuildTasks"
+      },
+      "quota" : {
+        "galaxy" : 10,
+        "sector" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "ally",
+        "comparison" : "ge",
+        "faction" : "split"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "size" : "ship_xl",
+          "tags" : "[builder]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "zyarth_construction_vessel_xl_focused",
+      "name" : "{20204,5101}",
+      "category" : {
+        "faction" : "split",
+        "tags" : "[factionlogic, builder]",
+        "size" : "ship_xl"
+      },
+      "order" : {
+        "params" : {
+          "ownfactiononly" : "true",
+          "maxjumps" : "3"
+        },
+        "defaultOrder" : true,
+        "order" : "FindBuildTasks"
+      },
+      "quota" : {
+        "galaxy" : 5,
+        "sector" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "ally",
+        "comparison" : "ge",
+        "faction" : "split"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "size" : "ship_xl",
+          "tags" : "[builder]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "zyarth_construction_vessel_xl_playeronly",
+      "name" : "{20204,5101}",
+      "category" : {
+        "faction" : "split",
+        "tags" : "[factionlogic, builder]",
+        "size" : "ship_xl"
+      },
+      "order" : {
+        "params" : {
+          "playeronly" : "true",
+          "maxjumps" : "6"
+        },
+        "defaultOrder" : true,
+        "order" : "FindBuildTasks"
+      },
+      "quota" : {
+        "galaxy" : 2,
+        "maxgalaxy" : 2,
+        "sector" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "ally",
+        "comparison" : "ge",
+        "faction" : "split"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "size" : "ship_xl",
+          "tags" : "[builder]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "zyarth_resupplier_xl",
+      "name" : "{20204,5501}",
+      "order" : {
+        "defaultOrder" : true,
+        "order" : "SupplyFleet"
+      },
+      "quota" : {
+        "galaxy" : 4,
+        "sector" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "split"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "tags" : "[resupplier]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "zyarth_resourcescout_s_deepspace_single",
+      "name" : "{20204,10049}",
+      "comment" : "very few",
+      "basket" : "minerals",
+      "category" : {
+        "faction" : "split",
+        "tags" : "[scout, deepspace]",
+        "size" : "ship_s"
+      },
+      "order" : {
+        "params" : {
+          "deepspace" : "true",
+          "resourcescout" : "true",
+          "maxbuy" : "5"
+        },
+        "defaultOrder" : true,
+        "order" : "MiningRoutine"
+      },
+      "quota" : {
+        "galaxy" : 3,
+        "cluster" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "regionBasket" : "minerals",
+        "relation" : "friend",
+        "comparison" : "ge",
+        "faction" : "split"
+      },
+      "encounters" : "resource_scout",
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "size" : "ship_s",
+          "tags" : "[scout]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "zyarth_free_miner_ml_solid_deepspace_single",
+      "name" : "{20204,5601}",
+      "comment" : "very few",
+      "basket" : "minerals",
+      "category" : {
+        "faction" : "split",
+        "tags" : "[freighter, miner, deepspace]"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "MiningRoutine"
+      },
+      "quota" : {
+        "galaxy" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "regionBasket" : "minerals",
+        "relation" : "friend",
+        "comparison" : "ge",
+        "faction" : "split"
+      },
+      "encounters" : "lone_miner",
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "time" : {
+        "interval" : 1
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "tags" : "[miner, solid, mixed]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "zyarth_free_miner_ml_liquid_deepspace_single",
+      "name" : "{20204,5701}",
+      "comment" : "very few",
+      "basket" : "gases",
+      "category" : {
+        "faction" : "split",
+        "tags" : "[freighter, miner, deepspace]"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "MiningRoutine"
+      },
+      "quota" : {
+        "galaxy" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "regionBasket" : "gases",
+        "relation" : "friend",
+        "comparison" : "ge",
+        "faction" : "split"
+      },
+      "encounters" : "lone_miner",
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "time" : {
+        "interval" : 1
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "tags" : "[miner, liquid, mixed]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "zyarth_free_miner_ml_solid_deepspace_smallgroup",
+      "name" : "{20204,5601}",
+      "comment" : "very few",
+      "basket" : "minerals",
+      "category" : {
+        "faction" : "split",
+        "tags" : "[freighter, miner, deepspace]"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "MiningRoutine"
+      },
+      "quota" : {
+        "galaxy" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "regionBasket" : "minerals",
+        "relation" : "friend",
+        "comparison" : "ge",
+        "faction" : "split"
+      },
+      "encounters" : "mining_group_small",
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "time" : {
+        "interval" : 600
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "tags" : "[miner, solid, mixed]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        }
+      },
+      "subordinates" : [ "zyarth_miningfleet_m_solid_small", "zyarth_fighter_escort_s_miningfleet" ]
+    }, {
+      "id" : "zyarth_free_miner_ml_liquid_deepspace_smallgroup",
+      "name" : "{20204,5701}",
+      "comment" : "very few",
+      "basket" : "gases",
+      "category" : {
+        "faction" : "split",
+        "tags" : "[freighter, miner, deepspace]"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "MiningRoutine"
+      },
+      "quota" : {
+        "galaxy" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "regionBasket" : "gases",
+        "relation" : "friend",
+        "comparison" : "ge",
+        "faction" : "split"
+      },
+      "encounters" : "mining_group_small",
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "time" : {
+        "interval" : 600
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "tags" : "[miner, liquid, mixed]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        }
+      },
+      "subordinates" : [ "zyarth_miningfleet_m_liquid_small", "zyarth_fighter_escort_s_miningfleet" ]
+    }, {
+      "id" : "zyarth_free_miner_l_solid_deepspace_largegroup",
+      "name" : "{20204,5601}",
+      "comment" : "very few",
+      "basket" : "minerals",
+      "category" : {
+        "faction" : "split",
+        "tags" : "[freighter, miner, deepspace]",
+        "size" : "ship_l"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "MiningRoutine"
+      },
+      "quota" : {
+        "galaxy" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "regionBasket" : "minerals",
+        "relation" : "friend",
+        "comparison" : "ge",
+        "faction" : "split"
+      },
+      "encounters" : "mining_group_large",
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "time" : {
+        "interval" : 3600
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "size" : "ship_l",
+          "tags" : "[miner, solid]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        }
+      },
+      "subordinates" : [ "zyarth_miningfleet_ml_solid_large", "zyarth_fighter_escort_s_miningfleet" ]
+    }, {
+      "id" : "zyarth_free_miner_l_liquid_deepspace_largegroup",
+      "name" : "{20204,5701}",
+      "comment" : "very few",
+      "basket" : "gases",
+      "category" : {
+        "faction" : "split",
+        "tags" : "[freighter, miner, deepspace]",
+        "size" : "ship_l"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "5",
+          "maxbuy" : "5",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "MiningRoutine"
+      },
+      "quota" : {
+        "galaxy" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "regionBasket" : "gases",
+        "relation" : "friend",
+        "comparison" : "ge",
+        "faction" : "split"
+      },
+      "encounters" : "mining_group_large",
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "time" : {
+        "interval" : 3600
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "size" : "ship_l",
+          "tags" : "[miner, liquid]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        }
+      },
+      "subordinates" : [ "zyarth_miningfleet_ml_liquid_large", "zyarth_fighter_escort_s_miningfleet" ]
+    }, {
+      "id" : "zyarth_destroyer_patrol_l_sector_phase2",
+      "name" : "{20204,3301}",
+      "startActive" : false,
+      "category" : {
+        "faction" : "split",
+        "tags" : "[factionlogic, military, destroyer, fleetphase_2]",
+        "size" : "ship_l"
+      },
+      "order" : {
+        "params" : {
+          "range" : "class.sector"
+        },
+        "defaultOrder" : true,
+        "order" : "Patrol"
+      },
+      "quota" : {
+        "galaxy" : 5,
+        "sector" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "split"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "size" : "ship_l",
+          "tags" : "[military, destroyer]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        }
+      },
+      "subordinates" : [ "zyarth_destroyer_escort_l_noescort_phase2", "zyarth_destroyer_escort_l_phase2" ]
+    }, {
+      "id" : "zyarth_destroyer_patrol_l_sector_colonial_phase2",
+      "name" : "{20204,3301}",
+      "startActive" : false,
+      "category" : {
+        "faction" : "split",
+        "tags" : "[military, destroyer, colonial, fleetphase_2]",
+        "size" : "ship_l"
+      },
+      "order" : {
+        "params" : {
+          "range" : "class.zone"
+        },
+        "defaultOrder" : true,
+        "order" : "Patrol"
+      },
+      "quota" : {
+        "galaxy" : 8,
+        "sector" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "freesplit"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "size" : "ship_l",
+          "tags" : "[military, destroyer]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        }
+      },
+      "subordinates" : [ "zyarth_destroyer_escort_l_noescort_phase2" ]
+    }, {
+      "id" : "zyarth_carrier_patrol_xl_center",
+      "name" : "{20204,6201}",
+      "category" : {
+        "faction" : "split",
+        "tags" : "[factionlogic, military, carrier]",
+        "size" : "ship_xl"
+      },
+      "order" : {
+        "params" : {
+          "range" : "class.zone"
+        },
+        "defaultOrder" : true,
+        "order" : "Patrol"
+      },
+      "quota" : {
+        "galaxy" : 1
+      },
+      "location" : {
+        "macro" : "x1g_zone002_cluster64_sector001_macro",
+        "clazz" : "zone",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "split"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "size" : "ship_xl",
+          "tags" : "[military, carrier]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        }
+      },
+      "subordinates" : [ "zyarth_escort_m_carrier", "zyarth_escort_s_carrier", "zyarth_resupplier_escort_xl" ]
+    }, {
+      "id" : "zyarth_carrier_patrol_xl_familyzhin",
+      "name" : "{20204,3201}",
+      "category" : {
+        "faction" : "split",
+        "tags" : "[military, carrier]",
+        "size" : "ship_xl"
+      },
+      "order" : {
+        "params" : {
+          "range" : "class.zone"
+        },
+        "defaultOrder" : true,
+        "order" : "Patrol"
+      },
+      "quota" : {
+        "galaxy" : 1
+      },
+      "location" : {
+        "macro" : "x1g_zone002_cluster58_sector001_macro",
+        "clazz" : "zone",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "split"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "size" : "ship_xl",
+          "tags" : "[military, carrier]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        }
+      },
+      "subordinates" : [ "zyarth_escort_m_carrier", "zyarth_escort_s_carrier", "zyarth_resupplier_escort_xl" ]
+    }, {
+      "id" : "zyarth_destroyer_patrol_l_border_sector",
+      "name" : "{20204,3301}",
+      "comment" : "each border sector",
+      "category" : {
+        "faction" : "split",
+        "tags" : "[factionlogic, military, destroyer, fleetphase_1]",
+        "size" : "ship_l"
+      },
+      "order" : {
+        "params" : {
+          "range" : "class.cluster"
+        },
+        "defaultOrder" : true,
+        "order" : "Patrol"
+      },
+      "quota" : {
+        "galaxy" : 5,
+        "sector" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "split"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "size" : "ship_l",
+          "tags" : "[military, destroyer]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        }
+      },
+      "subordinates" : [ "zyarth_frigate_escort_m", "zyarth_resupplier_escort_xl" ]
+    }, {
+      "id" : "zyarth_destroyer_patrol_l_comp",
+      "name" : "{20204,3301}",
+      "comment" : "compression",
+      "category" : {
+        "faction" : "split",
+        "tags" : "[factionlogic, military, destroyer]",
+        "size" : "ship_l"
+      },
+      "order" : {
+        "params" : {
+          "range" : "class.zone"
+        },
+        "defaultOrder" : true,
+        "order" : "Patrol"
+      },
+      "quota" : {
+        "galaxy" : 3,
+        "maxgalaxy" : 9,
+        "sector" : 9
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "split"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "size" : "ship_l",
+          "tags" : "[military, destroyer]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        }
+      },
+      "subordinates" : [ "zyarth_destroyer_escort_l_noescort" ]
+    }, {
+      "id" : "zyarth_destroyer_patrol_l_comp_mission",
+      "name" : "{20204,3301}",
+      "comment" : "compression",
+      "category" : {
+        "faction" : "split",
+        "tags" : "[military, destroyer]",
+        "size" : "ship_l"
+      },
+      "order" : {
+        "params" : {
+          "range" : "class.zone"
+        },
+        "defaultOrder" : true,
+        "order" : "Patrol"
+      },
+      "quota" : {
+        "galaxy" : 2,
+        "maxgalaxy" : 2,
+        "sector" : 2
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "split"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "size" : "ship_l",
+          "tags" : "[military, destroyer]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        }
+      },
+      "subordinates" : [ "zyarth_destroyer_escort_l_noescort" ]
+    }, {
+      "id" : "zyarth_frigate_patrol_m_sector",
+      "name" : "{20204,2901}",
+      "comment" : "each sector",
+      "category" : {
+        "faction" : "split",
+        "tags" : "[military, frigate, fleetphase_1]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "params" : {
+          "range" : "class.sector"
+        },
+        "defaultOrder" : true,
+        "order" : "Patrol"
+      },
+      "quota" : {
+        "galaxy" : 6,
+        "maxgalaxy" : 15,
+        "sector" : 2
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "split"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "size" : "ship_m",
+          "tags" : "[military, frigate]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        }
+      },
+      "subordinates" : [ "zyarth_fighter_escort_s_frigate" ]
+    }, {
+      "id" : "zyarth_frigate_patrol_m_sector_mission",
+      "name" : "{20204,2901}",
+      "comment" : "each sector",
+      "category" : {
+        "faction" : "split",
+        "tags" : "[military, frigate]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "params" : {
+          "range" : "class.sector"
+        },
+        "defaultOrder" : true,
+        "order" : "Patrol"
+      },
+      "quota" : {
+        "galaxy" : 3,
+        "maxgalaxy" : 3,
+        "sector" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "split"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "size" : "ship_m",
+          "tags" : "[military, frigate]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        }
+      },
+      "subordinates" : [ "zyarth_fighter_escort_s_frigate" ]
+    }, {
+      "id" : "zyarth_corvette_patrol_m_sector_exp",
+      "name" : "{20204,2901}",
+      "comment" : "each sector, expansion",
+      "category" : {
+        "faction" : "split",
+        "tags" : "[factionlogic, military, corvette]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "params" : {
+          "range" : "class.sector"
+        },
+        "defaultOrder" : true,
+        "order" : "Patrol"
+      },
+      "quota" : {
+        "galaxy" : 17,
+        "maxgalaxy" : 39,
+        "sector" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "split"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "size" : "ship_m",
+          "tags" : "[military, corvette]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        }
+      },
+      "subordinates" : [ "zyarth_corvette_escort_m" ]
+    }, {
+      "id" : "zyarth_corvette_patrol_m_sector_exp_mission",
+      "name" : "{20204,2901}",
+      "comment" : "each sector, expansion",
+      "category" : {
+        "faction" : "split",
+        "tags" : "[military, corvette]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "params" : {
+          "range" : "class.sector"
+        },
+        "defaultOrder" : true,
+        "order" : "Patrol"
+      },
+      "quota" : {
+        "galaxy" : 7,
+        "maxgalaxy" : 7,
+        "sector" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "split"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "size" : "ship_m",
+          "tags" : "[military, corvette]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        }
+      },
+      "subordinates" : [ "zyarth_corvette_escort_m" ]
+    }, {
+      "id" : "zyarth_corvette_m_raid",
+      "name" : "{20204,3401}",
+      "startActive" : false,
+      "category" : {
+        "faction" : "split",
+        "tags" : "[military, corvette]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "params" : {
+          "range" : "class.zone"
+        },
+        "defaultOrder" : true,
+        "order" : "Patrol"
+      },
+      "quota" : {
+        "galaxy" : 1,
+        "maxgalaxy" : 1
+      },
+      "location" : {
+        "macro" : "cluster_31_sector001_macro",
+        "clazz" : "sector",
+        "matchExtension" : false
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "size" : "ship_m",
+          "tags" : "[military, corvette]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        }
+      },
+      "subordinates" : [ "zyarth_fighter_escort_s_frigate", "zyarth_fighter_escort_s_patrol" ]
+    }, {
+      "id" : "zyarth_fighter_patrol_s_border_zone",
+      "name" : "{20204,2901}",
+      "comment" : "roughly 3 per initial sector. no expansion. uneven distribution.",
+      "category" : {
+        "faction" : "split",
+        "tags" : "[factionlogic, military, fighter, fleetphase_1]",
+        "size" : "ship_s"
+      },
+      "order" : {
+        "params" : {
+          "range" : "class.zone"
+        },
+        "defaultOrder" : true,
+        "order" : "Patrol"
+      },
+      "quota" : {
+        "galaxy" : 17,
+        "maxgalaxy" : 17,
+        "zone" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "split"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "size" : "ship_s",
+          "tags" : "[fighter, heavy]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        }
+      },
+      "subordinates" : [ "zyarth_fighter_escort_s_patrol" ]
+    }, {
+      "id" : "zyarth_fighter_patrol_s_border_zone_mission",
+      "name" : "{20204,2901}",
+      "comment" : "roughly 3 per initial sector. no expansion. uneven distribution.",
+      "category" : {
+        "faction" : "split",
+        "tags" : "[military, fighter]",
+        "size" : "ship_s"
+      },
+      "order" : {
+        "params" : {
+          "range" : "class.zone"
+        },
+        "defaultOrder" : true,
+        "order" : "Patrol"
+      },
+      "quota" : {
+        "galaxy" : 11,
+        "maxgalaxy" : 11,
+        "zone" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "split"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "size" : "ship_s",
+          "tags" : "[fighter, heavy]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        }
+      },
+      "subordinates" : [ "zyarth_fighter_escort_s_patrol" ]
+    }, {
+      "id" : "zyarth_scout_patrol_s",
+      "name" : "{20204,2801}",
+      "comment" : "each border sector * 2",
+      "category" : {
+        "faction" : "split",
+        "tags" : "[factionlogic, military, scout]",
+        "size" : "ship_s"
+      },
+      "order" : {
+        "params" : {
+          "deploysatellites" : "true"
+        },
+        "defaultOrder" : true,
+        "order" : "Recon"
+      },
+      "quota" : {
+        "galaxy" : 10,
+        "cluster" : 2
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "lt",
+        "matchExtension" : false,
+        "faction" : "split"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "size" : "ship_s",
+          "tags" : "[scout]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "zyarth_police_patrol_s",
+      "name" : "{20204,6101}",
+      "comment" : "each sector, expansion",
+      "category" : {
+        "faction" : "split",
+        "tags" : "[police]"
+      },
+      "order" : {
+        "defaultOrder" : true,
+        "order" : "Police"
+      },
+      "quota" : {
+        "galaxy" : 60,
+        "sector" : 3
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "split"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "tags" : "[police]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "zyarth_destroyer_patrol_l_border_sector_colonial",
+      "name" : "{20204,3301}",
+      "comment" : "each border sector",
+      "category" : {
+        "faction" : "split",
+        "tags" : "[military, destroyer, colonial, fleetphase_1]",
+        "size" : "ship_l"
+      },
+      "order" : {
+        "params" : {
+          "range" : "class.cluster"
+        },
+        "defaultOrder" : true,
+        "order" : "Patrol"
+      },
+      "quota" : {
+        "galaxy" : 3,
+        "sector" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "freesplit"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "size" : "ship_l",
+          "tags" : "[military, destroyer]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        }
+      },
+      "subordinates" : [ "zyarth_frigate_escort_m", "zyarth_resupplier_escort_xl" ]
+    }, {
+      "id" : "zyarth_frigate_patrol_m_sector_colonial",
+      "name" : "{20204,10050}",
+      "comment" : "each sector. named police but does not do police behavior. zyarth indifferent to what goes on in freesplit space except for what threatens their power.",
+      "category" : {
+        "faction" : "split",
+        "tags" : "[military, frigate, colonial, colonialpolice, fleetphase_1]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "params" : {
+          "range" : "class.sector"
+        },
+        "defaultOrder" : true,
+        "order" : "Patrol"
+      },
+      "quota" : {
+        "galaxy" : 5,
+        "maxgalaxy" : 13,
+        "sector" : 2
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "freesplit"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "size" : "ship_m",
+          "tags" : "[military, frigate]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        }
+      },
+      "subordinates" : [ "zyarth_fighter_escort_s_frigate" ]
+    }, {
+      "id" : "zyarth_frigate_patrol_m_sector_colonial_mission",
+      "name" : "{20204,10050}",
+      "comment" : "each sector. named police but does not do police behavior. zyarth indifferent to what goes on in freesplit space except for what threatens their power.",
+      "category" : {
+        "faction" : "split",
+        "tags" : "[military, frigate, colonial, colonialpolice]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "params" : {
+          "range" : "class.sector"
+        },
+        "defaultOrder" : true,
+        "order" : "Patrol"
+      },
+      "quota" : {
+        "galaxy" : 3,
+        "maxgalaxy" : 3,
+        "sector" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "freesplit"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "size" : "ship_m",
+          "tags" : "[military, frigate]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        }
+      },
+      "subordinates" : [ "zyarth_fighter_escort_s_frigate" ]
+    }, {
+      "id" : "zyarth_corvette_patrol_m_sector_colonial_exp",
+      "name" : "{20204,10050}",
+      "comment" : "each sector, expansion",
+      "category" : {
+        "faction" : "split",
+        "tags" : "[military, corvette, colonial, colonialpolice]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "params" : {
+          "range" : "class.sector"
+        },
+        "defaultOrder" : true,
+        "order" : "Patrol"
+      },
+      "quota" : {
+        "galaxy" : 10,
+        "maxgalaxy" : 30,
+        "sector" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "freesplit"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "size" : "ship_m",
+          "tags" : "[military, corvette]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        }
+      },
+      "subordinates" : [ "zyarth_corvette_escort_m" ]
+    }, {
+      "id" : "zyarth_corvette_patrol_m_sector_colonial_exp_mission",
+      "name" : "{20204,10050}",
+      "comment" : "each sector, expansion",
+      "category" : {
+        "faction" : "split",
+        "tags" : "[military, corvette, colonial, colonialpolice]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "params" : {
+          "range" : "class.sector"
+        },
+        "defaultOrder" : true,
+        "order" : "Patrol"
+      },
+      "quota" : {
+        "galaxy" : 10,
+        "maxgalaxy" : 10,
+        "sector" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "freesplit"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "size" : "ship_m",
+          "tags" : "[military, corvette]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        }
+      },
+      "subordinates" : [ "zyarth_corvette_escort_m" ]
+    }, {
+      "id" : "zyarth_fighter_patrol_s_border_zone_colonial",
+      "name" : "{20204,10050}",
+      "comment" : "roughly 3 per initial sector. no expansion. uneven distribution.",
+      "category" : {
+        "faction" : "split",
+        "tags" : "[military, fighter, colonial, colonialpolice, fleetphase_1]",
+        "size" : "ship_s"
+      },
+      "order" : {
+        "params" : {
+          "range" : "class.zone"
+        },
+        "defaultOrder" : true,
+        "order" : "Patrol"
+      },
+      "quota" : {
+        "galaxy" : 24,
+        "maxgalaxy" : 24,
+        "zone" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "freesplit"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "size" : "ship_s",
+          "tags" : "[fighter, heavy]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        }
+      },
+      "subordinates" : [ "zyarth_fighter_escort_s_patrol" ]
+    }, {
+      "id" : "zyarth_destroyer_escort_l_phase2",
+      "name" : "{20204,3301}",
+      "startActive" : false,
+      "category" : {
+        "faction" : "split",
+        "tags" : "[military, destroyer]",
+        "size" : "ship_l"
+      },
+      "order" : {
+        "params" : {
+          "overrideformationskill" : "true",
+          "formation" : "formationshape.xshapeforward"
+        },
+        "defaultOrder" : true,
+        "order" : "Escort"
+      },
+      "quota" : {
+        "wing" : 2,
+        "variation" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "subordinate" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "size" : "ship_l",
+          "tags" : "[military, destroyer]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        }
+      },
+      "subordinates" : [ "zyarth_destroyer_escort_l_noescort_phase2" ]
+    }, {
+      "id" : "zyarth_destroyer_escort_l_noescort_phase2",
+      "name" : "{20204,3301}",
+      "startActive" : false,
+      "category" : {
+        "faction" : "split",
+        "tags" : "[military, destroyer]",
+        "size" : "ship_l"
+      },
+      "order" : {
+        "params" : {
+          "overrideformationskill" : "true",
+          "formation" : "formationshape.pointguard"
+        },
+        "defaultOrder" : true,
+        "order" : "Escort"
+      },
+      "quota" : {
+        "wing" : 1,
+        "variation" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "subordinate" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "size" : "ship_l",
+          "tags" : "[military, destroyer]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "zyarth_resupplier_escort_xl",
+      "name" : "{20204,5501}",
+      "startActive" : false,
+      "category" : {
+        "faction" : "split",
+        "tags" : "[resupplier]",
+        "size" : "ship_xl"
+      },
+      "order" : {
+        "params" : {
+          "overrideformationskill" : "true",
+          "formation" : "formationshape.pointguard"
+        },
+        "defaultOrder" : true,
+        "order" : "SupplyFleet"
+      },
+      "quota" : {
+        "wing" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "subordinate" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "size" : "ship_xl",
+          "tags" : "[resupplier]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "zyarth_destroyer_escort_l_noescort",
+      "name" : "{20204,3301}",
+      "startActive" : false,
+      "category" : {
+        "faction" : "split",
+        "tags" : "[military, destroyer]",
+        "size" : "ship_l"
+      },
+      "order" : {
+        "params" : {
+          "overrideformationskill" : "true",
+          "formation" : "formationshape.xshapeforward"
+        },
+        "defaultOrder" : true,
+        "order" : "Escort"
+      },
+      "quota" : {
+        "wing" : 3,
+        "variation" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "subordinate" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "size" : "ship_l",
+          "tags" : "[military, destroyer]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "zyarth_frigate_escort_m",
+      "name" : "{20204,2901}",
+      "startActive" : false,
+      "category" : {
+        "faction" : "split",
+        "tags" : "[military, frigate]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "params" : {
+          "formationparam" : "2500m",
+          "overrideformationskill" : "true",
+          "formation" : "formationshape.dartvertical"
+        },
+        "defaultOrder" : true,
+        "order" : "Escort"
+      },
+      "quota" : {
+        "wing" : 6
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "subordinate" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "size" : "ship_m",
+          "tags" : "[military, medium]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        }
+      },
+      "subordinates" : [ "zyarth_fighter_escort_s_frigate" ]
+    }, {
+      "id" : "zyarth_corvette_escort_m",
+      "name" : "{20204,2901}",
+      "startActive" : false,
+      "category" : {
+        "faction" : "split",
+        "tags" : "[military, corvette]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "params" : {
+          "formationparam" : "2500m",
+          "overrideformationskill" : "true",
+          "formation" : "formationshape.dartvertical"
+        },
+        "defaultOrder" : true,
+        "order" : "Escort"
+      },
+      "quota" : {
+        "wing" : 2
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "subordinate" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "size" : "ship_m",
+          "tags" : "[military, medium, corvette]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "zyarth_fighter_escort_s_frigate",
+      "name" : "{20204,2901}",
+      "startActive" : false,
+      "category" : {
+        "faction" : "split",
+        "tags" : "[military, fighter]",
+        "size" : "ship_s"
+      },
+      "order" : {
+        "params" : {
+          "overrideformationskill" : "true",
+          "formation" : "formationshape.pointguard"
+        },
+        "defaultOrder" : true,
+        "order" : "Escort"
+      },
+      "quota" : {
+        "wing" : 2
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "subordinate" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "size" : "ship_s",
+          "tags" : "[military, fighter, light]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "zyarth_fighter_escort_s_patrol",
+      "name" : "{20204,2901}",
+      "startActive" : false,
+      "category" : {
+        "faction" : "split",
+        "tags" : "[military, fighter]",
+        "size" : "ship_s"
+      },
+      "order" : {
+        "params" : {
+          "overrideformationskill" : "true",
+          "formation" : "formationshape.pointguard"
+        },
+        "defaultOrder" : true,
+        "order" : "Escort"
+      },
+      "quota" : {
+        "wing" : 3
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "subordinate" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "size" : "ship_s",
+          "tags" : "[military, fighter, light]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "zyarth_escort_m_carrier",
+      "name" : "{20204,2901}",
+      "startActive" : false,
+      "category" : {
+        "faction" : "split",
+        "tags" : "[military, corvette]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "params" : {
+          "overrideformationskill" : "true",
+          "formation" : "formationshape.pointguard"
+        },
+        "defaultOrder" : true,
+        "order" : "Escort"
+      },
+      "quota" : {
+        "wing" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "subordinate" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "size" : "ship_m",
+          "tags" : "[military, corvette]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        }
+      },
+      "subordinates" : [ "zyarth_fighter_escort_s_carrier_wing" ]
+    }, {
+      "id" : "zyarth_escort_s_carrier",
+      "name" : "{20204,2901}",
+      "startActive" : false,
+      "category" : {
+        "faction" : "split",
+        "tags" : "[military, fighter]",
+        "size" : "ship_s"
+      },
+      "order" : {
+        "params" : {
+          "overrideformationskill" : "true",
+          "formation" : "formationshape.pointguard"
+        },
+        "defaultOrder" : true,
+        "order" : "Escort"
+      },
+      "quota" : {
+        "wing" : 5
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "subordinate" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "size" : "ship_s",
+          "tags" : "[military, fighter, heavy]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        }
+      },
+      "subordinates" : [ "zyarth_fighter_escort_s_carrier_wing" ]
+    }, {
+      "id" : "zyarth_fighter_escort_s_carrier_wing",
+      "name" : "{20204,2901}",
+      "startActive" : false,
+      "category" : {
+        "faction" : "split",
+        "tags" : "[military, fighter]",
+        "size" : "ship_s"
+      },
+      "order" : {
+        "params" : {
+          "overrideformationskill" : "true",
+          "formation" : "formationshape.pointguard"
+        },
+        "defaultOrder" : true,
+        "order" : "Escort"
+      },
+      "quota" : {
+        "wing" : 6
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "subordinate" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "size" : "ship_s",
+          "tags" : "[military, fighter, selection]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "zyarth_staticdefense_engineer_m",
+      "name" : "{20204, 8401}",
+      "comment" : "Combat Engineer",
+      "category" : {
+        "faction" : "split",
+        "tags" : "[staticdefense]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "defaultOrder" : true,
+        "order" : "DeployStaticDefenseStrategy"
+      },
+      "quota" : {
+        "galaxy" : 0,
+        "maxgalaxy" : 3
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "size" : "ship_m",
+          "tags" : "[military]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "zyarth_staticdefense_minelayer_s",
+      "name" : "{20204, 8501}",
+      "comment" : "Saboteur",
+      "category" : {
+        "faction" : "split",
+        "tags" : "[staticdefense]",
+        "size" : "ship_s"
+      },
+      "order" : {
+        "params" : {
+          "isminesonly" : "true"
+        },
+        "defaultOrder" : true,
+        "order" : "DeployStaticDefenseStrategy"
+      },
+      "quota" : {
+        "galaxy" : 0,
+        "maxgalaxy" : 2
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "split",
+          "size" : "ship_s",
+          "tags" : "[military]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "split",
+          "overridenpc" : true
+        }
+      }
     }
   ]
 }
