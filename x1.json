@@ -307,11 +307,11 @@
         {
           "targetClusterId": "13",
           "connectionType": "NE"
-        }
-        /*{
+        },
+        {
           "targetClusterId": "36",
           "connectionType": "S"
-        }*/
+        }
       ],
       "stations": [
         {"type": "DEFENCE", "race":  "ARGON", "owner": "ARGON", "faction": "ARGON"},
@@ -901,6 +901,162 @@
       "connections": [],
       "stations": [
         {"type": "DEFENCE", "race":  "SPLIT", "owner": "SPLIT", "faction": "SPLIT"}
+      ]
+    },
+    /* PARANID */
+    {
+      "id": "25",
+      "name": "Priest Pity",
+      "description": "Priest Pity",
+      "music": "music_sector_00021",
+      "sunlight": "1",
+      "economy": "0.25",
+      "security": "0.25",
+      "x": 2,
+      "y": -3,
+      "backdrop": "empty_space",
+      "connections": [
+        {
+          "targetClusterId": "26",
+          "connectionType": "S"
+        }
+      ],
+      "stations": [
+        {"type": "DEFENCE", "race":  "PARANID", "owner": "PARANID", "faction": "PARANID"}
+      ]
+    },
+    {
+      "id": "26",
+      "name": "Emperor's Ridge",
+      "description": "Emperor's Ridge",
+      "music": "music_sector_00022",
+      "sunlight": "1",
+      "economy": "0.25",
+      "security": "0.25",
+      "x": 2,
+      "y": -4,
+      "backdrop": "empty_space",
+      "connections": [],
+      "stations": [
+        {"type": "DEFENCE", "race":  "PARANID", "owner": "PARANID", "faction": "PARANID"}
+      ]
+    },
+    {
+      "id": "29",
+      "name": "Priest Rings",
+      "description": "Priest Rings",
+      "music": "music_sector_00020",
+      "sunlight": "1",
+      "economy": "0.5",
+      "security": "0.5",
+      "x": 1,
+      "y": -4,
+      "backdrop": "Cluster_422",
+      "connections": [
+        {
+          "targetClusterId": "30",
+          "connectionType": "S"
+        },
+        {
+          "targetClusterId": "25",
+          "connectionType": "NE"
+        }
+      ],
+      "stations": [
+        {"type": "DEFENCE", "race":  "PARANID", "owner": "PARANID", "faction": "PARANID"}
+      ]
+    },
+    {
+      "id": "30",
+      "name": "Duke's Domain",
+      "description": "Duke's Domain",
+      "music": "music_sector_00021",
+      "sunlight": "1",
+      "economy": "0.25",
+      "security": "0.25",
+      "x": 1,
+      "y": -5,
+      "backdrop": "empty_space",
+      "connections": [
+        {
+          "targetClusterId": "26",
+          "connectionType": "NE"
+        }
+      ],
+      "stations": [
+        {"type": "DEFENCE", "race":  "PARANID", "owner": "PARANID", "faction": "PARANID"}
+      ]
+    },
+    {
+      "id": "32",
+      "name": "Paranid Prime",
+      "description": "Paranid Prime",
+      "music": "music_sector_00027",
+      "sunlight": "1",
+      "economy": "0.75",
+      "security": "0.75",
+      "x": 0,
+      "y": -3,
+      "backdrop": "Cluster_22",
+      "factionHq": "PARANID",
+      "connections": [
+        {
+          "targetClusterId": "33",
+          "connectionType": "S"
+        },
+        {
+          "targetClusterId": "29",
+          "connectionType": "SE"
+        }
+      ],
+      "stations": [
+        {"type": "SHIPYARD", "race":  "PARANID", "owner": "PARANID", "faction": "PARANID"},
+        {"type": "WHARF", "race":  "PARANID", "owner": "PARANID", "faction": "PARANID"},
+        {"type": "DEFENCE", "race":  "PARANID", "owner": "PARANID", "faction": "PARANID"}
+      ]
+    },
+    {
+      "id": "33",
+      "name": "Empire's Edge",
+      "description": "Empire's Edge",
+      "music": "music_sector_00020",
+      "sunlight": "1",
+      "economy": "0.5",
+      "security": "0.5",
+      "x": 0,
+      "y": -4,
+      "backdrop": "empty_space",
+      "connections": [
+        {
+          "targetClusterId": "30",
+          "connectionType": "SE"
+        }
+      ],
+      "stations": [
+        {"type": "EQUIP", "race":  "PARANID", "owner": "PARANID", "faction": "PARANID"},
+        {"type": "DEFENCE", "race":  "PARANID", "owner": "PARANID", "faction": "PARANID"}
+      ]
+    },
+    {
+      "id": "36",
+      "name": "Emperor Mines",
+      "description": "Emperor Mines",
+      "music": "music_sector_00026",
+      "sunlight": "1",
+      "economy": "0.25",
+      "security": "0.5",
+      "x": -1,
+      "y": -4,
+      "backdrop": "Cluster_424",
+      "connections": [
+        {
+          "targetClusterId": "32",
+          "connectionType": "NE"
+        }
+      ],
+      "stations": [
+        {"type": "DEFENCE", "race":  "PARANID", "owner": "PARANID", "faction": "PARANID"},
+        {"type": "TRADE", "race":  "PARANID", "owner": "PARANID", "faction": "PARANID"}
       ]
     }
   ],
