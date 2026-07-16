@@ -22720,7 +22720,7 @@
     },
     {
       "id" : "xenon_free_miner_m_mineral",
-      "name" : "{20204,1901}",
+      "name": "Xenon",
       "basket" : "minerals_xenon",
       "category" : {
         "faction" : "xenon",
@@ -22776,7 +22776,7 @@
       }
     }, {
       "id" : "xenon_free_miner_m_mineral_local",
-      "name" : "{20204,1901}",
+      "name": "Xenon",
       "basket" : "minerals_xenon",
       "category" : {
         "faction" : "xenon",
@@ -22830,7 +22830,7 @@
       }
     }, {
       "id" : "xenon_free_trader_m_energy",
-      "name" : "{20204,4801}",
+      "name": "Xenon",
       "basket" : "energycells",
       "category" : {
         "faction" : "xenon",
@@ -22877,13 +22877,13 @@
         }
       }
     }, {
-      "id" : "xenon_carrier_patrol_xl_border_cluster",
-      "name" : "{20204,3801}",
+      "id" : "xenon_carrier_patrol_l_border_cluster",
+      "name": "Xenon",
       "comment" : "one border cluster",
       "category" : {
         "faction" : "xenon",
-        "tags" : "[factionlogic, military, carrier]",
-        "size" : "ship_xl"
+        "tags" : "[factionlogic, military, terraformer]",
+        "size" : "ship_l"
       },
       "order" : {
         "params" : {
@@ -22912,8 +22912,8 @@
       "ship" : {
         "select" : {
           "faction" : "xenon",
-          "size" : "ship_xl",
-          "tags" : "[military, carrier]"
+          "size" : "ship_l",
+          "tags" : "[military, terraformer]"
         },
         "loadout" : { },
         "owner" : {
@@ -22921,15 +22921,15 @@
           "overridenpc" : true
         }
       },
-      "subordinates" : [ "xenon_destroyer_escort_xl", "xen_terraformer_escort_l" ]
+      "subordinates" : [ "xenon_destroyer_escort_l", "xen_terraformer_escort_l" ]
     }, {
-      "id" : "xenon_carrier_patrol_xl_zone_defence",
-      "name" : "{20204,3801}",
+      "id" : "xenon_carrier_patrol_l_zone_defence",
+      "name": "Xenon",
       "comment" : "defence",
       "category" : {
         "faction" : "xenon",
-        "tags" : "[military, carrier]",
-        "size" : "ship_xl"
+        "tags" : "[military, terraformer]",
+        "size" : "ship_l"
       },
       "order" : {
         "params" : {
@@ -22958,8 +22958,8 @@
       "ship" : {
         "select" : {
           "faction" : "xenon",
-          "size" : "ship_xl",
-          "tags" : "[military, carrier]"
+          "size" : "ship_l",
+          "tags" : "[military, terraformer]"
         },
         "loadout" : { },
         "owner" : {
@@ -22967,15 +22967,15 @@
           "overridenpc" : true
         }
       },
-      "subordinates" : [ "xenon_destroyer_escort_xl", "xen_terraformer_escort_l" ]
+      "subordinates" : [ "xenon_destroyer_escort_l", "xen_terraformer_escort_l" ]
     }, {
-      "id" : "xenon_destroyer_patrol_xl_cluster",
-      "name" : "{20204,3801}",
+      "id" : "xenon_destroyer_patrol_l_cluster",
+      "name": "Xenon",
       "comment" : "each cluster",
       "category" : {
         "faction" : "xenon",
-        "tags" : "[factionlogic, military, destroyer]",
-        "size" : "ship_xl"
+        "tags" : "[factionlogic, military, terraformer]",
+        "size" : "ship_l"
       },
       "order" : {
         "params" : {
@@ -23005,8 +23005,8 @@
       "ship" : {
         "select" : {
           "faction" : "xenon",
-          "size" : "ship_xl",
-          "tags" : "[military, destroyer]"
+          "size" : "ship_l",
+          "tags" : "[military, terraformer]"
         },
         "loadout" : { },
         "owner" : {
@@ -23014,15 +23014,15 @@
           "overridenpc" : true
         }
       },
-      "subordinates" : [ "xenon_frigate_escort_m", "xenon_destroyer_escort_xl_single" ]
+      "subordinates" : [ "xenon_frigate_escort_m", "xenon_destroyer_escort_l_single" ]
     }, {
-      "id" : "xenon_destroyer_patrol_xl_cluster_mission",
-      "name" : "{20204,3801}",
+      "id" : "xenon_destroyer_patrol_l_cluster_mission",
+      "name": "Xenon",
       "comment" : "each cluster",
       "category" : {
         "faction" : "xenon",
-        "tags" : "[military, destroyer]",
-        "size" : "ship_xl"
+        "tags" : "[military, terraformer]",
+        "size" : "ship_l"
       },
       "order" : {
         "params" : {
@@ -23052,8 +23052,8 @@
       "ship" : {
         "select" : {
           "faction" : "xenon",
-          "size" : "ship_xl",
-          "tags" : "[military, destroyer]"
+          "size" : "ship_l",
+          "tags" : "[military, terraformer]"
         },
         "loadout" : { },
         "owner" : {
@@ -23061,15 +23061,15 @@
           "overridenpc" : true
         }
       },
-      "subordinates" : [ "xenon_frigate_escort_m", "xenon_destroyer_escort_xl_single" ]
+      "subordinates" : [ "xenon_frigate_escort_m", "xenon_destroyer_escort_l_single" ]
     }, {
-      "id" : "xenon_destroyer_patrol_xl_defence",
-      "name" : "{20204,3801}",
+      "id" : "xenon_destroyer_patrol_l_defence",
+      "name": "Xenon",
       "comment" : "defence",
       "category" : {
         "faction" : "xenon",
-        "tags" : "[military, destroyer]",
-        "size" : "ship_xl"
+        "tags" : "[military, terraformer]",
+        "size" : "ship_l"
       },
       "order" : {
         "params" : {
@@ -23098,8 +23098,8 @@
       "ship" : {
         "select" : {
           "faction" : "xenon",
-          "size" : "ship_xl",
-          "tags" : "[military, destroyer]"
+          "size" : "ship_l",
+          "tags" : "[military, terraformer]"
         },
         "loadout" : { },
         "owner" : {
@@ -23107,15 +23107,15 @@
           "overridenpc" : true
         }
       },
-      "subordinates" : [ "xenon_frigate_escort_m", "xenon_destroyer_escort_xl_single" ]
+      "subordinates" : [ "xenon_frigate_escort_m", "xenon_destroyer_escort_l_single" ]
     }, {
-      "id" : "xenon_destroyer_patrol_xl_comp",
-      "name" : "{20204,3801}",
+      "id" : "xenon_destroyer_patrol_l_comp",
+      "name": "Xenon",
       "comment" : "compression",
       "category" : {
         "faction" : "xenon",
-        "tags" : "[military, destroyer]",
-        "size" : "ship_xl"
+        "tags" : "[military, terraformer]",
+        "size" : "ship_l"
       },
       "order" : {
         "params" : {
@@ -23145,8 +23145,8 @@
       "ship" : {
         "select" : {
           "faction" : "xenon",
-          "size" : "ship_xl",
-          "tags" : "[military, destroyer]"
+          "size" : "ship_l",
+          "tags" : "[military, terraformer]"
         },
         "loadout" : { },
         "owner" : {
@@ -23155,13 +23155,13 @@
         }
       }
     }, {
-      "id" : "xenon_destroyer_patrol_xl_comp_mission",
-      "name" : "{20204,3801}",
+      "id" : "xenon_destroyer_patrol_l_comp_mission",
+      "name": "Xenon",
       "comment" : "compression",
       "category" : {
         "faction" : "xenon",
-        "tags" : "[military, destroyer]",
-        "size" : "ship_xl"
+        "tags" : "[military, terraformer]",
+        "size" : "ship_l"
       },
       "order" : {
         "params" : {
@@ -23191,8 +23191,8 @@
       "ship" : {
         "select" : {
           "faction" : "xenon",
-          "size" : "ship_xl",
-          "tags" : "[military, destroyer]"
+          "size" : "ship_l",
+          "tags" : "[military, terraformer]"
         },
         "loadout" : { },
         "owner" : {
@@ -23202,7 +23202,7 @@
       }
     }, {
       "id" : "xenon_terraformer_patrol_l_rare",
-      "name" : "{20204,9101}",
+      "name": "Xenon",
       "comment" : "rare",
       "category" : {
         "faction" : "xenon",
@@ -23249,7 +23249,7 @@
       "subordinates" : [ "xenon_fighter_escort_s_frigate" ]
     }, {
       "id" : "xenon_terraformer_patrol_l_sector",
-      "name" : "{20204,9101}",
+      "name": "Xenon",
       "comment" : "home sectors only",
       "category" : {
         "faction" : "xenon",
@@ -23296,7 +23296,7 @@
       "subordinates" : [ "xenon_fighter_escort_s_frigate" ]
     }, {
       "id" : "xenon_fighter_patrol_s_zone",
-      "name" : "{20204,3401}",
+      "name": "Xenon",
       "comment" : "each zone",
       "category" : {
         "faction" : "xenon",
@@ -23343,7 +23343,7 @@
       "subordinates" : [ "xenon_fighter_escort_s_patrol" ]
     }, {
       "id" : "xenon_frigate_patrol_m_zone_everywhereelse",
-      "name" : "{20204,3401}",
+      "name": "Xenon",
       "comment" : "possibly everywhere other than xenon territory",
       "category" : {
         "faction" : "xenon",
@@ -23392,7 +23392,7 @@
       "subordinates" : [ "xenon_fighter_escort_s_patrol" ]
     }, {
       "id" : "xenon_frigate_patrol_m_zone_everywhereelse_mission",
-      "name" : "{20204,3401}",
+      "name": "Xenon",
       "comment" : "possibly everywhere other than xenon territory",
       "category" : {
         "faction" : "xenon",
@@ -23441,7 +23441,7 @@
       "subordinates" : [ "xenon_fighter_escort_s_patrol" ]
     }, {
       "id" : "xenon_scout_patrol_s",
-      "name" : "{20204,2801}",
+      "name": "Xenon",
       "comment" : "few",
       "category" : {
         "faction" : "xenon",
@@ -23485,7 +23485,7 @@
       }
     }, {
       "id" : "xenon_fighter_s_deepspace_single",
-      "name" : "{20204,3401}",
+      "name": "Xenon",
       "category" : {
         "faction" : "xenon",
         "tags" : "[military, fighter]",
@@ -23529,7 +23529,7 @@
       }
     }, {
       "id" : "xenon_fighter_s_deepspace_group",
-      "name" : "{20204,3401}",
+      "name": "Xenon",
       "category" : {
         "faction" : "xenon",
         "tags" : "[military, fighter]",
@@ -23573,13 +23573,13 @@
       },
       "subordinates" : [ "xenon_fighter_escort_s_patrol" ]
     }, {
-      "id" : "xenon_destroyer_escort_xl",
-      "name" : "{20204,3801}",
+      "id" : "xenon_destroyer_escort_l",
+      "name": "Xenon",
       "startActive" : false,
       "category" : {
         "faction" : "xenon",
-        "tags" : "[military, destroyer]",
-        "size" : "ship_xl"
+        "tags" : "[military, terraformer]",
+        "size" : "ship_l"
       },
       "order" : {
         "params" : {
@@ -23605,8 +23605,8 @@
       "ship" : {
         "select" : {
           "faction" : "xenon",
-          "size" : "ship_xl",
-          "tags" : "[military, destroyer]"
+          "size" : "ship_l",
+          "tags" : "[military, terraformer]"
         },
         "loadout" : { },
         "owner" : {
@@ -23616,13 +23616,13 @@
       },
       "subordinates" : [ "xenon_frigate_escort_m" ]
     }, {
-      "id" : "xenon_destroyer_escort_xl_single",
-      "name" : "{20204,3801}",
+      "id" : "xenon_destroyer_escort_l_single",
+      "name": "Xenon",
       "startActive" : false,
       "category" : {
         "faction" : "xenon",
-        "tags" : "[military, destroyer]",
-        "size" : "ship_xl"
+        "tags" : "[military, terraformer]",
+        "size" : "ship_l"
       },
       "order" : {
         "params" : {
@@ -23649,8 +23649,8 @@
       "ship" : {
         "select" : {
           "faction" : "xenon",
-          "size" : "ship_xl",
-          "tags" : "[military, destroyer]"
+          "size" : "ship_l",
+          "tags" : "[military, terraformer]"
         },
         "loadout" : { },
         "owner" : {
@@ -23660,7 +23660,7 @@
       }
     }, {
       "id" : "xen_terraformer_escort_l",
-      "name" : "{20204,5001}",
+      "name": "Xenon",
       "startActive" : false,
       "category" : {
         "faction" : "xenon",
@@ -23704,7 +23704,7 @@
       "subordinates" : [ "xenon_frigate_escort_m" ]
     }, {
       "id" : "xenon_frigate_escort_m",
-      "name" : "{20204,3401}",
+      "name": "Xenon",
       "startActive" : false,
       "category" : {
         "faction" : "xenon",
@@ -23748,7 +23748,7 @@
       "subordinates" : [ "xenon_fighter_escort_s_frigate" ]
     }, {
       "id" : "xenon_fighter_escort_s_frigate",
-      "name" : "{20204,3401}",
+      "name": "Xenon",
       "startActive" : false,
       "category" : {
         "faction" : "xenon",
@@ -23789,7 +23789,7 @@
       }
     }, {
       "id" : "xenon_fighter_escort_s_patrol",
-      "name" : "{20204,3401}",
+      "name": "Xenon",
       "startActive" : false,
       "category" : {
         "faction" : "xenon",
@@ -23830,7 +23830,7 @@
       }
     }, {
       "id" : "xenon_staticdefense_engineer_m",
-      "name" : "{20204, 8401}",
+      "name": "Xenon",
       "comment" : "Combat Engineer",
       "category" : {
         "faction" : "xenon",
@@ -23872,7 +23872,7 @@
       }
     }, {
       "id" : "xenon_staticdefense_minelayer_s",
-      "name" : "{20204, 8501}",
+      "name": "Xenon",
       "comment" : "Saboteur",
       "category" : {
         "faction" : "xenon",
