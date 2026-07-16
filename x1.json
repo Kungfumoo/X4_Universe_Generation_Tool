@@ -23300,7 +23300,7 @@
       "comment" : "each zone",
       "category" : {
         "faction" : "xenon",
-        "tags" : "[factionlogic, military, fighter]",
+        "tags" : "[factionlogic, military, heavy]",
         "size" : "ship_s"
       },
       "order" : {
@@ -23347,7 +23347,7 @@
       "comment" : "possibly everywhere other than xenon territory",
       "category" : {
         "faction" : "xenon",
-        "tags" : "[military, frigate]",
+        "tags" : "[military, corvette]",
         "size" : "ship_m"
       },
       "order" : {
@@ -23381,7 +23381,7 @@
         "select" : {
           "faction" : "xenon",
           "size" : "ship_m",
-          "tags" : "[military, medium, frigate]"
+          "tags" : "[military, medium, corvette]"
         },
         "loadout" : { },
         "owner" : {
@@ -23396,7 +23396,7 @@
       "comment" : "possibly everywhere other than xenon territory",
       "category" : {
         "faction" : "xenon",
-        "tags" : "[military, frigate]",
+        "tags" : "[military, corvette]",
         "size" : "ship_m"
       },
       "order" : {
@@ -23430,7 +23430,7 @@
         "select" : {
           "faction" : "xenon",
           "size" : "ship_m",
-          "tags" : "[military, medium, frigate]"
+          "tags" : "[military, medium, corvette]"
         },
         "loadout" : { },
         "owner" : {
@@ -23488,7 +23488,7 @@
       "name": "Xenon",
       "category" : {
         "faction" : "xenon",
-        "tags" : "[military, fighter]",
+        "tags" : "[military, fighter, heavy]",
         "size" : "ship_s"
       },
       "order" : {
@@ -23532,7 +23532,7 @@
       "name": "Xenon",
       "category" : {
         "faction" : "xenon",
-        "tags" : "[military, fighter]",
+        "tags" : "[military, fighter, heavy]",
         "size" : "ship_s"
       },
       "order" : {
@@ -23708,7 +23708,7 @@
       "startActive" : false,
       "category" : {
         "faction" : "xenon",
-        "tags" : "[military]",
+        "tags" : "[military, corvette]",
         "size" : "ship_m"
       },
       "order" : {
@@ -23737,7 +23737,7 @@
         "select" : {
           "faction" : "xenon",
           "size" : "ship_m",
-          "tags" : "[military, medium, frigate]"
+          "tags" : "[military, medium, corvette]"
         },
         "loadout" : { },
         "owner" : {
@@ -23752,7 +23752,7 @@
       "startActive" : false,
       "category" : {
         "faction" : "xenon",
-        "tags" : "[military, fighter]",
+        "tags" : "[military, fighter, heavy]",
         "size" : "ship_s"
       },
       "order" : {
@@ -23779,7 +23779,7 @@
         "select" : {
           "faction" : "xenon",
           "size" : "ship_s",
-          "tags" : "[military, fighter, selection]"
+          "tags" : "[military, fighter, heavy]"
         },
         "loadout" : { },
         "owner" : {
@@ -23793,7 +23793,7 @@
       "startActive" : false,
       "category" : {
         "faction" : "xenon",
-        "tags" : "[military, fighter]",
+        "tags" : "[military, fighter, heavy]",
         "size" : "ship_s"
       },
       "order" : {
@@ -23820,94 +23820,7 @@
         "select" : {
           "faction" : "xenon",
           "size" : "ship_s",
-          "tags" : "[military, fighter, light]"
-        },
-        "loadout" : { },
-        "owner" : {
-          "exact" : "xenon",
-          "overridenpc" : true
-        }
-      }
-    }, {
-      "id" : "xenon_staticdefense_engineer_m",
-      "name": "Xenon",
-      "comment" : "Combat Engineer",
-      "category" : {
-        "faction" : "xenon",
-        "tags" : "[staticdefense]",
-        "size" : "ship_m"
-      },
-      "order" : {
-        "defaultOrder" : true,
-        "order" : "DeployStaticDefenseStrategy"
-      },
-      "quota" : {
-        "galaxy" : 0,
-        "maxgalaxy" : 3
-      },
-      "location" : {
-        "macro" : "xu_ep2_universe_macro",
-        "clazz" : "galaxy",
-        "relation" : "ally",
-        "comparison" : "ge",
-        "faction" : "xenon"
-      },
-      "environment" : {
-        "buildatshipyard" : true
-      },
-      "modifiers" : {
-        "commandeerable" : false
-      },
-      "ship" : {
-        "select" : {
-          "faction" : "xenon",
-          "size" : "ship_m",
-          "tags" : "[military]"
-        },
-        "loadout" : { },
-        "owner" : {
-          "exact" : "xenon",
-          "overridenpc" : true
-        }
-      }
-    }, {
-      "id" : "xenon_staticdefense_minelayer_s",
-      "name": "Xenon",
-      "comment" : "Saboteur",
-      "category" : {
-        "faction" : "xenon",
-        "tags" : "[staticdefense]",
-        "size" : "ship_s"
-      },
-      "order" : {
-        "params" : {
-          "isminesonly" : "true"
-        },
-        "defaultOrder" : true,
-        "order" : "DeployStaticDefenseStrategy"
-      },
-      "quota" : {
-        "galaxy" : 0,
-        "maxgalaxy" : 2
-      },
-      "location" : {
-        "macro" : "xu_ep2_universe_macro",
-        "clazz" : "galaxy",
-        "relation" : "ally",
-        "comparison" : "ge",
-        "faction" : "xenon"
-      },
-      "environment" : {
-        "buildatshipyard" : true
-      },
-      "modifiers" : {
-        "commandeerable" : false
-      },
-      "ship" : {
-        "select" : {
-          "faction" : "xenon",
-          "size" : "ship_s",
-          "tags" : "[military]"
+          "tags" : "[military, fighter, heavy]"
         },
         "loadout" : { },
         "owner" : {
