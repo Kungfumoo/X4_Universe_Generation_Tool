@@ -355,6 +355,10 @@
         {
           "targetClusterId": "15",
           "connectionType": "S"
+        },
+        {
+          "targetClusterId": "23",
+          "connectionType": "NE"
         }
       ],
       "stations": [
@@ -508,10 +512,10 @@
       "y": 1,
       "backdrop": "Cluster_608_v1",
       "connections": [
-        /*{
+        {
           "targetClusterId": "22",
           "connectionType": "S"
-        }*/
+        }
       ],
       "stations": [
         {"type": "DEFENCE", "race":  "BORON", "owner": "BORON", "faction": "BORON"}
@@ -855,10 +859,10 @@
       "y": -3,
       "backdrop": "Cluster_408",
       "connections": [
-        /*{
+        {
           "targetClusterId": "63",
           "connectionType": "S"
-        }*/
+        }
       ],
       "stations": [
         {"type": "DEFENCE", "race":  "SPLIT", "owner": "SPLIT", "faction": "SPLIT"},
@@ -1057,6 +1061,210 @@
       "stations": [
         {"type": "DEFENCE", "race":  "PARANID", "owner": "PARANID", "faction": "PARANID"},
         {"type": "TRADE", "race":  "PARANID", "owner": "PARANID", "faction": "PARANID"}
+      ]
+    },
+    /* XENON */
+    {
+      "id": "22",
+      "name": "Unidentified Enemy Sector",
+      "description": "Farnham's Legend",
+      "music": "x4_timelines_ost_01_stardust_requiem",
+      "sunlight": "1",
+      "economy": "0.25",
+      "security": "0.25",
+      "x": 2,
+      "y": 0,
+      "backdrop": "empty_space",
+      "connections": [
+        {
+          "targetClusterId": "23",
+          "connectionType": "S"
+        },
+        {
+          "targetClusterId": "43",
+          "connectionType": "SE"
+        }
+      ],
+      "stations": [
+        {"type": "DEFENCE", "race": "XENON", "owner": "XENON", "faction": "XENON"}
+      ]
+    },
+    {
+      "id": "23",
+      "name": "Unidentified Enemy Sector",
+      "description": "Elena's Fortune",
+      "music": "x4_timelines_ost_01_stardust_requiem",
+      "sunlight": "1",
+      "economy": "0.25",
+      "security": "0.25",
+      "x": 2,
+      "y": -1,
+      "backdrop": "Cluster_07",
+      "connections": [
+        {
+          "targetClusterId": "24",
+          "connectionType": "S"
+        }
+      ],
+      "stations": [
+        {"type": "DEFENCE", "race": "XENON", "owner": "XENON", "faction": "XENON"}
+      ],
+      "spaceObjects": [
+        {"type": "CLAIM", "shipMacro": "ship_arg_m_miner_solid_01_a_macro", "yaw": 20, "pitch": 35, "roll": 50}
+      ]
+    },
+    {
+      "id": "24",
+      "name": "Unidentified Enemy Sector",
+      "description": "Split Fire",
+      "music": "x4_timelines_ost_01_stardust_requiem",
+      "sunlight": "1",
+      "economy": "0.25",
+      "security": "0.25",
+      "x": 2,
+      "y": -2,
+      "backdrop": "Cluster_32",
+      "connections": [
+        {
+          "targetClusterId": "25",
+          "connectionType": "S"
+        },
+        {
+          "targetClusterId": "45",
+          "connectionType": "SE"
+        }
+      ],
+      "stations": [
+        {"type": "DEFENCE", "race": "XENON", "owner": "XENON", "faction": "XENON"}
+      ]
+    },
+    {
+      "id": "43",
+      "name": "Unidentified Enemy Sector",
+      "description": "Bala Gi's Joy",
+      "music": "x4_timelines_ost_01_stardust_requiem",
+      "sunlight": "1",
+      "economy": "0.25",
+      "security": "0.25",
+      "x": 3,
+      "y": -1,
+      "backdrop": "Cluster_33",
+      "connections": [
+        {
+          "targetClusterId": "44",
+          "connectionType": "S"
+        }
+      ],
+      "stations": [
+        {"type": "DEFENCE", "race": "XENON", "owner": "XENON", "faction": "XENON"}
+      ]
+    },
+    {
+      "id": "44",
+      "name": "Unidentified Enemy Sector",
+      "description": "Olmancketslat's Treaty",
+      "music": "x4_timelines_ost_01_stardust_requiem",
+      "sunlight": "1",
+      "economy": "0.25",
+      "security": "0.25",
+      "x": 3,
+      "y": -2,
+      "backdrop": "cluster_712_v1",
+      "connections": [
+        {
+          "targetClusterId": "45",
+          "connectionType": "S"
+        }
+      ],
+      "stations": [
+        {"type": "DEFENCE", "race": "XENON", "owner": "XENON", "faction": "XENON"}
+      ]
+    },
+    {
+      "id": "45",
+      "name": "Unidentified Enemy Sector",
+      "description": "Brennan's Triumph",
+      "music": "x4_timelines_ost_01_stardust_requiem",
+      "sunlight": "1",
+      "economy": "0.25",
+      "security": "0.25",
+      "x": 3,
+      "y": -3,
+      "backdrop": "Cluster_115",
+      "connections": [
+        {
+          "targetClusterId": "46",
+          "connectionType": "S"
+        },
+        {
+          "targetClusterId": "54",
+          "connectionType": "NE"
+        }
+      ],
+      "stations": [
+        {"type": "SHIPYARD", "race":  "XENON", "owner": "XENON", "faction": "XENON"},
+        {"type": "WHARF", "race":  "XENON", "owner": "XENON", "faction": "XENON"},
+        {"type": "DEFENCE", "race":  "XENON", "owner": "XENON", "faction": "XENON"}
+      ]
+    },
+    {
+      "id": "46",
+      "name": "Unidentified Enemy Sector",
+      "description": "Danna's Chance",
+      "music": "x4_timelines_ost_01_stardust_requiem",
+      "sunlight": "1",
+      "economy": "0.25",
+      "security": "0.25",
+      "x": 3,
+      "y": -4,
+      "backdrop": "cluster_708_v1",
+      "connections": [
+        {
+          "targetClusterId": "55",
+          "connectionType": "NE"
+        }
+      ],
+      "stations": [
+        {"type": "DEFENCE", "race": "XENON", "owner": "XENON", "faction": "XENON"}
+      ]
+    },
+    {
+      "id": "55",
+      "name": "Unidentified Enemy Sector",
+      "description": "Nopileos' Memorial",
+      "music": "x4_timelines_ost_01_stardust_requiem",
+      "sunlight": "1",
+      "economy": "0.25",
+      "security": "0.25",
+      "x": 4,
+      "y": -3,
+      "backdrop": "cluster_705_v1",
+      "connections": [
+        {
+          "targetClusterId": "63",
+          "connectionType": "SE"
+        }
+      ],
+      "stations": [
+        {"type": "DEFENCE", "race": "XENON", "owner": "XENON", "faction": "XENON"}
+      ]
+    },
+    {
+      "id": "63",
+      "name": "Unidentified Enemy Sector",
+      "description": "Hatikvah's Faith",
+      "music": "x4_timelines_ost_01_stardust_requiem",
+      "sunlight": "1",
+      "economy": "0.25",
+      "security": "0.25",
+      "x": 5,
+      "y": -4,
+      "backdrop": "cluster_706_v2",
+      "connections": [],
+      "stations": [
+        {"type": "SHIPYARD", "race":  "XENON", "owner": "XENON", "faction": "XENON"},
+        {"type": "WHARF", "race":  "XENON", "owner": "XENON", "faction": "XENON"},
+        {"type": "DEFENCE", "race":  "XENON", "owner": "XENON", "faction": "XENON"}
       ]
     }
   ],
@@ -2483,6 +2691,16 @@
       "galaxyQuota": 2,
       "locationInfo": {
         "spawnLocations": ["PARANID"]
+      }
+    },
+    {
+      "id": "xen_energycells",
+      "ware": "energycells",
+      "race": "XENON",
+      "owner": "XENON",
+      "galaxyQuota": 6,
+      "locationInfo": {
+        "spawnLocations": ["XENON"]
       }
     }
   ],
@@ -22496,6 +22714,1204 @@
         "loadout" : { },
         "owner" : {
           "exact" : "paranid",
+          "overridenpc" : true
+        }
+      }
+    },
+    {
+      "id" : "xenon_free_miner_m_mineral",
+      "name" : "{20204,1901}",
+      "basket" : "minerals_xenon",
+      "category" : {
+        "faction" : "xenon",
+        "tags" : "[factionlogic, miner]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "2",
+          "maxbuy" : "2",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "MiningRoutine"
+      },
+      "quota" : {
+        "galaxy" : 56,
+        "cluster" : 8
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "regionBasket" : "minerals_xenon",
+        "relation" : "ally",
+        "comparison" : "ge",
+        "faction" : "xenon"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "xenon",
+          "size" : "class.ship_m",
+          "tags" : "[miner, solid]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "xenon",
+          "overridenpc" : true
+        },
+        "cargo" : {
+          "fillPercent" : {
+            "min" : "100",
+            "max" : "0",
+            "profile" : "inversebell"
+          }
+        }
+      }
+    }, {
+      "id" : "xenon_free_miner_m_mineral_local",
+      "name" : "{20204,1901}",
+      "basket" : "minerals_xenon",
+      "category" : {
+        "faction" : "xenon",
+        "tags" : "[miner]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "0",
+          "maxbuy" : "2",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "MiningRoutine"
+      },
+      "quota" : {
+        "galaxy" : 36,
+        "cluster" : 6
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "matchExtension" : false
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : false,
+        "rebuild" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "xenon",
+          "size" : "class.ship_m",
+          "tags" : "[miner, solid]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "xenon",
+          "overridenpc" : true
+        },
+        "cargo" : {
+          "fillPercent" : {
+            "min" : "100",
+            "max" : "0",
+            "profile" : "inversebell"
+          }
+        }
+      }
+    }, {
+      "id" : "xenon_free_trader_m_energy",
+      "name" : "{20204,4801}",
+      "basket" : "energycells",
+      "category" : {
+        "faction" : "xenon",
+        "tags" : "[factionlogic, freighter, trader]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "params" : {
+          "minsell" : "0",
+          "maxsell" : "2",
+          "maxbuy" : "2",
+          "minbuy" : "0"
+        },
+        "defaultOrder" : true,
+        "order" : "TradeRoutine"
+      },
+      "quota" : {
+        "galaxy" : 42,
+        "cluster" : 6
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "ally",
+        "comparison" : "ge",
+        "faction" : "xenon"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "xenon",
+          "size" : "class.ship_m",
+          "tags" : "[miner, solid]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "xenon",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "xenon_carrier_patrol_xl_border_cluster",
+      "name" : "{20204,3801}",
+      "comment" : "one border cluster",
+      "category" : {
+        "faction" : "xenon",
+        "tags" : "[factionlogic, military, carrier]",
+        "size" : "ship_xl"
+      },
+      "order" : {
+        "params" : {
+          "range" : "class.zone"
+        },
+        "defaultOrder" : true,
+        "order" : "Patrol"
+      },
+      "quota" : {
+        "galaxy" : 1,
+        "maxgalaxy" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "xenon"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "xenon",
+          "size" : "ship_xl",
+          "tags" : "[military, carrier]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "xenon",
+          "overridenpc" : true
+        }
+      },
+      "subordinates" : [ "xenon_destroyer_escort_xl", "xen_terraformer_escort_l" ]
+    }, {
+      "id" : "xenon_carrier_patrol_xl_zone_defence",
+      "name" : "{20204,3801}",
+      "comment" : "defence",
+      "category" : {
+        "faction" : "xenon",
+        "tags" : "[military, carrier]",
+        "size" : "ship_xl"
+      },
+      "order" : {
+        "params" : {
+          "range" : "class.zone"
+        },
+        "defaultOrder" : true,
+        "order" : "Patrol"
+      },
+      "quota" : {
+        "galaxy" : 2,
+        "sector" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "xenon"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "xenon",
+          "size" : "ship_xl",
+          "tags" : "[military, carrier]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "xenon",
+          "overridenpc" : true
+        }
+      },
+      "subordinates" : [ "xenon_destroyer_escort_xl", "xen_terraformer_escort_l" ]
+    }, {
+      "id" : "xenon_destroyer_patrol_xl_cluster",
+      "name" : "{20204,3801}",
+      "comment" : "each cluster",
+      "category" : {
+        "faction" : "xenon",
+        "tags" : "[factionlogic, military, destroyer]",
+        "size" : "ship_xl"
+      },
+      "order" : {
+        "params" : {
+          "range" : "class.zone"
+        },
+        "defaultOrder" : true,
+        "order" : "Patrol"
+      },
+      "quota" : {
+        "galaxy" : 6,
+        "maxgalaxy" : 18,
+        "cluster" : 3
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "xenon"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "xenon",
+          "size" : "ship_xl",
+          "tags" : "[military, destroyer]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "xenon",
+          "overridenpc" : true
+        }
+      },
+      "subordinates" : [ "xenon_frigate_escort_m", "xenon_destroyer_escort_xl_single" ]
+    }, {
+      "id" : "xenon_destroyer_patrol_xl_cluster_mission",
+      "name" : "{20204,3801}",
+      "comment" : "each cluster",
+      "category" : {
+        "faction" : "xenon",
+        "tags" : "[military, destroyer]",
+        "size" : "ship_xl"
+      },
+      "order" : {
+        "params" : {
+          "range" : "class.zone"
+        },
+        "defaultOrder" : true,
+        "order" : "Patrol"
+      },
+      "quota" : {
+        "galaxy" : 6,
+        "maxgalaxy" : 6,
+        "cluster" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "xenon"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "xenon",
+          "size" : "ship_xl",
+          "tags" : "[military, destroyer]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "xenon",
+          "overridenpc" : true
+        }
+      },
+      "subordinates" : [ "xenon_frigate_escort_m", "xenon_destroyer_escort_xl_single" ]
+    }, {
+      "id" : "xenon_destroyer_patrol_xl_defence",
+      "name" : "{20204,3801}",
+      "comment" : "defence",
+      "category" : {
+        "faction" : "xenon",
+        "tags" : "[military, destroyer]",
+        "size" : "ship_xl"
+      },
+      "order" : {
+        "params" : {
+          "range" : "class.zone"
+        },
+        "defaultOrder" : true,
+        "order" : "Patrol"
+      },
+      "quota" : {
+        "galaxy" : 6,
+        "cluster" : 4
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "xenon"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "xenon",
+          "size" : "ship_xl",
+          "tags" : "[military, destroyer]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "xenon",
+          "overridenpc" : true
+        }
+      },
+      "subordinates" : [ "xenon_frigate_escort_m", "xenon_destroyer_escort_xl_single" ]
+    }, {
+      "id" : "xenon_destroyer_patrol_xl_comp",
+      "name" : "{20204,3801}",
+      "comment" : "compression",
+      "category" : {
+        "faction" : "xenon",
+        "tags" : "[military, destroyer]",
+        "size" : "ship_xl"
+      },
+      "order" : {
+        "params" : {
+          "range" : "class.zone"
+        },
+        "defaultOrder" : true,
+        "order" : "Patrol"
+      },
+      "quota" : {
+        "galaxy" : 2,
+        "maxgalaxy" : 11,
+        "cluster" : 2
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "xenon"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "xenon",
+          "size" : "ship_xl",
+          "tags" : "[military, destroyer]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "xenon",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "xenon_destroyer_patrol_xl_comp_mission",
+      "name" : "{20204,3801}",
+      "comment" : "compression",
+      "category" : {
+        "faction" : "xenon",
+        "tags" : "[military, destroyer]",
+        "size" : "ship_xl"
+      },
+      "order" : {
+        "params" : {
+          "range" : "class.zone"
+        },
+        "defaultOrder" : true,
+        "order" : "Patrol"
+      },
+      "quota" : {
+        "galaxy" : 1,
+        "maxgalaxy" : 1,
+        "cluster" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "xenon"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "xenon",
+          "size" : "ship_xl",
+          "tags" : "[military, destroyer]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "xenon",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "xenon_terraformer_patrol_l_rare",
+      "name" : "{20204,9101}",
+      "comment" : "rare",
+      "category" : {
+        "faction" : "xenon",
+        "tags" : "[factionlogic, military, terraformer]",
+        "size" : "ship_l"
+      },
+      "order" : {
+        "params" : {
+          "range" : "class.zone"
+        },
+        "defaultOrder" : true,
+        "order" : "Patrol"
+      },
+      "quota" : {
+        "galaxy" : 1,
+        "maxgalaxy" : 1,
+        "sector" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "xenon"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "xenon",
+          "size" : "ship_l",
+          "tags" : "[military, terraformer]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "xenon",
+          "overridenpc" : true
+        }
+      },
+      "subordinates" : [ "xenon_fighter_escort_s_frigate" ]
+    }, {
+      "id" : "xenon_terraformer_patrol_l_sector",
+      "name" : "{20204,9101}",
+      "comment" : "home sectors only",
+      "category" : {
+        "faction" : "xenon",
+        "tags" : "[military, terraformer]",
+        "size" : "ship_l"
+      },
+      "order" : {
+        "params" : {
+          "range" : "class.zone"
+        },
+        "defaultOrder" : true,
+        "order" : "Patrol"
+      },
+      "quota" : {
+        "galaxy" : 3,
+        "maxgalaxy" : 3,
+        "sector" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "xenon"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "xenon",
+          "size" : "ship_l",
+          "tags" : "[military, terraformer]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "xenon",
+          "overridenpc" : true
+        }
+      },
+      "subordinates" : [ "xenon_fighter_escort_s_frigate" ]
+    }, {
+      "id" : "xenon_fighter_patrol_s_zone",
+      "name" : "{20204,3401}",
+      "comment" : "each zone",
+      "category" : {
+        "faction" : "xenon",
+        "tags" : "[factionlogic, military, fighter]",
+        "size" : "ship_s"
+      },
+      "order" : {
+        "params" : {
+          "range" : "class.zone"
+        },
+        "defaultOrder" : true,
+        "order" : "Patrol"
+      },
+      "quota" : {
+        "galaxy" : 59,
+        "maxgalaxy" : 94,
+        "zone" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "faction" : "xenon"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "xenon",
+          "size" : "ship_s",
+          "tags" : "[fighter, heavy]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "xenon",
+          "overridenpc" : true
+        }
+      },
+      "subordinates" : [ "xenon_fighter_escort_s_patrol" ]
+    }, {
+      "id" : "xenon_frigate_patrol_m_zone_everywhereelse",
+      "name" : "{20204,3401}",
+      "comment" : "possibly everywhere other than xenon territory",
+      "category" : {
+        "faction" : "xenon",
+        "tags" : "[military, frigate]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "params" : {
+          "includeroute" : "true",
+          "range" : "class.zone"
+        },
+        "defaultOrder" : true,
+        "order" : "Patrol"
+      },
+      "quota" : {
+        "galaxy" : 29,
+        "maxgalaxy" : 69,
+        "sector" : 2
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "not",
+        "matchExtension" : false,
+        "faction" : "xenon"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "xenon",
+          "size" : "ship_m",
+          "tags" : "[military, medium, frigate]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "xenon",
+          "overridenpc" : true
+        }
+      },
+      "subordinates" : [ "xenon_fighter_escort_s_patrol" ]
+    }, {
+      "id" : "xenon_frigate_patrol_m_zone_everywhereelse_mission",
+      "name" : "{20204,3401}",
+      "comment" : "possibly everywhere other than xenon territory",
+      "category" : {
+        "faction" : "xenon",
+        "tags" : "[military, frigate]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "params" : {
+          "includeroute" : "true",
+          "range" : "class.zone"
+        },
+        "defaultOrder" : true,
+        "order" : "Patrol"
+      },
+      "quota" : {
+        "galaxy" : 13,
+        "maxgalaxy" : 13,
+        "sector" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "not",
+        "matchExtension" : false,
+        "faction" : "xenon"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "xenon",
+          "size" : "ship_m",
+          "tags" : "[military, medium, frigate]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "xenon",
+          "overridenpc" : true
+        }
+      },
+      "subordinates" : [ "xenon_fighter_escort_s_patrol" ]
+    }, {
+      "id" : "xenon_scout_patrol_s",
+      "name" : "{20204,2801}",
+      "comment" : "few",
+      "category" : {
+        "faction" : "xenon",
+        "tags" : "[factionlogic, scout]",
+        "size" : "ship_s"
+      },
+      "order" : {
+        "defaultOrder" : true,
+        "order" : "Recon"
+      },
+      "quota" : {
+        "galaxy" : 8,
+        "maxgalaxy" : 16,
+        "cluster" : 2
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "lt",
+        "matchExtension" : false,
+        "faction" : "xenon"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "xenon",
+          "size" : "ship_s",
+          "tags" : "[scout]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "xenon",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "xenon_fighter_s_deepspace_single",
+      "name" : "{20204,3401}",
+      "category" : {
+        "faction" : "xenon",
+        "tags" : "[military, fighter]",
+        "size" : "ship_s"
+      },
+      "order" : {
+        "params" : {
+          "range" : "class.zone"
+        },
+        "defaultOrder" : true,
+        "order" : "Patrol"
+      },
+      "quota" : {
+        "galaxy" : 15
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "matchExtension" : false,
+        "faction" : "xenon"
+      },
+      "encounters" : "xenon_s_lone",
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "xenon",
+          "size" : "ship_s",
+          "tags" : "[fighter, heavy]"
+        },
+        "owner" : {
+          "exact" : "xenon",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "xenon_fighter_s_deepspace_group",
+      "name" : "{20204,3401}",
+      "category" : {
+        "faction" : "xenon",
+        "tags" : "[military, fighter]",
+        "size" : "ship_s"
+      },
+      "order" : {
+        "params" : {
+          "range" : "class.zone"
+        },
+        "defaultOrder" : true,
+        "order" : "Patrol"
+      },
+      "quota" : {
+        "galaxy" : 7
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "self",
+        "comparison" : "exact",
+        "matchExtension" : false,
+        "faction" : "xenon"
+      },
+      "encounters" : "xenon_s_group",
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "xenon",
+          "size" : "ship_s",
+          "tags" : "[fighter, heavy]"
+        },
+        "owner" : {
+          "exact" : "xenon",
+          "overridenpc" : true
+        }
+      },
+      "subordinates" : [ "xenon_fighter_escort_s_patrol" ]
+    }, {
+      "id" : "xenon_destroyer_escort_xl",
+      "name" : "{20204,3801}",
+      "startActive" : false,
+      "category" : {
+        "faction" : "xenon",
+        "tags" : "[military, destroyer]",
+        "size" : "ship_xl"
+      },
+      "order" : {
+        "params" : {
+          "overrideformationskill" : "true",
+          "formation" : "formationshape.invvshape"
+        },
+        "defaultOrder" : true,
+        "order" : "Escort"
+      },
+      "quota" : {
+        "wing" : 2
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "subordinate" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "xenon",
+          "size" : "ship_xl",
+          "tags" : "[military, destroyer]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "xenon",
+          "overridenpc" : true
+        }
+      },
+      "subordinates" : [ "xenon_frigate_escort_m" ]
+    }, {
+      "id" : "xenon_destroyer_escort_xl_single",
+      "name" : "{20204,3801}",
+      "startActive" : false,
+      "category" : {
+        "faction" : "xenon",
+        "tags" : "[military, destroyer]",
+        "size" : "ship_xl"
+      },
+      "order" : {
+        "params" : {
+          "overrideformationskill" : "true",
+          "formation" : "formationshape.invvshape"
+        },
+        "defaultOrder" : true,
+        "order" : "Escort"
+      },
+      "quota" : {
+        "wing" : 1,
+        "variation" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "subordinate" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "xenon",
+          "size" : "ship_xl",
+          "tags" : "[military, destroyer]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "xenon",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "xen_terraformer_escort_l",
+      "name" : "{20204,5001}",
+      "startActive" : false,
+      "category" : {
+        "faction" : "xenon",
+        "tags" : "[military, terraformer]",
+        "size" : "ship_l"
+      },
+      "order" : {
+        "params" : {
+          "overrideformationskill" : "true",
+          "formation" : "formationshape.invvshape"
+        },
+        "defaultOrder" : true,
+        "order" : "Escort"
+      },
+      "quota" : {
+        "wing" : 1,
+        "variation" : 1
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "subordinate" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "xenon",
+          "size" : "ship_l",
+          "tags" : "[military, terraformer]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "xenon",
+          "overridenpc" : true
+        }
+      },
+      "subordinates" : [ "xenon_frigate_escort_m" ]
+    }, {
+      "id" : "xenon_frigate_escort_m",
+      "name" : "{20204,3401}",
+      "startActive" : false,
+      "category" : {
+        "faction" : "xenon",
+        "tags" : "[military]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "params" : {
+          "formationparam" : "2500m",
+          "overrideformationskill" : "true",
+          "formation" : "formationshape.dartvertical"
+        },
+        "defaultOrder" : true,
+        "order" : "Escort"
+      },
+      "quota" : {
+        "wing" : 5
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "subordinate" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "xenon",
+          "size" : "ship_m",
+          "tags" : "[military, medium, frigate]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "xenon",
+          "overridenpc" : true
+        }
+      },
+      "subordinates" : [ "xenon_fighter_escort_s_frigate" ]
+    }, {
+      "id" : "xenon_fighter_escort_s_frigate",
+      "name" : "{20204,3401}",
+      "startActive" : false,
+      "category" : {
+        "faction" : "xenon",
+        "tags" : "[military, fighter]",
+        "size" : "ship_s"
+      },
+      "order" : {
+        "params" : {
+          "overrideformationskill" : "true"
+        },
+        "defaultOrder" : true,
+        "order" : "Escort"
+      },
+      "quota" : {
+        "wing" : 4
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "subordinate" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "xenon",
+          "size" : "ship_s",
+          "tags" : "[military, fighter, selection]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "xenon",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "xenon_fighter_escort_s_patrol",
+      "name" : "{20204,3401}",
+      "startActive" : false,
+      "category" : {
+        "faction" : "xenon",
+        "tags" : "[military, fighter]",
+        "size" : "ship_s"
+      },
+      "order" : {
+        "params" : {
+          "overrideformationskill" : "true"
+        },
+        "defaultOrder" : true,
+        "order" : "Escort"
+      },
+      "quota" : {
+        "wing" : 2
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "subordinate" : true
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "xenon",
+          "size" : "ship_s",
+          "tags" : "[military, fighter, light]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "xenon",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "xenon_staticdefense_engineer_m",
+      "name" : "{20204, 8401}",
+      "comment" : "Combat Engineer",
+      "category" : {
+        "faction" : "xenon",
+        "tags" : "[staticdefense]",
+        "size" : "ship_m"
+      },
+      "order" : {
+        "defaultOrder" : true,
+        "order" : "DeployStaticDefenseStrategy"
+      },
+      "quota" : {
+        "galaxy" : 0,
+        "maxgalaxy" : 3
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "ally",
+        "comparison" : "ge",
+        "faction" : "xenon"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "xenon",
+          "size" : "ship_m",
+          "tags" : "[military]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "xenon",
+          "overridenpc" : true
+        }
+      }
+    }, {
+      "id" : "xenon_staticdefense_minelayer_s",
+      "name" : "{20204, 8501}",
+      "comment" : "Saboteur",
+      "category" : {
+        "faction" : "xenon",
+        "tags" : "[staticdefense]",
+        "size" : "ship_s"
+      },
+      "order" : {
+        "params" : {
+          "isminesonly" : "true"
+        },
+        "defaultOrder" : true,
+        "order" : "DeployStaticDefenseStrategy"
+      },
+      "quota" : {
+        "galaxy" : 0,
+        "maxgalaxy" : 2
+      },
+      "location" : {
+        "macro" : "xu_ep2_universe_macro",
+        "clazz" : "galaxy",
+        "relation" : "ally",
+        "comparison" : "ge",
+        "faction" : "xenon"
+      },
+      "environment" : {
+        "buildatshipyard" : true
+      },
+      "modifiers" : {
+        "commandeerable" : false
+      },
+      "ship" : {
+        "select" : {
+          "faction" : "xenon",
+          "size" : "ship_s",
+          "tags" : "[military]"
+        },
+        "loadout" : { },
+        "owner" : {
+          "exact" : "xenon",
           "overridenpc" : true
         }
       }

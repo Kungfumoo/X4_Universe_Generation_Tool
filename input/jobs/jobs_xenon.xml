@@ -1,0 +1,660 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jobs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="libraries.xsd">
+      <job id="xenon_free_miner_m_mineral" name="{20204,1901}">
+    <modifiers commandeerable="true"/>
+    <orders>
+      <order order="MiningRoutine" default="true">
+        <param name="minbuy" value="0"/>
+        <param name="maxbuy" value="2"/>
+        <param name="minsell" value="0"/>
+        <param name="maxsell" value="2"/>
+      </order>
+    </orders>
+    <basket basket="minerals_xenon"/>
+    <category faction="xenon" tags="[factionlogic, miner]" size="ship_m"/>
+    <quota galaxy="56" cluster="8"/>
+    <location class="galaxy" macro="xu_ep2_universe_macro" faction="xenon" relation="ally" comparison="ge" regionbasket="minerals_xenon"/>
+    <environment buildatshipyard="true"/>
+    <ship>
+      <select faction="xenon" tags="[miner, solid]" size="class.ship_m"/>
+      <owner exact="xenon" overridenpc="true"/>
+      <loadout>
+        <quantity exact="1.0"/>
+        <quality exact="0.71">
+          <variation exact="0.5"/>
+        </quality>
+      </loadout>
+      <cargo>
+        <wares>
+          <fillpercent min="0" max="100" profile="inversebell"/>
+        </wares>
+      </cargo>
+    </ship>
+  </job>
+
+  <job id="xenon_free_miner_m_mineral_local" name="{20204,1901}">
+    <modifiers commandeerable="false" rebuild="true"/>
+    <orders>
+      <order order="MiningRoutine" default="true">
+        <param name="minbuy" value="0"/>
+        <param name="maxbuy" value="2"/>
+        <param name="minsell" value="0"/>
+        <param name="maxsell" value="0"/>
+      </order>
+    </orders>
+    <basket basket="minerals_xenon"/>
+    <category faction="xenon" tags="[miner]" size="ship_m"/>
+    <quota galaxy="36" cluster="6"/>
+    <location class="galaxy" macro="xu_ep2_universe_macro" stationfaction="xenon" stationtype="wharf" matchextension="false"/>
+    <environment buildatshipyard="true"/>
+    <ship>
+      <select faction="xenon" tags="[miner, solid]" size="class.ship_m"/>
+      <owner exact="xenon" overridenpc="true"/>
+      <loadout>
+        <quantity exact="1.0"/>
+        <quality exact="0.71">
+          <variation exact="0.5"/>
+        </quality>
+      </loadout>
+      <cargo>
+        <wares>
+          <fillpercent min="0" max="100" profile="inversebell"/>
+        </wares>
+      </cargo>
+    </ship>
+  </job>
+
+  <job id="xenon_free_trader_m_energy" name="{20204,4801}">
+    <modifiers commandeerable="true"/>
+    <orders>
+      <order order="TradeRoutine" default="true">
+        <param name="minbuy" value="0"/>
+        <param name="maxbuy" value="2"/>
+        <param name="minsell" value="0"/>
+        <param name="maxsell" value="2"/>
+      </order>
+    </orders>
+    <basket basket="energycells"/>
+    <category faction="xenon" tags="[factionlogic, freighter, trader]" size="ship_m"/>
+    <quota galaxy="42" cluster="6"/>
+    <location class="galaxy" macro="xu_ep2_universe_macro" faction="xenon" relation="ally" comparison="ge"/>
+    <environment buildatshipyard="true"/>
+    <ship>
+      <!-- use miner ship for energy transport -->
+      <select faction="xenon" tags="[miner, solid]" size="class.ship_m"/>
+      <owner exact="xenon" overridenpc="true"/>
+      <loadout>
+        <quantity exact="1.0"/>
+        <quality exact="1.0">
+          <variation exact="0.7"/>
+        </quality>
+      </loadout>
+    </ship>
+  </job>
+
+  <!-- Xenon Combat Jobs -->
+  <!-- lots of concentrated swarms
+        more-or-less evenly distributed.
+        small number of isolated guerrilla harassment squads.
+        to do: take another look at this once shipyards start building ships. -->
+  <job id="xenon_carrier_patrol_xl_border_cluster" name="{20204,3801}" comment="one border cluster">
+    <modifiers commandeerable="true"/>
+    <orders>
+      <order order="Patrol" default="true">
+        <param name="range" value="class.zone"/>
+      </order>
+    </orders>
+    <category faction="xenon" tags="[factionlogic, military, carrier]" size="ship_xl"/>
+    <quota galaxy="1" maxgalaxy="1"/>
+    <location class="galaxy" macro="xu_ep2_universe_macro" faction="xenon" relation="self" comparison="exact"/>
+    <environment buildatshipyard="true"/>
+    <ship>
+      <select faction="xenon" tags="[military, carrier]" size="ship_xl"/>
+      <owner exact="xenon" overridenpc="true"/>
+      <loadout>
+        <quantity exact="1.0"/>
+        <quality exact="1.0">
+          <variation exact="0"/>
+        </quality>
+      </loadout>
+    </ship>
+    <subordinates>
+      <subordinate job="xenon_destroyer_escort_xl" assignment="attack"/>
+      <subordinate job="xen_terraformer_escort_l" assignment="attack"/>
+    </subordinates>
+  </job>
+
+  <job id="xenon_carrier_patrol_xl_zone_defence" name="{20204,3801}" comment="defence">
+    <modifiers commandeerable="false"/>
+    <orders>
+      <order order="Patrol" default="true">
+        <param name="range" value="class.zone"/>
+      </order>
+    </orders>
+    <category faction="xenon" tags="[military, carrier]" size="ship_xl"/>
+    <quota galaxy="2" sector="1"/>
+    <location class="galaxy" macro="xu_ep2_universe_macro" faction="xenon" relation="self" comparison="exact"/>
+    <environment buildatshipyard="true"/>
+    <ship>
+      <select faction="xenon" tags="[military, carrier]" size="ship_xl"/>
+      <owner exact="xenon" overridenpc="true"/>
+      <loadout>
+        <quantity exact="1.0"/>
+        <quality exact="1.0">
+          <variation exact="0"/>
+        </quality>
+      </loadout>
+    </ship>
+    <subordinates>
+      <subordinate job="xenon_destroyer_escort_xl" assignment="attack"/>
+      <subordinate job="xen_terraformer_escort_l" assignment="attack"/>
+    </subordinates>
+  </job>
+
+  <job id="xenon_destroyer_patrol_xl_cluster" name="{20204,3801}" comment="each cluster">
+    <modifiers commandeerable="true"/>
+    <orders>
+      <order order="Patrol" default="true">
+        <param name="range" value="class.zone"/>
+      </order>
+    </orders>
+    <category faction="xenon" tags="[factionlogic, military, destroyer]" size="ship_xl"/>
+    <quota galaxy="6" maxgalaxy="18" cluster="3"/>
+    <location class="galaxy" macro="xu_ep2_universe_macro" faction="xenon" relation="self" comparison="exact"/>
+    <environment buildatshipyard="true"/>
+    <ship>
+      <select faction="xenon" tags="[military, destroyer]" size="ship_xl"/>
+      <owner exact="xenon" overridenpc="true"/>
+      <loadout>
+        <quantity exact="1.0"/>
+        <quality exact="1.0">
+          <variation exact="0.4"/>
+        </quality>
+      </loadout>
+    </ship>
+    <subordinates>
+      <subordinate job="xenon_frigate_escort_m"/>
+      <subordinate job="xenon_destroyer_escort_xl_single"/>
+    </subordinates>
+  </job>
+
+  <job id="xenon_destroyer_patrol_xl_cluster_mission" name="{20204,3801}" comment="each cluster">
+    <modifiers commandeerable="true"/>
+    <orders>
+      <order order="Patrol" default="true">
+        <param name="range" value="class.zone"/>
+      </order>
+    </orders>
+    <category faction="xenon" tags="[military, destroyer]" size="ship_xl"/>
+    <quota galaxy="6" maxgalaxy="6" cluster="1"/>
+    <location class="galaxy" macro="xu_ep2_universe_macro" faction="xenon" relation="self" comparison="exact"/>
+    <environment buildatshipyard="true"/>
+    <ship>
+      <select faction="xenon" tags="[military, destroyer]" size="ship_xl"/>
+      <owner exact="xenon" overridenpc="true"/>
+      <loadout>
+        <quantity exact="1.0"/>
+        <quality exact="1.0">
+          <variation exact="0.4"/>
+        </quality>
+      </loadout>
+    </ship>
+    <subordinates>
+      <subordinate job="xenon_frigate_escort_m"/>
+      <subordinate job="xenon_destroyer_escort_xl_single"/>
+    </subordinates>
+  </job>
+
+  <job id="xenon_destroyer_patrol_xl_defence" name="{20204,3801}" comment="defence">
+    <modifiers commandeerable="false"/>
+    <orders>
+      <order order="Patrol" default="true">
+        <param name="range" value="class.zone"/>
+      </order>
+    </orders>
+    <category faction="xenon" tags="[military, destroyer]" size="ship_xl"/>
+    <quota galaxy="6" cluster="4"/>
+    <location class="galaxy" macro="xu_ep2_universe_macro" faction="xenon" relation="self" comparison="exact"/>
+    <environment buildatshipyard="true"/>
+    <ship>
+      <select faction="xenon" tags="[military, destroyer]" size="ship_xl"/>
+      <owner exact="xenon" overridenpc="true"/>
+      <loadout>
+        <quantity exact="1.0"/>
+        <quality exact="1.0">
+          <variation exact="0.4"/>
+        </quality>
+      </loadout>
+    </ship>
+    <subordinates>
+      <subordinate job="xenon_frigate_escort_m"/>
+      <subordinate job="xenon_destroyer_escort_xl_single"/>
+    </subordinates>
+  </job>
+
+  <job id="xenon_destroyer_patrol_xl_comp" name="{20204,3801}" comment="compression">
+    <modifiers commandeerable="false"/>
+    <orders>
+      <order order="Patrol" default="true">
+        <param name="range" value="class.zone"/>
+      </order>
+    </orders>
+    <category faction="xenon" tags="[military, destroyer]" size="ship_xl"/>
+    <quota galaxy="2" maxgalaxy="11" cluster="2"/>
+    <location class="galaxy" macro="xu_ep2_universe_macro" faction="xenon" relation="self" comparison="exact"/>
+    <environment buildatshipyard="true"/>
+    <ship>
+      <select faction="xenon" tags="[military, destroyer]" size="ship_xl"/>
+      <owner exact="xenon" overridenpc="true"/>
+      <loadout>
+        <quantity exact="1.0"/>
+        <quality exact="1.0">
+          <variation exact="0.4"/>
+        </quality>
+      </loadout>
+    </ship>
+  </job>
+
+  <job id="xenon_destroyer_patrol_xl_comp_mission" name="{20204,3801}" comment="compression">
+    <modifiers commandeerable="true"/>
+    <orders>
+      <order order="Patrol" default="true">
+        <param name="range" value="class.zone"/>
+      </order>
+    </orders>
+    <category faction="xenon" tags="[military, destroyer]" size="ship_xl"/>
+    <quota galaxy="1" maxgalaxy="1" cluster="1"/>
+    <location class="galaxy" macro="xu_ep2_universe_macro" faction="xenon" relation="self" comparison="exact"/>
+    <environment buildatshipyard="true"/>
+    <ship>
+      <select faction="xenon" tags="[military, destroyer]" size="ship_xl"/>
+      <owner exact="xenon" overridenpc="true"/>
+      <loadout>
+        <quantity exact="1.0"/>
+        <quality exact="1.0">
+          <variation exact="0.4"/>
+        </quality>
+      </loadout>
+    </ship>
+  </job>
+
+  <job id="xenon_terraformer_patrol_l_rare" name="{20204,9101}" comment="rare">
+    <modifiers commandeerable="true"/>
+    <orders>
+      <order order="Patrol" default="true">
+        <param name="range" value="class.zone"/>
+      </order>
+    </orders>
+    <category faction="xenon" tags="[factionlogic, military, terraformer]" size="ship_l"/>
+    <quota galaxy="1" maxgalaxy="1" sector="1"/>
+    <location class="galaxy" macro="xu_ep2_universe_macro" faction="xenon" relation="self" comparison="exact"/>
+    <environment buildatshipyard="true"/>
+    <ship>
+      <select faction="xenon" tags="[military, terraformer]" size="ship_l"/>
+      <owner exact="xenon" overridenpc="true"/>
+      <loadout>
+        <quantity exact="1.0"/>
+        <quality exact="1.0">
+          <variation exact="0.4"/>
+        </quality>
+      </loadout>
+    </ship>
+    <subordinates>
+      <subordinate job="xenon_fighter_escort_s_frigate"/>
+    </subordinates>
+  </job>
+
+  <job id="xenon_terraformer_patrol_l_sector" name="{20204,9101}" comment="home sectors only">
+    <modifiers commandeerable="false"/>
+    <orders>
+      <order order="Patrol" default="true">
+        <param name="range" value="class.zone"/>
+      </order>
+    </orders>
+    <category faction="xenon" tags="[military, terraformer]" size="ship_l"/>
+    <quota galaxy="3" maxgalaxy="3" sector="1"/>
+    <location class="galaxy" macro="xu_ep2_universe_macro" faction="xenon" relation="self" comparison="exact"/>
+    <environment buildatshipyard="true"/>
+    <ship>
+      <select faction="xenon" tags="[military, terraformer]" size="ship_l"/>
+      <owner exact="xenon" overridenpc="true"/>
+      <loadout>
+        <quantity exact="1.0"/>
+        <quality exact="1.0">
+          <variation exact="0.4"/>
+        </quality>
+      </loadout>
+    </ship>
+    <subordinates>
+      <subordinate job="xenon_fighter_escort_s_frigate"/>
+    </subordinates>
+  </job>
+
+  <job id="xenon_fighter_patrol_s_zone" name="{20204,3401}" comment="each zone">
+    <modifiers commandeerable="true"/>
+    <orders>
+      <order order="Patrol" default="true">
+        <param name="range" value="class.zone"/>
+      </order>
+    </orders>
+    <category faction="xenon" tags="[factionlogic, military, fighter]" size="ship_s"/>
+    <quota galaxy="59" maxgalaxy="94" zone="1"/>
+    <location class="galaxy" macro="xu_ep2_universe_macro" faction="xenon" relation="self" comparison="exact"/>
+    <environment buildatshipyard="true"/>
+    <ship>
+      <select faction="xenon" tags="[fighter, heavy]" size="ship_s"/>
+      <owner exact="xenon" overridenpc="true"/>
+      <loadout>
+        <quantity exact="1.0"/>
+        <quality exact="1.0">
+          <variation exact="0.6"/>
+        </quality>
+      </loadout>
+    </ship>
+    <subordinates>
+      <subordinate job="xenon_fighter_escort_s_patrol"/>
+    </subordinates>
+  </job>
+
+  <job id="xenon_frigate_patrol_m_zone_everywhereelse" name="{20204,3401}" comment="possibly everywhere other than xenon territory">
+    <modifiers commandeerable="false"/>
+    <orders>
+      <order order="Patrol" default="true">
+        <param name="range" value="class.zone"/>
+        <param name="includeroute" value="true"/>
+      </order>
+    </orders>
+    <category faction="xenon" tags="[military, frigate]" size="ship_m"/>
+    <quota galaxy="29" maxgalaxy="69" sector="2"/>
+    <location class="galaxy" macro="xu_ep2_universe_macro" faction="xenon" relation="self" comparison="not" matchextension="false" excludedtags="noaggressivespawn"/>
+    <environment buildatshipyard="true"/>
+    <ship>
+      <select faction="xenon" tags="[military, medium, frigate]" size="ship_m"/>
+      <owner exact="xenon" overridenpc="true"/>
+      <loadout>
+        <quantity exact="1.0"/>
+        <quality exact="1.0">
+          <variation exact="0.4"/>
+        </quality>
+      </loadout>
+    </ship>
+    <subordinates>
+      <subordinate job="xenon_fighter_escort_s_patrol"/>
+    </subordinates>
+  </job>
+
+  <job id="xenon_frigate_patrol_m_zone_everywhereelse_mission" name="{20204,3401}" comment="possibly everywhere other than xenon territory">
+    <modifiers commandeerable="true"/>
+    <orders>
+      <order order="Patrol" default="true">
+        <param name="range" value="class.zone"/>
+        <param name="includeroute" value="true"/>
+      </order>
+    </orders>
+    <category faction="xenon" tags="[military, frigate]" size="ship_m"/>
+    <quota galaxy="13" maxgalaxy="13" sector="1"/>
+    <location class="galaxy" macro="xu_ep2_universe_macro" faction="xenon" relation="self" comparison="not" matchextension="false" excludedtags="noaggressivespawn"/>
+    <environment buildatshipyard="true"/>
+    <ship>
+      <select faction="xenon" tags="[military, medium, frigate]" size="ship_m"/>
+      <owner exact="xenon" overridenpc="true"/>
+      <loadout>
+        <quantity exact="1.0"/>
+      </loadout>
+    </ship>
+    <subordinates>
+      <subordinate job="xenon_fighter_escort_s_patrol"/>
+    </subordinates>
+  </job>
+
+  <job id="xenon_scout_patrol_s" name="{20204,2801}" comment="few">
+    <modifiers commandeerable="true"/>
+    <orders>
+      <order order="Recon" default="true"/>
+    </orders>
+    <category faction="xenon" tags="[factionlogic, scout]" size="ship_s"/>
+    <quota galaxy="8" maxgalaxy="16" cluster="2"/>
+    <location class="galaxy" macro="xu_ep2_universe_macro" faction="xenon" relation="self" comparison="lt" matchextension="false" excludedtags="noaggressivespawn"/>
+    <environment buildatshipyard="true"/>
+    <ship>
+      <select faction="xenon" tags="[scout]" size="ship_s"/>
+      <owner exact="xenon" overridenpc="true"/>
+      <loadout>
+        <quantity exact="1.0"/>
+        <quality exact="1.0">
+          <variation exact="0.6"/>
+        </quality>
+      </loadout>
+    </ship>
+  </job>
+
+  <!-- Xenon Encounters -->
+  <job id="xenon_fighter_s_deepspace_single" name="{20204,3401}">
+    <modifiers commandeerable="false"/>
+    <orders>
+      <order order="Patrol" default="true">
+        <param name="range" value="class.zone"/>
+      </order>
+    </orders>
+    <category faction="xenon" tags="[military, fighter]" size="ship_s"/>
+    <quota galaxy="15"/>
+    <location class="galaxy" macro="xu_ep2_universe_macro" faction="xenon" relation="self" comparison="exact" matchextension="false" />
+    <environment buildatshipyard="true"/>
+    <encounters id="xenon_s_lone"/>
+    <ship>
+      <select faction="xenon" tags="[fighter, heavy]" size="ship_s"/>
+      <owner exact="xenon" overridenpc="true"/>
+    </ship>
+  </job>
+
+  <job id="xenon_fighter_s_deepspace_group" name="{20204,3401}">
+    <modifiers commandeerable="false"/>
+    <orders>
+      <order order="Patrol" default="true">
+        <param name="range" value="class.zone"/>
+      </order>
+    </orders>
+    <category faction="xenon" tags="[military, fighter]" size="ship_s"/>
+    <quota galaxy="7"/>
+    <location class="galaxy" macro="xu_ep2_universe_macro" faction="xenon" relation="self" comparison="exact" matchextension="false"/>
+    <environment buildatshipyard="true"/>
+    <encounters id="xenon_s_group"/>
+    <ship>
+      <select faction="xenon" tags="[fighter, heavy]" size="ship_s"/>
+      <owner exact="xenon" overridenpc="true"/>
+    </ship>
+    <subordinates>
+      <subordinate job="xenon_fighter_escort_s_patrol"/>
+    </subordinates>
+  </job>
+
+  <!-- Xenon Escorts -->
+  <job id="xenon_destroyer_escort_xl" name="{20204,3801}" startactive="false">
+    <orders>
+      <order order="Escort" default="true">
+        <param name="formation" value="formationshape.invvshape"/>
+        <param name="overrideformationskill" value="true"/>
+      </order>
+    </orders>
+    <category faction="xenon" tags="[military, destroyer]" size="ship_xl"/>
+    <quota wing="2"/>
+    <location class="galaxy" macro="xu_ep2_universe_macro"/>
+    <environment buildatshipyard="true"/>
+    <modifiers subordinate="true"/>
+    <ship>
+      <select faction="xenon" tags="[military, destroyer]" size="ship_xl"/>
+      <owner exact="xenon" overridenpc="true"/>
+      <loadout>
+        <quantity exact="1.0"/>
+        <quality exact="1.0">
+          <variation exact="0.4"/>
+        </quality>
+      </loadout>
+    </ship>
+    <subordinates>
+      <subordinate job="xenon_frigate_escort_m"/>
+    </subordinates>
+  </job>
+
+  <job id="xenon_destroyer_escort_xl_single" name="{20204,3801}" startactive="false">
+    <orders>
+      <order order="Escort" default="true">
+        <param name="formation" value="formationshape.invvshape"/>
+        <param name="overrideformationskill" value="true"/>
+      </order>
+    </orders>
+    <category faction="xenon" tags="[military, destroyer]" size="ship_xl"/>
+    <quota wing="1" variation="1"/>
+    <location class="galaxy" macro="xu_ep2_universe_macro"/>
+    <environment buildatshipyard="true"/>
+    <modifiers subordinate="true"/>
+    <ship>
+      <select faction="xenon" tags="[military, destroyer]" size="ship_xl"/>
+      <owner exact="xenon" overridenpc="true"/>
+      <loadout>
+        <quantity exact="1.0"/>
+        <quality exact="1.0">
+          <variation exact="0.4"/>
+        </quality>
+      </loadout>
+    </ship>
+  </job>
+
+  <job id="xen_terraformer_escort_l" name="{20204,5001}" startactive="false">
+    <orders>
+      <order order="Escort" default="true">
+        <param name="formation" value="formationshape.invvshape"/>
+        <param name="overrideformationskill" value="true"/>
+      </order>
+    </orders>
+    <category faction="xenon" tags="[military, terraformer]" size="ship_l"/>
+    <quota wing="1" variation="1"/>
+    <location class="galaxy" macro="xu_ep2_universe_macro"/>
+    <environment buildatshipyard="true"/>
+    <modifiers subordinate="true"/>
+    <ship>
+      <select faction="xenon" tags="[military, terraformer]" size="ship_l"/>
+      <owner exact="xenon" overridenpc="true"/>
+      <loadout>
+        <quantity exact="1.0"/>
+        <quality exact="1.0">
+          <variation exact="0.4"/>
+        </quality>
+      </loadout>
+    </ship>
+    <subordinates>
+      <subordinate job="xenon_frigate_escort_m"/>
+    </subordinates>
+  </job>
+
+  <job id="xenon_frigate_escort_m" name="{20204,3401}" startactive="false">
+    <orders>
+      <order order="Escort" default="true">
+        <param name="formation" value="formationshape.dartvertical"/>
+        <param name="formationparam" value="2500m"/>
+        <param name="overrideformationskill" value="true"/>
+      </order>
+    </orders>
+    <category faction="xenon" tags="[military]" size="ship_m"/>
+    <quota wing="5"/>
+    <location class="galaxy" macro="xu_ep2_universe_macro"/>
+    <environment buildatshipyard="true"/>
+    <modifiers subordinate="true"/>
+    <ship>
+      <select faction="xenon" tags="[military, medium, frigate]" size="ship_m"/>
+      <owner exact="xenon" overridenpc="true"/>
+      <loadout>
+        <quantity exact="1.0"/>
+      </loadout>
+    </ship>
+    <subordinates>
+      <subordinate job="xenon_fighter_escort_s_frigate"/>
+    </subordinates>
+  </job>
+
+  <job id="xenon_fighter_escort_s_frigate" name="{20204,3401}" startactive="false">
+    <orders>
+      <order order="Escort" default="true">
+        <param name="overrideformationskill" value="true"/>
+      </order>
+    </orders>
+    <category faction="xenon" tags="[military, fighter]" size="ship_s"/>
+    <quota wing="4"/>
+    <location class="galaxy" macro="xu_ep2_universe_macro"/>
+    <environment buildatshipyard="true"/>
+    <modifiers subordinate="true"/>
+    <ship>
+      <select faction="xenon" tags="[military, fighter, selection]" size="ship_s"/>
+      <owner exact="xenon" overridenpc="true"/>
+      <loadout>
+        <quantity exact="1.0"/>
+      </loadout>
+    </ship>
+  </job>
+
+  <job id="xenon_fighter_escort_s_patrol" name="{20204,3401}" startactive="false">
+    <orders>
+      <order order="Escort" default="true">
+        <param name="overrideformationskill" value="true"/>
+      </order>
+    </orders>
+    <category faction="xenon" tags="[military, fighter]" size="ship_s"/>
+    <quota wing="2"/>
+    <location class="galaxy" macro="xu_ep2_universe_macro"/>
+    <environment buildatshipyard="true"/>
+    <modifiers subordinate="true"/>
+    <ship>
+      <select faction="xenon" tags="[military, fighter, light]" size="ship_s"/>
+      <owner exact="xenon" overridenpc="true"/>
+      <loadout>
+        <quantity exact="1.0"/>
+      </loadout>
+    </ship>
+  </job>
+
+  <!-- xenon static defense jobs -->
+  <job id="xenon_staticdefense_engineer_m" name="{20204, 8401}" comment="Combat Engineer">
+    <modifiers commandeerable="false"/>
+    <orders>
+      <order order="DeployStaticDefenseStrategy" default="true">
+      </order>
+    </orders>
+    <category faction="xenon" tags="[staticdefense]" size="ship_m"/>
+    <quota galaxy="0" maxgalaxy="3"/>
+    <location class="galaxy" macro="xu_ep2_universe_macro" faction="xenon" relation="ally" comparison="ge"/>
+    <environment buildatshipyard="true"/>
+    <ship>
+      <select faction="xenon" tags="[military]" size="ship_m"/>
+      <loadout>
+        <quantity exact="1.0"/>
+        <quality exact="1.0">
+          <variation exact="0.6"/>
+        </quality>
+      </loadout>
+      <owner exact="xenon" overridenpc="true"/>
+    </ship>
+  </job>
+
+  <job id="xenon_staticdefense_minelayer_s" name="{20204, 8501}" comment="Saboteur">
+    <modifiers commandeerable="false"/>
+    <orders>
+      <order order="DeployStaticDefenseStrategy" default="true">
+        <param name="isminesonly" value="true" />
+      </order>
+    </orders>
+    <category faction="xenon" tags="[staticdefense]" size="ship_s"/>
+    <quota galaxy="0" maxgalaxy="2"/>
+    <location class="galaxy" macro="xu_ep2_universe_macro" faction="xenon" relation="ally" comparison="ge"/>
+    <environment buildatshipyard="true"/>
+    <ship>
+      <select faction="xenon" tags="[military]" size="ship_s"/>
+      <loadout>
+        <quantity exact="1.0"/>
+        <quality exact="1.0">
+          <variation exact="0.6"/>
+        </quality>
+      </loadout>
+      <owner exact="xenon" overridenpc="true"/>
+    </ship>
+  </job>
+</jobs>
