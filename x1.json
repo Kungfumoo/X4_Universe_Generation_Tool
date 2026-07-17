@@ -22720,7 +22720,7 @@
     },
     {
       "id" : "xenon_free_miner_m_mineral",
-      "name": "Xenon",
+      "name": "Unknown",
       "basket" : "minerals_xenon",
       "category" : {
         "faction" : "xenon",
@@ -22776,7 +22776,7 @@
       }
     }, {
       "id" : "xenon_free_miner_m_mineral_local",
-      "name": "Xenon",
+      "name": "Unknown",
       "basket" : "minerals_xenon",
       "category" : {
         "faction" : "xenon",
@@ -22830,7 +22830,7 @@
       }
     }, {
       "id" : "xenon_free_trader_m_energy",
-      "name": "Xenon",
+      "name": "Unknown",
       "basket" : "energycells",
       "category" : {
         "faction" : "xenon",
@@ -22878,7 +22878,7 @@
       }
     }, {
       "id" : "xenon_carrier_patrol_l_border_cluster",
-      "name": "Xenon",
+      "name": "Unknown",
       "comment" : "one border cluster",
       "category" : {
         "faction" : "xenon",
@@ -22924,7 +22924,7 @@
       "subordinates" : [ "xenon_destroyer_escort_l", "xen_terraformer_escort_l" ]
     }, {
       "id" : "xenon_carrier_patrol_l_zone_defence",
-      "name": "Xenon",
+      "name": "Unknown",
       "comment" : "defence",
       "category" : {
         "faction" : "xenon",
@@ -22970,7 +22970,7 @@
       "subordinates" : [ "xenon_destroyer_escort_l", "xen_terraformer_escort_l" ]
     }, {
       "id" : "xenon_destroyer_patrol_l_cluster",
-      "name": "Xenon",
+      "name": "Unknown",
       "comment" : "each cluster",
       "category" : {
         "faction" : "xenon",
@@ -23017,7 +23017,7 @@
       "subordinates" : [ "xenon_frigate_escort_m", "xenon_destroyer_escort_l_single" ]
     }, {
       "id" : "xenon_destroyer_patrol_l_cluster_mission",
-      "name": "Xenon",
+      "name": "Unknown",
       "comment" : "each cluster",
       "category" : {
         "faction" : "xenon",
@@ -23064,7 +23064,7 @@
       "subordinates" : [ "xenon_frigate_escort_m", "xenon_destroyer_escort_l_single" ]
     }, {
       "id" : "xenon_destroyer_patrol_l_defence",
-      "name": "Xenon",
+      "name": "Unknown",
       "comment" : "defence",
       "category" : {
         "faction" : "xenon",
@@ -23110,7 +23110,7 @@
       "subordinates" : [ "xenon_frigate_escort_m", "xenon_destroyer_escort_l_single" ]
     }, {
       "id" : "xenon_destroyer_patrol_l_comp",
-      "name": "Xenon",
+      "name": "Unknown",
       "comment" : "compression",
       "category" : {
         "faction" : "xenon",
@@ -23156,7 +23156,7 @@
       }
     }, {
       "id" : "xenon_destroyer_patrol_l_comp_mission",
-      "name": "Xenon",
+      "name": "Unknown",
       "comment" : "compression",
       "category" : {
         "faction" : "xenon",
@@ -23202,7 +23202,7 @@
       }
     }, {
       "id" : "xenon_terraformer_patrol_l_rare",
-      "name": "Xenon",
+      "name": "Unknown",
       "comment" : "rare",
       "category" : {
         "faction" : "xenon",
@@ -23249,7 +23249,7 @@
       "subordinates" : [ "xenon_fighter_escort_s_frigate" ]
     }, {
       "id" : "xenon_terraformer_patrol_l_sector",
-      "name": "Xenon",
+      "name": "Unknown",
       "comment" : "home sectors only",
       "category" : {
         "faction" : "xenon",
@@ -23296,7 +23296,7 @@
       "subordinates" : [ "xenon_fighter_escort_s_frigate" ]
     }, {
       "id" : "xenon_fighter_patrol_s_zone",
-      "name": "Xenon",
+      "name": "Unknown",
       "comment" : "each zone",
       "category" : {
         "faction" : "xenon",
@@ -23343,7 +23343,7 @@
       "subordinates" : [ "xenon_fighter_escort_s_patrol" ]
     }, {
       "id" : "xenon_frigate_patrol_m_zone_everywhereelse",
-      "name": "Xenon",
+      "name": "Unknown",
       "comment" : "possibly everywhere other than xenon territory",
       "category" : {
         "faction" : "xenon",
@@ -23392,7 +23392,7 @@
       "subordinates" : [ "xenon_fighter_escort_s_patrol" ]
     }, {
       "id" : "xenon_frigate_patrol_m_zone_everywhereelse_mission",
-      "name": "Xenon",
+      "name": "Unknown",
       "comment" : "possibly everywhere other than xenon territory",
       "category" : {
         "faction" : "xenon",
@@ -23441,7 +23441,7 @@
       "subordinates" : [ "xenon_fighter_escort_s_patrol" ]
     }, {
       "id" : "xenon_scout_patrol_s",
-      "name": "Xenon",
+      "name": "Unknown",
       "comment" : "few",
       "category" : {
         "faction" : "xenon",
@@ -23485,7 +23485,7 @@
       }
     }, {
       "id" : "xenon_fighter_s_deepspace_single",
-      "name": "Xenon",
+      "name": "Unknown",
       "category" : {
         "faction" : "xenon",
         "tags" : "[military, fighter, heavy]",
@@ -23529,7 +23529,7 @@
       }
     }, {
       "id" : "xenon_fighter_s_deepspace_group",
-      "name": "Xenon",
+      "name": "Unknown",
       "category" : {
         "faction" : "xenon",
         "tags" : "[military, fighter, heavy]",
@@ -23574,7 +23574,7 @@
       "subordinates" : [ "xenon_fighter_escort_s_patrol" ]
     }, {
       "id" : "xenon_destroyer_escort_l",
-      "name": "Xenon",
+      "name": "Unknown",
       "startActive" : false,
       "category" : {
         "faction" : "xenon",
@@ -23617,7 +23617,7 @@
       "subordinates" : [ "xenon_frigate_escort_m" ]
     }, {
       "id" : "xenon_destroyer_escort_l_single",
-      "name": "Xenon",
+      "name": "Unknown",
       "startActive" : false,
       "category" : {
         "faction" : "xenon",
@@ -23660,7 +23660,7 @@
       }
     }, {
       "id" : "xen_terraformer_escort_l",
-      "name": "Xenon",
+      "name": "Unknown",
       "startActive" : false,
       "category" : {
         "faction" : "xenon",
@@ -23704,7 +23704,7 @@
       "subordinates" : [ "xenon_frigate_escort_m" ]
     }, {
       "id" : "xenon_frigate_escort_m",
-      "name": "Xenon",
+      "name": "Unknown",
       "startActive" : false,
       "category" : {
         "faction" : "xenon",
@@ -23748,7 +23748,7 @@
       "subordinates" : [ "xenon_fighter_escort_s_frigate" ]
     }, {
       "id" : "xenon_fighter_escort_s_frigate",
-      "name": "Xenon",
+      "name": "Unknown",
       "startActive" : false,
       "category" : {
         "faction" : "xenon",
@@ -23789,7 +23789,7 @@
       }
     }, {
       "id" : "xenon_fighter_escort_s_patrol",
-      "name": "Xenon",
+      "name": "Unknown",
       "startActive" : false,
       "category" : {
         "faction" : "xenon",
