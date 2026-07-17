@@ -23,7 +23,7 @@
       <gamestart id="${galaxy.galaxyPrefix}_galaxy_main_${factionStart?index}" name="${factionStart.name!"Generic"}" description="${factionStart.description!""}" image="gamestart_1">
         <location galaxy="${galaxy.galaxyPrefix}_galaxy_macro" zone="${galaxy.galaxyPrefix}_zone001_cluster${factionStart.clusterId?lower_case}_sector001_macro">
           <position x="1000" y="0" z="1000"/>
-          <rotation yaw="0" pitch="0" roll="0"/>
+          <rotation yaw="${factionStart.yaw}" pitch="${factionStart.pitch}" roll="${factionStart.roll}"/>
         </location>
         <player macro="character_player_${factionStart.faction.getPlayerStartMacro()}_macro" money="${factionStart.credits?c}" name="${factionStart.playerName}">
           <ship macro="ship_ter_s_xperimental_01_a_macro">

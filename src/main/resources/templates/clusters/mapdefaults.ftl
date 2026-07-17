@@ -8,7 +8,7 @@
       <sounds>
         <music ref="${cl.music}" />
       </sounds>
-      <area sunlight="${cl.sunlight}" economy="${cl.economy}" security="${cl.security}" />
+      <area sunlight="${cl.sunlight}" economy="${cl.economy}" security="${cl.security}" god="${(!cl.noJobs)?c}" jobs="${(!cl.noJobs)?c}" />
     </properties>
   </dataset>
   <dataset macro="${galaxy.galaxyPrefix}_cluster${cl.id}_sector001_macro">

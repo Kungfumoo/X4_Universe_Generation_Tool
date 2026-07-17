@@ -11,6 +11,9 @@ public class FactionStart extends AbstractJson {
     private String description;
     private String playerName;
     private Integer credits = 10000;
+    private Integer yaw = 0;
+    private Integer pitch = 0;
+    private Integer roll = 0;
 
     public String getClusterId() {
         return clusterId;
@@ -34,6 +37,18 @@ public class FactionStart extends AbstractJson {
 
     public Integer getCredits() {
         return credits;
+    }
+
+    public Integer getYaw() {
+        return yaw;
+    }
+
+    public Integer getPitch() {
+        return pitch;
+    }
+
+    public Integer getRoll() {
+        return roll;
     }
 
     public void setClusterId(String clusterId) {
@@ -60,6 +75,18 @@ public class FactionStart extends AbstractJson {
         this.credits = credits;
     }
 
+    public void setYaw(Integer yaw) {
+        this.yaw = yaw;
+    }
+
+    public void setPitch(Integer pitch) {
+        this.pitch = pitch;
+    }
+
+    public void setRoll(Integer roll) {
+        this.roll = roll;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -75,6 +102,9 @@ public class FactionStart extends AbstractJson {
                 .append(description, that.description)
                 .append(playerName, that.playerName)
                 .append(credits, that.credits)
+                .append(pitch, that.pitch)
+                .append(roll, that.roll)
+                .append(yaw, that.yaw)
                 .isEquals();
     }
 
@@ -87,6 +117,9 @@ public class FactionStart extends AbstractJson {
                 .append(description)
                 .append(playerName)
                 .append(credits)
+                .append(yaw)
+                .append(roll)
+                .append(pitch)
                 .toHashCode();
     }
 }

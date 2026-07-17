@@ -13,6 +13,35 @@
     "addDoubleTravelSpeed": false
   },
   "clusters": [
+    {
+      "id": "00",
+      "name": "Earth",
+      "description": "Earth",
+      "music": "music_sector_00028",
+      "sunlight": "1",
+      "economy": "0",
+      "security": "0",
+      "noBelts": true,
+      "noJobs": true,
+      "x": 0,
+      "y": -10,
+      "backdrop": "Cluster_104",
+      "factionStart": {
+        "credits": 1000000, /* temp */
+        "faction": "ARGON",
+        "name": "X: Beyond The Frontier",
+        "playerName": "Kyle Brennan",
+        "description": "X: Beyond The Frontier",
+        "yaw": -179
+      },
+      "zoneList": [
+        {
+          "name": "zone001_cluster00",
+          "x": -1579593,
+          "y": -1.743375E+08
+        }
+      ]
+    },
     /* ARGON */
     {
       "id": "01",
@@ -29,7 +58,7 @@
       "factionStart": {
         "credits": 1000000, /* temp */
         "faction": "ARGON",
-        "name": "X: Beyond The Frontier",
+        "name": "Xbtf: Free Game",
         "playerName": "Kyle Brennan",
         "description": "X: Beyond The Frontier"
       },

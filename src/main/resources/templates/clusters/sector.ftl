@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <macros>
   <#list galaxy.clusters as cl>
+  <!-- ${cl.name} -->
   <macro name="${galaxy.galaxyPrefix}_cluster${cl.id}_sector001_macro" class="sector">
     <component ref="standardsector" />
     <connections>

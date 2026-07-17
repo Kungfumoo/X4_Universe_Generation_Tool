@@ -24,6 +24,7 @@ public class Cluster extends AbstractJson {
     private int y;
     private String backdrop;
     private boolean noBelts = false;
+    private boolean noJobs = false;
     private Faction factionHq;
     private FactionStart factionStart;
     private List<Connection> connections = new ArrayList<>();
@@ -76,6 +77,10 @@ public class Cluster extends AbstractJson {
         return noBelts;
     }
 
+    public boolean isNoJobs() {
+        return noJobs;
+    }
+
     public Faction getFactionHq() {
         return factionHq;
     }
@@ -88,7 +93,6 @@ public class Cluster extends AbstractJson {
         return factionStart;
     }
 
-    @JsonIgnore
     public List<Zone> getZoneList() {
         return zoneList;
     }
@@ -147,6 +151,10 @@ public class Cluster extends AbstractJson {
 
     public void setNoBelts(boolean noBelts) {
         this.noBelts = noBelts;
+    }
+
+    public void setNoJobs(boolean noJobs) {
+        this.noJobs = noJobs;
     }
 
     public void setFactionHq(Faction factionHq) {
@@ -212,6 +220,7 @@ public class Cluster extends AbstractJson {
                 .append(x, cluster.x)
                 .append(y, cluster.y)
                 .append(noBelts, cluster.noBelts)
+                .append(noJobs, cluster.noJobs)
                 .append(id, cluster.id)
                 .append(name, cluster.name)
                 .append(description, cluster.description)
@@ -244,6 +253,7 @@ public class Cluster extends AbstractJson {
                 .append(y)
                 .append(backdrop)
                 .append(noBelts)
+                .append(noJobs)
                 .append(factionHq)
                 .append(factionStart)
                 .append(connections)
