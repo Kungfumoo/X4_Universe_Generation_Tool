@@ -90,10 +90,6 @@ public class UniverseGenerator {
         String target = path + "/libraries/region_definitions.xml";
         copyUtils.copyToOutputDir(source, target);
 
-        source = "/core/Notifications.xml";
-        target = path + "/md/Notifications.xml";
-        copyUtils.copyToOutputDir(source, target);
-
         source = "core/environments/cluster";
         target = path + "/assets/environments/cluster/";
         copyUtils.copyDirectoryToOutputDir(source, target);
