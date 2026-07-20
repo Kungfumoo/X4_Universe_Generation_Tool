@@ -31,26 +31,30 @@
               <macros>
                 <engine macro="engine_ter_s_virtual_01_mk1_macro" path="../con_engine_02"/>
                 <engine macro="engine_ter_s_virtual_01_mk1_macro" path="../con_engine_01"/>
+                <weapon macro="weapon_ter_s_plasma_01_mk1_story_macro" path="../con_weapon_01"/>
+                <weapon macro="weapon_ter_s_plasma_01_mk1_story_macro" path="../con_weapon_02"/>
+                <weapon macro="weapon_ter_s_plasma_01_mk1_story_macro" path="../con_weapon_03"/>
+                <weapon macro="weapon_ter_s_plasma_01_mk1_story_macro" path="../con_weapon_04"/>
+                <weapon macro="weapon_ter_s_plasma_01_mk1_story_macro" path="../con_weapon_05"/>
+                <weapon macro="weapon_ter_s_plasma_01_mk1_story_macro" path="../con_weapon_06"/>
+                <shield macro="shield_ter_s_xperimental_01_mk1_story_macro" path="../con_shield_01"/>
               </macros>
               <ammunition>
-                <ammunition macro="eq_arg_satellite_01_macro" exact="10"/>
-                <ammunition macro="env_deco_nav_beacon_t1_macro" exact="5"/>
-                <ammunition macro="eq_arg_resourceprobe_01_macro" exact="5"/>
+                <ammunition macro="countermeasure_flares_01_macro" exact="2"/>
               </ammunition>
               <software>
+                <software ware="software_dockmk2"/>
                 <software ware="software_flightassistmk1"/>
-                <software ware="software_scannerlongrangemk1"/>
-                <software ware="software_scannerobjectmk1"/>
+                <software ware="software_scannerlongrangemk2"/>
+                <software ware="software_scannerobjectmk2"/>
+                <software ware="software_targetmk1"/>
+                <software ware="software_trademk1"/>
               </software>
               <virtualmacros>
                 <thruster macro="thruster_gen_s_combat_01_mk3_macro"/>
               </virtualmacros>
-              <crew>
-                <crew role="service" exact="0"/>
-                <crew role="marine" exact="0"/>
-              </crew>
             </loadout>
-            <people people="player_terran_regular_military_crew" fillpercent="100"/>
+            <modification paint="paintmod_0006"/>
           </ship>
           <inventory>
             <ware ware="weapon_gen_spacesuit_repairlaser_01_mk1" amount="1" />

@@ -10,9 +10,9 @@ public class SpaceObject extends AbstractJson {
     private Integer x;
     private Integer y;
     private Integer z;
-    private int yaw;
-    private int pitch;
-    private int roll;
+    private int yaw = 0;
+    private int pitch = 0;
+    private int roll = 0;
 
     public SpaceObjectType getType() {
         return type;

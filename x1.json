@@ -88,7 +88,7 @@
       "security": "0.5",
       "x": 1,
       "y": 0,
-      "backdrop": "empty_space",
+      "backdrop": "Cluster_08",
       "connections": [
         {
           "targetClusterId": "03",
@@ -134,7 +134,7 @@
       "security": "0.5",
       "x": 0,
       "y": 1,
-      "backdrop": "empty_space",
+      "backdrop": "cluster_701_v1",
       "connections": [
         {
           "targetClusterId": "02",
@@ -159,7 +159,7 @@
       "security": "0.5",
       "x": 0,
       "y": -1,
-      "backdrop": "empty_space",
+      "backdrop": "cluster_721_v2",
       "connections": [
         {
           "targetClusterId": "14",
@@ -185,7 +185,7 @@
       "security": "0.5",
       "x": -1,
       "y": -1,
-      "backdrop": "empty_space",
+      "backdrop": "Cluster_03",
       "connections": [
         {
           "targetClusterId": "01",
@@ -260,7 +260,7 @@
       "security": "0.25",
       "x": -1,
       "y": 1,
-      "backdrop": "empty_space",
+      "backdrop": "Cluster_13",
       "connections": [
         {
           "targetClusterId": "10",
@@ -471,7 +471,7 @@
       "security": "0.25",
       "x": 1,
       "y": 2,
-      "backdrop": "empty_space",
+      "backdrop": "cluster_601",
       "connections": [
         {
           "targetClusterId": "19",
@@ -815,7 +815,7 @@
       "security": "0.5",
       "x": 5,
       "y": 0,
-      "backdrop": "empty_space",
+      "backdrop": "Cluster_409",
       "connections": [
         {
           "targetClusterId": "60",
@@ -865,7 +865,7 @@
       "security": "0.25",
       "x": 5,
       "y": -2,
-      "backdrop": "empty_space",
+      "backdrop": "Cluster_402",
       "connections": [
         {
           "targetClusterId": "62",
@@ -930,7 +930,7 @@
       "security": "0.5",
       "x": 6,
       "y": 0,
-      "backdrop": "empty_space",
+      "backdrop": "Cluster_411",
       "connections": [],
       "stations": [
         {"type": "DEFENCE", "race":  "SPLIT", "owner": "SPLIT", "faction": "SPLIT"}
@@ -947,7 +947,7 @@
       "security": "0.25",
       "x": 2,
       "y": -3,
-      "backdrop": "empty_space",
+      "backdrop": "Cluster_24",
       "connections": [
         {
           "targetClusterId": "26",
@@ -1009,7 +1009,7 @@
       "security": "0.25",
       "x": 1,
       "y": -5,
-      "backdrop": "empty_space",
+      "backdrop": "Cluster_23",
       "connections": [
         {
           "targetClusterId": "26",
@@ -1058,7 +1058,7 @@
       "security": "0.5",
       "x": 0,
       "y": -4,
-      "backdrop": "empty_space",
+      "backdrop": "cluster_709_v1",
       "connections": [
         {
           "targetClusterId": "30",
@@ -1234,6 +1234,9 @@
         {"type": "SHIPYARD", "race":  "XENON", "owner": "XENON", "faction": "XENON"},
         {"type": "WHARF", "race":  "XENON", "owner": "XENON", "faction": "XENON"},
         {"type": "DEFENCE", "race":  "XENON", "owner": "XENON", "faction": "XENON"}
+      ],
+      "spaceObjects": [
+        {"type": "LANDMARK", "shipMacro": "props_ter_gate_01_destroyed_macro", "x": 0, "y": 0, "z": 0}
       ]
     },
     {

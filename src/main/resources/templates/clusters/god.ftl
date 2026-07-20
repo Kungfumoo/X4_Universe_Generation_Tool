@@ -5,7 +5,24 @@
   <remove sel="/god/stations"/>
   <remove sel="/god/products"/>
   <add sel="/god">
-    <objects></objects>
+    <objects>
+      <#assign count = 0>
+      <#list galaxy.clusters as cl>
+        <#list cl.spaceObjects as ob>
+        <#if ob.type == "LANDMARK">
+        <#assign count = count + 1>
+          <object id="obj_${count}">
+            <quotas>
+              <quota galaxy="1" />
+            </quotas>
+            <location class="zone" macro="${galaxy.galaxyPrefix}_zone001_cluster${cl.id}_sector001_macro" />
+            <position x="${ob.x}" y="${ob.y}" z="${ob.z}" pitch="${ob.pitch}" roll="${ob.roll}" yaw="${ob.yaw}"/>
+            <object macro="${ob.shipMacro}" />
+          </object>
+        </#if>
+        </#list>
+      </#list>
+    </objects>
     <stations>
 		<defaults>
 		  <location newzonechance="0.25" coreboundaryzoneheight="40000">
